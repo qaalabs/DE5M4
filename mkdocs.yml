@@ -5,7 +5,7 @@ site_description: "Planning a Data Engineering Project"
 # Navigation menu
 nav:
   - Overview: index.md
-  - Discovery: discovery.md
+  - Discovery: discovery/index.md
 
 # Theme
 theme:
