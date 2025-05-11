@@ -1,6 +1,6 @@
 
 # Exercise 2: Apply to a Scenario
-Apply your steps from the previous exercise to the scenario below.
+Apply your phases from the previous exercise to the scenario below.
 
 ## Scenario:
 
@@ -10,8 +10,9 @@ Apply your steps from the previous exercise to the scenario below.
 ## Task:
 Using the design process your group created, outline how you would approach this specific project.
 
-- What would be your first three steps?
+- What would be your first three phases?
+- List 3 or 4 specific activities for each phase.
 - What challenges do you anticipate?
 
 ## Deliverable:
-As a group briefly **present your design process** and initial approach to the scenario. (2-3 minutes)
+As a group briefly present your **design process** and **initial approach** to the scenario. (2-3 minutes)
