@@ -1,6 +1,6 @@
 # Exercise 1: Brainstorming Design Steps
 
-In groups **brainstorm the design process**, addressing:
+In groups **brainstorm the digital design process**, addressing:
 
 - What are the key phases or stages in designing a data product?
 - What activities happen in each phase?
@@ -8,7 +8,9 @@ In groups **brainstorm the design process**, addressing:
 - What inputs and outputs would each stage have?
 
 ## Instructions:
-Use your virtual whiteboard to map out the design process as a series of steps. For each step, note:
+Use your virtual whiteboard to map out the design process as a series of steps.
+
+For each step, note:
 
 - The name of the phase
 - Key activities involved

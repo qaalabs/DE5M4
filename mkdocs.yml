@@ -5,7 +5,10 @@ site_description: "Planning a Data Engineering Project"
 # Navigation menu
 nav:
   - Overview: index.md
-  - Discovery: discovery/index.md
+  - Introduction: 1-introduction/index.md
+  - Digital Design:
+    - "Exercise 1: Brainstorming": 1-introduction/ex1-brainstorming.md
+    - "Exercise 2: Scenario": 1-introduction/ex2-scenario.md
 
 # Theme
 theme:
