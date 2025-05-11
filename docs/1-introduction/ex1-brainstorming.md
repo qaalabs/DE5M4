@@ -10,7 +10,7 @@ In groups **brainstorm the design process**, addressing:
 ## Instructions:
 Use your virtual whiteboard to map out the design process as a series of steps. For each step, note:
 
-- The name of the step
+- The name of the phase
 - Key activities involved
 - People/roles who should participate
 - Information needed for this step
