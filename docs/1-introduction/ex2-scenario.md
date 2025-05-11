@@ -1,5 +1,6 @@
 
 # Exercise 2: Apply to a Scenario
+Apply your steps from the previous exercise to the scenario below.
 
 ## Scenario:
 A retail company with 200 physical stores and an e-commerce website wants to create a data product that helps them understand customer behavior across both channels to improve inventory management and personalization. They have point-of-sale data, online transaction records, customer profiles, and inventory data available.
