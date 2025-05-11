@@ -17,4 +17,4 @@ Use your virtual whiteboard to map out the design process as a series of steps. 
 - Outputs produced at this step
 
 ## Deliverable:
-Be prepared to present your process for 2-3 minutes.
+Be prepared to **present your process** for 2-3 minutes.
