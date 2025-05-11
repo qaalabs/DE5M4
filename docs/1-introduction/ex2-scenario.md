@@ -14,4 +14,4 @@ Using the design process your group created, outline how you would approach this
 - What challenges do you anticipate?
 
 ## Deliverable:
-Each group briefly **presents their design process** and initial approach to the scenario.
+As a group briefly **present your design process** and initial approach to the scenario.
