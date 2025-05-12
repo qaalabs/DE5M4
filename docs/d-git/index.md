@@ -25,14 +25,13 @@
 - Show how to propose changes back to original repository
 
 ### Exercise 1: Forking a Repository
-- Fork a repository (you can select a simple one in advance)
+- Fork a repository ~ https://github.com/ingwanelabs/intro-to-github
 - Clone their fork locally
 - Set up upstream connection
 - Make and commit a simple change
 - Update their fork from upstream
 
-## 3. Handling Merge Conflicts (40 minutes)
-
+## 3. Handling Merge Conflicts
 ### Demonstration
 - Explain what merge conflicts are and why they happen
 - Show how to identify conflicts in Git
@@ -46,7 +45,7 @@
 - Resolve the conflict
 - Complete the merge
 
-## 4. Revert and Reset (35 minutes)
+## 4. Revert and Reset
 
 ### Demonstration
 - Explain the difference between revert and reset
@@ -60,7 +59,7 @@
 - Use reset to move back to an earlier commit
 - Observe the differences between these commands
 
-### 5. GitHub Reviews (35 minutes)
+### 5. GitHub Reviews
 
 ### Demonstration (Optional)
 - Explain GitHub's pull request review process
@@ -74,7 +73,7 @@ Pair up learners to:
 - Approve or request changes
 - Merge approved pull requests
 
-### 6. Workshop Review (15 minutes)
+### 6. Workshop Review
 
 ### Key concepts recap
 - Review the main Git commands and workflows learned
@@ -86,5 +85,5 @@ Pair up learners to:
 ### Next steps and resources
 - Suggest resources for further learning
 - Connect these skills to upcoming modules in their apprenticeship
-- Provide a simple "Git cheat sheet" with key commands
+- Provide a simple "Git cheat sheet" with key commands ~ https://education.github.com/git-cheat-sheet-education.pdf
 
