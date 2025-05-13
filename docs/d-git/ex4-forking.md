@@ -1,4 +1,4 @@
-# Git Exercise 1: Forking a Repository - Instructions
+# Git Exercise 4: Forking a Repository - Instructions
 
 ## Collaborative Planning with Git - Forking a Repository
 
