@@ -19,13 +19,15 @@
 
 1. **Navigate to the main repository**
    - Open your web browser and go to: https://github.com/ingwanelabs/intro-to-github
-   - This repository contains an introduction to GitHub repositiry
+   - This repository contains a two files and a directory of team profiles.
 
 2. **Fork the repository**
    - Click the "Fork" button in the top-right corner of the page
    - Select your GitHub account as the destination for the fork
+   - Keep the same name as the original repository
+   - Click: `Create fork`
    - Wait for GitHub to complete the forking process
-   - You now have your own copy of the planning repository
+   - You now have your own copy of the repository!
 
 3. **Verify your fork**
    - Ensure you're now on your forked version of the repository
@@ -33,29 +35,32 @@
 
 ### Part 2: Making Changes to Planning Documents (10 minutes)
 
-1. **Clone the repository locally** (Optional - can be done through GitHub interface)
+1. **Clone the repository locally** (Optional - for now we will work in GitHub)
    ```bash
    git clone https://github.com/[YOUR-USERNAME]/intro-to-github.git
-   cd data-product-planning-template
+   cd intro-to-github.git
    ```
 
-2. **Locate the team member profile document**
+2. **Locate the team member profile directory**
    - Navigate to the `team-profiles` directory
-   - Create a new markdown file in the directory with your name eg `william.md`
+   - Click: "Add file + Create new file"
+   - Name your file with your name and a .md extension e.g. `william.md`
 
 3. **Add your fun fact**
    - Edit the `team-profiles.md` file
    - Add your name and a fun fact about yourself in the specified section
    - Format should follow the existing pattern:
    ```
-   ## [Your Name]
+   # [Your Name]
    **Role:** Data Engineering Apprentice
    **Fun Fact:** [Your interesting fact here]
    ```
 
 4. **Commit your changes**
    - If using GitHub web interface:
-     - Scroll down and add a meaningful commit message like "Add [Your Name]'s profile to team document"
+     - Click "Commit changes..."
+     - Add a meaningful commit message like "Add [Your Name]'s profile to team document"
+     - Leave "Commit directly to the main branch" as the selected option
      - Click "Commit changes"
    
    - If using local Git:
@@ -71,28 +76,28 @@
    - Click on the "Issues" tab in your forked repository
 
 2. **Create a new issue**
-   - Click the green "New issue" button
-   - Give your issue a title related to planning improvements, e.g., "Add data flow diagram to architecture section"
+   - Go to the original repository: https://github.com/ingwanelabs/intro-to-github
+   - Click the "Issues" button
+   - Give your issue a title, e.g., "Add data flow diagram to architecture section"
    
 3. **Write a detailed description**
    - Describe what planning artifact needs to be added or improved
    - Explain why this would be valuable for the project
-   - Consider adding labels like "documentation" or "enhancement"
    
 4. **Submit the issue**
-   - Click "Submit new issue"
+   - Click "Create"
 
 ### Part 4: Creating a Pull Request (10 minutes)
 
 1. **Navigate to the Pull Requests tab**
-   - Click on the "Pull requests" tab in your forked repository
+   - Click on the "Pull requests" tab in **your** forked repository
 
 2. **Start a new pull request**
    - Click the green "New pull request" button
    
 3. **Set up the pull request**
-   - Ensure the base repository is the original repository you forked from
-   - Ensure the head repository is your fork
+   - Ensure the base repository is the original repository you forked from (on the left)
+   - Ensure the head repository is your fork (on the right)
    - Verify you're comparing the correct branches (usually main to main)
    
 4. **Review your changes**
@@ -103,7 +108,6 @@
    - Click "Create pull request"
    - Give your pull request a descriptive title: "Add [Your Name] to team profiles"
    - In the description, explain your changes and why they're valuable
-   - Mention that this is part of the Module 4 training exercise
    - Click "Create pull request" to submit
 
 ### Part 5: Discussion and Review (10 minutes)
