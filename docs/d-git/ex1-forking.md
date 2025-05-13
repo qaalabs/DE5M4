@@ -1,6 +1,6 @@
 # Git Exercise 1: Forking a Repository - Instructions
 
-## Exercise Title: Collaborative Planning with Git - Forking a Repository
+## Collaborative Planning with Git - Forking a Repository
 
 ### Learning Objectives:
 - Understand how to fork a repository to begin collaborative work
