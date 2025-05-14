@@ -3,18 +3,32 @@
 ## TDD Exercise: Data Validation Function (30 minutes)
 
 ### Setup (5 minutes)
-1. Confirm that Python 3 is installed on the VM: `python --version`
+1. Confirm that Python version 3 is installed on the VM: `python --version`
 2. Ensure pytest is installed on the VM: `pip install pytest`
 3. Create a simple project structure:
-   - Create a folder called `data_validator`
-   - Inside, create two empty files: `validator.py` and `test_validator.py`
+   - Create a folder called **data_validator**: `mkdir data_validator`
+   - Change directory to the folder: `cd data_validator`
 
-!!! no
+### Open Visual Studio Code
+1. To start Visual Studio Code run: `code .`
+2. Switch to VS code and click Trust the authors if prompted
+3. Close the Welcome screen
+4. Create two empty files: `validator.py` and `test_validator.py`
+
+!!! note "Virtual Enviroment"
+    - In a normal development situation you should use a Virtual Enviroment
+    - For simplicity we will not do that!
+    - But in all cases outside of this training enviroment it is an absolute requirement
 
 ### Introduction (5 minutes)
 - Explain TDD principles: "Write a failing test first, then implement the minimum code to pass the test, then refactor"
 - Discuss the real-world application in data engineering: "When building data pipelines, having robust validation is critical"
 - Present the task: "We'll build a data validation function that checks if input data meets our business requirements before processing"
+
+### Setup gitBash shell (optional)
+1. In VS code select: `View --> Terminal` or `Ctrl+'`
+2. If you want a GitBash shell then click the + and select: `GitBash`
+3. in the shell run pytest: `pytest 
 
 ### Exercise (15 minutes)
 Guide participants through the TDD cycle:
@@ -24,7 +38,7 @@ Guide participants through the TDD cycle:
 import pytest
 from validator import validate_data_record
 
-def test_validate_data_record_rejects_empty_record():
+def test_empty_record():
     # Arrange
     record = {}
     
