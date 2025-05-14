@@ -28,7 +28,7 @@
 ### Setup gitBash shell (optional)
 1. In VS code select: `View --> Terminal` or `Ctrl+'`
 2. If you want a GitBash shell then click the + and select: `GitBash`
-3. in the shell run pytest: `pytest 
+3. in the shell run pytest: `pytest`
 
 ### Exercise (15 minutes)
 Guide participants through the TDD cycle:
