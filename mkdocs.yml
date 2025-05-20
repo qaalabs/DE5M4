@@ -20,7 +20,8 @@ not_in_nav: |
   e-databases/*.md
   f-python/*.md
   presentations/*.md
-
+  index.md
+  setup.md
 
 # Theme
 theme:
