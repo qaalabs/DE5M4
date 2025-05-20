@@ -12,7 +12,7 @@ nav:
     - "Exercise 2: Scenario": 1-introduction/ex2-scenario.md
   - "A: Agile": a-agile/index.md
   - "C: Git and GitHub":
-    - "Exercise 1: Forking": c-git/ex1-forking.md
+    - "Exercise 1: Forking": c-git/ex4-forking.md
   - "D: Cloud": d-cloud/index.md
   - "E: Databases": e-databases/index.md
   - "F: Databases": f-python/index.md
