@@ -1,4 +1,4 @@
-# Git & GitHub Workshop
+# Topic C ~ Git & GitHub
 
 ## 1. Git Introduction
 
