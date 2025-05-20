@@ -10,6 +10,7 @@ nav:
     - "Exercise 1: Brainstorming": 1-introduction/ex1-brainstorming.md
     - "Exercise 2: Scenario": 1-introduction/ex2-scenario.md
   - "A: Agile": a-agile/index.md
+  - "B: Agile": b-devops/index.md
   - "C: Git and GitHub":
     - "Exercise 1: Forking": c-git/ex4-forking.md
   - "D: Cloud": d-cloud/index.md
@@ -23,14 +24,13 @@ not_in_nav: |
   quiz/*
   images/README.md
 
-
 # Theme
 theme:
     feaures:
       - tabs
     name: material
     icon:
-      logo: material/cloud
+      logo: material/database
     static_templates:
       - 404.html
 

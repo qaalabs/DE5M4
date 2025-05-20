@@ -6,6 +6,22 @@ site_description: "Coming Soon"
 nav:
   - Overview: new-site.md
 
+# Existing files but not in nav
+not_in_nav: |
+  ksb.md
+  quiz/*
+  images/README.md
+  0-discovery/*.md
+  1-introduction/*.md
+  a-agile/*.md
+  b-devops/*.md
+  c-git/*.md
+  d-cloud/*.md
+  e-databases/*.md
+  f-python/*.md
+  presentations/*.md
+
+
 # Theme
 theme:
     feaures:
