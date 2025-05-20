@@ -1,6 +1,5 @@
 # Site name
-site_name: DE5-M4
-site_description: "Planning a Data Engineering Project" 
+site_name: DE5-M4 ~ Planning a Data Engineering Project 
 
 # Navigation menu
 nav:
@@ -17,6 +16,13 @@ nav:
   - "E: Databases": e-databases/index.md
   - "F: Databases": f-python/index.md
   - Presentations: presentations/index.md
+
+# Existing files but not in nav
+not_in_nav: |
+  ksb.md
+  quiz/*
+  images/README.md
+
 
 # Theme
 theme:
