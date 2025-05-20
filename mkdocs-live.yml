@@ -1,6 +1,5 @@
 # Site name
-site_name: DE5-M4
-site_description: "Planning a Data Engineering Project" 
+site_name: DE5-M4 ~ Planning a Data Engineering Project 
 
 # Navigation menu
 nav:
@@ -11,6 +10,7 @@ nav:
     - "Exercise 1: Brainstorming": 1-introduction/ex1-brainstorming.md
     - "Exercise 2: Scenario": 1-introduction/ex2-scenario.md
   - "A: Agile": a-agile/index.md
+  - "B: Agile": b-devops/index.md
   - "C: Git and GitHub":
     - "Exercise 1: Forking": c-git/ex4-forking.md
   - "D: Cloud": d-cloud/index.md
@@ -18,13 +18,19 @@ nav:
   - "F: Databases": f-python/index.md
   - Presentations: presentations/index.md
 
+# Existing files but not in nav
+not_in_nav: |
+  ksb.md
+  quiz/*
+  images/README.md
+
 # Theme
 theme:
     feaures:
       - tabs
     name: material
     icon:
-      logo: material/cloud
+      logo: material/database
     static_templates:
       - 404.html
 

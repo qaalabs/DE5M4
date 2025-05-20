@@ -1,28 +1,26 @@
-# Site name
-site_name: DE5-M4 ~ Planning a Data Engineering Project 
+# Site Name
+site_name: NEW-SITE
+site_description: "Coming Soon" 
 
 # Navigation menu
 nav:
-  - Overview: index.md
-  - Setup: setup.md
-  - Introduction: 1-introduction/index.md
-  - Digital Design:
-    - "Exercise 1: Brainstorming": 1-introduction/ex1-brainstorming.md
-    - "Exercise 2: Scenario": 1-introduction/ex2-scenario.md
-  - "A: Agile": a-agile/index.md
-  - "B: Agile": b-devops/index.md
-  - "C: Git and GitHub":
-    - "Exercise 1: Forking": c-git/ex4-forking.md
-  - "D: Cloud": d-cloud/index.md
-  - "E: Databases": e-databases/index.md
-  - "F: Databases": f-python/index.md
-  - Presentations: presentations/index.md
+  - Overview: new-site.md
 
 # Existing files but not in nav
 not_in_nav: |
   ksb.md
   quiz/*
   images/README.md
+  0-discovery/*.md
+  1-introduction/*.md
+  a-agile/*.md
+  b-devops/*.md
+  c-git/*.md
+  d-cloud/*.md
+  e-databases/*.md
+  f-python/*.md
+  presentations/*.md
+
 
 # Theme
 theme:
@@ -30,7 +28,7 @@ theme:
       - tabs
     name: material
     icon:
-      logo: material/database
+      logo: material/cloud
     static_templates:
       - 404.html
 
@@ -67,6 +65,3 @@ markdown_extensions:
       custom_checkbox: true
       clickable_checkbox: false
   - pymdownx.tilde
-
-plugins:
-  - search
