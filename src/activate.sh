@@ -23,3 +23,11 @@ if [ ${rc} -ne 0 ]; then
   echo -e "\nWARNING: There are modified files. Please commit!"
   exit 3
 fi
+
+# Check new but not committed files
+rc=$(git status | grep "Your branch is ahead" | wc -l)
+if [ ${rc} -ne 0 ]; then
+  git status
+  echo -e "\nWARNING: Your branch is ahead. Please push!"
+  exit 3
+fi
