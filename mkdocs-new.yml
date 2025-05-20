@@ -1,10 +1,10 @@
-# Site name
-site_name: DE5-M4
-site_description: "New Site" 
+# Site Name
+site_name: NEW-SITE
+site_description: "Coming Soon" 
 
 # Navigation menu
 nav:
-  - Overview: index.md
+  - Overview: new-site.md
 
 # Theme
 theme:
