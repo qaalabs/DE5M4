@@ -1,4 +1,4 @@
-# Topic A: Agile and DevOps
+# Topic A ~ Agile and DevOps
 
 ## Overview
 This topic introduces Agile methodologies specifically applied to data engineering product planning. We will explore how Agile principles address the unique challenges of data product development and practice essential planning techniques used throughout the data engineering lifecycle.
