@@ -2,7 +2,7 @@
 
 In groups **brainstorm the digital design process**, addressing:
 
-- What are the key phases or stages in designing a data product?
+- What are 3 or 4 key phases or stages in designing a data product?
 - What activities happen in each phase?
 - Who needs to be involved at each stage?
 - What inputs and outputs would each stage have?
