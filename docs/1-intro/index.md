@@ -23,6 +23,6 @@ There are no wrong answers here - I want you to draw on your collective experien
 ### If you are stuck ...
 Start with:
 
-1. Gather requirements
-2. Planning
-3. Design
+- Step 1: Discovery & Requirements Gathering
+- Step 2: Data Architecture & Integration Planning
+- Step 3: Analytics & Visualization Design
