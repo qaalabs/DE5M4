@@ -1,1 +1,1 @@
-# Topic B ~ DevOps
+# Topic B ~ Agile Product Planning

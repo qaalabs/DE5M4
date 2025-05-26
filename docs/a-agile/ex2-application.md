@@ -1,4 +1,3 @@
-
 # Exercise 2: Apply to a Scenario
 Apply your phases from the previous exercise to the scenario below.
 
