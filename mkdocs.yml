@@ -4,19 +4,27 @@ site_name: DE5-M4 ~ Planning a Data Engineering Project
 # Navigation menu
 nav:
   - Overview: index.md
-  - Setup: setup.md
-  - Introduction: 1-introduction/index.md
   - Digital Design:
-    - "Exercise 1: Brainstorming": 1-introduction/ex1-brainstorming.md
-    - "Exercise 2: Scenario": 1-introduction/ex2-scenario.md
-  - "A: Agile": a-agile/index.md
-  - "B: Agile": b-devops/index.md
-  - "C: Git and GitHub":
-    - "Exercise 1: Forking": c-git/ex4-forking.md
+    - "Introduction": 1-intro/index.md
+    - "Exercise 1: Brainstorming": 1-intro/ex1-brainstorming.md
+    - "Exercise 2: Scenario"     : 1-intro/ex2-scenario.md
+  - "A: Agile":
+    - "Agile and DevOps": a-agile/index.md
+    - "Exercise 1: Design Steps"   : a-agile/ex1-design-steps.md
+    - "Exercise 2: Application"    : a-agile/ex2-application.md
+    - "Exercise 3: Current Project": a-agile/ex3-current-project.md
+  - "B: Product Planning":
+    - "Agile Product Planning": b-planning/index.md
+    - "Exercise 1: Identify Epics" : b-plan/ex1-identify-epics.md
+    - "Exercise 2: User Stories"   : b-plan/ex2-user-stories.md
+    - "Exercise 3: Estimate Effort": b-plan/ex3-planning.poker.md
+    - "Exercise 4: Sprint Planning": b-plan/ex4-sprint-planning.md
+  - "C: Git and GitHub": c-git/index.md
   - "D: Cloud": d-cloud/index.md
-  - "E: Databases": e-databases/index.md
-  - "F: Databases": f-python/index.md
+  - "E: Databases": e-storage/index.md
+  - "F: Python for Data": f-python/index.md
   - Presentations: presentations/index.md
+  - Downloads: downloads.md
 
 # Existing files but not in nav
 not_in_nav: |
