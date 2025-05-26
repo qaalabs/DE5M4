@@ -10,7 +10,7 @@ nav:
     - "Exercise 2: Application"    : a-agile/ex2-application.md
     - "Exercise 3: Current Project": a-agile/ex3-work-project.md
   - "B: Product Planning":
-    - "Agile Product Planning": b-planning/index.md
+    - "Agile Product Planning": b-plan/index.md
     - "Exercise 1: Identify Epics" : b-plan/ex1-identify-epics.md
     - "Exercise 2: User Stories"   : b-plan/ex2-user-stories.md
     - "Exercise 3: Estimate Effort": b-plan/ex3-estimate-effort.md
