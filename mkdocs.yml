@@ -24,7 +24,7 @@ nav:
   - "E: Databases": e-storage/index.md
   - "F: Python for Data": f-python/index.md
   - Presentations: presentations/index.md
-  - Downloads: downloads.md
+  - File Downloads: downloads.md
 
 # Existing files but not in nav
 not_in_nav: |
