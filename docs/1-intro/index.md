@@ -18,3 +18,11 @@ There are no wrong answers here - I want you to draw on your collective experien
 - What information would you need?
 - Who would you involve?
 - What would your process look like?
+
+---
+### If you are stuck ...
+Start with:
+
+1. Gather requirements
+2. Planning
+3. Design
