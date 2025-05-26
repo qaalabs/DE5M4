@@ -6,8 +6,8 @@ nav:
   - Overview: index.md
   - "A: Agile":
     - "Agile and DevOps": a-agile/index.md
-    - "Exercise 1: Design Steps"   : a-agile/ex1-design-steps.md
-    - "Exercise 2: Application"    : a-agile/ex2-application.md
+    - "Exercise 1: Design Steps": a-agile/ex1-design-steps.md
+    - "Exercise 2: Application" : a-agile/ex2-application.md
     - "Exercise 3: Work Project": a-agile/ex3-work-project.md
   - "B: Product Planning":
     - "Agile Product Planning": b-plan/index.md
