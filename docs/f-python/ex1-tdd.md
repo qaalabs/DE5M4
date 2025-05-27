@@ -1,8 +1,8 @@
-# Exercise 1: Python Test Driven Development (TDD)
+# Full group Activity: 1 - Test Driven Development (TDD)
 
 ## TDD Exercise: Data Validation Function (30 minutes)
 
-### Setup (5 minutes)
+### Setup
 1. Confirm that Python version 3 is installed on the VM: `python --version`
 2. Ensure pytest is installed on the VM: `pip install pytest`
 3. Create a simple project structure:
@@ -20,7 +20,7 @@
     - For simplicity we will not do that!
     - But in all cases outside of this training enviroment it is an absolute requirement
 
-### Introduction (5 minutes)
+### Introduction
 - Explain TDD principles: "Write a failing test first, then implement the minimum code to pass the test, then refactor"
 - Discuss the real-world application in data engineering: "When building data pipelines, having robust validation is critical"
 - Present the task: "We'll build a data validation function that checks if input data meets our business requirements before processing"
@@ -30,7 +30,7 @@
 2. If you want a GitBash shell then click the + and select: `GitBash`
 3. in the shell run pytest: `pytest`
 
-### Exercise (15 minutes)
+### Exercise
 Guide participants through the TDD cycle:
 
 1. **Write the first test** in `test_validator.py`:
@@ -117,16 +117,14 @@ def test_validate_data_record_rejects_missing_fields():
     assert result == False, "Records with missing fields should be rejected"
 ```
 
-### Reflection and Discussion (5 minutes)
+### Reflection and Discussion
 - How does TDD help in planning a data product?
 - In what data engineering scenarios would TDD be particularly valuable?
 - How does this connect to the broader SDLC and quality assurance?
 - What additional validations would be important in a real data pipeline? (data types, ranges, formats)
 
 ### Optional Extension
-If some students finish early, suggest they add validation for:
+If you finish early, add validation for:
 - Data types (e.g., id must be an integer)
 - Value ranges (e.g., value must be positive)
 - Timestamp format validation
-
-This exercise provides a practical, hands-on introduction to TDD that directly relates to data engineering work. It emphasizes the planning aspect (thinking about requirements before implementation) while teaching a valuable software development practice.

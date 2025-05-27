@@ -2,12 +2,12 @@
 
 ## Session Title: "Cloud Architecture Design for Data Engineering Products"
 
-### Session Overview (5 minutes)
+### Session Overview
 
 **Introduction:**
 This afternoon, we'll focus on designing cloud architectures for data engineering products. While different cloud providers offer similar services with different names, the fundamental architectural patterns remain consistent. We'll explore how to design scalable, secure, and cost-effective cloud architectures as part of our data product planning process.
 
-### Part 1: Cloud Architecture Fundamentals (30 minutes)
+### Part 1: Cloud Architecture Fundamentals
 
 **Presentation: "Design Principles for Cloud Data Architectures"**
 
@@ -33,7 +33,7 @@ Cover key design considerations that apply across all major cloud providers:
    - Performance efficiency
    - Reliability and fault tolerance
 
-**Group Discussion Activity (10 minutes):**
+**Group Discussion Activity:**
 
 In small groups, discuss which cloud architectural pattern would be most appropriate for these scenarios:
 - A batch processing pipeline for nightly financial reports
@@ -41,11 +41,11 @@ In small groups, discuss which cloud architectural pattern would be most appropr
 - A machine learning feature store with high query performance needs
 - A data lake solution for storing years of historical customer data
 
-### Part 2: Designing a Reference Architecture (45 minutes)
+### Part 2: Designing a Reference Architecture
 
 **Workshop: "Creating a Cloud-Agnostic Reference Architecture"**
 
-1. **Introduce the Business Scenario (5 minutes)**
+1. **Introduce the Business Scenario**
 
    Present a retail data analytics platform scenario:
    - Needs to ingest point-of-sale data daily from 200+ stores
@@ -54,7 +54,7 @@ In small groups, discuss which cloud architectural pattern would be most appropr
    - Needs to support machine learning models for personalization
    - Must comply with data privacy regulations
 
-3. **Component Mapping Activity (15 minutes)**
+3. **Component Mapping Activity**
 
    In groups, have participants:
    - List all required components for this data product
@@ -69,7 +69,7 @@ In small groups, discuss which cloud architectural pattern would be most appropr
    - Security and governance
    - Monitoring and operations
 
-3. **Architecture Diagramming (20 minutes)**
+3. **Architecture Diagramming**
 
    Using virtual whiteboarding tools:
    - Create a visual representation of the architecture
@@ -80,15 +80,15 @@ In small groups, discuss which cloud architectural pattern would be most appropr
    
    Provide a template diagram with placeholders for key architecture zones.
 
-4. **Group Presentations (5 minutes)**
+4. **Group Presentations**
 
    Have one or two groups briefly present their architecture designs.
 
-### Part 3: Cloud Service Selection Strategy (30 minutes)
+### Part 3: Cloud Service Selection Strategy
 
 **Presentation: "Choosing the Right Services Across Cloud Providers"**
 
-1. **Equivalency Mapping (10 minutes)**
+1. **Equivalency Mapping**
 
    Show how similar services map across major providers:
    - Storage: S3 (AWS) vs. Blob Storage (Azure) vs. Cloud Storage (GCP)
@@ -97,7 +97,7 @@ In small groups, discuss which cloud architectural pattern would be most appropr
    
    Provide a reference chart with common service types and their implementation across providers.
 
-2. **Selection Criteria Framework (10 minutes)**
+2. **Selection Criteria Framework**
 
    Present a decision framework for choosing services:
    - Business requirements alignment
@@ -107,18 +107,18 @@ In small groups, discuss which cloud architectural pattern would be most appropr
    - Operations and maintenance considerations
    - Vendor lock-in implications
    
-3. **Decision Matrix Activity (10 minutes)**
+3. **Decision Matrix Activity**
 
    Have participants create a simple decision matrix for one component of their architecture:
    - List 3-4 requirements for the component
    - Rate how well different service options meet each requirement
    - Make a selection based on overall scores
 
-### Part 4: Architecture Documentation (30 minutes)
+### Part 4: Architecture Documentation
 
 **Workshop: "Documenting Cloud Architecture Designs"**
 
-1. **Architecture Documentation Template (10 minutes)**
+1. **Architecture Documentation Template**
 
    Present a standardized template for cloud architecture documentation:
    - Executive summary
@@ -131,25 +131,25 @@ In small groups, discuss which cloud architectural pattern would be most appropr
    - Estimated costs and resources
    - Implementation considerations
 
-2. **Documentation Exercise (15 minutes)**
+2. **Documentation Exercise**
 
    Have participants begin documenting their architecture designs using the template:
    - Focus on 2-3 key sections only (given time constraints)
    - Emphasize clear communication of design decisions
    - Include rationale for architectural choices
 
-3. **Peer Review (5 minutes)**
+3. **Peer Review**
 
    Pair groups to briefly review each other's documentation:
    - Is the architecture clearly explained?
    - Are design decisions well-justified?
    - What questions remain unanswered?
 
-### Part 5: Implementation Planning (30 minutes)
+### Part 5: Implementation Planning
 
 **Workshop: "From Architecture to Implementation Plan"**
 
-1. **Phased Implementation Approach (10 minutes)**
+1. **Phased Implementation Approach**
 
    Present strategies for implementing complex architectures:
    - Minimum viable architecture
@@ -157,7 +157,7 @@ In small groups, discuss which cloud architectural pattern would be most appropr
    - Testing and validation stages
    - Migration considerations for existing data
 
-2. **Implementation Roadmap Activity (15 minutes)**
+2. **Implementation Roadmap Activity**
 
    Have groups create a high-level implementation roadmap:
    - Identify 3-4 implementation phases
@@ -165,7 +165,7 @@ In small groups, discuss which cloud architectural pattern would be most appropr
    - Prioritize components based on dependencies
    - Consider risk mitigation approaches
 
-3. **Risk Assessment (5 minutes)**
+3. **Risk Assessment**
 
    Quickly identify potential risks in the implementation plan:
    - Technical risks
@@ -173,7 +173,7 @@ In small groups, discuss which cloud architectural pattern would be most appropr
    - Timeline challenges
    - Integration complexities
 
-### Wrap-Up and Connection to Day 3 (10 minutes)
+### Wrap-Up and Connection to Day 3
 
 **Closing Discussion:**
 

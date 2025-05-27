@@ -4,22 +4,30 @@ site_name: DE5-M4 ~ Planning a Data Engineering Project
 # Navigation menu
 nav:
   - Overview: index.md
+
   - "A: Agile":
     - "Agile and DevOps": a-agile/index.md
-    - "Exercise 1: Design Steps": a-agile/ex1-design-steps.md
-    - "Exercise 2: Application" : a-agile/ex2-application.md
-    - "Exercise 3: Work Project": a-agile/ex3-work-project.md
+    - "Activity 1: Design Steps": a-agile/1a-design-steps.md
+    - "Activity 2: Application" : a-agile/2a-application.md
+    - "Activity 3: Work Project": a-agile/3a-work-project.md
+
   - "B: Product Planning":
     - "Restaurant Scenario": b-plan/index.md
-    - "Exercise 1: Identify Epics" : b-plan/ex1-identify-epics.md
-    - "Exercise 2: User Stories"   : b-plan/ex2-user-stories.md
-    - "Exercise 3: Estimate Effort": b-plan/ex3-estimate-effort.md
-    - "Exercise 4: Sprint Planning": b-plan/ex4-sprint-planning.md
+    - "Activity 1: Identify Epics" : b-plan/1a-identify-epics.md
+    - "Activity 2: User Stories"   : b-plan/2a-user-stories.md
+    - "Activity 3: Estimate Effort": b-plan/3a-estimate-effort.md
+    - "Activity 4: Sprint Planning": b-plan/4a-sprint-planning.md
+
   - "C: Git and GitHub": c-git/index.md
+
   - "D: Cloud": d-cloud/index.md
+
   - "E: Storage": e-storage/index.md
+
   - "F: Python for Data": f-python/index.md
+
   - Presentations: presentations/index.md
+  
   - File Downloads: downloads.md
 
 # Existing files but not in nav
@@ -27,10 +35,8 @@ not_in_nav: |
   ksb.md
   quiz/*
   images/README.md
-  c-git/e*
-  d-cloud/e*
-  e-storage/e*
-  f-python/e*
+  e-storage/*
+  f-python/*
 
 # Theme
 theme:
