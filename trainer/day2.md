@@ -1,4 +1,4 @@
-# Topic C ~ Git & GitHub
+# Topic C ~ Source Control
 
 ## 1. Git Introduction
 

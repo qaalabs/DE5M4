@@ -18,7 +18,8 @@ nav:
     - "Activity 3: Estimate Effort": b-plan/3a-estimate-effort.md
     - "Activity 4: Sprint Planning": b-plan/4a-sprint-planning.md
 
-  - "C: Git and GitHub": c-git/index.md
+  - "C: Source Control":
+    - Overview: c-svc/index.md
 
   - "D: Cloud": d-cloud/index.md
 
