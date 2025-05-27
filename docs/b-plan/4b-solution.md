@@ -48,7 +48,7 @@ In your data engineering projects, Sprint 1 might include:
 - Create simple data validation checks
 - Deliver first basic reports to stakeholders
 
-The same principles apply - focus on delivering working functionality that provides real value, while building the foundation for future sprints."
+The same principles apply - focus on delivering working functionality that provides real value, while building the foundation for future sprints.
 
 ## Wrap-up
 

@@ -19,7 +19,7 @@ For example:
 
 ## Why This Format Matters
 
-"This format forces us to think about:
+This format forces us to think about:
 
 - **WHO** needs this feature (the user)
 - **WHAT** they want to accomplish (the goal)  
@@ -47,7 +47,7 @@ Take the requirements that you've organised under each epic and turn them into u
 **3. Why do they want it?**
 
 - What problem does this solve for them?
-- What value do they get from this feature?"
+- What value do they get from this feature?
 
 ## Good User Story Checklist
 

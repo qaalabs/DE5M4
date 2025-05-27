@@ -41,7 +41,7 @@ Example dependencies:
 
 - Logo design should come before implementing it across pages
 - Basic navigation should exist before adding complex features
-- Contact information display before advanced contact forms"
+- Contact information display before advanced contact forms
 
 ### Step 2: Select Stories for Sprint 1
 

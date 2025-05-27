@@ -38,7 +38,7 @@ When creating your epics, ask yourself:
 - **Is it a major theme?** Does it represent a significant area of functionality?
 - **Is it user-focused?** Would a user recognise this as a distinct part of their experience?
 - **Is it the right size?** Not too big (entire website) or too small (single button)
-- **Does it group related work?** Do the requirements under it naturally belong together?"
+- **Does it group related work?** Do the requirements under it naturally belong together?
 
 ## Working individually
 
