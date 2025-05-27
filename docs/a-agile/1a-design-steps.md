@@ -18,7 +18,7 @@ For each step, note:
 - Information needed for this step
 - Outputs produced at this step
 
-## Deliverable
+## Group sharing
 Be prepared to **present your process** for 2-3 minutes.
 
 ---

@@ -12,5 +12,5 @@ Using the design process your group created, outline how you would approach this
 - List 3 or 4 specific activities for each phase.
 - What challenges do you anticipate?
 
-## Deliverable
+## Group Sharing
 As a group briefly present your **design process** and **initial approach** to the scenario. (2-3 minutes)

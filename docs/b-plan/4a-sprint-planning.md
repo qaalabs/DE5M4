@@ -28,7 +28,7 @@ You need to select user stories that:
 ---
 ## Your task
 
-### Step 1: Review and Prioritise (12 minutes)
+### Step 1: Review and Prioritise
 
 Look at all your user stories and:
 
@@ -43,7 +43,7 @@ Example dependencies:
 - Basic navigation should exist before adding complex features
 - Contact information display before advanced contact forms"
 
-### Step 2: Select Stories for Sprint 1 (8 minutes)
+### Step 2: Select Stories for Sprint 1
 
 Choose user stories for your first sprint:
 
@@ -58,7 +58,7 @@ Document your selection showing:
 - Total points (should be ≤30)
 - Stories left for future sprints
 
-### Step 3: Break Down into Tasks (5 minutes)
+### Step 3: Break Down into Tasks
 For 2-3 of your selected user stories, break them down into specific tasks:
 
 Example for 'As a customer, I want to view the menu with prices':
