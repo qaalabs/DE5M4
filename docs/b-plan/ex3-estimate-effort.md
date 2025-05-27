@@ -11,6 +11,7 @@ We will use the [ticks and crosses app](https://tc.barbourians.org/m4). At the b
 
 ### Estimation Scale
 We're using story points, which represent relative effort and complexity:
+
 - **1 point**: Very simple - like adding a phone number to a page
 - **2 points**: Simple - like displaying static content 
 - **3 points**: Moderate - like creating a basic contact form
@@ -23,6 +24,7 @@ We're using story points, which represent relative effort and complexity:
 
 ### Process
 For each user story, we will:
+
 1. **Read the story** together
 2. **Discuss** any questions about requirements or scope
 3. **Estimate** - click your chosen number
@@ -37,6 +39,7 @@ For each user story, we will:
 **Story**: "As a customer, I want to place an online order with multiple items"
 
 **Possible discussion points**:
+
 - Does this include payment processing?
 - How complex is the shopping cart functionality?
 - Do we need to integrate with existing POS systems?
@@ -45,6 +48,7 @@ For each user story, we will:
 **Story**: "As a restaurant staff member, I want to update reservation details"
 
 **Possible discussion points**:
+
 - Is this just editing existing fields or more complex changes?
 - Do we need audit trails of who changed what?
 - How do we handle conflicts if customer also tries to change it?

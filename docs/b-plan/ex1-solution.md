@@ -29,6 +29,7 @@ Based on the restaurant requirements, these **5 main epics** were identified:
 
 ## Hierarchical Structure
 We then broke these epics down into:
+
 - **Features** (like "Data Ingestion Pipeline" under a larger epic)
 - **User Stories** (specific user needs within each feature)
 - **Tasks** (technical work items to complete user stories)

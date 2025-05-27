@@ -11,6 +11,7 @@ Think of this as creating the high-level structure that will guide all our detai
 An epic is like a major theme or category of work. If your data product were a book, epics would be the chapter titles. They group related functionality together and help us organise our thinking.
 
 For example, if you were building a house, your epics might be:
+
 - Foundation and Structure
 - Electrical Systems  
 - Plumbing Systems
@@ -32,7 +33,8 @@ Think of yourself as organising a messy pile of requirements into neat, labeled 
 
 ## What Makes a Good Epic?
 
-"When creating your epics, ask yourself:
+When creating your epics, ask yourself:
+
 - **Is it a major theme?** Does it represent a significant area of functionality?
 - **Is it user-focused?** Would a user recognise this as a distinct part of their experience?
 - **Is it the right size?** Not too big (entire website) or too small (single button)
@@ -41,6 +43,7 @@ Think of yourself as organising a messy pile of requirements into neat, labeled 
 ## Working in Groups
 
 Focus on:
+
 - Having good discussions about why requirements belong together
 - Creating clear, descriptive epic names
 - Making sure you've covered all the requirements

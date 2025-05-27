@@ -8,6 +8,7 @@ Help learners understand what good sprint planning looks like:
 Deliver a basic restaurant website where customers can learn about the restaurant and contact them.
 
 ### Selected User Stories (Example)
+
 - Display restaurant logo consistently (2 points)
 - Show restaurant address and contact info (1 point)
 - Create basic navigation menu (3 points)
@@ -18,6 +19,7 @@ Deliver a basic restaurant website where customers can learn about the restauran
 - **Total: 19 points (leaving room for unexpected work)**
 
 ### Stories Moved to Later Sprints
+
 - Online ordering system (13 points) - Sprint 2
 - Reservation management (8 points) - Sprint 2  
 - Staff reservation tools (8 points) - Sprint 3
@@ -40,6 +42,7 @@ Deliver a basic restaurant website where customers can learn about the restauran
 ## Connection to Data Engineering
 
 In your data engineering projects, Sprint 1 might include:
+
 - Set up basic data pipeline infrastructure
 - Implement initial data source connections  
 - Create simple data validation checks

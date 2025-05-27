@@ -22,9 +22,10 @@ Take some time to do this individually, then **be prepared to share your experie
 ---
 ## Step 2 - Group sharing
 
-Share your top pain points with the group.
+**Share your top pain points with the group.**
 
 When others share:
+
 - Listen for common themes and patterns.
 - Identify the 3 of most significant challenges we've all experienced.
 - Think about if an Agile approach would solve any of these challenges.
