@@ -1,4 +1,4 @@
-# Exercise 1 - solution
+# Activity 1 - solution
 
 ## The Restaurant Website Scenario
 Learners were given requirements for a vegan restaurant website (QARestaurant) and tasked with creating appropriate epics, product backlog items, and tasks.
@@ -41,4 +41,4 @@ We then broke these epics down into:
 - Learn to group related functionality under meaningful epic names
 - Connect epic planning to the broader Agile framework introduced in the morning
 
-This exercise helped learners see how high-level business requirements get organized into manageable epic-level themes that can then be planned and developed iteratively.
+This activity helped learners see how high-level business requirements get organized into manageable epic-level themes that can then be planned and developed iteratively.

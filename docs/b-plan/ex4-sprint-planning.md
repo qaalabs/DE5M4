@@ -1,4 +1,4 @@
-# Exercise 4: Sprint Planning
+# Group Activity: 4 - Sprint Planning
 
 ## Introduction to Sprint Planning
 

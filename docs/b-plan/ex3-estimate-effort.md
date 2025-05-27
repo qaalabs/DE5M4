@@ -1,6 +1,6 @@
-# Exercise 3: Estimate Effort ~ Planning Poker
+# Full Group Activity: 3- Estimate Effort
 
-For thi exercise we will be estimating **user stories** using Planning Poker.
+For this activity we will be estimating **user stories** using Planning Poker.
 
 ## Planning Poker Instructions
 

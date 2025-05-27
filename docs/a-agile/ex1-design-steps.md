@@ -1,4 +1,4 @@
-# Exercise 1: Brainstorming Design Steps
+# Breakout Activity: 1 - Brainstorm Design Steps
 
 In groups **brainstorm the digital design process**, addressing:
 

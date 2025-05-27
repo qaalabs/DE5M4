@@ -1,8 +1,8 @@
-# Exercise 3: Work Project
+# Solo Activity: 3 - Work Project
 
 ## Step 1 - Individual reflection
 
-For this exercise I would like you to reflect on a data project you've worked on:
+For this activity I would like you to reflect on a data project you've worked on:
 
 > Think about a challenging data project you've been involved in.
 > 

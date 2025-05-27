@@ -1,4 +1,4 @@
-# Exercise 2: Possible Answer
+# Activity 2: Possible Answer
 
 ## Initial Design Process for a Data-Driven Customer Behavior Product
 

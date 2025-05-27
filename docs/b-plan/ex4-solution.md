@@ -1,4 +1,4 @@
-# Exercise 4: Possible solution
+# Acitivity 4: Possible solution
 
 ## Sample Sprint Planning Outcome
 
@@ -27,7 +27,7 @@ Deliver a basic restaurant website where customers can learn about the restauran
 ---
 ## Key Learning Points to Emphasise
 
-**During the exercise, guide learners to consider:**
+**During the activity, guide learners to consider:**
 
 1. **Capacity Management**: "Don't pack the sprint completely full - leave buffer for unexpected work"
 
@@ -54,4 +54,4 @@ The same principles apply - focus on delivering working functionality that provi
 
 Sprint planning is about making realistic commitments that your team can deliver. It's better to under-promise and over-deliver than to overcommit and disappoint stakeholders. The goal is sustainable pace and predictable delivery.
 
-This exercise gives learners practical experience with the sprint planning process while reinforcing the concepts of capacity, prioritisation, and incremental delivery that are central to Agile data engineering projects.
+This activity gives learners practical experience with the sprint planning process while reinforcing the concepts of capacity, prioritisation, and incremental delivery that are central to Agile data engineering projects.

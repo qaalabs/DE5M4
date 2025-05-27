@@ -1,6 +1,6 @@
-# Exercise 1: Identify Epics
+# Solo Activity: 1- Identify Epics
 
-## Introduction to the Exercise
+## Introduction to the Activity
 
 Now that we've learned about Agile principles, we're going to practice one of the fundamental planning activities: **organising requirements into epics**.
 
@@ -40,15 +40,14 @@ When creating your epics, ask yourself:
 - **Is it the right size?** Not too big (entire website) or too small (single button)
 - **Does it group related work?** Do the requirements under it naturally belong together?"
 
-## Working in Groups
+## Working individually
 
 Focus on:
 
-- Having good discussions about why requirements belong together
+- Grouping requirements that belong together
 - Creating clear, descriptive epic names
 - Making sure you've covered all the requirements
-- Being ready to explain your thinking to others
 
-## Deliverable
+## Sharing Outcomes
 
-Afterwards, **each group will share their epic structure** and we'll see the different approaches.
+Afterwards, you will share your 4-6 epic names in the chat.

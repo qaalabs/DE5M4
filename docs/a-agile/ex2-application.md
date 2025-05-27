@@ -1,5 +1,5 @@
-# Exercise 2: Apply to a Scenario
-Apply your phases from the previous exercise to the scenario below.
+# Breakout Activity: 2 - Apply to a Scenario
+Apply your phases from the previous activity to the scenario below.
 
 ## Scenario
 

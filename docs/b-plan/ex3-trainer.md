@@ -1,4 +1,4 @@
-# Planning Poker Estimation Exercise
+# Planning Poker Estimation Activity
 
 ## Items to Estimate for the Restaurant Website
 
@@ -30,7 +30,7 @@ Here are user stories of varying complexity that work well for Planning Poker pr
 ---
 ## Learning Objectives
 
-**This exercise helps learners:**
+**This activity helps learners:**
 
 - Practice relative estimation rather than absolute time estimates
 - Experience the collaborative discussion that improves estimation accuracy

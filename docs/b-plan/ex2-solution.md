@@ -1,4 +1,4 @@
-# Possible User Stories for the QARestaurant Exercise
+# Possible User Stories for the QARestaurant Activity
 
 Here are example user stories organized by the epics we identified, based on the restaurant website requirements:
 
