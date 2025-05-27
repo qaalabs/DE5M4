@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#exercise-3-estimate-effort" class="md-skip">
+        <a href="#exercise-3-estimate-effort-planning-poker" class="md-skip">
           Skip to content
         </a>
       
@@ -398,7 +398,7 @@
   
   
   <span class="md-ellipsis">
-    Agile Product Planning
+    Restaurant Scenario
     
   </span>
   
@@ -471,6 +471,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Exercise 3: Estimate Effort
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -482,6 +495,76 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#planning-poker-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Planning Poker Instructions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Planning Poker Instructions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#estimation-scale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estimation Scale
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#process" class="md-nav__link">
+    <span class="md-ellipsis">
+      Process
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sample-estimation-discussions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sample Estimation Discussions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -670,6 +753,65 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#planning-poker-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Planning Poker Instructions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Planning Poker Instructions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#estimation-scale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estimation Scale
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#process" class="md-nav__link">
+    <span class="md-ellipsis">
+      Process
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sample-estimation-discussions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sample Estimation Discussions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -684,7 +826,54 @@
 
 
 
-<h1 id="exercise-3-estimate-effort">Exercise 3: Estimate Effort<a class="headerlink" href="#exercise-3-estimate-effort" title="Permanent link">&para;</a></h1>
+<h1 id="exercise-3-estimate-effort-planning-poker">Exercise 3: Estimate Effort ~ Planning Poker<a class="headerlink" href="#exercise-3-estimate-effort-planning-poker" title="Permanent link">&para;</a></h1>
+<p>For thi exercise we will be estimating <strong>user stories</strong> using Planning Poker.</p>
+<h2 id="planning-poker-instructions">Planning Poker Instructions<a class="headerlink" href="#planning-poker-instructions" title="Permanent link">&para;</a></h2>
+<h3 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h3>
+<p>We're going to play <strong>Planning Poker</strong>, a collaborative estimation technique used in Agile teams.</p>
+<p>We will use the <a href="https://tc.barbourians.org/m4">ticks and crosses app</a>. At the bottom is a set of numbers: <strong>0, 0.5, 1, 2, 3, 5, 8, 13, 20, and ?</strong></p>
+<h3 id="estimation-scale">Estimation Scale<a class="headerlink" href="#estimation-scale" title="Permanent link">&para;</a></h3>
+<p>We're using story points, which represent relative effort and complexity:</p>
+<ul>
+<li><strong>1 point</strong>: Very simple - like adding a phone number to a page</li>
+<li><strong>2 points</strong>: Simple - like displaying static content </li>
+<li><strong>3 points</strong>: Moderate - like creating a basic contact form</li>
+<li><strong>5 points</strong>: Complex - like building a menu display with filtering</li>
+<li><strong>8 points</strong>: Very complex - like creating a reservation booking system</li>
+<li><strong>13 points</strong>: Major feature - like a complete online ordering system</li>
+<li><strong>20 points</strong>: Epic-sized - probably needs to be broken down</li>
+<li><strong>?</strong> - You need more information to estimate</li>
+<li>☕ - If you want to pass on providing an estimate </li>
+</ul>
+<h3 id="process">Process<a class="headerlink" href="#process" title="Permanent link">&para;</a></h3>
+<p>For each user story, we will:</p>
+<ol>
+<li><strong>Read the story</strong> together</li>
+<li><strong>Discuss</strong> any questions about requirements or scope</li>
+<li><strong>Estimate</strong> - click your chosen number</li>
+<li><strong>Reveal simultaneously</strong> - the minimum, maximum, and consensus will be shown</li>
+<li><strong>Discuss differences</strong> - if estimates vary widely, we will hear from the highest and lowest estimators</li>
+<li><strong>Re-estimate</strong> - if needed after discussion</li>
+<li><strong>Record the consensus</strong> - note the agreed estimate</li>
+</ol>
+<hr />
+<h3 id="sample-estimation-discussions">Sample Estimation Discussions<a class="headerlink" href="#sample-estimation-discussions" title="Permanent link">&para;</a></h3>
+<p><strong>Story</strong>: "As a customer, I want to place an online order with multiple items"</p>
+<p><strong>Possible discussion points</strong>:</p>
+<ul>
+<li>Does this include payment processing?</li>
+<li>How complex is the shopping cart functionality?</li>
+<li>Do we need to integrate with existing POS systems?</li>
+<li>What about order confirmation and tracking?</li>
+</ul>
+<p><strong>Story</strong>: "As a restaurant staff member, I want to update reservation details"</p>
+<p><strong>Possible discussion points</strong>:</p>
+<ul>
+<li>Is this just editing existing fields or more complex changes?</li>
+<li>Do we need audit trails of who changed what?</li>
+<li>How do we handle conflicts if customer also tries to change it?</li>
+<li>What validation is needed?</li>
+</ul>
 
 
 
