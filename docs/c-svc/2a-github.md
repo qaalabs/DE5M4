@@ -6,11 +6,11 @@
 
 - Click your profile picture
 - Click: Your repositories
-- Click the green ***New* button on the right hand side
+- Click the green **New** button on the right hand side
 
 ### Repository settings
 
-- Give you new repository a name (th name not case sensitive and can't have special characters)
+- Give you new repository a name (the name is *not* case sensitive but can't have special characters)
 - Add a description
 - Make it Public
 - Select: Initialize with a README file

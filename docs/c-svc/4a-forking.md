@@ -14,96 +14,109 @@
 
 ### Part 1: Forking the Repository
 
-1. **Navigate to the main repository**
-   - Open your web browser and go to: https://github.com/ingwanelabs/intro-to-github
-   - This repository contains a two files and a directory of team profiles.
+**Navigate to the main repository**
 
-2. **Fork the repository**
-   - Click the "Fork" button in the top-right corner of the page
-   - Select **your** GitHub account as the destination for the fork
-   - Keep the same name as the original repository (You can change the name it if you have to)
-   - Click: `Create fork`
-   - Wait for GitHub to complete the forking process
-   - You now have your own copy of the repository!
+- Open your web browser and go to: https://github.com/ingwanelabs/intro-to-github
+- This repository contains a two files and a directory of team profiles.
 
-3. **Verify your fork**
-   - Ensure you're now on your forked version of the repository
-   - The URL should show your username: `github.com/[YOUR-USERNAME]/intro-to-github`
+**Fork the repository**
+
+- Click the "Fork" button in the top-right corner of the page
+- Select **your** GitHub account as the destination for the fork
+- Keep the same name as the original repository (You can change the name it if you have to)
+- Click: `Create fork`
+- Wait for GitHub to complete the forking process
+- You now have your own copy of the repository!
+
+**Verify your fork**
+
+- Ensure you're now on your forked version of the repository
+- The URL should show your username: `github.com/[YOUR-USERNAME]/intro-to-github`
 
 ### Part 2: Making Changes to the repository
 
-1. **Clone the repository locally** (Optional - for now we will work in GitHub)
+**Clone the repository locally** (Optional - for now we will work in GitHub)
+
    ```bash
    git clone https://github.com/[YOUR-USERNAME]/intro-to-github.git
    cd intro-to-github.git
    ```
 
-2. **Locate the team member profile directory**
-   - Navigate to the `team-profiles` directory
-   - Click: "Add file + Create new file"
-   - Name your file with your name and a .md extension e.g. `william.md`
-   - If a file with that name already exists then add something to make yours unique
+**Locate the team member profile directory**
 
-3. **Add your fun fact**
-   - Edit the file you have just created
-   - Add your name and a fun fact about yourself in the specified section
-   - Format should follow the existing pattern:
+- Navigate to the `team-profiles` directory
+- Click: "Add file + Create new file"
+- Name your file with your name and a .md extension e.g. `william.md`
+- If a file with that name already exists then add something to make yours unique
 
-   ```
-   # [Your Name]
-   **Role:** [Your title]
-   **Fun Fact:** [An interesting fun fact here]
-   ```
+**Add your fun fact**
 
-4. **Commit your changes**
-   - If using GitHub web interface:
-     - Click "Commit changes..."
-     - Add a meaningful commit message like "Add [Your Name]'s profile to team document"
-     - Leave "Commit directly to the main branch" as the selected option
-     - Click "Commit changes"
+- Edit the file you have just created
+- Add your name and a fun fact about yourself in the specified section
+- Format should follow the existing pattern:
+
+```
+# [Your Name]
+**Role:** [Your title]
+**Fun Fact:** [An interesting fun fact here]
+```
+
+**Commit your changes**
+
+If using GitHub web interface:
+
+- Click "Commit changes..."
+- Add a meaningful commit message like "Add [Your Name]'s profile to team document"
+- Leave "Commit directly to the main branch" as the selected option
+- Click "Commit changes"
    
-   - If using local Git:
+If using local Git:
 
-   ```bash
-   git add team-profiles/[your-name].md
-   git commit -m "Add [Your Name]'s profile to team document"
-   git push origin main
-   ```
+```bash
+git add team-profiles/[your-name].md
+git commit -m "Add [Your Name]'s profile to team document"
+git push origin main
+```
 
 ### Part 3: Creating a Pull Request
 
-1. **Navigate to the Pull Requests tab**
-   - Click on the "Pull requests" tab in **your** forked repository
+**Navigate to the Pull Requests tab**
 
-2. **Start a new pull request**
-   - Click the green "New pull request" button
+- Click on the "Pull requests" tab in **your** forked repository
+
+**Start a new pull request**
+
+- Click the green "New pull request" button
    
-3. **Set up the pull request**
-   - Ensure the base repository is the original repository you forked from (on the left)
-   - Ensure the head repository is your fork (on the right)
-   - Verify you're comparing the correct branches (usually main to main)
+**Set up the pull request**
+
+- Ensure the base repository is the original repository you forked from (on the left)
+- Ensure the head repository is your fork (on the right)
+- Verify you're comparing the correct branches (usually main to main)
    
-4. **Review your changes**
-   - Scroll down to see the differences between the original repository and your fork
-   - Ensure only your intended changes are included
+**Review your changes**
+
+- Scroll down to see the differences between the original repository and your fork
+- Ensure only your intended changes are included
    
-5. **Create the pull request**
-   - Click "Create pull request"
-   - Give your pull request a descriptive title: "Add [Your Name] to team profiles"
-   - In the description, explain your changes and why they're valuable
-   - Click "Create pull request" to submit
+**Create the pull request**
+
+- Click "Create pull request"
+- Give your pull request a descriptive title: "Add [Your Name] to team profiles"
+- In the description, explain your changes and why they're valuable
+- Click "Create pull request" to submit
 
 ### Part 4: Discussion and Review
 
-1. After completing the pull request, discuss:
+After completing the pull request, discuss:
 
-   - How this workflow would apply to real data engineering planning artifacts
-   - What types of planning documents would benefit from version control
-   - How the forking workflow supports collaborative planning
+- How this workflow would apply to real data engineering planning artifacts
+- What types of planning documents would benefit from version control
+- How the forking workflow supports collaborative planning
 
-2. Check if your instructor has any comments on your pull request
+Check if your instructor has any comments on your pull request
 
-   - Respond to any feedback or questions
+- Respond to any feedback or questions
 
 ---
 

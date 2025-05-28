@@ -8,62 +8,62 @@ Besides Git, several other version control systems (VCS) can be used for managin
 
 Like Git, these allow each user to have a full copy of the repository:
 
-1. **Mercurial (hg)**
+**Mercurial (hg)**
 
-   * Simple and fast, similar to Git in functionality
-   * More opinionated and consistent CLI than Git
-   * Used by: Formerly used by Facebook and Mozilla
+* Simple and fast, similar to Git in functionality
+* More opinionated and consistent CLI than Git
+* Used by: Formerly used by Facebook and Mozilla
 
-2. **Fossil**
+**Fossil**
 
-   * Includes version control, wiki, bug tracking, and a web interface in one tool
-   * Created by the SQLite team
-   * Good for small teams and solo developers
+* Includes version control, wiki, bug tracking, and a web interface in one tool
+* Created by the SQLite team
+* Good for small teams and solo developers
 
-3. **Bazaar (bzr)**
+**Bazaar (bzr)**
 
-   * Designed for ease of use and flexibility
-   * Was popular with Ubuntu (Canonical) projects
+* Designed for ease of use and flexibility
+* Was popular with Ubuntu (Canonical) projects
 
 ### **Centralised Version Control Systems (CVCS)**
 
 A single central server contains the authoritative version:
 
-1. **Subversion (SVN)**
+**Subversion (SVN)**
 
-   * Widely used in enterprises and legacy systems
-   * Better suited than Git for large binary files or huge repositories
-   * Fine-grained access control on files and directories
+* Widely used in enterprises and legacy systems
+* Better suited than Git for large binary files or huge repositories
+* Fine-grained access control on files and directories
 
-2. **Perforce (Helix Core)**
+**Perforce (Helix Core)**
 
-   * High-performance VCS designed for large-scale projects
-   * Widely used in game development and enterprise software
-   * Supports Git clients through Helix4Git
+* High-performance VCS designed for large-scale projects
+* Widely used in game development and enterprise software
+* Supports Git clients through Helix4Git
 
-3. **ClearCase (IBM Rational ClearCase)**
+**ClearCase (IBM Rational ClearCase)**
 
-   * Enterprise-grade tool with strong configuration management features
-   * Complex but powerful; often used in aerospace and defense
+* Enterprise-grade tool with strong configuration management features
+* Complex but powerful; often used in aerospace and defense
 
 ### **Other Options / Complementary Tools**
 
 While not full VCS themselves, some tools are used for specific needs or work alongside version control:
 
-1. **Google Drive / Dropbox Versioning**
+**Google Drive / Dropbox Versioning**
 
-   * Basic version history for documents and files
-   * Good for non-technical content, collaborative document editing
+* Basic version history for documents and files
+* Good for non-technical content, collaborative document editing
 
-2. **Dat (Hypercore Protocol)**
+**Dat (Hypercore Protocol)**
 
-   * Focused on data sets and scientific reproducibility
-   * Peer-to-peer and immutable history
+* Focused on data sets and scientific reproducibility
+* Peer-to-peer and immutable history
 
-3. **Plastic SCM**
+**Plastic SCM**
 
-   * Designed for game development and large binary files
-   * Offers both centralized and distributed modes
+* Designed for game development and large binary files
+* Offers both centralized and distributed modes
 
 ---
 

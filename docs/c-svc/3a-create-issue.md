@@ -6,9 +6,10 @@
 
 ### 1. Navigate to the team repository
 
-- Open your web browser and go to [https://github.com/](https://github.com/).
+- Open your web browser and go to: [https://github.com/](https://github.com/)
 - Log in to GitHub if you're not already logged in.
-- Go to the repository where you want to create the issue: [https://github.com/ingwanelabs/intro-to-github](https://github.com/ingwanelabs/intro-to-github)
+- Go to the repository where you want to create the issue:
+    - [https://github.com/ingwanelabs/intro-to-github](https://github.com/ingwanelabs/intro-to-github)
 
 ### 2. Go to the Issues Tab
 
@@ -46,7 +47,7 @@
 
 ---
 
-### 🧠 Reflection / Discussion Questions
+### Reflection / Discussion Questions
 
 - Why is it important to write clear and descriptive issues?
 - How can labels help a team manage issues?
