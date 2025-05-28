@@ -24,6 +24,7 @@ nav:
     - "Activity 2: Using GitHub"   : c-svc/2a-github.md
     - "Activity 3: Creating Issue" : c-svc/3a-create-issue.md
     - "Activity 4: Forking a repo" : c-svc/4a-forking.md
+    - "Activity 5: Create a branch": c-svc/5a-create-branch.md
 
   - "D: Cloud": d-cloud/index.md
 
