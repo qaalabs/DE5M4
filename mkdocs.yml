@@ -20,6 +20,10 @@ nav:
 
   - "C: Source Control":
     - Overview: c-svc/index.md
+    - "Activity 1: Using Git"      : c-svc/1a-git.md
+    - "Activity 2: Using GitHub"   : c-svc/2a-github.md
+    - "Activity 3: Creating Issue" : c-svc/3a-create-issue.md
+    - "Activity 4: Forking a repo" : c-svc/4a-forking.md
 
   - "D: Cloud": d-cloud/index.md
 
@@ -36,6 +40,7 @@ not_in_nav: |
   ksb.md
   quiz/*
   images/README.md
+  d-cloud/*
   e-storage/*
   f-python/*
 
