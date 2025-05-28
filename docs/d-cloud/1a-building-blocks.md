@@ -43,7 +43,7 @@ Work together, in your group, to map services to this table of core building blo
 
 ---
 
-### **Step 2: Product Deep-Dive
+### Step 2: Product Deep-Dive
 
 Each team member picks **one product** from your provider's list and answers:
 
