@@ -34,7 +34,8 @@ nav:
     - "Scenario B" : d-cloud/scenario-b.md
     - "Scenario C" : d-cloud/scenario-c.md
 
-  - "E: Storage": e-storage/index.md
+  - "E: Storage":
+    - "Database Categories": e-storage/index.md
 
   - "F: Python for Data": f-python/index.md
 
