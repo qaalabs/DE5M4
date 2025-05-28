@@ -39,7 +39,7 @@ Work together, in your group, to map services to this table of core building blo
 
 !!! tip "Use docs or product portals if needed"
 
-    - Don't aim for perfection - just get close!
+    - Don't aim for perfection - just a best guess is fine!
 
 ---
 
@@ -52,7 +52,7 @@ Each team member picks **one product** from your provider's list and answers:
 * **What are its weaknesses or limitations?**
 * **Why is it important for Data Engineers?**
 
-!!! success "Just quick notes - not a full presentations
+!!! success "Just quick notes - not a full presentations"
 
 ---
 
