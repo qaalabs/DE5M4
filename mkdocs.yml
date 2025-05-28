@@ -26,7 +26,13 @@ nav:
     - "Activity 4: Fork a Repository": c-svc/4a-forking.md
     - "Activity 5: Create a Branch"  : c-svc/5a-create-branch.md
 
-  - "D: Cloud": d-cloud/index.md
+  - "D: Cloud": 
+    - Overview: d-cloud/index.md
+    - "Activity 1: Building Blocks": d-cloud/1a-building-blocks.md
+    - "Activity 2: Scenarios": d-cloud/2a-scenario.md
+    - "Scenario A" : d-cloud/scenario-a.md
+    - "Scenario B" : d-cloud/scenario-b.md
+    - "Scenario C" : d-cloud/scenario-c.md
 
   - "E: Storage": e-storage/index.md
 
