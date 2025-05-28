@@ -1,4 +1,4 @@
-# Activity: 2 - GitHub
+# Activity: 2 - Adding a repository in GitHub
 
 ## Instructions
 
