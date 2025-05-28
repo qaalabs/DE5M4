@@ -2,7 +2,7 @@
 
 ## Collaborative Planning with Git - Forking a Repository
 
-### Learning Objectives:
+### Learning Objectives
 - Understand how to fork a repository to begin collaborative work
 - Practice making changes to planning documents in a forked repository
 - Learn how to create issues to track planning tasks and improvements
@@ -10,7 +10,7 @@
 
 ---
 
-## Detailed Instructions:
+## Instructions
 
 ### Part 1: Forking the Repository
 
@@ -39,15 +39,20 @@
 
    ```bash
    git clone https://github.com/[YOUR-USERNAME]/intro-to-github.git
-   cd intro-to-github.git
+   cd intro-to-github
    ```
 
 **Locate the team member profile directory**
 
 - Navigate to the `team-profiles` directory
-- Click: "Add file + Create new file"
+- Click: "Add file" then "Create new file"
 - Name your file with your name and a .md extension e.g. `william.md`
-- If a file with that name already exists then add something to make yours unique
+
+!!! warning "Make sure your file name is unique"
+
+    - At this stage we are trying not to clash with existing files
+    - If someone else has used your name already, add a number or nickname
+    - e.g. william2.md or william-bio.md
 
 **Add your fun fact**
 
@@ -60,6 +65,8 @@
 **Role:** [Your title]
 **Fun Fact:** [An interesting fun fact here]
 ```
+
+!!! tip "Click the **Preview** tab to see how your Markdown file will look"
 
 **Commit your changes**
 
@@ -93,6 +100,8 @@ git push origin main
 - Ensure the base repository is the original repository you forked from (on the left)
 - Ensure the head repository is your fork (on the right)
 - Verify you're comparing the correct branches (usually main to main)
+
+!!! tip "Pull requests always go from your forked repo (right side) into the original repo (left side)"
    
 **Review your changes**
 
@@ -114,35 +123,16 @@ After completing the pull request, discuss:
 - What types of planning documents would benefit from version control
 - How the forking workflow supports collaborative planning
 
-Check if your instructor has any comments on your pull request
+**Check if your instructor has any comments on your pull request**
 
 - Respond to any feedback or questions
 
 ---
+## Summary
 
-## Practical Connection to Module 4:
+**What you’ve learned:**
 
-Throughout this exercise, remember that you're practicing the exact workflow that would be used when:
-
-- Contributing to shared data architecture plans
-- Proposing changes to data modeling approaches
-- Suggesting improvements to pipeline design documents
-- Collaborating on technical requirement specifications
-
-In real data engineering teams, these planning artifacts would be maintained in Git repositories just like code, ensuring all team members are working from the same set of plans and specifications.
-
-## Expected Outcome:
-
-By the end of this exercise, you will have:
-
-- Created a fork of a planning repository
-- Made changes to a planning document
-- Created an issue to track a planning improvement
-- Submitted a pull request to propose your changes to the original repository
-- Understood how this workflow applies to collaborative data engineering planning
-
-## Troubleshooting Tips:
-
-- If you encounter permission issues, ensure you're working in your fork, not the original repository
-- If your pull request shows unexpected changes, verify you're only committing the specific file you intended to modify
-- If you can't find the fork button, make sure you're logged into your GitHub account
+- How to fork and clone a repository
+- How to work on a separate copy without affecting the original
+- How to create and submit pull requests
+- How to collaborate and receive feedback on GitHub
