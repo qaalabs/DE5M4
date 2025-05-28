@@ -20,11 +20,11 @@ nav:
 
   - "C: Source Control":
     - Overview: c-svc/index.md
-    - "Activity 1: Using Git"      : c-svc/1a-git.md
-    - "Activity 2: Using GitHub"   : c-svc/2a-github.md
-    - "Activity 3: Creating Issue" : c-svc/3a-create-issue.md
-    - "Activity 4: Forking a repo" : c-svc/4a-forking.md
-    - "Activity 5: Create a branch": c-svc/5a-create-branch.md
+    - "Activity 1: Using Git"        : c-svc/1a-git.md
+    - "Activity 2: Using GitHub"     : c-svc/2a-github.md
+    - "Activity 3: Create an Issue"  : c-svc/3a-create-issue.md
+    - "Activity 4: Fork a Repository": c-svc/4a-forking.md
+    - "Activity 5: Create a Branch"  : c-svc/5a-create-branch.md
 
   - "D: Cloud": d-cloud/index.md
 
