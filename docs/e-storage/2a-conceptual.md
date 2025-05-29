@@ -1,4 +1,4 @@
-# Breakout Activity: 2 - Conceptual Data Model
+# Group Activity: 2 - Conceptual Data Model
 
 ## Instructions
 
