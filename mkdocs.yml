@@ -30,13 +30,13 @@ nav:
     - Overview: d-cloud/index.md
     - "Activity 1: Building Blocks": d-cloud/1a-building-blocks.md
     - "Activity 2: Scenarios": d-cloud/2a-scenario.md
-    - "Scenario A" : d-cloud/scenario-a.md
-    - "Scenario B" : d-cloud/scenario-b.md
-    - "Scenario C" : d-cloud/scenario-c.md
+    - "Scenario A ~ IoT" : d-cloud/scenario-a.md
+    - "Scenario B ~ Retail" : d-cloud/scenario-b.md
+    - "Scenario C ~ ML" : d-cloud/scenario-c.md
 
   - "E: Storage":
-    - "Database Categories": e-storage/index.md
-    - "Scenario": e-storage/scenario.md
+    - "Database Categories"   : e-storage/index.md
+    - "Scenario ~ Healthcare" : e-storage/scenario.md
     - "Activity 1: Analysis"  : e-storage/1a-analysis.md
     - "Activity 2: Conceptual": e-storage/2a-conceptual.md
     - "Activity 3: Logical"   : e-storage/3a-logical.md

@@ -1,7 +1,9 @@
-# Breakout Activity: 3 - Logical Modelling and Design Decisions
+# Activity: 3 - Logical Modelling & Design Decisions
 
 ## Instructions
-Evolve your conceptual model into a **logical model**, making and **documenting key design decisions**:
+Evolve your conceptual model into a **logical model**.
+
+Make sure you **document your key design decisions**.
 
 ### Schema design decisions
 - Normalisation vs. denormalisation choices
@@ -24,7 +26,7 @@ Evolve your conceptual model into a **logical model**, making and **documenting 
 
 Each person in the group will report back on **one design decision** the group has made. When you explain your decision, aim to answer the following:
 
-### Pointers for Reporting Back:
+### Pointers for report back:
 
 * **What was the decision?**
   *Clearly name the design choice you made (e.g., "We denormalised the sales data...").*

@@ -4,7 +4,7 @@
 
 ## Instructions
 
-Read the full scenario to understand the key requirements, and then determine the following:
+Read the [full scenario](scenario.md) to understand all the requirements, and then determine the following:
 
 ### Step 1 - Identifying key entities
 - What are the main "things" you need to track?

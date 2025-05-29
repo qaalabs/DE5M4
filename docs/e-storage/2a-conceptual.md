@@ -10,4 +10,9 @@ Each group needs to create a **conceptual data model**:
 - Note relationship cardinalities
 - Identify candidate keys
 
-!!! success "The focus is on accurately representing the business domain rather than technical implementation"
+---
+
+## Report Back
+
+- Present your Entity-Relationship Diagram (ERD) to the class
+- Someone in your group shares their screen, and the group talks through some relevant entities and relationships
