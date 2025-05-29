@@ -1,6 +1,6 @@
-# Full group Activity: 1 - Test Driven Development (TDD)
+# Activity: 1 - Test Driven Development (TDD)
 
-## TDD Exercise: Data Validation Function (30 minutes)
+## TDD Exercise: Data Validation Function
 
 ### Setup
 1. Confirm that Python version 3 is installed on the VM: `python --version`
@@ -20,20 +20,20 @@
     - For simplicity we will not do that!
     - But in all cases outside of this training enviroment it is an absolute requirement
 
-### Introduction
-- Explain TDD principles: "Write a failing test first, then implement the minimum code to pass the test, then refactor"
-- Discuss the real-world application in data engineering: "When building data pipelines, having robust validation is critical"
-- Present the task: "We'll build a data validation function that checks if input data meets our business requirements before processing"
+### TDD principles
+- "Write a failing test first, then implement the minimum code to pass the test, then refactor"
+- Use **Arrange** ... **Act** ... **Assert** structure in your Python test function.
 
-### Setup gitBash shell (optional)
+### Setup gitBash shell in VS Code (optional)
 1. In VS code select: `View --> Terminal` or `Ctrl+'`
 2. If you want a GitBash shell then click the + and select: `GitBash`
 3. in the shell run pytest: `pytest`
 
-### Exercise
-Guide participants through the TDD cycle:
+---
 
-1. **Write the first test** in `test_validator.py`:
+## Instructions
+
+### Step 1 - Write the first test in `test_validator.py`
 ```python
 import pytest
 from validator import validate_data_record
@@ -49,19 +49,19 @@ def test_empty_record():
     assert result == False, "Empty records should be rejected"
 ```
 
-2. **Run the test and see it fail** (because the function doesn't exist yet)
-   - `pytest test_validator.py -v`
+## Step 2 - Run the test and see it fail (because the function doesn't exist yet)
+- `pytest test_validator.py -v`
 
-3. **Implement the minimum code** in `validator.py` to pass the test:
+## Step 3 - Implement the minimum code in `validator.py` to pass the test:
 ```python
 def validate_data_record(record):
     return False  # Simplest implementation to make the test pass
 ```
 
-4. **Run the test and see it pass**
-   - `pytest test_validator.py -v`
+## Step 4 - Run the test and see it pass
+- `pytest test_validator.py -v`
 
-5. **Write a second test** for a positive case:
+## Step 5 - Write a second test for a positive case:
 ```python
 def test_validate_data_record_accepts_valid_record():
     # Arrange
@@ -79,9 +79,10 @@ def test_validate_data_record_accepts_valid_record():
     assert result == True, "Valid records should be accepted"
 ```
 
-6. **Run the test and see it fail**
+### Step 6 - Run the test and see it fail
+- `pytest test_validator.py -v`
 
-7. **Update the implementation** to pass both tests:
+### Step 7 - Update the implementation to pass both tests
 ```python
 def validate_data_record(record):
     required_fields = ["id", "timestamp", "value", "status"]
@@ -98,9 +99,10 @@ def validate_data_record(record):
     return True
 ```
 
-8. **Run tests and see them pass**
+### Step 8 - Run tests and see them pass
+- `pytest test_validator.py -v`
 
-9. **Add more test cases** if time permits:
+### Step 9 - Add more test cases**
 ```python
 def test_validate_data_record_rejects_missing_fields():
     # Arrange
@@ -128,3 +130,4 @@ If you finish early, add validation for:
 - Data types (e.g., id must be an integer)
 - Value ranges (e.g., value must be positive)
 - Timestamp format validation
+
