@@ -37,9 +37,9 @@ nav:
   - "E: Storage":
     - "Database Categories": e-storage/index.md
     - "Scenario": e-storage/scenario.md
-    - "Activity 1: Analysis"  : d-cloud/1a-analysis.md
-    - "Activity 2: Conceptual": d-cloud/2a-conceptual.md
-    - "Activity 3: Logical"   : d-cloud/3a-logical.md
+    - "Activity 1: Analysis"  : e-storage/1a-analysis.md
+    - "Activity 2: Conceptual": e-storage/2a-conceptual.md
+    - "Activity 3: Logical"   : e-storage/3a-logical.md
 
   - "F: Python for Data": f-python/index.md
 
