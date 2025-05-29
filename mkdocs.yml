@@ -41,7 +41,8 @@ nav:
     - "Activity 2: Conceptual": e-storage/2a-conceptual.md
     - "Activity 3: Logical"   : e-storage/3a-logical.md
 
-  - "F: Python for Data": f-python/index.md
+  - "F: Python for Data":
+    - "Activity 1: Testing" : f-python/1a-tdd.md
 
   - Presentations: presentations/index.md
   
