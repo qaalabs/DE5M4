@@ -9,6 +9,10 @@
       
       
       
+        <link rel="prev" href="../../e-storage/3a-logical/">
+      
+      
+        <link rel="next" href="../../presentations/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -16,7 +20,7 @@
     
     
       
-        <title>Full group Activity: 1 - Test Driven Development (TDD) - DE5-M4 ~ Planning a Data Engineering Project</title>
+        <title>Activity 1: Testing - DE5-M4 ~ Planning a Data Engineering Project</title>
       
     
     
@@ -58,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#full-group-activity-1-test-driven-development-tdd" class="md-skip">
+        <a href="#activity-1-test-driven-development-tdd" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Full group Activity: 1 - Test Driven Development (TDD)
+              Activity 1: Testing
             
           </span>
         </div>
@@ -1032,11 +1036,24 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
   
   
   <span class="md-ellipsis">
@@ -1045,7 +1062,255 @@
   </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            F: Python for Data
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Activity 1: Testing
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activity 1: Testing
+    
+  </span>
+  
+
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tdd-exercise-data-validation-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      TDD Exercise: Data Validation Function
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="TDD Exercise: Data Validation Function">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-visual-studio-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Open Visual Studio Code
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tdd-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      TDD principles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-gitbash-shell-in-vs-code-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup GitBash shell in VS Code (optional)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instructions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Instructions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-write-the-first-test-in-test_validatorpy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1 - Write the first test in test_validator.py
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-run-the-test-and-see-it-fail" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2 - Run the test and see it fail
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-implement-the-minimum-code-in-validatorpy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3 - Implement the minimum code in validator.py
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-run-the-test-and-see-it-pass" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4 - Run the test and see it pass
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-write-a-second-test-for-a-positive-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 5 - Write a second test for a positive case
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 5 - Write a second test for a positive case">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-6-run-the-test-and-see-it-fail" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 6 - Run the test and see it fail
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-7-update-the-implementation-to-pass-both-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 7 - Update the implementation to pass both tests
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-8-run-tests-and-see-them-pass" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 8 - Run tests and see them pass
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-9-add-more-test-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 9 - Add more test cases
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optional-extension" class="md-nav__link">
+    <span class="md-ellipsis">
+      Optional Extension
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reflection-and-discussion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reflection and Discussion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1121,13 +1386,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#tdd-exercise-data-validation-function-30-minutes" class="md-nav__link">
+  <a href="#tdd-exercise-data-validation-function" class="md-nav__link">
     <span class="md-ellipsis">
-      TDD Exercise: Data Validation Function (30 minutes)
+      TDD Exercise: Data Validation Function
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="TDD Exercise: Data Validation Function (30 minutes)">
+    <nav class="md-nav" aria-label="TDD Exercise: Data Validation Function">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1149,45 +1414,18 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
+  <a href="#tdd-principles" class="md-nav__link">
     <span class="md-ellipsis">
-      Introduction
+      TDD principles
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#setup-gitbash-shell-optional" class="md-nav__link">
+  <a href="#setup-gitbash-shell-in-vs-code-optional" class="md-nav__link">
     <span class="md-ellipsis">
-      Setup gitBash shell (optional)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#exercise" class="md-nav__link">
-    <span class="md-ellipsis">
-      Exercise
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#reflection-and-discussion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Reflection and Discussion
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#optional-extension" class="md-nav__link">
-    <span class="md-ellipsis">
-      Optional Extension
+      Setup GitBash shell in VS Code (optional)
     </span>
   </a>
   
@@ -1195,6 +1433,126 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instructions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Instructions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-write-the-first-test-in-test_validatorpy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1 - Write the first test in test_validator.py
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-run-the-test-and-see-it-fail" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2 - Run the test and see it fail
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-implement-the-minimum-code-in-validatorpy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3 - Implement the minimum code in validator.py
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-run-the-test-and-see-it-pass" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4 - Run the test and see it pass
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-write-a-second-test-for-a-positive-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 5 - Write a second test for a positive case
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 5 - Write a second test for a positive case">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-6-run-the-test-and-see-it-fail" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 6 - Run the test and see it fail
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-7-update-the-implementation-to-pass-both-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 7 - Update the implementation to pass both tests
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-8-run-tests-and-see-them-pass" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 8 - Run tests and see them pass
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-9-add-more-test-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 9 - Add more test cases
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optional-extension" class="md-nav__link">
+    <span class="md-ellipsis">
+      Optional Extension
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reflection-and-discussion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reflection and Discussion
+    </span>
+  </a>
   
 </li>
       
@@ -1214,8 +1572,8 @@
 
 
 
-<h1 id="full-group-activity-1-test-driven-development-tdd">Full group Activity: 1 - Test Driven Development (TDD)<a class="headerlink" href="#full-group-activity-1-test-driven-development-tdd" title="Permanent link">&para;</a></h1>
-<h2 id="tdd-exercise-data-validation-function-30-minutes">TDD Exercise: Data Validation Function (30 minutes)<a class="headerlink" href="#tdd-exercise-data-validation-function-30-minutes" title="Permanent link">&para;</a></h2>
+<h1 id="activity-1-test-driven-development-tdd">Activity: 1 - Test Driven Development (TDD)<a class="headerlink" href="#activity-1-test-driven-development-tdd" title="Permanent link">&para;</a></h1>
+<h2 id="tdd-exercise-data-validation-function">TDD Exercise: Data Validation Function<a class="headerlink" href="#tdd-exercise-data-validation-function" title="Permanent link">&para;</a></h2>
 <h3 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h3>
 <ol>
 <li>Confirm that Python version 3 is installed on the VM: <code>python --version</code></li>
@@ -1239,23 +1597,20 @@
 <li>But in all cases outside of this training enviroment it is an absolute requirement</li>
 </ul>
 </div>
-<h3 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h3>
+<h3 id="tdd-principles">TDD principles<a class="headerlink" href="#tdd-principles" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Explain TDD principles: "Write a failing test first, then implement the minimum code to pass the test, then refactor"</li>
-<li>Discuss the real-world application in data engineering: "When building data pipelines, having robust validation is critical"</li>
-<li>Present the task: "We'll build a data validation function that checks if input data meets our business requirements before processing"</li>
+<li>"Write a failing test first, then implement the minimum code to pass the test, then refactor"</li>
+<li>Use <strong>Arrange</strong> ... <strong>Act</strong> ... <strong>Assert</strong> structure in your Python test function.</li>
 </ul>
-<h3 id="setup-gitbash-shell-optional">Setup gitBash shell (optional)<a class="headerlink" href="#setup-gitbash-shell-optional" title="Permanent link">&para;</a></h3>
+<h3 id="setup-gitbash-shell-in-vs-code-optional">Setup GitBash shell in VS Code (optional)<a class="headerlink" href="#setup-gitbash-shell-in-vs-code-optional" title="Permanent link">&para;</a></h3>
 <ol>
 <li>In VS code select: <code>View --&gt; Terminal</code> or <code>Ctrl+'</code></li>
 <li>If you want a GitBash shell then click the + and select: <code>GitBash</code></li>
 <li>in the shell run pytest: <code>pytest</code></li>
 </ol>
-<h3 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h3>
-<p>Guide participants through the TDD cycle:</p>
-<ol>
-<li>
-<p><strong>Write the first test</strong> in <code>test_validator.py</code>:
+<hr />
+<h2 id="instructions">Instructions<a class="headerlink" href="#instructions" title="Permanent link">&para;</a></h2>
+<h3 id="step-1-write-the-first-test-in-test_validatorpy">Step 1 - Write the first test in <code>test_validator.py</code><a class="headerlink" href="#step-1-write-the-first-test-in-test_validatorpy" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">pytest</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">validator</span><span class="w"> </span><span class="kn">import</span> <span class="n">validate_data_record</span>
 
@@ -1268,28 +1623,26 @@
 
     <span class="c1"># Assert</span>
     <span class="k">assert</span> <span class="n">result</span> <span class="o">==</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Empty records should be rejected&quot;</span>
-</code></pre></div></p>
-</li>
-<li>
-<p><strong>Run the test and see it fail</strong> (because the function doesn't exist yet)</p>
-</li>
-<li>
-<p><code>pytest test_validator.py -v</code></p>
-</li>
-<li>
-<p><strong>Implement the minimum code</strong> in <code>validator.py</code> to pass the test:
+</code></pre></div>
+<h2 id="step-2-run-the-test-and-see-it-fail">Step 2 - Run the test and see it fail<a class="headerlink" href="#step-2-run-the-test-and-see-it-fail" title="Permanent link">&para;</a></h2>
+<ul>
+<li><code>pytest test_validator.py -v</code></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">The test fails because the function doesn't exist yet!</p>
+</div>
+<h2 id="step-3-implement-the-minimum-code-in-validatorpy">Step 3 - Implement the minimum code in <code>validator.py</code><a class="headerlink" href="#step-3-implement-the-minimum-code-in-validatorpy" title="Permanent link">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">validate_data_record</span><span class="p">(</span><span class="n">record</span><span class="p">):</span>
     <span class="k">return</span> <span class="kc">False</span>  <span class="c1"># Simplest implementation to make the test pass</span>
-</code></pre></div></p>
-</li>
-<li>
-<p><strong>Run the test and see it pass</strong></p>
-</li>
-<li>
-<p><code>pytest test_validator.py -v</code></p>
-</li>
-<li>
-<p><strong>Write a second test</strong> for a positive case:
+</code></pre></div>
+<div class="admonition success">
+<p class="admonition-title">This is the least code needed to make the test pass</p>
+</div>
+<h2 id="step-4-run-the-test-and-see-it-pass">Step 4 - Run the test and see it pass<a class="headerlink" href="#step-4-run-the-test-and-see-it-pass" title="Permanent link">&para;</a></h2>
+<ul>
+<li><code>pytest test_validator.py -v</code></li>
+</ul>
+<h2 id="step-5-write-a-second-test-for-a-positive-case">Step 5 - Write a second test for a positive case<a class="headerlink" href="#step-5-write-a-second-test-for-a-positive-case" title="Permanent link">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">test_validate_data_record_accepts_valid_record</span><span class="p">():</span>
     <span class="c1"># Arrange</span>
     <span class="n">record</span> <span class="o">=</span> <span class="p">{</span>
@@ -1304,13 +1657,12 @@
 
     <span class="c1"># Assert</span>
     <span class="k">assert</span> <span class="n">result</span> <span class="o">==</span> <span class="kc">True</span><span class="p">,</span> <span class="s2">&quot;Valid records should be accepted&quot;</span>
-</code></pre></div></p>
-</li>
-<li>
-<p><strong>Run the test and see it fail</strong></p>
-</li>
-<li>
-<p><strong>Update the implementation</strong> to pass both tests:
+</code></pre></div>
+<h3 id="step-6-run-the-test-and-see-it-fail">Step 6 - Run the test and see it fail<a class="headerlink" href="#step-6-run-the-test-and-see-it-fail" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>pytest test_validator.py -v</code></li>
+</ul>
+<h3 id="step-7-update-the-implementation-to-pass-both-tests">Step 7 - Update the implementation to pass both tests<a class="headerlink" href="#step-7-update-the-implementation-to-pass-both-tests" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">validate_data_record</span><span class="p">(</span><span class="n">record</span><span class="p">):</span>
     <span class="n">required_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">,</span> <span class="s2">&quot;timestamp&quot;</span><span class="p">,</span> <span class="s2">&quot;value&quot;</span><span class="p">,</span> <span class="s2">&quot;status&quot;</span><span class="p">]</span>
 
@@ -1324,13 +1676,12 @@
             <span class="k">return</span> <span class="kc">False</span>
 
     <span class="k">return</span> <span class="kc">True</span>
-</code></pre></div></p>
-</li>
-<li>
-<p><strong>Run tests and see them pass</strong></p>
-</li>
-<li>
-<p><strong>Add more test cases</strong> if time permits:
+</code></pre></div>
+<h3 id="step-8-run-tests-and-see-them-pass">Step 8 - Run tests and see them pass<a class="headerlink" href="#step-8-run-tests-and-see-them-pass" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>pytest test_validator.py -v</code></li>
+</ul>
+<h3 id="step-9-add-more-test-cases">Step 9 - Add more test cases<a class="headerlink" href="#step-9-add-more-test-cases" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">test_validate_data_record_rejects_missing_fields</span><span class="p">():</span>
     <span class="c1"># Arrange</span>
     <span class="n">record</span> <span class="o">=</span> <span class="p">{</span>
@@ -1344,21 +1695,22 @@
 
     <span class="c1"># Assert</span>
     <span class="k">assert</span> <span class="n">result</span> <span class="o">==</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Records with missing fields should be rejected&quot;</span>
-</code></pre></div></p>
-</li>
-</ol>
-<h3 id="reflection-and-discussion">Reflection and Discussion<a class="headerlink" href="#reflection-and-discussion" title="Permanent link">&para;</a></h3>
+</code></pre></div>
+<h2 id="optional-extension">Optional Extension<a class="headerlink" href="#optional-extension" title="Permanent link">&para;</a></h2>
+<p>If you finish early, add validation for:</p>
+<ul>
+<li>Data types (e.g., id must be an integer)</li>
+<li>Value ranges (e.g., value must be positive)</li>
+<li>Timestamp format validation</li>
+</ul>
+<hr />
+<h2 id="reflection-and-discussion">Reflection and Discussion<a class="headerlink" href="#reflection-and-discussion" title="Permanent link">&para;</a></h2>
 <ul>
 <li>How does TDD help in planning a data product?</li>
 <li>In what data engineering scenarios would TDD be particularly valuable?</li>
 <li>How does this connect to the broader SDLC and quality assurance?</li>
 <li>What additional validations would be important in a real data pipeline? (data types, ranges, formats)</li>
 </ul>
-<h3 id="optional-extension">Optional Extension<a class="headerlink" href="#optional-extension" title="Permanent link">&para;</a></h3>
-<p>If you finish early, add validation for:
-- Data types (e.g., id must be an integer)
-- Value ranges (e.g., value must be positive)
-- Timestamp format validation</p>
 
 
 
