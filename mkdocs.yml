@@ -1,5 +1,6 @@
 # Site name
 site_name: DE5-M4 ~ Planning a Data Engineering Project 
+dev_addr: '0.0.0.0:8000'
 
 # Navigation menu
 nav:
