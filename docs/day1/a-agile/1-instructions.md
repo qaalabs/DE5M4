@@ -21,10 +21,11 @@ There are no wrong answers here - I want you to draw on your collective experien
 - What would your process look like?
 
 ---
-### If you are stuck ...
 
-Start with:
+## If you are stuck
+
+### Start with
 
 - Step 1: Discovery & Requirements Gathering
 - Step 2: Data Architecture & Integration Planning
-- Step 3: Analytics & Visualization Design
+- Step 3: Analytics & Visualisation Design

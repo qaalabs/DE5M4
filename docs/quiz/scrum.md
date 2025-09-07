@@ -16,6 +16,7 @@ For more information on these pillars, this [Scrum Theory](https://www.scrumalli
 Learn more: https://app.qa.com/course/agile-fundamentals-module-2/what-is-scrum/
 
 ---
+
 ## During the daily scrum meeting, a team member raises an issue that is blocking progress of a work item.  What should happen next?
 
 - [ ] The team should use the remaining time during the scrum meeting to find a solution for the blocked work item.
@@ -30,6 +31,7 @@ It is not a best practice to change the sprint's length or remove work items fro
 Learn more: https://app.qa.com/course/agile-fundamentals-module-2/scrum-events/
 
 ---
+
 ## Which of the following activities is the Scrum Master's responsibility? (Choose 2 answers)
 
 - [X] guiding the team to help them understand and practice scrum methodologies
@@ -46,6 +48,7 @@ For more information on the scrum master role and responsibilities, look at this
 Learn more: https://app.qa.com/course/agile-fundamentals-module-2/scrum-roles/
 
 ---
+
 ## Which of the following sprint events is used to show / demonstrate sprint results to collaborators and stakeholders?
 
 - [ ] The sprint review meeting
@@ -61,7 +64,8 @@ For more information on scrum events, take a look at this [Scrum Events](https:/
 Learn more: https://app.qa.com/course/agile-fundamentals-module-2/scrum-events/
 
 ---
-## Which of the following options would be considered good characteristics of a well-defined user story? (Choose 3 answers) 
+
+## Which of the following options would be considered good characteristics of a well-defined user story? (Choose 3 answers)
 
 - [X] small
 - [X] negotiable
@@ -73,21 +77,27 @@ You can use the INVEST mnemonic to help remember the key characteristics of a we
 A user story should be...
 
 **Independent:**
+
 - The work item should be self-contained and should not be interconnected with other work items.
 
 **Negotiable:**
+
 - The work item should not be overly prescriptive; it should leave room for creative discussion.
 
 **Valuable:**
+
 - The work should provide value to the team, collaborators, or stakeholders.
 
 **Estimable:**
+
 - The work item should contain enough information that the team can estimate its relative work effort.
 
 **Small:**
+
 - The work item should be small enough to fit within a sprint.  Ideally, work items should be as small as possible and still provide value.
 
 **Testable:**
+
 The work item should include information in the form of acceptance criteria to be able to test and verify when the work item is complete.
 
 Learn more: https://www.agilealliance.org/glossary/invest/

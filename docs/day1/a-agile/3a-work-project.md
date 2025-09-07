@@ -5,7 +5,6 @@
 For this activity I would like you to reflect on a data project you've worked on:
 
 > Think about a challenging data project you've been involved in.
->  
 > What were the biggest pain points or frustrations? Write down 2-3 specific examples.
 
 ### Common pain points might include:
