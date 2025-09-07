@@ -13,11 +13,13 @@ A specific, relatable scenario will make the "Waterfall to Agile" comparison muc
 Show this timeline on a slide or virtual whiteboard:
 
 **Phase 1: Requirements Gathering (2 months)**
+
 - Interview all departments about their needs
 - Document complete specifications for all features
 - Get sign-off from all stakeholders
 
 **Phase 2: Architecture & Design (1 month)**
+
 - Design the data model to accommodate all requirements
 - Select technologies and tools
 - Plan the entire ETL process
@@ -25,17 +27,20 @@ Show this timeline on a slide or virtual whiteboard:
 - Document the complete architecture
 
 **Phase 3: Development (3 months)**
+
 - Build the entire data pipeline
 - Create the data warehouse
 - Develop all transformations
 - Build all dashboards and reports
 
 **Phase 4: Testing (1 month)**
+
 - Test all components end-to-end
 - Validate outputs against requirements
 - Fix any issues discovered
 
 **Phase 5: Deployment (2 weeks)**
+
 - Deploy the complete system
 - Provide training to all departments
 - Hand over to operations team
@@ -63,29 +68,34 @@ Have groups discuss:
 Then show how an Agile approach might restructure this same project:
 
 **Sprint 1-2: Foundation & Marketing Priority (1 month)**
+
 - Establish core data pipeline for CRM data only
 - Build basic customer segmentation dashboard for Marketing
 - Deploy to production (limited functionality but delivering value)
 
 **Sprint 3-4: Sales Expansion (1 month)**
+
 - Integrate transaction data
 - Build lead scoring feature for Sales
 - Enhance customer segmentation with purchase history
 - Deploy updates to production
 
 **Sprint 5-6: Service Integration (1 month)**
+
 - Add customer service interaction data
 - Create customer interaction timeline view
 - Refine existing features based on feedback
 - Deploy updates to production
 
 **Sprint 7-8: Executive Insights (1 month)**
+
 - Add website analytics data
 - Build executive KPI dashboard
 - Address feedback from first three iterations
 - Deploy updates to production
 
 **Sprints 9-12: Refinement & Completion (2 months)**
+
 - Add marketing campaign data
 - Complete any remaining features
 - Performance optimization

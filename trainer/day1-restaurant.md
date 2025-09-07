@@ -102,6 +102,7 @@ Tasks are smaller, technical work items that contribute to completing a user sto
 Here's how you might prioritize the first sprint items using MoSCoW:
 
 ### Must Have
+
 - Logo design and implementation (brand identity)
 - Basic navigation menu structure
 - About Us page with restaurant information
@@ -109,16 +110,19 @@ Here's how you might prioritize the first sprint items using MoSCoW:
 - View-only menu page with items, descriptions and prices
 
 ### Should Have
+
 - Social media links
 - Mobile responsiveness
 - Chef information on About Us page
 - Images of vegan cuisine
 
 ### Could Have
+
 - Table reservation view functionality (without booking capability yet)
 - Basic contact form
 
 ### Won't Have (for Sprint 1)
+
 - Online ordering functionality
 - Reservation management for staff
 - Payment processing

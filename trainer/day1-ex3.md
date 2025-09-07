@@ -9,11 +9,13 @@ This approach uses shared experiences as the entry point to Agile, making it rel
 **Format:** Facilitated discussion with small group sharing
 
 #### Step 1: Individual Reflection (5 minutes)
+
 Ask participants to reflect individually on their experiences with data projects:
 
 Take a few minutes to think about a challenging data project you've worked on. What were the biggest pain points or frustrations? Write down 2-3 specific examples.
 
 Prompt with examples if needed:
+
 - Requirements that kept changing
 - Stakeholders not available for questions
 - Discovering data quality issues late in the project
@@ -22,16 +24,19 @@ Prompt with examples if needed:
 - Difficulty estimating how long tasks would take
 
 #### Step 2: Small Group Sharing (7-8 minutes)
+
 In breakout rooms of 3-4 people:
 
 Share your top pain points with your group. Listen for common themes and patterns. As a group, identify the 3 most significant challenges you've all experienced.
 
 #### Step 3: Gallery of Challenges (5 minutes)
+
 Return to main room and have each group briefly share their top 3 challenges.
 
 Create a virtual "gallery" of these challenges on a shared whiteboard or document.
 
 #### Step 4: Introducing Agile as the Response (7-8 minutes)
+
 Present how Agile principles directly address these common challenges:
 
 What we've just created is essentially a list of the exact problems that led to the creation of Agile methodologies. Let's see how Agile principles address these specific challenges.
@@ -62,6 +67,7 @@ If you want a very light hands-on component, add this simple visualization:
 ### "From Waterfall to Agile" Activity
 
 Provide a simple diagram showing a traditional waterfall process for a data project:
+
 1. Requirements (2 months)
 2. Design (1 month)
 3. Development (3 months)
@@ -69,6 +75,7 @@ Provide a simple diagram showing a traditional waterfall process for a data proj
 5. Deployment (2 weeks)
 
 Ask small groups (same breakouts) to:
+
 1. Identify where problems typically occur in this approach for data projects
 2. Sketch how they would restructure this into shorter iterations
 3. Indicate where they would add feedback loops and stakeholder checkpoints
