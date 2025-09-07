@@ -1,10 +1,12 @@
-# DE5 ~ Module4: Agenda
+# Module 4 ~ Planning a Data Engineering Product
 
-## Day 1
+## Day 1: Agile Frameworks
 
 ### Topic A: Agile and DevOps
 
-- Digital product design steps
+- Agile & DevOps fundamentals
+- User story creation
+- Sprint planning
 
 ### Topic B: Agile Product Planning
 
@@ -15,11 +17,12 @@
 
 ---
 
-## Day 2
+## Day 2: Technical Foundation
 
 ### Topic C: Git and GitHub
 
-- Issues
+- Version control with Git
+- Creating Issues
 - Forking a repository
 - Pull request
 - Projects
@@ -27,26 +30,30 @@
 ### Topic D: Cloud Computing
 
 - Agile in the cloud
+- Cloud infrastructure (AWS)
+- CI/CD approaches
 
 ---
 
-## Day 3
+## Day 3: Data Modeling
 
 ### Topic E: Databases
 
 - Architecture
-- Data modelling
+- Database design principles
+- Data normalization
 
 ### Topic F: Python for data
 
+- Python for data processing
 - Component architecture
 - Interface design
 - Testing
 
 ---
 
-## Day 4
+## Day 4: Integration Project
 
 ### Presentation
 
-- Individual presentations related to **planning a data product**
+- Presentations related to **planning a data product**
