@@ -1,90 +1,55 @@
 # Site name
-site_name: DE5-M4 ~ Planning a Data Engineering Project 
+site_name: Module 4 - Planning Data Engineering Product
 dev_addr: '0.0.0.0:8000'
 
 # Navigation menu
 nav:
   - Overview: index.md
 
-  - "A: Agile":
-    - "Agile and DevOps": a-agile/index.md
-    - "Activity 1: Design Steps": a-agile/1a-design-steps.md
-    - "Activity 2: Application" : a-agile/2a-application.md
-    - "Activity 3: Work Project": a-agile/3a-work-project.md
+  - Agenda:
+    - Day 1: agenda/day1.md
 
-  - "B: Product Planning":
-    - "Restaurant Scenario": b-plan/index.md
-    - "Activity 1: Identify Epics" : b-plan/1a-identify-epics.md
-    - "Activity 2: User Stories"   : b-plan/2a-user-stories.md
-    - "Activity 3: Estimate Effort": b-plan/3a-estimate-effort.md
-    - "Activity 4: Sprint Planning": b-plan/4a-sprint-planning.md
+  - "Day 1 - Agile Foundations":
+    - "Welcome": agenda.md
 
-  - "C: Source Control":
-    - Overview: c-svc/index.md
-    - "Activity 1: Using Git"        : c-svc/1a-git.md
-    - "Activity 2: Using GitHub"     : c-svc/2a-github.md
-    - "Activity 3: Create an Issue"  : c-svc/3a-create-issue.md
-    - "Activity 4: Fork a Repository": c-svc/4a-forking.md
-    - "Activity 5: Create a Branch"  : c-svc/5a-create-branch.md
+  - Resources: resources.md
 
-  - "D: Cloud": 
-    - Overview: d-cloud/index.md
-    - "Activity 1: Building Blocks": d-cloud/1a-building-blocks.md
-    - "Activity 2: Scenarios": d-cloud/2a-scenario.md
-    - "Scenario A ~ IoT" : d-cloud/scenario-a.md
-    - "Scenario B ~ Retail" : d-cloud/scenario-b.md
-    - "Scenario C ~ ML" : d-cloud/scenario-c.md
-
-  - "E: Storage":
-    - "Database Categories"   : e-storage/index.md
-    - "Scenario ~ Healthcare" : e-storage/scenario.md
-    - "Activity 1: Analysis"  : e-storage/1a-analysis.md
-    - "Activity 2: Conceptual": e-storage/2a-conceptual.md
-    - "Activity 3: Logical"   : e-storage/3a-logical.md
-
-  - "F: Python for Data":
-    - "Activity 1: Testing" : f-python/1a-tdd.md
-
-  - Presentations: presentations/index.md
-  
-  - File Downloads: downloads.md
-
-# Existing files but not in nav
 not_in_nav: |
-  ksb.md
-  quiz/*
-  images/README.md
-  d-cloud/*
-  e-storage/*
-  f-python/*
+  404.md
+  trainer.md
+
 
 # Theme
 theme:
-    feaures:
-      - tabs
+    features:
+      - toc.integrate
+      - content.code.copy
     name: material
     icon:
       logo: material/database
-    static_templates:
-      - 404.html
 
 # Extensions
 markdown_extensions:
-  - markdown.extensions.admonition
-  - markdown.extensions.attr_list
-  - markdown.extensions.codehilite:
+  - admonition
+  - attr_list
+  - codehilite:
       guess_lang: false
-  - markdown.extensions.def_list
-  - markdown.extensions.footnotes
-  - markdown.extensions.meta
-  - markdown.extensions.toc:
-      permalink: true
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: false
+      toc_depth: 2
+
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink:
@@ -104,3 +69,5 @@ markdown_extensions:
 
 plugins:
   - search
+
+
