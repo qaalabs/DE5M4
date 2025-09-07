@@ -8,10 +8,10 @@ Your task is to identify which **cloud services** are needed to build a solution
 
 Focus on choosing the right combination of:
 
-* **Storage**
-* **Compute**
-* **Integration**
-* **Orchestration**
+- **Storage**
+- **Compute**
+- **Integration**
+- **Orchestration**
 
 Use the products you identified in Activity 1 for your assigned cloud provider.
 
@@ -48,9 +48,9 @@ Record your selections in a table like this:
 
 Each group presents:
 
-* The scenario summary (in your own words)
-* The services you chose
-* Key decisions or trade-offs you discussed
+- The scenario summary (in your own words)
+- The services you chose
+- Key decisions or trade-offs you discussed
 
 Keep it to **3 to 4 minutes per group**.
 

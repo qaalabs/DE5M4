@@ -1,15 +1,18 @@
 # Database Selection Workshop Exercise (50 minutes)
 
 ## Overview
+
 This workshop guides participants through a structured database selection process for realistic data product planning scenarios. Participants will evaluate requirements, select appropriate database technologies, and document their rationale.
 
 ## Learning Objectives
+
 - Apply a structured decision framework to select appropriate database technologies
 - Evaluate business requirements against database characteristics
 - Document database selection decisions as part of product planning
 - Consider multi-database strategies for complex requirements
 
 ## Materials Needed
+
 - Scenario handouts (one per group)
 - Decision matrix templates (digital or printed)
 - Database characteristic reference sheets
@@ -19,12 +22,14 @@ This workshop guides participants through a structured database selection proces
 ## Workshop Structure
 
 ### 1. Setup and Group Formation (5 minutes)
+
 - Divide participants into groups of 3-4
 - Distribute scenario materials and templates
 - Explain the final deliverables and expectations
 - Assign each group a different data product scenario
 
 ### 2. Requirements Analysis (15 minutes)
+
 Participants analyze their assigned scenario by:
 
 - **Identifying key data entities and volumes**
@@ -46,6 +51,7 @@ Participants analyze their assigned scenario by:
 Groups complete a requirements analysis worksheet highlighting the 5-7 most critical requirements that will influence database selection.
 
 ### 3. Database Evaluation (15 minutes)
+
 Using the decision matrix template, groups:
 
 - Evaluate how well each database category meets their key requirements
@@ -54,6 +60,7 @@ Using the decision matrix template, groups:
 - Discuss potential multi-database strategies
 
 The matrix includes:
+
 - Relational
 - Document
 - Key-Value
@@ -63,6 +70,7 @@ The matrix includes:
 - File-based approaches
 
 ### 4. Selection and Rationale Documentation (10 minutes)
+
 Groups document their database selection decisions:
 
 - Primary database choice(s) with clear reasoning
@@ -73,14 +81,18 @@ Groups document their database selection decisions:
 For more complex scenarios, groups may recommend multiple database types for different aspects of the data product, explaining how they would work together.
 
 ### 5. Group Presentations (5 minutes)
+
 Each group provides a 1-minute "lightning presentation" of their:
+
 - Scenario summary (1-2 sentences)
 - Selected database approach
 - Primary deciding factors
 - Top implementation consideration
 
 ### 6. Facilitator Synthesis (5 minutes)
+
 Workshop concludes with facilitator-guided discussion:
+
 - Patterns across different decisions
 - Key trade-offs observed
 - Common considerations
@@ -89,7 +101,9 @@ Workshop concludes with facilitator-guided discussion:
 ## Sample Scenarios
 
 ### Scenario 1: E-Commerce Platform Analytics
+
 A mid-size e-commerce company needs to build an analytics platform that combines:
+
 - Transaction data (3M transactions/month)
 - Customer profiles (500K active customers)
 - Product catalog (50K products)
@@ -99,7 +113,9 @@ A mid-size e-commerce company needs to build an analytics platform that combines
 The platform needs to support both operational reporting and data science exploration, with daily updates and some near real-time dashboards.
 
 ### Scenario 2: IoT Equipment Monitoring System
+
 A manufacturing company is developing a system to monitor industrial equipment:
+
 - 5,000 machines sending telemetry data
 - Each machine generates 100-500 data points per minute
 - Data must be retained for 2 years for analysis
@@ -108,7 +124,9 @@ A manufacturing company is developing a system to monitor industrial equipment:
 - Quarterly regulatory compliance reports are required
 
 ### Scenario 3: Financial Services Customer 360
+
 A bank is building a customer insight platform:
+
 - Combines data from multiple transaction systems
 - Must link related customers (household, business relationships)
 - Requires strict data lineage for regulatory compliance
@@ -118,7 +136,9 @@ A bank is building a customer insight platform:
 - Customer service needs immediate access to complete profiles
 
 ### Scenario 4: Content Recommendation Engine
+
 A media company needs a recommendation system:
+
 - 10M+ user profiles with viewing history
 - 50K+ content items with metadata
 - User behavior tracking (views, likes, completion rates)

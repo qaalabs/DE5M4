@@ -36,6 +36,7 @@ Cover key design considerations that apply across all major cloud providers:
 **Group Discussion Activity:**
 
 In small groups, discuss which cloud architectural pattern would be most appropriate for these scenarios:
+
 - A batch processing pipeline for nightly financial reports
 - A real-time dashboard of IoT sensor data
 - A machine learning feature store with high query performance needs
@@ -60,7 +61,7 @@ In small groups, discuss which cloud architectural pattern would be most appropr
    - List all required components for this data product
    - Identify the generic cloud service types needed
    - Map dependencies between components
-   
+
    Provide a component template with categories:
    - Data sources and ingestion
    - Storage and databases
@@ -77,7 +78,7 @@ In small groups, discuss which cloud architectural pattern would be most appropr
    - Show data flows between components
    - Indicate security boundaries
    - Highlight scaling points
-   
+
    Provide a template diagram with placeholders for key architecture zones.
 
 4. **Group Presentations**
@@ -94,7 +95,7 @@ In small groups, discuss which cloud architectural pattern would be most appropr
    - Storage: S3 (AWS) vs. Blob Storage (Azure) vs. Cloud Storage (GCP)
    - Compute: EC2 (AWS) vs. VMs (Azure) vs. Compute Engine (GCP)
    - Orchestration: Step Functions (AWS) vs. Logic Apps (Azure) vs. Workflows (GCP)
-   
+
    Provide a reference chart with common service types and their implementation across providers.
 
 2. **Selection Criteria Framework**
@@ -106,7 +107,7 @@ In small groups, discuss which cloud architectural pattern would be most appropr
    - Cost structure and optimization opportunities
    - Operations and maintenance considerations
    - Vendor lock-in implications
-   
+
 3. **Decision Matrix Activity**
 
    Have participants create a simple decision matrix for one component of their architecture:
@@ -189,6 +190,7 @@ What was the most valuable insight you gained about planning cloud architectures
 ## Implementation Notes:
 
 ### Materials Needed:
+
 - Cloud architecture patterns reference guide
 - Cloud service comparison chart across major providers
 - Architecture documentation template
@@ -197,6 +199,7 @@ What was the most valuable insight you gained about planning cloud architectures
 - Implementation roadmap template
 
 ### Facilitation Tips:
+
 - Keep exercises cloud-provider agnostic by focusing on capabilities rather than specific services
 - Use consistent iconography for architecture diagrams that works across providers
 - Emphasize design principles and patterns over specific implementation details

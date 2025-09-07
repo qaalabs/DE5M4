@@ -1,15 +1,18 @@
 # Data Modeling Workshop Exercise (45 minutes)
 
 ## Overview
+
 This hands-on workshop guides participants through the process of creating appropriate data models for a data engineering product. Participants will translate business requirements into conceptual and logical data models, focusing on planning decisions rather than physical implementation details.
 
 ## Learning Objectives
+
 - Translate business requirements into effective data models
 - Apply data modeling techniques appropriate for different database types
 - Make and document modeling decisions as part of product planning
 - Consider performance, scalability, and evolution in data model design
 
 ## Materials Needed
+
 - Business requirements scenario handouts
 - Data modeling templates (digital or paper-based)
 - Entity relationship diagram templates
@@ -19,6 +22,7 @@ This hands-on workshop guides participants through the process of creating appro
 ## Workshop Structure
 
 ### 1. Setup and Introduction (5 minutes)
+
 - Divide participants into pairs or small groups
 - Distribute scenario materials and templates
 - Review data modeling approaches for different database types:
@@ -28,6 +32,7 @@ This hands-on workshop guides participants through the process of creating appro
 - Explain the deliverables and evaluation criteria
 
 ### 2. Requirements Analysis (10 minutes)
+
 Participants analyze their assigned business scenario by:
 
 - **Identifying key entities**
@@ -48,6 +53,7 @@ Participants analyze their assigned business scenario by:
 Groups document their findings on the requirements analysis worksheet.
 
 ### 3. Conceptual Modeling (15 minutes)
+
 Each group creates a conceptual data model:
 
 - Draw entity-relationship diagrams (even for NoSQL approaches, as a starting point)
@@ -59,6 +65,7 @@ Each group creates a conceptual data model:
 The focus is on accurately representing the business domain rather than technical implementation.
 
 ### 4. Logical Modeling and Design Decisions (10 minutes)
+
 Groups evolve their conceptual model into a logical model, making and documenting key design decisions:
 
 - **Schema design decisions**
@@ -80,6 +87,7 @@ Groups evolve their conceptual model into a logical model, making and documentin
 Groups document their design decisions and rationale.
 
 ### 5. Peer Review (5 minutes)
+
 Groups exchange models for rapid peer review:
 
 - Each group reviews another group's model using the evaluation checklist
@@ -90,7 +98,9 @@ Groups exchange models for rapid peer review:
   - Alternative approaches to consider
 
 ### 6. Discussion and Summary (5 minutes)
+
 Facilitated discussion highlighting:
+
 - Common modeling patterns observed
 - Interesting design decisions
 - Trade-offs between different approaches
@@ -105,6 +115,7 @@ A healthcare provider is developing a data product to analyze and optimize patie
 **Key Requirements:**
 
 **Entities and Data:**
+
 - Patient demographic and basic health information
 - Appointments across different departments and specialties
 - Clinical encounters and their outcomes
@@ -116,6 +127,7 @@ A healthcare provider is developing a data product to analyze and optimize patie
 - Patient feedback after visits
 
 **Access Patterns:**
+
 - Track complete patient journeys across multiple visits and departments
 - Analyze typical pathways for specific conditions
 - Identify bottlenecks in patient flow
@@ -126,6 +138,7 @@ A healthcare provider is developing a data product to analyze and optimize patie
 - Support retrospective analysis of historical patterns
 
 **Non-functional Requirements:**
+
 - Data must be queryable by patient, provider, facility, and condition
 - Historical analysis spans 5+ years of data
 - Patient privacy regulations must be strictly followed
@@ -134,6 +147,7 @@ A healthcare provider is developing a data product to analyze and optimize patie
 - Daily data refresh with some near-real-time updates for current status
 
 **Scale Considerations:**
+
 - ~1 million patients
 - ~5 million appointments per year
 - ~200 providers across 15 specialties

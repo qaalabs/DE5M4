@@ -3,7 +3,7 @@
 A manufacturing company collects temperature and humidity readings from **5,000 IoT sensors** deployed across several warehouses.
 Each device sends data **every 10 seconds**, resulting in tens of millions of records per day.
 
-### Requirements
+## Requirements
 
 1. **Ingested in near real-time**
 2. **Stored in a cost-effective, scalable solution**
@@ -14,10 +14,10 @@ Each device sends data **every 10 seconds**, resulting in tens of millions of re
 
 4. Accessible by data analysts and engineers via SQL
 
-### Constraints
+## Constraints
 
-* Minimal operations overhead (prefer managed services)
-* Data must be **retained for 2 years** for compliance
+- Minimal operations overhead (prefer managed services)
+- Data must be **retained for 2 years** for compliance
 
 ---
 
@@ -27,4 +27,3 @@ Each device sends data **every 10 seconds**, resulting in tens of millions of re
     - Compute
     - Integration
     - Orchestration
-

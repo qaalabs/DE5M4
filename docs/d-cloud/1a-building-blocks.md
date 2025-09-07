@@ -4,16 +4,16 @@
 
 Cloud providers offer similar **core building blocks** for building data solutions:
 
-* **Storage** (object storage, file systems, databases)
-* **Compute** (VMs, containers, serverless functions)
-* **Integration** (message queues, API gateways)
-* **Orchestration** (workflow engines, pipeline managers)
+- **Storage** (object storage, file systems, databases)
+- **Compute** (VMs, containers, serverless functions)
+- **Integration** (message queues, API gateways)
+- **Orchestration** (workflow engines, pipeline managers)
 
 The major cloud providers we'll compare:
 
-* **GCP** (Google)
-* **Azure** (Microsoft)
-* **AWS** (Amazon)
+- **GCP** (Google)
+- **Azure** (Microsoft)
+- **AWS** (Amazon)
 
 ---
 
@@ -47,10 +47,10 @@ Work together, in your group, to map services to this table of core building blo
 
 Each team member picks **one product** from your provider's list and answers:
 
-* **What does this product do?**
-* **What are its strengths?**
-* **What are its weaknesses or limitations?**
-* **Why is it important for Data Engineers?**
+- **What does this product do?**
+- **What are its strengths?**
+- **What are its weaknesses or limitations?**
+- **Why is it important for Data Engineers?**
 
 !!! success "Just quick notes - not a full presentations"
 
@@ -72,5 +72,3 @@ Then each person shares **a 1–2 minute** overview of their selected product wi
 - Where do you see the biggest trade-offs for Data Engineers?
 
 ---
-
-

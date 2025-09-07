@@ -7,6 +7,7 @@
 Frame Git as the essential tool for managing the planning artifacts created throughout Module 4:
 
 In Module 4, we're creating various planning artifacts - user stories, architecture diagrams, data models, and requirements documents. Git provides a structured way to:
+
 - Store and organize these planning documents
 - Track changes as plans evolve based on stakeholder feedback
 - Maintain the relationships between different planning components
@@ -17,6 +18,7 @@ In Module 4, we're creating various planning artifacts - user stories, architect
 Position Git as the enabler of team-based planning activities:
 
 Planning data engineering products is a team sport. Git enables collaborative planning by:
+
 - Allowing distributed teams to contribute to planning documents simultaneously
 - Providing a review mechanism for technical and business stakeholders
 - Creating accountability through commit history and comments
@@ -27,6 +29,7 @@ Planning data engineering products is a team sport. Git enables collaborative pl
 Connect Git directly to the iterative planning approach covered in the Agile section:
 
 As we learned with Agile methodologies, planning is not a one-time activity but an ongoing process. Git supports this by:
+
 - Maintaining a complete history of how plans evolved
 - Enabling easy comparison between different versions of plans
 - Allowing teams to try different planning approaches in branches
@@ -37,6 +40,7 @@ As we learned with Agile methodologies, planning is not a one-time activity but 
 Emphasize how Git creates continuity from Module 4 (Planning) to Module 5 (Product Development):
 
 The plans we create in Module 4 need to transition smoothly to implementation in Module 5. Git serves as the bridge by:
+
 - Maintaining planning documents alongside implementation code
 - Enabling traceability from requirements to implementation
 - Supporting the gradual refinement of plans into technical specifications
@@ -55,15 +59,19 @@ Yesterday we established the Agile foundation for planning data products. Today 
 Frame each Git exercise explicitly in terms of planning activities:
 
 **Exercise 1: Forking a repository**
+
 - In this exercise, we'll practice how to leverage existing planning templates and reference architectures by forking a product planning repository.
 
 **Exercise 2: Handling merge conflicts**
+
 - Here we'll simulate a scenario where team members have conflicting ideas about system requirements, and learn how to reconcile these differences in planning documents.
 
 **Exercise 3: Revert and reset**
+
 - Planning often involves revisiting and revising earlier decisions. We'll practice how to roll back to previous versions of planning documents when stakeholder feedback necessitates changes.
 
 **Exercise 4: GitHub reviews**
+
 - Effective planning requires regular reviews. We'll learn how to use GitHub's features to review architecture diagrams, requirements documents, and other planning artifacts.
 
 ### Practical Planning Scenario
@@ -73,6 +81,7 @@ Create a specific scenario that connects Git directly to data engineering planni
 **Scenario: Customer Data Integration Platform Planning**
 
 Throughout our Git exercises, we'll work with planning artifacts for a customer data integration platform:
+
 - System requirements document (Markdown files)
 - Technical architecture diagrams (stored as code in PlantUML or Mermaid)
 - Data flow specifications (YAML configuration files)
@@ -85,10 +94,10 @@ Each of these represents a critical planning artifact that would be created duri
 Create a visual that shows Git's place in the module's overall flow:
 
 1. **Module 4 Planning Flow**:
-   ```
-   Day 1: Agile Methodology → Day 2: Planning Tools (Git/AWS) → Day 3: Data Structure Planning → Day 4: Complete Plan
-   ```
-   - Highlight Git as the connecting thread that maintains continuity across all days
+
+> Day 1: Agile Methodology → Day 2: Planning Tools (Git/AWS) → Day 3: Data Structure Planning → Day 4: Complete Plan
+
+- Highlight Git as the connecting thread that maintains continuity across all days
 
 2. **Planning Artifact Evolution**:
    - Show how a planning artifact (e.g., system architecture diagram) evolves through:

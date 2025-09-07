@@ -10,20 +10,20 @@ Like Git, these allow each user to have a full copy of the repository:
 
 **Mercurial (hg)**
 
-* Simple and fast, similar to Git in functionality
-* More opinionated and consistent CLI than Git
-* Used by: Formerly used by Facebook and Mozilla
+- Simple and fast, similar to Git in functionality
+- More opinionated and consistent CLI than Git
+- Used by: Formerly used by Facebook and Mozilla
 
 **Fossil**
 
-* Includes version control, wiki, bug tracking, and a web interface in one tool
-* Created by the SQLite team
-* Good for small teams and solo developers
+- Includes version control, wiki, bug tracking, and a web interface in one tool
+- Created by the SQLite team
+- Good for small teams and solo developers
 
 **Bazaar (bzr)**
 
-* Designed for ease of use and flexibility
-* Was popular with Ubuntu (Canonical) projects
+- Designed for ease of use and flexibility
+- Was popular with Ubuntu (Canonical) projects
 
 ### **Centralised Version Control Systems (CVCS)**
 
@@ -31,20 +31,20 @@ A single central server contains the authoritative version:
 
 **Subversion (SVN)**
 
-* Widely used in enterprises and legacy systems
-* Better suited than Git for large binary files or huge repositories
-* Fine-grained access control on files and directories
+- Widely used in enterprises and legacy systems
+- Better suited than Git for large binary files or huge repositories
+- Fine-grained access control on files and directories
 
 **Perforce (Helix Core)**
 
-* High-performance VCS designed for large-scale projects
-* Widely used in game development and enterprise software
-* Supports Git clients through Helix4Git
+- High-performance VCS designed for large-scale projects
+- Widely used in game development and enterprise software
+- Supports Git clients through Helix4Git
 
 **ClearCase (IBM Rational ClearCase)**
 
-* Enterprise-grade tool with strong configuration management features
-* Complex but powerful; often used in aerospace and defense
+- Enterprise-grade tool with strong configuration management features
+- Complex but powerful; often used in aerospace and defense
 
 ### **Other Options / Complementary Tools**
 
@@ -52,18 +52,18 @@ While not full VCS themselves, some tools are used for specific needs or work al
 
 **Google Drive / Dropbox Versioning**
 
-* Basic version history for documents and files
-* Good for non-technical content, collaborative document editing
+- Basic version history for documents and files
+- Good for non-technical content, collaborative document editing
 
 **Dat (Hypercore Protocol)**
 
-* Focused on data sets and scientific reproducibility
-* Peer-to-peer and immutable history
+- Focused on data sets and scientific reproducibility
+- Peer-to-peer and immutable history
 
 **Plastic SCM**
 
-* Designed for game development and large binary files
-* Offers both centralized and distributed modes
+- Designed for game development and large binary files
+- Offers both centralized and distributed modes
 
 ---
 
@@ -112,4 +112,3 @@ The plans we create in Module 4 need to transition smoothly to implementation in
 - Enabling traceability from requirements to implementation
 - Supporting the gradual refinement of plans into technical specifications
 - Preserving the context and rationale behind planning decisions
-

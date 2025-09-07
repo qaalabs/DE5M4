@@ -3,7 +3,7 @@
 A startup is building a **movie recommendation engine**.
 It collects user interaction data (clicks, ratings, watch history) from its mobile app and website, which adds up to **50 GB of new data per day**.
 
-### Requirements
+## Requirements
 
 1. Store raw and cleaned interaction data
 2. Train recommendation models **weekly** using the cleaned dataset
@@ -23,4 +23,3 @@ It collects user interaction data (clicks, ratings, watch history) from its mobi
     - Compute
     - Integration
     - Orchestration
-

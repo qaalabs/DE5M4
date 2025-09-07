@@ -3,6 +3,7 @@
 ## Collaborative Planning with Git - Forking a Repository
 
 ### Learning Objectives
+
 - Understand how to fork a repository to begin collaborative work
 - Practice making changes to planning documents in a forked repository
 - Learn how to create issues to track planning tasks and improvements
@@ -60,7 +61,7 @@
 - Add your name and a fun fact about yourself in the specified section
 - Format should follow the existing pattern:
 
-```
+```none
 # [Your Name]
 **Role:** [Your title]
 **Fun Fact:** [An interesting fun fact here]
@@ -102,12 +103,12 @@ git push origin main
 - Verify you're comparing the correct branches (usually main to main)
 
 !!! tip "Pull requests always go from your forked repo (right side) into the original repo (left side)"
-   
+
 **Review your changes**
 
 - Scroll down to see the differences between the original repository and your fork
 - Ensure only your intended changes are included
-   
+
 **Create the pull request**
 
 - Click "Create pull request"
@@ -128,6 +129,7 @@ After completing the pull request, discuss:
 - Respond to any feedback or questions
 
 ---
+
 ## Summary
 
 **What you’ve learned:**

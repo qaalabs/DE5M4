@@ -48,15 +48,19 @@ A healthcare provider is developing a data product to analyse and optimise patie
 - Daily data refresh with some near-real-time updates for current status
 
 ---
+
 ## Deliverables
 
 ### 1. Requirements Summary:
+
 - Key entities, relationships, and access patterns identified
 
 ### 2. Conceptual Data Model:
+
 - Entity-relationship diagram showing the main entities and how they relate
 
 ### 3. Logical Data Model Documentation:
+
 - Detailed model representation appropriate to selected database type
 - Key design decisions and rationale
 - Performance optimization approaches

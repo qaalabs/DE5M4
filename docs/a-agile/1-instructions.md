@@ -1,6 +1,7 @@
 # Designing Data-Driven Digital Products
 
 ## Welcome
+
 **Welcome to Module 4: Planning a Data Engineering Product.**
 
 Over the next four days, we'll explore the comprehensive process of designing data solutions that deliver real business value.
@@ -21,6 +22,7 @@ There are no wrong answers here - I want you to draw on your collective experien
 
 ---
 ### If you are stuck ...
+
 Start with:
 
 - Step 1: Discovery & Requirements Gathering

@@ -8,6 +8,7 @@ In groups **brainstorm the digital design process**, addressing:
 - What inputs and outputs would each stage have?
 
 ## Instructions
+
 Use your virtual whiteboard to map out the design process as a series of steps.
 
 For each step, note:
@@ -19,10 +20,13 @@ For each step, note:
 - Outputs produced at this step
 
 ## Group sharing
+
 Be prepared to **present your process** for 2-3 minutes.
 
 ---
+
 ## Links
+
 - [Miro Board for Group A](https://miro.com/app/board/uXjVI38DNyM=/?share_link_id=677177113592)
 - [Miro Board for Group B](https://miro.com/app/board/uXjVI3X01dA=/?share_link_id=858664755777)
 - [Miro Board for Group C](https://miro.com/app/board/uXjVI3X01eY=/?share_link_id=242958904648)

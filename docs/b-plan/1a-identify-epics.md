@@ -20,6 +20,7 @@ For example, if you were building a house, your epics might be:
 Each epic contains multiple smaller features and tasks, but the epic gives us the big picture theme.
 
 ---
+
 ## Your Task
 
 Read the business requirements for the QARestaurant website. Your job is to:

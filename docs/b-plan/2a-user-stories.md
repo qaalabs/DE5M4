@@ -28,6 +28,7 @@ This format forces us to think about:
 This helps ensure we're building features that actually solve real problems for real people.
 
 ---
+
 ## Your Task
 
 Take the requirements that you've organised under each epic and turn them into user stories using the format. 
@@ -69,5 +70,6 @@ If a story feels too big, break it down. If it feels too small, consider combini
 3. Write them down
 
 ## Deliverable
+
 We'll review some examples together afterward.
 

@@ -5,6 +5,7 @@
 Help learners understand what good sprint planning looks like:
 
 ### Sprint 1 Goal
+
 Deliver a basic restaurant website where customers can learn about the restaurant and contact them.
 
 ### Selected User Stories (Example)
@@ -25,6 +26,7 @@ Deliver a basic restaurant website where customers can learn about the restauran
 - Staff reservation tools (8 points) - Sprint 3
 
 ---
+
 ## Key Learning Points to Emphasise
 
 **During the activity, guide learners to consider:**

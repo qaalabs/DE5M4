@@ -41,6 +41,7 @@ Here are user stories of varying complexity that work well for Planning Poker pr
 ## Connection to Data Engineering
 
 In your data engineering work, you'll estimate stories like:
+
 - 'As a data analyst, I want daily sales reports automated' (5 points)
 - 'As a marketing team, I want customer segmentation data refreshed weekly' (8 points)
 - 'As a business owner, I want a complete data lake architecture implemented' (too big - needs breaking down)

@@ -9,7 +9,7 @@
 - Open your web browser and go to: [https://github.com/](https://github.com/)
 - Log in to GitHub if you're not already logged in.
 - Go to the repository where you want to create the issue:
-    - [https://github.com/ingwanelabs/intro-to-github](https://github.com/ingwanelabs/intro-to-github)
+  - [https://github.com/ingwanelabs/intro-to-github](https://github.com/ingwanelabs/intro-to-github)
 
 ### Step 2. Go to the Issues Tab
 
@@ -29,14 +29,14 @@
 - **Title**: Provide a short, clear title (e.g., *"Login form does not handle empty fields properly"*).
 - **Description**: Use the comment box to describe the issue in detail.
 
-  * Include steps to reproduce the problem (if it's a bug)
-  * Explain why the feature would be useful (if it's a request)
-  * Add screenshots or code examples if relevant
+  - Include steps to reproduce the problem (if it's a bug)
+  - Explain why the feature would be useful (if it's a request)
+  - Add screenshots or code examples if relevant
 
 !!! info "You can (should) use formatting"
 
     - You can format your issue using Markdown
-    — For example, use bold, italic, and code
+    - For example, use bold, italic, and code
 
 ### Step 6. (Optional) Add Labels, Assignees, or Milestones
 

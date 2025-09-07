@@ -26,6 +26,7 @@ You need to select user stories that:
 - Create value for users
 
 ---
+
 ## Your task
 
 ### Step 1: Review and Prioritise
@@ -59,6 +60,7 @@ Document your selection showing:
 - Stories left for future sprints
 
 ### Step 3: Break Down into Tasks
+
 For 2-3 of your selected user stories, break them down into specific tasks:
 
 Example for 'As a customer, I want to view the menu with prices':
@@ -71,6 +73,7 @@ Example for 'As a customer, I want to view the menu with prices':
 - Review with stakeholders
 
 ---
+
 ## Deliverable
 
 ### Group Presentation

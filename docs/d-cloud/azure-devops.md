@@ -121,16 +121,19 @@ This task connects the DevOps concepts to data engineering specifically, showing
 ## Implementation Approach
 
 ### Preparation:
+
 1. Create a Azure DevOps organization with team projects pre-configured
 2. Prepare brief step-by-step guides for basic Azure DevOps operations
 3. Consider creating a sample project that participants can reference
 
 ### Time Allocation:
+
 - 15 minutes: Introduction to Azure DevOps interface and navigation
 - 30-40 minutes per task (select 2-3 tasks based on available time)
 - 15 minutes: Debrief and discussion of how these practices apply to workplace projects
 
 ### Facilitation Tips:
+
 1. **Pair Programming:** Have participants work in pairs to promote knowledge sharing
 2. **Progressive Complexity:** Start with Task 1 and add others if time permits
 3. **Screenshots Gallery:** Create a shared space where teams can post screenshots of their work
