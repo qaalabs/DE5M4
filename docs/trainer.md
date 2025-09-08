@@ -4,9 +4,15 @@
 
 ### Session 1
 
+- Learners introduce themselves
 
 ### Session 2
 
+- [How are products designed?](day1/agile/how-instructions.md)
+- [Breakout: How are products designed?](day1/agile/how-design-steps.md)
+- **Report-Back**: [Report Back: How products are designed](day1/agile/how-solution.md)
+- [Breakout: Apply your steps to your scenario](day1/agile/scenario.md)
+- Report Back: Apply your steps to your scenario
 
 ### Session 3
 

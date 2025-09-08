@@ -10,13 +10,16 @@ nav:
     - Day 1: agenda/day1.md
 
   - "Day 1 - Agile Foundations":
-    - "Welcome": agenda.md
+    - "How are products designed?": day1/agile/how-instructions.md
+    - "Breakout: How are products designed?": day1/agile/how-design-steps.md
+    - "Breakout: Apply your steps to your scenario": day1/agile/scenario.md
 
   - Resources: resources.md
 
 not_in_nav: |
   404.md
   trainer.md
+  day1/agile/how-solution.md
 
 
 # Theme
