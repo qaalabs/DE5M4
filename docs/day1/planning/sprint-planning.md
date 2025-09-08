@@ -4,11 +4,11 @@
 
 Now that we have user stories and estimates, we're going to practice sprint planning:
 
-> The process of deciding which work to tackle in the next sprint.
+> **Sprint Planning** is the process of deciding which work to tackle in the next sprint.
 
-Think of this as organising your backlog of user stories into a manageable chunk of work that a team can complete in a fixed timeframe.
+*Think of this as organising your backlog of user stories into a manageable chunk of work that a team can complete in a fixed timeframe.*
 
-**For our restaurant website, imagine you're planning the first 2-week sprint of development work.**
+<mark>For our restaurant website, imagine you're planning the first 2-week sprint of development work.</mark>
 
 ## Sprint Planning Constraints
 
