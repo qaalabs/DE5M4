@@ -1,10 +1,9 @@
 ## <mark>Each group shares what they would do</mark>
 
-
-Scenario A - Retail Company
-Scenario B - Healthcare Provider
-Scenario C - Manufacturing Company
-Scenario D - Financial Services
+- Scenario A - Retail Company
+- Scenario B - Healthcare Provider
+- Scenario C - Manufacturing Company
+- Scenario D - Financial Services
 
 ---
 
