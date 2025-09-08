@@ -1,6 +1,6 @@
-# Breakout Activity: Scenario A - Retail Company
+# Scenario A - Retail Company
 
-Apply your phases from the previous activity to the scenario below.
+*Apply your phases from the previous activity to the scenario below.*
 
 ## Scenario
 

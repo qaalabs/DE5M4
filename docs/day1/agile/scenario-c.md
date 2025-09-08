@@ -1,6 +1,6 @@
-# Breakout Activity: Scenario C - Manufacturing Company
+# Scenario C - Manufacturing Company
 
-Apply your phases from the previous activity to the scenario below.
+*Apply your phases from the previous activity to the scenario below.*
 
 ## Scenario
 

@@ -1,6 +1,6 @@
-# Breakout Activity: Scenario B - Healthcare Provider
+# Scenario B - Healthcare Provider
 
-Apply your phases from the previous activity to the scenario below.
+*Apply your phases from the previous activity to the scenario below.*
 
 ## Scenario
 

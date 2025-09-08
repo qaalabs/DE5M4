@@ -1,6 +1,6 @@
-# Breakout Activity: Scenario D - Financial Services
+# Scenario D - Financial Services
 
-Apply your phases from the previous activity to the scenario below.
+*Apply your phases from the previous activity to the scenario below.*
 
 ## Scenario
 
