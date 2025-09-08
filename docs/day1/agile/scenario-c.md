@@ -4,7 +4,7 @@
 
 ## Scenario
 
-> A manufacturing company operating 3 factories wants to create a data product that **optimises production scheduling and reduces equipment downtime**. They have sensor data from machinery, production logs, quality control measurements, maintenance records, and supply chain data, but currently rely on manual reporting and Excel spreadsheets.
+A manufacturing company operating 3 factories wants to create a data product that **optimises production scheduling and reduces equipment downtime**. They have sensor data from machinery, production logs, quality control measurements, maintenance records, and supply chain data, but currently rely on manual reporting and Excel spreadsheets.
 
 ## Task
 

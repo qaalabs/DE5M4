@@ -4,7 +4,7 @@
 
 ## Scenario
 
-> A mid-sized bank wants to create a data product that **detects potentially fraudulent transactions in real-time** while minimising false positives that frustrate customers. They have transaction histories, customer profiles, merchant data, and historical fraud cases, but need to balance security with customer experience.
+A mid-sized bank wants to create a data product that **detects potentially fraudulent transactions in real-time** while minimising false positives that frustrate customers. They have transaction histories, customer profiles, merchant data, and historical fraud cases, but need to balance security with customer experience.
 
 ## Task
 

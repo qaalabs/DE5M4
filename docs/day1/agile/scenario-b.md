@@ -4,7 +4,7 @@
 
 ## Scenario
 
-> A regional healthcare network with 5 hospitals and 20 clinics wants to create a data product that **predicts patient readmission risk** within 30 days of discharge. They have electronic health records, medication data, demographic information, and historical admission records available, but data is currently siloed across different systems.
+A regional healthcare network with 5 hospitals and 20 clinics wants to create a data product that **predicts patient readmission risk** within 30 days of discharge. They have electronic health records, medication data, demographic information, and historical admission records available, but data is currently siloed across different systems.
 
 ## Task
 
