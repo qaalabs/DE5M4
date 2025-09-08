@@ -4,7 +4,7 @@
 
 Besides Git, several other version control systems (VCS) can be used for managing versions of files and codebases. These can be broadly categorized into **distributed** and **centralised** systems:
 
-### **Distributed Version Control Systems (DVCS)**
+### Distributed Version Control Systems (DVCS)
 
 Like Git, these allow each user to have a full copy of the repository:
 
@@ -25,7 +25,7 @@ Like Git, these allow each user to have a full copy of the repository:
 - Designed for ease of use and flexibility
 - Was popular with Ubuntu (Canonical) projects
 
-### **Centralised Version Control Systems (CVCS)**
+### Centralised Version Control Systems (CVCS)
 
 A single central server contains the authoritative version:
 
@@ -46,7 +46,7 @@ A single central server contains the authoritative version:
 - Enterprise-grade tool with strong configuration management features
 - Complex but powerful; often used in aerospace and defense
 
-### **Other Options / Complementary Tools**
+### Other Options / Complementary Tools
 
 While not full VCS themselves, some tools are used for specific needs or work alongside version control:
 

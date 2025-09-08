@@ -55,7 +55,7 @@
 
 ---
 
-### Reflection / Discussion Questions
+## Reflection / Discussion Questions
 
 - Why is it important to write clear and descriptive issues in a collaborative project?
 - How do labels and milestones help a team prioritise and plan work?

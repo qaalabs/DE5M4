@@ -1,4 +1,6 @@
-# Activity: Working locally with Git
+# Activity 1: Working locally with Git
+
+**Objective**: By the end of this activity, you will be able to initialise a local Git repository, create and track files, understand the staging and commit process, and view the commit history - all from the command line.
 
 ## Instructions
 
@@ -93,3 +95,12 @@ ls -l
 - To see the history of commits, run: `git log`
 
 ---
+
+## Reflective / Discussion Questions
+
+- What does `git init` actually do? Where is the evidence that Git is now tracking this folder?
+- Why is it useful to check the status of your repository before and after each action?
+- What is the difference between `git add` and `git commit`?
+- How do hidden files like `.git` help Git work "behind the scenes"?
+- Why do you think commit messages are important? What makes a good one?
+- How might this process look different if you were working with others in a team?

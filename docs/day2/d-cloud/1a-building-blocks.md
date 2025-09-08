@@ -38,7 +38,6 @@ Work together, in your group, to map services to this table of core building blo
 | Workflow Orchestration |                |                |                  |
 
 !!! tip "Use docs or product portals if needed"
-
     - Don't aim for perfection - just a best guess is fine!
 
 ---
@@ -70,5 +69,3 @@ Then each person shares **a 1–2 minute** overview of their selected product wi
 
 - Which areas showed the most variation across clouds?
 - Where do you see the biggest trade-offs for Data Engineers?
-
----

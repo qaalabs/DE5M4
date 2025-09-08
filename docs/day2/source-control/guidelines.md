@@ -26,7 +26,7 @@ Planning data engineering products is a team sport. Git enables collaborative pl
 
 ### 3. Planning Iterations
 
-Connect Git directly to the iterative planning approach covered in the Agile section:
+**Connect Git directly to the iterative planning approach covered in the Agile section:**
 
 As we learned with Agile methodologies, planning is not a one-time activity but an ongoing process. Git supports this by:
 
@@ -37,7 +37,7 @@ As we learned with Agile methodologies, planning is not a one-time activity but 
 
 ### 4. Planning-to-Implementation Bridge
 
-Emphasize how Git creates continuity from Module 4 (Planning) to Module 5 (Product Development):
+**Emphasize how Git creates continuity from Module 4 (Planning) to Module 5 (Product Development):**
 
 The plans we create in Module 4 need to transition smoothly to implementation in Module 5. Git serves as the bridge by:
 
@@ -50,7 +50,7 @@ The plans we create in Module 4 need to transition smoothly to implementation in
 
 ### Day 2 Introduction
 
-Start the Git section with a clear connection to the module's planning focus:
+**Start the Git section with a clear connection to the module's planning focus:**
 
 Yesterday we established the Agile foundation for planning data products. Today we'll explore Git as the technical backbone that supports collaborative planning and ensures your planning artifacts remain organized, versioned, and accessible to the entire team.
 
