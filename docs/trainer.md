@@ -33,9 +33,12 @@
 
 ### Session 1
 
+- **Discussion**: Software Version Control
+- **Guided**: [Activity 1: Working locally with Git](day2/source-control/git-locally.md)
 
 ### Session 2
 
+- **Guided**: [Activity 2: Create a repo in GitHub](day2/source-control/git-repo.md)
 
 ### Session 3
 
