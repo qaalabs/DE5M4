@@ -1,0 +1,633 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
+    
+    
+      
+        <title>Introduction to Database Types and Selection Criteria - Module 4 - Planning Data Engineering Product</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e37652d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introduction-to-database-types-and-selection-criteria" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Module 4 - Planning Data Engineering Product" class="md-header__button md-logo" aria-label="Module 4 - Planning Data Engineering Product" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C7.58 3 4 4.79 4 7s3.58 4 8 4 8-1.79 8-4-3.58-4-8-4M4 9v3c0 2.21 3.58 4 8 4s8-1.79 8-4V9c0 2.21-3.58 4-8 4s-8-1.79-8-4m0 5v3c0 2.21 3.58 4 8 4s8-1.79 8-4v-3c0 2.21-3.58 4-8 4s-8-1.79-8-4"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Module 4 - Planning Data Engineering Product
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Introduction to Database Types and Selection Criteria
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Module 4 - Planning Data Engineering Product" class="md-nav__button md-logo" aria-label="Module 4 - Planning Data Engineering Product" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C7.58 3 4 4.79 4 7s3.58 4 8 4 8-1.79 8-4-3.58-4-8-4M4 9v3c0 2.21 3.58 4 8 4s8-1.79 8-4V9c0 2.21-3.58 4-8 4s-8-1.79-8-4m0 5v3c0 2.21 3.58 4 8 4s8-1.79 8-4v-3c0 2.21-3.58 4-8 4s-8-1.79-8-4"/></svg>
+
+    </a>
+    Module 4 - Planning Data Engineering Product
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Agenda
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Agenda
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../agenda/day1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Day 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Day 1 - Agile Foundations
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Day 1 - Agile Foundations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../day1/agile/how-instructions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How are products designed?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../day1/agile/how-design-steps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Breakout: How are products designed?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../day1/agile/scenario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Breakout: Apply your steps to your scenario
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="introduction-to-database-types-and-selection-criteria">Introduction to Database Types and Selection Criteria</h1>
+<h2 id="presentation-outline-for-database-design-planning">Presentation Outline for Database Design Planning</h2>
+<p>This introduction should set the foundation for database selection decision-making within the context of data product planning. Here's a comprehensive outline:</p>
+<h3 id="1-introduction-database-design-in-product-planning-3-minutes">1. Introduction: Database Design in Product Planning (3 minutes)</h3>
+<ul>
+<li>
+<p><strong>Reminder of context</strong>: "In Module 2, you learned about various data storage technologies. Today, we focus on making database design decisions as part of data product planning."</p>
+</li>
+<li>
+<p><strong>Key planning questions</strong>:</p>
+</li>
+<li>What type of database best supports our product requirements?</li>
+<li>How should we model our data to enable required functionality?</li>
+<li>
+<p>What design decisions impact future scalability and maintenance?</p>
+</li>
+<li>
+<p><strong>Connection to Agile</strong>: "These design decisions will become technical requirements and acceptance criteria for your user stories."</p>
+</li>
+</ul>
+<h3 id="2-database-decision-framework-5-minutes">2. Database Decision Framework (5 minutes)</h3>
+<p>Present a structured approach to database selection with key consideration areas:</p>
+<ul>
+<li><strong>Data characteristics</strong>:</li>
+<li>Structure: Is your data highly structured with clear relationships, or flexible with varying attributes?</li>
+<li>Schema evolution: How frequently will your schema need to change?</li>
+<li>Size: What are your anticipated data volumes (GB/TB/PB)?</li>
+<li>
+<p>Growth rate: Linear, exponential, seasonal patterns?</p>
+</li>
+<li>
+<p><strong>Access patterns</strong>:</p>
+</li>
+<li>Read vs. write ratio</li>
+<li>Query complexity (simple lookups vs. complex joins)</li>
+<li>Real-time vs. batch processing needs</li>
+<li>
+<p>Analytical vs. transactional workloads</p>
+</li>
+<li>
+<p><strong>Non-functional requirements</strong>:</p>
+</li>
+<li>Scalability needs</li>
+<li>Performance requirements (latency, throughput)</li>
+<li>Consistency vs. availability tradeoffs</li>
+<li>Geographic distribution</li>
+<li>Regulatory and compliance considerations</li>
+</ul>
+<h3 id="3-primary-database-categories-7-minutes">3. Primary Database Categories (7 minutes)</h3>
+<p>Brief overview of major database types with planning considerations for each:</p>
+<ul>
+<li><strong>Relational Databases</strong>:</li>
+<li><strong>Planning considerations</strong>: When data relationships are complex and consistent structure is important</li>
+<li><strong>Best for</strong>: Structured data with clear relationships, ACID transactions, complex queries</li>
+<li><strong>Design challenges</strong>: Schema evolution, scaling joins, handling semi-structured data</li>
+<li>
+<p><strong>Examples</strong>: PostgreSQL, MySQL, SQL Server</p>
+</li>
+<li>
+<p><strong>Document Databases</strong>:</p>
+</li>
+<li><strong>Planning considerations</strong>: When schema flexibility and developer productivity are priorities</li>
+<li><strong>Best for</strong>: Semi-structured data, rapidly evolving schemas, content management</li>
+<li><strong>Design challenges</strong>: Denormalization strategies, indexing for performance, consistency</li>
+<li>
+<p><strong>Examples</strong>: MongoDB, Cosmos DB</p>
+</li>
+<li>
+<p><strong>Column-Family Databases</strong>:</p>
+</li>
+<li><strong>Planning considerations</strong>: When handling massive scale with predictable query patterns</li>
+<li><strong>Best for</strong>: Time-series data, IoT telemetry, high-write throughput scenarios</li>
+<li><strong>Design challenges</strong>: Optimizing column families, managing wide rows</li>
+<li>
+<p><strong>Examples</strong>: Cassandra, HBase</p>
+</li>
+<li>
+<p><strong>Graph Databases</strong>:</p>
+</li>
+<li><strong>Planning considerations</strong>: When relationships between entities are the primary focus</li>
+<li><strong>Best for</strong>: Social networks, recommendation engines, fraud detection</li>
+<li><strong>Design challenges</strong>: Partitioning data, query optimization, scaling</li>
+<li>
+<p><strong>Examples</strong>: Neo4j, Neptune</p>
+</li>
+<li>
+<p><strong>Key-Value Stores</strong>:</p>
+</li>
+<li><strong>Planning considerations</strong>: When simple, high-performance lookups are needed</li>
+<li><strong>Best for</strong>: Caching, session storage, simple high-throughput operations</li>
+<li><strong>Design challenges</strong>: Limited query capabilities, application complexity</li>
+<li><strong>Examples</strong>: Redis, DynamoDB</li>
+</ul>
+<h3 id="4-polyglot-persistence-planning-3-minutes">4. Polyglot Persistence Planning (3 minutes)</h3>
+<ul>
+<li><strong>Multi-database strategy</strong>: Most modern data products use multiple database types</li>
+<li>Transaction processing (OLTP) for application data</li>
+<li>Analytical processing (OLAP) for reporting</li>
+<li>Search engines for text search</li>
+<li>
+<p>Caching layers for performance</p>
+</li>
+<li>
+<p><strong>Planning considerations</strong>:</p>
+</li>
+<li>Data synchronization between systems</li>
+<li>Consistency challenges</li>
+<li>Operational complexity</li>
+<li>Cost implications</li>
+</ul>
+<h3 id="5-decision-making-exercise-setup-2-minutes">5. Decision-Making Exercise Setup (2 minutes)</h3>
+<ul>
+<li>
+<p><strong>Preview of upcoming exercise</strong>: "In our workshop, you'll apply this framework to select appropriate database technologies for specific data product scenarios."</p>
+</li>
+<li>
+<p><strong>What to document</strong>:</p>
+</li>
+<li>Key requirements driving your decisions</li>
+<li>Selected database type(s) with rationale</li>
+<li>Major design considerations</li>
+<li>
+<p>Potential risks and mitigation approaches</p>
+</li>
+<li>
+<p><strong>Activity preparation</strong>: Explain group formation and resources available</p>
+</li>
+</ul>
+<h2 id="presentation-approach">Presentation Approach</h2>
+<p>To make this introduction engaging and accessible:</p>
+<ol>
+<li>
+<p><strong>Use visual comparisons</strong>: Simple comparison charts for different database types</p>
+</li>
+<li>
+<p><strong>Provide real-world examples</strong>: Brief examples of well-known products and their database choices</p>
+</li>
+<li>
+<p><strong>Include decision trees</strong>: Visual decision flows for selecting database types</p>
+</li>
+<li>
+<p><strong>Connect to previous learning</strong>: Reference specific concepts from Module 2 to build on that foundation</p>
+</li>
+<li>
+<p><strong>Use analogies</strong>: Simple analogies to explain complex concepts (e.g., "Relational databases are like organized filing cabinets with cross-references; document databases are more like folders where each document can have its own structure")</p>
+</li>
+</ol>
+<p>This introduction provides the foundation for the subsequent Database Selection Workshop exercise, giving participants a structured framework for making and documenting database design decisions as part of their data product planning.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["toc.integrate", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+    
+  </body>
+</html>
