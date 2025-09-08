@@ -13,7 +13,7 @@
 
 ## Instructions
 
-### Part 1: Forking the Repository
+### Step 1: Forking the Repository
 
 **Navigate to the main repository**
 
@@ -24,7 +24,7 @@
 
 - Click the "Fork" button in the top-right corner of the page
 - Select **your** GitHub account as the destination for the fork
-- Keep the same name as the original repository (You can change the name it if you have to)
+- You don't have to keep the same name as the original repository
 - Click: `Create fork`
 - Wait for GitHub to complete the forking process
 - You now have your own copy of the repository!
@@ -34,7 +34,7 @@
 - Ensure you're now on your forked version of the repository
 - The URL should show your username: `github.com/[YOUR-USERNAME]/intro-to-github`
 
-### Part 2: Making Changes to the repository
+### Step 2: Making Changes to the repository
 
 **Clone the repository locally** (Optional - for now we will work in GitHub)
 
@@ -85,7 +85,7 @@ git commit -m "Add my profile to team document"
 git push origin main
 ```
 
-### Part 3: Creating a Pull Request
+### Step 3: Creating a Pull Request
 
 **Navigate to the Pull Requests tab**
 
@@ -115,7 +115,7 @@ git push origin main
 - In the description, explain your changes and why they're valuable
 - Click "Create pull request" to submit
 
-### Part 4: Discussion and Review
+### Step 4: Discussion and Review
 
 After completing the pull request, discuss:
 

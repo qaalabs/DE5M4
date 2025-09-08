@@ -1,6 +1,6 @@
 # Activity 2: Adding a repository in GitHub
 
-***Objective**: By the end of this activity, you will be able to create a new repository on GitHub, configure basic settings such as the `README` and `.gitignore` file, and understand the purpose of these elements in version control.
+**Objective**: By the end of this activity, you will be able to create a new repository on GitHub, configure basic settings such as the `README` and `.gitignore` file, and understand the purpose of these elements in version control.
 
 ## Instructions
 
@@ -17,12 +17,14 @@
 !!! info "Repository names"
     - Can't contain spaces or special characters
     - hyphens and underscores are okay
+    - The name is **NOT** case sensitive
 
-- Add a description
-- Make it Public
-- Select: Initialize with a README file
-- Add a .gitignore file if you want ~ select Python as an example
-- No license is needed
+- Add a **description**
+- Visibility: **Public**
+- Start with a template: **No template**
+- Add README: Turn this **On**
+- Add .gitignore: Select **Python**
+- Add license: **No license**
 
 !!! info "Adding README and .gitignore"
 
@@ -32,21 +34,23 @@
 
 ### Step 3: Finalise and Create
 
-Click: **Create Repository**
+Click: **Create repository**
 
-### Step 4: Create files in you new repository
+### Step 4: Create a few files in your new repository
 
-- Create a new file
-- create a new file in a new directory
-- Create a file - then delete it
+- Add a file
+- Add a new file in a new directory
+- Add a file - then delete it
 - Upload files into your repository
 - Edit a file that you created previously
+- Edit the `README.md` in the root directory
 
 ### Step 5: Working with branches
 
-- Create a branch
+- Create a branch ~ select the `main` branch dropdown and enter a new name
+- Switch to the new branch
 - Add a file to the new branch
-- Switch to the `main` branch - and see that it isn't there
+- Switch to the `main` branch - and see that file you just created isn't there
 
 - Create another branch - add some files - -then delete the branch
 

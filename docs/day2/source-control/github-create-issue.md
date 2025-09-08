@@ -9,7 +9,7 @@
 - Open your web browser and go to: [https://github.com/](https://github.com/)
 - Log in to GitHub if you're not already logged in.
 - Go to the repository where you want to create the issue:
-  - [https://github.com/ingwanelabs/intro-to-github](https://github.com/ingwanelabs/intro-to-github)
+    - [https://github.com/ingwanelabs/intro-to-github](https://github.com/ingwanelabs/intro-to-github)
 
 ### Step 2. Go to the Issues Tab
 
@@ -33,8 +33,7 @@
   - Explain why the feature would be useful (if it's a request)
   - Add screenshots or code examples if relevant
 
-!!! info "You can (should) use formatting"
-
+!!! info "You should use markdown formatting"
     - You can format your issue using Markdown
     - For example, use bold, italic, and code
 
