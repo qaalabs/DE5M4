@@ -38,7 +38,10 @@
 
 ### Session 2
 
-- **Guided**: [Activity 2: Create a repo in GitHub](day2/source-control/git-repo.md)
+- **Guided**: [Activity 2: Create a Repo in GitHub](day2/source-control/github-repo.md)
+- **Guided**: [Activity 3: Create an Issue](day2/source-control/github-create-issue.md)
+- **Guided**: [Activity 4: Fork a Repository](day2/source-control/github-forking.md)
+- **Guided**: [Activity 5: Create a Pull Request](day2/source-control/github-pull-request.md)
 
 ### Session 3
 
