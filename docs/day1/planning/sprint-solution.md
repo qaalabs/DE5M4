@@ -1,4 +1,4 @@
-# Acitivity 4: Possible solution
+# Sptint Planning ~ Possible solution
 
 ## Sample Sprint Planning Outcome
 

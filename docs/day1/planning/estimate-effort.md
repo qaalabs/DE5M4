@@ -1,6 +1,6 @@
-# Full Group Activity: 3- Estimate Effort
+# Activity: Estimate Effort ~ Planning Poker
 
-For this activity we will be estimating **user stories** using Planning Poker.
+For this activity we will be estimating efort of **User Stories** using *Planning Poker*.
 
 ## Planning Poker Instructions
 
@@ -14,19 +14,21 @@ We will use the [Poker Planning App](https://poker.qaalabs.com/de5m4). On the sc
 
 We're using story points, which represent relative effort and complexity:
 
-- **1 point**: Very simple - like adding a phone number to a page
+- **< 2 points**: Very simple - like adding a phone number to a page
 - **2 points**: Simple - like displaying static content 
-- **3 points**: Moderate - like creating a basic contact form
-- **5 points**: Complex - like building a menu display with filtering
-- **8 points**: Very complex - like creating a reservation booking system
-- **13 points**: Major feature - like a complete online ordering system
-- **20 points**: Epic-sized - probably needs to be broken down
+- **3-5 points**: Moderate - like creating a basic contact form
+- **5-8 points**: Complex - like building a menu display with filtering
+- **13 points**: Very complex - like creating a reservation booking system
+- **20 points**: Major feature - like a complete online ordering system
+- **40 points**: Epic-sized - probably needs to be broken down
 
-you can also select the following:
+!!! note: "These roughly map to a Fibonacci sequence"
 
-- **Hand-up** - You need more information to estimate
-- **Not sure** - You are not sure and are still thinking about it
-- ☕ - You want to pass on providing an estimate
+You can also select the following:
+
+- ✋ **Hand-up** - You need more information to estimate
+- ❓ **Not sure** - You are not sure and are still thinking about it
+- ☕ **Break** - You want to pass on providing an estimate
 
 ### Process
 

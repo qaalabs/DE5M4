@@ -1,14 +1,16 @@
-# Solo Activity: 1- Identify Epics
+# Solo Activity: Identify Epics
+
+**[Click here to read the business requirements for the QARestaurant](qa-restaurant.md)**
 
 ## Introduction to the Activity
 
 Now that we've learned about Agile principles, we're going to practice one of the fundamental planning activities: **organising requirements into epics**.
 
-Think of this as creating the high-level structure that will guide all our detailed planning work.
+Think of this as creating the **high-level structure that will guide all our detailed planning work**.
 
 ## What is an Epic?
 
-An epic is like a major theme or category of work. If your data product were a book, epics would be the chapter titles. They group related functionality together and help us organise our thinking.
+An epic is like a **major theme or category of work**. If your data product were a book, epics would be the chapter titles. They group related functionality together and help us organise our thinking.
 
 For example, if you were building a house, your epics might be:
 
@@ -17,20 +19,20 @@ For example, if you were building a house, your epics might be:
 - Plumbing Systems
 - Interior Finishing
 
-Each epic contains multiple smaller features and tasks, but the epic gives us the big picture theme.
+Each epic contains multiple smaller features and tasks, but **the epic gives us the big picture themes**.
 
 ---
 
 ## Your Task
 
-Read the business requirements for the QARestaurant website. Your job is to:
+Read the [business requirements for the QARestaurant website](qa-restaurant.md). Your job is to:
 
 1. **Read through all the requirements** - understand what needs to be built
 2. **Look for natural groupings** - which requirements seem to belong together?
 3. **Create 4-6 epic names** - give each group a clear, descriptive title
 4. **Assign requirements to epics** - put each requirement under the most appropriate epic
 
-Think of yourself as organising a messy pile of requirements into neat, labeled folders.
+*Think of yourself as organising a messy pile of requirements into neat, labeled folders.*
 
 ## What Makes a Good Epic?
 

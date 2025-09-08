@@ -1,4 +1,4 @@
-# Group Activity: 2- Write User Stories
+# Group Activity: 2 - Write User Stories
 
 ## Introduction to User Stories
 
