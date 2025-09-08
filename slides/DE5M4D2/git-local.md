@@ -1,2 +1,1 @@
-# Working locally with Git
-
+## Activity 1: Working locally with Git

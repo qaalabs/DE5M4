@@ -18,7 +18,7 @@
 **Navigate to the main repository**
 
 - Open your web browser and go to: https://github.com/ingwanelabs/intro-to-github
-- This repository contains a two files and a directory of team profiles.
+- This repository contains a few files and a directory of team profiles.
 
 **Fork the repository**
 
@@ -50,7 +50,6 @@
 - Name your file with your name and a .md extension e.g. `william.md`
 
 !!! warning "Make sure your file name is unique"
-
     - At this stage we are trying not to clash with existing files
     - If someone else has used your name already, add a number or nickname
     - e.g. william2.md or william-bio.md
@@ -77,12 +76,12 @@ If using GitHub web interface:
 - Add a meaningful commit message like "Add [Your Name]'s profile to team document"
 - Leave "Commit directly to the main branch" as the selected option
 - Click "Commit changes"
-   
+
 If using local Git:
 
 ```bash
 git add team-profiles/[your-name].md
-git commit -m "Add [Your Name]'s profile to team document"
+git commit -m "Add my profile to team document"
 git push origin main
 ```
 
@@ -95,7 +94,7 @@ git push origin main
 **Start a new pull request**
 
 - Click the green "New pull request" button
-   
+
 **Set up the pull request**
 
 - Ensure the base repository is the original repository you forked from (on the left)

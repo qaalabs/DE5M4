@@ -1,4 +1,4 @@
-# Activity 5: Creating and Using a Branch in GitHub
+# Activity 5: Creating a Pull Request
 
 ## Learning Objectives
 

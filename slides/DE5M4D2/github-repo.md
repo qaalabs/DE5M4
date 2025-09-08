@@ -1,1 +1,1 @@
-# Creating a repo in GitHub
+## Activity 2: Create a repo in GitHub
