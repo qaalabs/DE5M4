@@ -53,7 +53,7 @@ Click **Create pull request**
 
 ### Step 6. Review, discuss, and merge
 
-- Your instructor) can review the changes
+- Your instructor can review the changes
 - They will click **Merge pull request** to apply the changes into `main`
 - You can delete the branch after merging (this is optional)
 

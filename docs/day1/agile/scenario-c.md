@@ -1,10 +1,10 @@
-# Breakout Activity: 2 - Apply to a Scenario
+# Breakout Activity: Scenario C - Manufacturing Company
 
 Apply your phases from the previous activity to the scenario below.
 
 ## Scenario
 
-> A retail company with 200 physical stores and an e-commerce website wants to create a data product that **helps them understand customer behavior** across both channels to improve inventory management and personalization. They have point-of-sale data, online transaction records, customer profiles, and inventory data available.
+> A manufacturing company operating 3 factories wants to create a data product that **optimises production scheduling and reduces equipment downtime**. They have sensor data from machinery, production logs, quality control measurements, maintenance records, and supply chain data, but currently rely on manual reporting and Excel spreadsheets.
 
 ## Task
 
