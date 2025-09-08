@@ -16,7 +16,7 @@
     
     
       
-        <title>Solo Activity: 3 - Work Project - Module 4 - Planning Data Engineering Product</title>
+        <title>Activity: Estimate Effort ~ Planning Poker - Module 4 - Planning Data Engineering Product</title>
       
     
     
@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#solo-activity-3-work-project" class="md-skip">
+        <a href="#activity-estimate-effort-planning-poker" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Solo Activity: 3 - Work Project
+              Activity: Estimate Effort ~ Planning Poker
             
           </span>
         </div>
@@ -320,12 +320,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../how-instructions/" class="md-nav__link">
+      <a href="../../agile/how-instructions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    How are products designed?
+    Setup: How are products designed?
     
   </span>
   
@@ -343,7 +343,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../how-design-steps/" class="md-nav__link">
+      <a href="../../agile/how-design-steps/" class="md-nav__link">
         
   
   
@@ -366,12 +366,104 @@
   
   
     <li class="md-nav__item">
-      <a href="../scenario/" class="md-nav__link">
+      <a href="../../agile/scenario/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Breakout: Apply your steps to your scenario
+    Breakout: Apply to your scenario
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../epics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Solo Activity: Identify Epics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-stories/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Groups: Write User Stories
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-stories-solution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Play Planning Poker ⏳
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint-planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Groups: Plan a 2-week sprint
     
   </span>
   
@@ -427,31 +519,58 @@
 
 
 
-<h1 id="solo-activity-3-work-project">Solo Activity: 3 - Work Project</h1>
-<h2 id="step-1-individual-reflection">Step 1 - Individual reflection</h2>
-<p>For this activity I would like you to reflect on a data project you've worked on:</p>
-<blockquote>
-<p>Think about a challenging data project you've been involved in.
-What were the biggest pain points or frustrations? Write down 2-3 specific examples.</p>
-</blockquote>
-<h3 id="common-pain-points-might-include">Common pain points might include:</h3>
+<h1 id="activity-estimate-effort-planning-poker">Activity: Estimate Effort ~ Planning Poker</h1>
+<p>For this activity we will be estimating efort of <strong>User Stories</strong> using <em>Planning Poker</em>.</p>
+<h2 id="planning-poker-instructions">Planning Poker Instructions</h2>
+<h3 id="setup">Setup</h3>
+<p>We're going to play <strong>Planning Poker</strong>, a collaborative estimation technique used in Agile teams.</p>
+<p>We will use the <a href="https://poker.qaalabs.com/de5m4">Poker Planning App</a>. On the screen you will see a set of numbers: <strong>0, 0.5, 1, 2, 3, 5, 8, 13, 20</strong>. As well as: <strong>Hand-up</strong>, <strong>Not sure</strong>, and <strong>Break</strong></p>
+<h3 id="estimation-scale">Estimation Scale</h3>
+<p>We're using story points, which represent relative effort and complexity:</p>
 <ul>
-<li>Requirements that kept changing</li>
-<li>Stakeholders not available for questions</li>
-<li>Discovering data quality issues late in the project</li>
-<li>Project scope that kept expanding</li>
-<li>Technical debt that slowed progress</li>
-<li>Difficulty estimating how long tasks would take</li>
+<li><strong>&lt; 2 points</strong>: Very simple - like adding a phone number to a page</li>
+<li><strong>2 points</strong>: Simple - like displaying static content </li>
+<li><strong>3-5 points</strong>: Moderate - like creating a basic contact form</li>
+<li><strong>5-8 points</strong>: Complex - like building a menu display with filtering</li>
+<li><strong>13 points</strong>: Very complex - like creating a reservation booking system</li>
+<li><strong>20 points</strong>: Major feature - like a complete online ordering system</li>
+<li><strong>40 points</strong>: Epic-sized - probably needs to be broken down</li>
 </ul>
-<p>Take some time to do this individually, then <strong>be prepared to share your experience</strong> with the group.</p>
-<hr />
-<h2 id="step-2-group-sharing">Step 2 - Group sharing</h2>
-<p><strong>Share your top pain points with the group.</strong></p>
-<p>When others share:</p>
+<p>!!! note: "These roughly map to a Fibonacci sequence"</p>
+<p>You can also select the following:</p>
 <ul>
-<li>Listen for common themes and patterns.</li>
-<li>Identify the 3 of most significant challenges we've all experienced.</li>
-<li>Think about if an Agile approach would solve any of these challenges.</li>
+<li>✋ <strong>Hand-up</strong> - You need more information to estimate</li>
+<li>❓ <strong>Not sure</strong> - You are not sure and are still thinking about it</li>
+<li>☕ <strong>Break</strong> - You want to pass on providing an estimate</li>
+</ul>
+<h3 id="process">Process</h3>
+<p>For each user story, we will:</p>
+<ol>
+<li><strong>Read the story</strong> together</li>
+<li><strong>Discuss</strong> any questions about requirements or scope</li>
+<li><strong>Estimate</strong> - click your chosen number</li>
+<li><strong>Reveal simultaneously</strong> - the minimum, maximum, and consensus will be shown</li>
+<li><strong>Discuss differences</strong> - if estimates vary widely, we will hear from the highest and lowest estimators</li>
+<li><strong>Re-estimate</strong> - if needed after discussion</li>
+<li><strong>Record the consensus</strong> - note the agreed estimate</li>
+</ol>
+<hr />
+<h3 id="sample-estimation-discussions">Sample Estimation Discussions</h3>
+<p><strong>Story</strong>: "As a customer, I want to place an online order with multiple items"</p>
+<p><strong>Possible discussion points</strong>:</p>
+<ul>
+<li>Does this include payment processing?</li>
+<li>How complex is the shopping cart functionality?</li>
+<li>Do we need to integrate with existing POS systems?</li>
+<li>What about order confirmation and tracking?</li>
+</ul>
+<p><strong>Story</strong>: "As a restaurant staff member, I want to update reservation details"</p>
+<p><strong>Possible discussion points</strong>:</p>
+<ul>
+<li>Is this just editing existing fields or more complex changes?</li>
+<li>Do we need audit trails of who changed what?</li>
+<li>How do we handle conflicts if customer also tries to change it?</li>
+<li>What validation is needed?</li>
 </ul>
 
 
