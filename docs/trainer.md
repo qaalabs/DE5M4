@@ -62,9 +62,14 @@
 
 ### Session 1
 
+- **Discussion**: Workplace Storage & Databases
+- **Activity**: Lab 1: Create Amazon S3 Bucket
 
 ### Session 2
 
+- **Activity**: Lab 2: Core Azure Storage Products
+- **Activity**: Lab 3: Google Cloud Storage
+- **Activity**: Lab 4: AWS Acquiring and Storing Data
 
 ### Session 3
 
