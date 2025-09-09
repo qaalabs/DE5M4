@@ -28,6 +28,10 @@
 
 ## Session 4
 
+- `14:50` [Cloud Architecture Scenarios](../day2/cloud/architecture.md) (10 mins)
+- `15:00` **Breakout**: [Activity: Cloud Architecture](../day2/cloud/scenario.md) (20 mins)
+- `15:20` **Discussion**: Report Back: Cloud Architecture (20 mins)
+- `15:40` **Discussion**: Workplace Architecture (10 mins)
 
 ## Wrap
 

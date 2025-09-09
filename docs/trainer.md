@@ -51,6 +51,10 @@
 
 ### Session 4
 
+- [Cloud Architecture Scenarios](day2/cloud/architecture.md)
+- **Breakout**: [Activity: Cloud Architecture](day2/cloud/scenario.md)
+- **Discussion**: Report Back: Cloud Architecture
+- **Discussion**: Workplace Architecture
 
 ---
 

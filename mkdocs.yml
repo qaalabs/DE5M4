@@ -26,6 +26,8 @@ nav:
     - "Activity 4: Fork a Repository": day2/source-control/github-forking.md
     - "Activity 5: Create a Pull Request": day2/source-control/github-pull-request.md
     - "Activity: Cloud Building Blocks": day2/cloud/building-blocks.md
+    - "Cloud Architecture Scenarios": day2/cloud/architecture.md
+    - "Activity: Cloud Architecture": day2/cloud/scenario.md
 
   - Resources: resources.md
 
