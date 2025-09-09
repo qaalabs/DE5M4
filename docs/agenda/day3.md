@@ -3,7 +3,7 @@
 ## Session 1
 
 - `09:30` Welcome (10 mins)
-- `09:40` **Discussion**: [Workplace Storage & Databases](../day3/storage/examples.md) (20 mins)
+- `09:40` **Discussion**: Workplace Storage & Databases (20 mins)
 - `10:00` **Activity**: Lab 1: Create Amazon S3 Bucket (30 mins)
 
 ## ☕ Morning Break

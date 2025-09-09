@@ -9,7 +9,6 @@ nav:
   - Agenda:
     - Day 1: agenda/day1.md
     - Day 2: agenda/day2.md
-    - Day 3: agenda/day3.md
 
   - "Day 1 - Agile Foundations":
     - "Setup: How are products designed?": day1/agile/how-instructions.md
@@ -30,9 +29,6 @@ nav:
     - "Cloud Architecture Scenarios": day2/cloud/architecture.md
     - "Activity: Cloud Architecture": day2/cloud/scenario.md
 
-  - "Day 3 - Data Modelling":
-    - "Workplace Storage & Databases": day3/storage/examples.md
-
   - Resources: resources.md
 
 not_in_nav: |
@@ -41,6 +37,7 @@ not_in_nav: |
   day1/agile/how-solution.md
   day1/planning/epics-solution.md
   day1/planning/sprint-solution.md
+  day3/storage/examples.md
 
 
 # Theme
