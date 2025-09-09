@@ -1,14 +1,29 @@
-# Activity: 1 - Test Driven Development (TDD)
+# Activity F1: Test Driven Development (TDD)
 
 ## TDD Exercise: Data Validation Function
+
+### Anaconda prompt
+
+In your VM in the Search bar type: **Anaconda Prompt**
+
+![Anaconda Prompt](../../img/anaconda-prompt.png)
+
+Select the app to open a Windows command prompt window
 
 ### Setup
 
 1. Confirm that Python version 3 is installed on the VM: `python --version`
-2. Ensure pytest is installed on the VM: `pip install pytest`
+2. Ensure pytest is installed on the VM: `pytest --version`
 3. Create a simple project structure:
    - Create a folder called **data_validator**: `mkdir data_validator`
    - Change directory to the folder: `cd data_validator`
+
+![Anaconda TDD](../../img/anaconda-tdd.png)
+
+!!! note "Virtual Enviroment"
+    - In a normal development situation you should use a Virtual Enviroment
+    - For simplicity we will not do that!
+    - But in all cases outside of this training enviroment it is an absolute requirement
 
 ### Open Visual Studio Code
 
@@ -17,17 +32,14 @@
 3. Close the Welcome screen
 4. Create two empty files: `validator.py` and `test_validator.py`
 
-!!! note "Virtual Enviroment"
-    - In a normal development situation you should use a Virtual Enviroment
-    - For simplicity we will not do that!
-    - But in all cases outside of this training enviroment it is an absolute requirement
+![TDD Visual Studio Code](../../img/tdd-visual-studio-code.png)
 
 ### TDD principles
 
 - "Write a failing test first, then implement the minimum code to pass the test, then refactor"
 - Use **Arrange** ... **Act** ... **Assert** structure in your Python test function.
 
-### Setup gitBash shell in VS Code (optional)
+### Setup GitBash shell in VS Code (optional)
 
 1. In VS code select: `View --> Terminal` or `Ctrl+'`
 2. If you want a GitBash shell then click the + and select: `GitBash`

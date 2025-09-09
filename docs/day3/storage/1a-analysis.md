@@ -1,4 +1,4 @@
-# Group Activity: 1 - Requirements Analysis
+# Group Activity E1: Requirements Analysis
 
 > A healthcare provider is developing a data product to analyse and optimise patient journeys through their system. The goal is to reduce wait times, improve resource allocation, and enhance patient outcomes.
 
@@ -12,7 +12,7 @@ Read the [full scenario](scenario.md) to understand all the requirements, and th
 - What attributes are associated with each entity?
 - What are the business identifiers for each entity?
 
-### Step 2 -Mapping relationships
+### Step 2 - Mapping relationships
 
 - How do these entities relate to each other?
 - What are the cardinalities (one-to-one, one-to-many, many-to-many)?

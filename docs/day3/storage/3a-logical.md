@@ -30,7 +30,7 @@ Make sure you **document your key design decisions**.
 
 Each person in the group will report back on **one design decision** the group has made. When you explain your decision, aim to answer the following:
 
-### Pointers for report back:
+### Pointers for report back
 
 **What was the decision?**
 
