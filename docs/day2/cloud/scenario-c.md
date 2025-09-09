@@ -15,8 +15,6 @@ It collects user interaction data (clicks, ratings, watch history) from its mobi
 - Budget is limited, especially for training infrastructure
 - Model versions must be **tracked and reproducible**
 
----
-
 !!! tip "Focus on choosing the right combination of:"
 
     - Storage

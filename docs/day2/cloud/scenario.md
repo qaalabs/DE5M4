@@ -12,6 +12,6 @@ A large retailer operates **350 stores** across the country. Each store uploads 
 
 A startup is building a **movie recommendation engine**. It collects user interaction data (clicks, ratings, watch history) from its mobile app and website, which adds up to **50 GB of new data per day**.
 
-## [Scenario D - ??](scenario-d.md)
+## [Scenario D - Financial Data Warehouse](scenario-d.md)
 
-TBC
+A financial services company needs to integrate data from **multiple sources** to create executive dashboards and regulatory reports.

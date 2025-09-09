@@ -20,8 +20,6 @@ Each device sends data **every 10 seconds**, resulting in tens of millions of re
 - Minimal operations overhead (prefer managed services)
 - Data must be **retained for 2 years** for compliance
 
----
-
 !!! tip "Focus on choosing the right combination of:"
 
     - Storage

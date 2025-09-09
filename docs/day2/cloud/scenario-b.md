@@ -15,8 +15,6 @@ Each store uploads its daily sales report as a **CSV file** (\~10 MB) to cloud s
 - Must complete daily ETL in under 2 hours
 - Easy to maintain and modify as store formats evolve
 
----
-
 !!! tip "Focus on choosing the right combination of:"
 
     - Storage
