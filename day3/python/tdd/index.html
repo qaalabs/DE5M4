@@ -16,7 +16,7 @@
     
     
       
-        <title>Group Activity: 2 - Conceptual Data Model - Module 4 - Planning Data Engineering Product</title>
+        <title>Activity F1: Test Driven Development (TDD) - Module 4 - Planning Data Engineering Product</title>
       
     
     
@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#group-activity-2-conceptual-data-model" class="md-skip">
+        <a href="#activity-f1-test-driven-development-tdd" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Group Activity: 2 - Conceptual Data Model
+              Activity F1: Test Driven Development (TDD)
             
           </span>
         </div>
@@ -771,21 +771,143 @@
 
 
 
-<h1 id="group-activity-2-conceptual-data-model">Group Activity: 2 - Conceptual Data Model</h1>
-<h2 id="instructions">Instructions</h2>
-<p>Each group needs to create a <strong>conceptual data model</strong>:</p>
+<h1 id="activity-f1-test-driven-development-tdd">Activity F1: Test Driven Development (TDD)</h1>
+<h2 id="tdd-exercise-data-validation-function">TDD Exercise: Data Validation Function</h2>
+<h3 id="anaconda-prompt">Anaconda prompt</h3>
+<p>In your VM in the Search bar type: <strong>Anaconda Prompt</strong></p>
+<p><img alt="Anaconda Prompt" src="../../../img/anaconda-prompt.png" /></p>
+<p>Select the app to open a Windows command prompt window</p>
+<h3 id="setup">Setup</h3>
+<ol>
+<li>Confirm that Python version 3 is installed on the VM: <code>python --version</code></li>
+<li>Ensure pytest is installed on the VM: <code>pytest --version</code></li>
+<li>Create a simple project structure:</li>
+<li>Create a folder called <strong>data_validator</strong>: <code>mkdir data_validator</code></li>
+<li>Change directory to the folder: <code>cd data_validator</code></li>
+</ol>
+<p><img alt="Anaconda TDD" src="../../../img/anaconda-tdd.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Virtual Enviroment</p>
 <ul>
-<li>Draw entity-relationship diagrams</li>
-<li>Define key entities and relationships</li>
-<li>Identify primary attributes for each entity</li>
-<li>Note relationship cardinalities</li>
-<li>Identify candidate keys</li>
+<li>In a normal development situation you should use a Virtual Enviroment</li>
+<li>For simplicity we will not do that!</li>
+<li>But in all cases outside of this training enviroment it is an absolute requirement</li>
 </ul>
-<hr />
-<h2 id="report-back">Report Back</h2>
+</div>
+<h3 id="open-visual-studio-code">Open Visual Studio Code</h3>
+<ol>
+<li>To start Visual Studio Code run: <code>code .</code></li>
+<li>Switch to VS code and click Trust the authors if prompted</li>
+<li>Close the Welcome screen</li>
+<li>Create two empty files: <code>validator.py</code> and <code>test_validator.py</code></li>
+</ol>
+<p><img alt="TDD Visual Studio Code" src="../../../img/tdd-visual-studio-code.png" /></p>
+<h3 id="tdd-principles">TDD principles</h3>
 <ul>
-<li>Present your Entity-Relationship Diagram (ERD) to the class</li>
-<li>Someone in your group shares their screen, and the group talks through some relevant entities and relationships</li>
+<li>"Write a failing test first, then implement the minimum code to pass the test, then refactor"</li>
+<li>Use <strong>Arrange</strong> ... <strong>Act</strong> ... <strong>Assert</strong> structure in your Python test function.</li>
+</ul>
+<h3 id="setup-gitbash-shell-in-vs-code-optional">Setup GitBash shell in VS Code (optional)</h3>
+<ol>
+<li>In VS code select: <code>View --&gt; Terminal</code> or <code>Ctrl+'</code></li>
+<li>If you want a GitBash shell then click the + and select: <code>GitBash</code></li>
+<li>in the shell run pytest: <code>pytest</code></li>
+</ol>
+<hr />
+<h2 id="instructions">Instructions</h2>
+<h3 id="step-1-write-the-first-test-in-test_validatorpy">Step 1 - Write the first test in <code>test_validator.py</code></h3>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">pytest</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">validator</span><span class="w"> </span><span class="kn">import</span> <span class="n">validate_data_record</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">test_empty_record</span><span class="p">():</span>
+    <span class="c1"># Arrange</span>
+    <span class="n">record</span> <span class="o">=</span> <span class="p">{}</span>
+
+    <span class="c1"># Act</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">validate_data_record</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
+
+    <span class="c1"># Assert</span>
+    <span class="k">assert</span> <span class="n">result</span> <span class="o">==</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Empty records should be rejected&quot;</span>
+</code></pre></div>
+<h2 id="step-2-run-the-test-and-see-it-fail-because-the-function-doesnt-exist-yet">Step 2 - Run the test and see it fail (because the function doesn't exist yet)</h2>
+<ul>
+<li><code>pytest test_validator.py -v</code></li>
+</ul>
+<h2 id="step-3-implement-the-minimum-code-in-validatorpy-to-pass-the-test">Step 3 - Implement the minimum code in <code>validator.py</code> to pass the test:</h2>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">validate_data_record</span><span class="p">(</span><span class="n">record</span><span class="p">):</span>
+    <span class="k">return</span> <span class="kc">False</span>  <span class="c1"># Simplest implementation to make the test pass</span>
+</code></pre></div>
+<h2 id="step-4-run-the-test-and-see-it-pass">Step 4 - Run the test and see it pass</h2>
+<ul>
+<li><code>pytest test_validator.py -v</code></li>
+</ul>
+<h2 id="step-5-write-a-second-test-for-a-positive-case">Step 5 - Write a second test for a positive case:</h2>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">test_validate_data_record_accepts_valid_record</span><span class="p">():</span>
+    <span class="c1"># Arrange</span>
+    <span class="n">record</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="mi">1001</span><span class="p">,</span>
+        <span class="s2">&quot;timestamp&quot;</span><span class="p">:</span> <span class="s2">&quot;2025-05-14T10:30:00&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="mf">42.5</span><span class="p">,</span>
+        <span class="s2">&quot;status&quot;</span><span class="p">:</span> <span class="s2">&quot;active&quot;</span>
+    <span class="p">}</span>
+
+    <span class="c1"># Act</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">validate_data_record</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
+
+    <span class="c1"># Assert</span>
+    <span class="k">assert</span> <span class="n">result</span> <span class="o">==</span> <span class="kc">True</span><span class="p">,</span> <span class="s2">&quot;Valid records should be accepted&quot;</span>
+</code></pre></div>
+<h3 id="step-6-run-the-test-and-see-it-fail">Step 6 - Run the test and see it fail</h3>
+<ul>
+<li><code>pytest test_validator.py -v</code></li>
+</ul>
+<h3 id="step-7-update-the-implementation-to-pass-both-tests">Step 7 - Update the implementation to pass both tests</h3>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">validate_data_record</span><span class="p">(</span><span class="n">record</span><span class="p">):</span>
+    <span class="n">required_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">,</span> <span class="s2">&quot;timestamp&quot;</span><span class="p">,</span> <span class="s2">&quot;value&quot;</span><span class="p">,</span> <span class="s2">&quot;status&quot;</span><span class="p">]</span>
+
+    <span class="c1"># Check if record is empty</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">record</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span>
+
+    <span class="c1"># Check if all required fields exist</span>
+    <span class="k">for</span> <span class="n">field</span> <span class="ow">in</span> <span class="n">required_fields</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">field</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">record</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">False</span>
+
+    <span class="k">return</span> <span class="kc">True</span>
+</code></pre></div>
+<h3 id="step-8-run-tests-and-see-them-pass">Step 8 - Run tests and see them pass</h3>
+<ul>
+<li><code>pytest test_validator.py -v</code></li>
+</ul>
+<h3 id="step-9-add-more-test-cases">Step 9 - Add more test cases**</h3>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">test_validate_data_record_rejects_missing_fields</span><span class="p">():</span>
+    <span class="c1"># Arrange</span>
+    <span class="n">record</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="mi">1001</span><span class="p">,</span>
+        <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="mf">42.5</span><span class="p">,</span>
+        <span class="c1"># Missing timestamp and status</span>
+    <span class="p">}</span>
+
+    <span class="c1"># Act</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">validate_data_record</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
+
+    <span class="c1"># Assert</span>
+    <span class="k">assert</span> <span class="n">result</span> <span class="o">==</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Records with missing fields should be rejected&quot;</span>
+</code></pre></div>
+<h3 id="reflection-and-discussion">Reflection and Discussion</h3>
+<ul>
+<li>How does TDD help in planning a data product?</li>
+<li>In what data engineering scenarios would TDD be particularly valuable?</li>
+<li>How does this connect to the broader SDLC and quality assurance?</li>
+<li>What additional validations would be important in a real data pipeline? (data types, ranges, formats)</li>
+</ul>
+<h3 id="optional-extension">Optional Extension</h3>
+<p>If you finish early, add validation for:</p>
+<ul>
+<li>Data types (e.g., id must be an integer)</li>
+<li>Value ranges (e.g., value must be positive)</li>
+<li>Timestamp format validation</li>
 </ul>
 
 
