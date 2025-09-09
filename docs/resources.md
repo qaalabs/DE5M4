@@ -9,7 +9,7 @@
 ### Storage
 
 - Google: https://app.qa.com/lab/working-google-cloud-storage-from-the-console/
-- Amazon S3: https://app.qa.com/lab/create-your-first-amazon-s3-bucket/
+- Amazon S3: https://app.qa.com/lab/create-your-first-amazon-s3-bucket/ ~ about 30 minutes
 - Amazon RDS: https://app.qa.com/lab/create-your-first-amazon-rds-database/
 - Azure: https://app.qa.com/lab/understanding-core-azure-storage-products/
 
