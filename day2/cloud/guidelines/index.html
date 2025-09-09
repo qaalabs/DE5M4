@@ -16,7 +16,7 @@
     
     
       
-        <title>Breakout Activity: 1 - Core Building Blocks - Module 4 - Planning Data Engineering Product</title>
+        <title>Designing Cloud Architecture for Data Products - Module 4 - Planning Data Engineering Product</title>
       
     
     
@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#breakout-activity-1-core-building-blocks" class="md-skip">
+        <a href="#designing-cloud-architecture-for-data-products" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Breakout Activity: 1 - Core Building Blocks
+              Designing Cloud Architecture for Data Products
             
           </span>
         </div>
@@ -657,6 +657,29 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../building-blocks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activity: Cloud Building Blocks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -702,122 +725,197 @@
 
 
 
-<h1 id="breakout-activity-1-core-building-blocks">Breakout Activity: 1 - Core Building Blocks</h1>
-<h2 id="overview">Overview</h2>
-<p>Cloud providers offer similar <strong>core building blocks</strong> for building data solutions:</p>
+<h1 id="designing-cloud-architecture-for-data-products">Designing Cloud Architecture for Data Products</h1>
+<h2 id="session-title-cloud-architecture-design-for-data-engineering-products">Session Title: "Cloud Architecture Design for Data Engineering Products"</h2>
+<h3 id="session-overview">Session Overview</h3>
+<p><strong>Introduction:</strong>
+This afternoon, we'll focus on designing cloud architectures for data engineering products. While different cloud providers offer similar services with different names, the fundamental architectural patterns remain consistent. We'll explore how to design scalable, secure, and cost-effective cloud architectures as part of our data product planning process.</p>
+<h3 id="part-1-cloud-architecture-fundamentals">Part 1: Cloud Architecture Fundamentals</h3>
+<p><strong>Presentation: "Design Principles for Cloud Data Architectures"</strong></p>
+<p>Cover key design considerations that apply across all major cloud providers:</p>
+<ol>
+<li><strong>Architectural Patterns for Data Products</strong></li>
+<li>Data lake vs. data warehouse architectures</li>
+<li>Batch vs. streaming processing patterns</li>
+<li>Centralized vs. federated data models</li>
+<li>
+<p>Monolithic vs. microservices approaches for data pipelines</p>
+</li>
+<li>
+<p><strong>Core Building Blocks</strong></p>
+</li>
+<li>Storage services (object storage, file systems, databases)</li>
+<li>Compute services (virtual machines, containers, serverless)</li>
+<li>Integration services (message queues, API gateways)</li>
+<li>
+<p>Orchestration services (workflow engines, pipeline managers)</p>
+</li>
+<li>
+<p><strong>Design Considerations</strong></p>
+</li>
+<li>Scalability and elasticity</li>
+<li>Security and compliance</li>
+<li>Cost optimization</li>
+<li>Operational excellence</li>
+<li>Performance efficiency</li>
+<li>Reliability and fault tolerance</li>
+</ol>
+<p><strong>Group Discussion Activity:</strong></p>
+<p>In small groups, discuss which cloud architectural pattern would be most appropriate for these scenarios:</p>
 <ul>
-<li><strong>Storage</strong> (object storage, file systems, databases)</li>
-<li><strong>Compute</strong> (VMs, containers, serverless functions)</li>
-<li><strong>Integration</strong> (message queues, API gateways)</li>
-<li><strong>Orchestration</strong> (workflow engines, pipeline managers)</li>
+<li>A batch processing pipeline for nightly financial reports</li>
+<li>A real-time dashboard of IoT sensor data</li>
+<li>A machine learning feature store with high query performance needs</li>
+<li>A data lake solution for storing years of historical customer data</li>
 </ul>
-<p>The major cloud providers we'll compare:</p>
+<h3 id="part-2-designing-a-reference-architecture">Part 2: Designing a Reference Architecture</h3>
+<p><strong>Workshop: "Creating a Cloud-Agnostic Reference Architecture"</strong></p>
+<ol>
+<li><strong>Introduce the Business Scenario</strong></li>
+</ol>
+<p>Present a retail data analytics platform scenario:
+   - Needs to ingest point-of-sale data daily from 200+ stores
+   - Must process e-commerce clickstream data near real-time
+   - Requires historical analysis capabilities for business analysts
+   - Needs to support machine learning models for personalization
+   - Must comply with data privacy regulations</p>
+<ol>
+<li><strong>Component Mapping Activity</strong></li>
+</ol>
+<p>In groups, have participants:
+   - List all required components for this data product
+   - Identify the generic cloud service types needed
+   - Map dependencies between components</p>
+<p>Provide a component template with categories:
+   - Data sources and ingestion
+   - Storage and databases
+   - Processing and transformation
+   - Analysis and serving
+   - Security and governance
+   - Monitoring and operations</p>
+<ol>
+<li><strong>Architecture Diagramming</strong></li>
+</ol>
+<p>Using virtual whiteboarding tools:
+   - Create a visual representation of the architecture
+   - Use cloud-agnostic symbols (storage, compute, databases)
+   - Show data flows between components
+   - Indicate security boundaries
+   - Highlight scaling points</p>
+<p>Provide a template diagram with placeholders for key architecture zones.</p>
+<ol>
+<li><strong>Group Presentations</strong></li>
+</ol>
+<p>Have one or two groups briefly present their architecture designs.</p>
+<h3 id="part-3-cloud-service-selection-strategy">Part 3: Cloud Service Selection Strategy</h3>
+<p><strong>Presentation: "Choosing the Right Services Across Cloud Providers"</strong></p>
+<ol>
+<li><strong>Equivalency Mapping</strong></li>
+</ol>
+<p>Show how similar services map across major providers:
+   - Storage: S3 (AWS) vs. Blob Storage (Azure) vs. Cloud Storage (GCP)
+   - Compute: EC2 (AWS) vs. VMs (Azure) vs. Compute Engine (GCP)
+   - Orchestration: Step Functions (AWS) vs. Logic Apps (Azure) vs. Workflows (GCP)</p>
+<p>Provide a reference chart with common service types and their implementation across providers.</p>
+<ol>
+<li><strong>Selection Criteria Framework</strong></li>
+</ol>
+<p>Present a decision framework for choosing services:
+   - Business requirements alignment
+   - Technical capabilities matching
+   - Integration with existing systems
+   - Cost structure and optimization opportunities
+   - Operations and maintenance considerations
+   - Vendor lock-in implications</p>
+<ol>
+<li><strong>Decision Matrix Activity</strong></li>
+</ol>
+<p>Have participants create a simple decision matrix for one component of their architecture:
+   - List 3-4 requirements for the component
+   - Rate how well different service options meet each requirement
+   - Make a selection based on overall scores</p>
+<h3 id="part-4-architecture-documentation">Part 4: Architecture Documentation</h3>
+<p><strong>Workshop: "Documenting Cloud Architecture Designs"</strong></p>
+<ol>
+<li><strong>Architecture Documentation Template</strong></li>
+</ol>
+<p>Present a standardized template for cloud architecture documentation:
+   - Executive summary
+   - Business context and requirements
+   - Architecture overview diagram
+   - Component descriptions
+   - Data flow explanations
+   - Security controls
+   - Scaling and resilience approach
+   - Estimated costs and resources
+   - Implementation considerations</p>
+<ol>
+<li><strong>Documentation Exercise</strong></li>
+</ol>
+<p>Have participants begin documenting their architecture designs using the template:
+   - Focus on 2-3 key sections only (given time constraints)
+   - Emphasize clear communication of design decisions
+   - Include rationale for architectural choices</p>
+<ol>
+<li><strong>Peer Review</strong></li>
+</ol>
+<p>Pair groups to briefly review each other's documentation:
+   - Is the architecture clearly explained?
+   - Are design decisions well-justified?
+   - What questions remain unanswered?</p>
+<h3 id="part-5-implementation-planning">Part 5: Implementation Planning</h3>
+<p><strong>Workshop: "From Architecture to Implementation Plan"</strong></p>
+<ol>
+<li><strong>Phased Implementation Approach</strong></li>
+</ol>
+<p>Present strategies for implementing complex architectures:
+   - Minimum viable architecture
+   - Incremental component deployment
+   - Testing and validation stages
+   - Migration considerations for existing data</p>
+<ol>
+<li><strong>Implementation Roadmap Activity</strong></li>
+</ol>
+<p>Have groups create a high-level implementation roadmap:
+   - Identify 3-4 implementation phases
+   - Define key milestones for each phase
+   - Prioritize components based on dependencies
+   - Consider risk mitigation approaches</p>
+<ol>
+<li><strong>Risk Assessment</strong></li>
+</ol>
+<p>Quickly identify potential risks in the implementation plan:
+   - Technical risks
+   - Resource constraints
+   - Timeline challenges
+   - Integration complexities</p>
+<h3 id="wrap-up-and-connection-to-day-3">Wrap-Up and Connection to Day 3</h3>
+<p><strong>Closing Discussion:</strong></p>
 <ul>
-<li><strong>GCP</strong> (Google)</li>
-<li><strong>Azure</strong> (Microsoft)</li>
-<li><strong>AWS</strong> (Amazon)</li>
+<li>Summarize key architecture design principles covered</li>
+<li>Connect today's cloud architecture designs to tomorrow's database and Python topics</li>
+<li>Highlight how the architecture planning documents created today will inform data modeling decisions on Day 3</li>
+<li>Preview how all these elements will come together in the final project on Day 4</li>
 </ul>
-<hr />
-<h2 id="group-instructions">Group Instructions</h2>
-<h3 id="step-1-identify-the-products">Step 1: Identify the Products</h3>
-<p>Each group will be assigned <strong>one cloud provider</strong> (GCP, AWS, or Azure).</p>
-<p>Work together, in your group, to map services to this table of core building blocks:</p>
-<table>
-<thead>
-<tr>
-<th>Category</th>
-<th>GCP Product(s)</th>
-<th>AWS Product(s)</th>
-<th>Azure Product(s)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Object Storage</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>File Storage</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Relational DB</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Virtual Machines</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Containers</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Serverless Compute</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Message Queues</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>API Management</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Workflow Orchestration</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<div class="admonition tip">
-<p class="admonition-title">Use docs or product portals if needed</p>
+<p><strong>Reflection Question:</strong></p>
+<p>What was the most valuable insight you gained about planning cloud architectures for data products, and how might you apply this to your workplace projects?</p>
+<h2 id="implementation-notes">Implementation Notes:</h2>
+<h3 id="materials-needed">Materials Needed:</h3>
 <ul>
-<li>Don't aim for perfection - just a best guess is fine!</li>
+<li>Cloud architecture patterns reference guide</li>
+<li>Cloud service comparison chart across major providers</li>
+<li>Architecture documentation template</li>
+<li>Virtual whiteboarding capability (Miro, Mural, etc.)</li>
+<li>Decision matrix template</li>
+<li>Implementation roadmap template</li>
 </ul>
-</div>
-<hr />
-<h3 id="step-2-product-deep-dive">Step 2: Product Deep-Dive</h3>
-<p>Each team member picks <strong>one product</strong> from your provider's list and answers:</p>
+<h3 id="facilitation-tips">Facilitation Tips:</h3>
 <ul>
-<li><strong>What does this product do?</strong></li>
-<li><strong>What are its strengths?</strong></li>
-<li><strong>What are its weaknesses or limitations?</strong></li>
-<li><strong>Why is it important for Data Engineers?</strong></li>
-</ul>
-<div class="admonition success">
-<p class="admonition-title">Just quick notes - not a full presentations</p>
-</div>
-<hr />
-<h2 id="report-back">Report Back</h2>
-<p>The group shares their list of products that match the services list.</p>
-<p>Then each person shares <strong>a 1–2 minute</strong> overview of their selected product with the full group.</p>
-<div class="admonition success">
-<p class="admonition-title">Sharing your screen with notes is fine.</p>
-</div>
-<hr />
-<h2 id="reflection">Reflection</h2>
-<ul>
-<li>Which areas showed the most variation across clouds?</li>
-<li>Where do you see the biggest trade-offs for Data Engineers?</li>
+<li>Keep exercises cloud-provider agnostic by focusing on capabilities rather than specific services</li>
+<li>Use consistent iconography for architecture diagrams that works across providers</li>
+<li>Emphasize design principles and patterns over specific implementation details</li>
+<li>Connect back to the Agile principles from Day 1 when discussing implementation planning</li>
+<li>Encourage participants to think about how their work environment's cloud strategy would influence their design decisions</li>
 </ul>
 
 

@@ -16,7 +16,7 @@
     
     
       
-        <title>Scenario B: Retail Sales ETL - Module 4 - Planning Data Engineering Product</title>
+        <title>Designing Cloud Architecture for Data Products - Module 4 - Planning Data Engineering Product</title>
       
     
     
@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#scenario-b-retail-sales-etl" class="md-skip">
+        <a href="#designing-cloud-architecture-for-data-products" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Scenario B: Retail Sales ETL
+              Designing Cloud Architecture for Data Products
             
           </span>
         </div>
@@ -657,6 +657,29 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../building-blocks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activity: Cloud Building Blocks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -702,31 +725,33 @@
 
 
 
-<h1 id="scenario-b-retail-sales-etl">Scenario B: Retail Sales ETL</h1>
-<p>A large retailer operates <strong>350 stores</strong> across the country.
-Each store uploads its daily sales report as a <strong>CSV file</strong> (~10 MB) to cloud storage at <strong>midnight</strong>.</p>
-<h2 id="requirements">Requirements</h2>
-<ol>
-<li>Automatically trigger an ETL process when a new file arrives</li>
-<li>Clean and standardise the data (e.g. convert currencies, validate SKUs)</li>
-<li>Load into a <strong>centralised data warehouse</strong></li>
-<li>Generate daily <strong>sales dashboards</strong> accessible by regional managers</li>
-</ol>
-<h2 id="constraints">Constraints</h2>
+<h1 id="designing-cloud-architecture-for-data-products">Designing Cloud Architecture for Data Products</h1>
+<h2 id="cloud-architecture-fundamentals">Cloud Architecture Fundamentals</h2>
+<p>These are the key design considerations that apply across all major cloud providers:</p>
+<h3 id="architectural-patterns-for-data-products">Architectural Patterns for Data Products</h3>
 <ul>
-<li>Must complete daily ETL in under 2 hours</li>
-<li>Easy to maintain and modify as store formats evolve</li>
+<li>Data lake vs. data warehouse architectures</li>
+<li>Batch vs. streaming processing patterns</li>
+<li>Centralised vs. federated data models</li>
+<li>Monolithic vs. microservices approaches for data pipelines</li>
+</ul>
+<h3 id="core-building-blocks">Core Building Blocks</h3>
+<ul>
+<li>Storage services (object storage, file systems, databases)</li>
+<li>Compute services (virtual machines, containers, serverless)</li>
+<li>Integration services (message queues, API gateways)</li>
+<li>Orchestration services (workflow engines, pipeline managers)</li>
+</ul>
+<h3 id="design-considerations">Design Considerations</h3>
+<ul>
+<li>Scalability and elasticity</li>
+<li>Security and compliance</li>
+<li>Cost optimization</li>
+<li>Operational excellence</li>
+<li>Performance efficiency</li>
+<li>Reliability and fault tolerance</li>
 </ul>
 <hr />
-<div class="admonition tip">
-<p class="admonition-title">Focus on choosing the right combination of:</p>
-<ul>
-<li>Storage</li>
-<li>Compute</li>
-<li>Integration</li>
-<li>Orchestration</li>
-</ul>
-</div>
 
 
 

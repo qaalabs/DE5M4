@@ -16,7 +16,7 @@
     
     
       
-        <title>Scenario A: IoT Sensor Data Lake - Module 4 - Planning Data Engineering Product</title>
+        <title>Scenario C: Machine Learning Pipeline - Module 4 - Planning Data Engineering Product</title>
       
     
     
@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#scenario-a-iot-sensor-data-lake" class="md-skip">
+        <a href="#scenario-c-machine-learning-pipeline" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Scenario A: IoT Sensor Data Lake
+              Scenario C: Machine Learning Pipeline
             
           </span>
         </div>
@@ -657,6 +657,29 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../building-blocks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activity: Cloud Building Blocks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -702,32 +725,21 @@
 
 
 
-<h1 id="scenario-a-iot-sensor-data-lake">Scenario A: IoT Sensor Data Lake</h1>
-<p>A manufacturing company collects temperature and humidity readings from <strong>5,000 IoT sensors</strong> deployed across several warehouses.</p>
-<p>Each device sends data <strong>every 10 seconds</strong>, resulting in tens of millions of records per day.</p>
+<h1 id="scenario-c-machine-learning-pipeline">Scenario C: Machine Learning Pipeline</h1>
+<p>A startup is building a <strong>movie recommendation engine</strong>.
+It collects user interaction data (clicks, ratings, watch history) from its mobile app and website, which adds up to <strong>50 GB of new data per day</strong>.</p>
 <h2 id="requirements">Requirements</h2>
 <ol>
-<li><strong>Ingested in near real-time</strong></li>
-<li><strong>Stored in a cost-effective, scalable solution</strong></li>
-<li>
-<p><strong>Queried periodically</strong> for:</p>
-</li>
-<li>
-<p>Real-time alerts (e.g. temperature threshold breaches)</p>
-</li>
-<li>
-<p>Daily/weekly trend reports</p>
-</li>
-<li>
-<p>Accessible by data analysts and engineers via SQL</p>
-</li>
+<li>Store raw and cleaned interaction data</li>
+<li>Train recommendation models <strong>weekly</strong> using the cleaned dataset</li>
+<li>Serve predictions to the app with <strong>&lt;100ms latency</strong></li>
+<li>Allow data scientists to experiment and retrain models easily</li>
 </ol>
-<h2 id="constraints">Constraints</h2>
+<h3 id="constraints">Constraints</h3>
 <ul>
-<li>Minimal operations overhead (prefer managed services)</li>
-<li>Data must be <strong>retained for 2 years</strong> for compliance</li>
+<li>Budget is limited, especially for training infrastructure</li>
+<li>Model versions must be <strong>tracked and reproducible</strong></li>
 </ul>
-<hr />
 <div class="admonition tip">
 <p class="admonition-title">Focus on choosing the right combination of:</p>
 <ul>

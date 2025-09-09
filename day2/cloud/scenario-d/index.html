@@ -16,7 +16,7 @@
     
     
       
-        <title>Breakout Activity 2 – Cloud Architecture Scenarios - Module 4 - Planning Data Engineering Product</title>
+        <title>Scenario D: Financial Data Warehouse** - Module 4 - Planning Data Engineering Product</title>
       
     
     
@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#breakout-activity-2-cloud-architecture-scenarios" class="md-skip">
+        <a href="#scenario-d-financial-data-warehouse" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Breakout Activity 2 – Cloud Architecture Scenarios
+              Scenario D: Financial Data Warehouse**
             
           </span>
         </div>
@@ -657,6 +657,29 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../building-blocks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activity: Cloud Building Blocks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -702,82 +725,50 @@
 
 
 
-<h1 id="breakout-activity-2-cloud-architecture-scenarios">Breakout Activity 2 – Cloud Architecture Scenarios</h1>
-<h2 id="overview">Overview</h2>
-<p>You'll be given <strong>a real-world data engineering scenario</strong>.</p>
-<p>Your task is to identify which <strong>cloud services</strong> are needed to build a solution - and <strong>justify your choices</strong>.</p>
-<p>Focus on choosing the right combination of:</p>
+<h1 id="scenario-d-financial-data-warehouse">Scenario D: Financial Data Warehouse**</h1>
+<p>A financial services company needs to integrate data from <strong>multiple sources</strong> to create executive dashboards and regulatory reports.</p>
+<h3 id="data-sources-include">Data sources include:</h3>
 <ul>
-<li><strong>Storage</strong></li>
-<li><strong>Compute</strong></li>
-<li><strong>Integration</strong></li>
-<li><strong>Orchestration</strong></li>
+<li><strong>Trading system database</strong> (real-time transactions)</li>
+<li><strong>CRM system</strong> (customer data, updated nightly)  </li>
+<li><strong>External market data feeds</strong> (stock prices, currency rates)</li>
+<li><strong>Compliance files</strong> (uploaded weekly as Excel/CSV)</li>
 </ul>
-<p>Use the products you identified in Activity 1 for your assigned cloud provider.</p>
-<hr />
-<h2 id="group-instructions">Group Instructions</h2>
-<h3 id="step-1-read-your-scenario">Step 1: Read Your Scenario</h3>
-<p>Each group gets a different scenario. Read it carefully and discuss the key requirements.</p>
-<h3 id="step-2-choose-cloud-services">Step 2: Choose Cloud Services</h3>
-<p>As a group, decide which cloud services would meet the scenario's needs.</p>
-<p>Record your selections in a table like this:</p>
-<table>
-<thead>
-<tr>
-<th>Requirement</th>
-<th>Cloud Service(s)</th>
-<th>Why This Choice?</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Data storage</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Ingesting data</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Processing (batch/stream)</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>API or integration</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Workflow orchestration</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Other (e.g., analytics, dashboards)</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<div class="admonition tip">
-<p class="admonition-title">There’s no single correct answer</p>
+<p><strong>Data volume:</strong> ~2TB total, with 100GB of new/updated data daily</p>
+<h2 id="requirements">Requirements</h2>
+<ol>
+<li><strong>Batch processing</strong> overnight to refresh data warehouse</li>
+<li><strong>Historical data preservation</strong> (7+ years for regulatory compliance)</li>
+<li>
+<p><strong>High availability</strong> during business hours (99.9% uptime)</p>
+</li>
+<li>
+<p><strong>Support for both</strong>:</p>
+</li>
+<li>Complex analytical queries (executives)</li>
+<li>
+<p>Regulatory reporting (monthly/quarterly)</p>
+</li>
+<li>
+<p><strong>Data quality validation</strong> and error handling</p>
+</li>
+<li><strong>Role-based access control</strong> (different teams see different data)</li>
+</ol>
+<h2 id="constraints">Constraints</h2>
 <ul>
-<li>The goal is to make informed design decisions and explain your thinking.</li>
+<li>Must integrate with existing on-premises systems</li>
+<li><strong>Strict data governance</strong> and audit trails required</li>
+<li>Processing window: 6 hours overnight (10PM - 4AM)</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Focus on choosing the right combination of:</p>
+<ul>
+<li>Storage</li>
+<li>Compute</li>
+<li>Integration</li>
+<li>Orchestration</li>
 </ul>
 </div>
-<hr />
-<h3 id="step-3-present-back">Step 3: Present Back</h3>
-<p>Each group presents:</p>
-<ul>
-<li>The scenario summary (in your own words)</li>
-<li>The services you chose</li>
-<li>Key decisions or trade-offs you discussed</li>
-</ul>
-<p>Keep it to <strong>3 to 4 minutes per group</strong>.</p>
-<hr />
 
 
 
