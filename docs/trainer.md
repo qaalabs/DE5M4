@@ -45,6 +45,9 @@
 
 ### Session 3
 
+- Cloud Core Building Blocks
+- [Activity: Cloud Building Blocks](day2/cloud/building-blocks.md)
+- Report Back: Cloud Building Blocks
 
 ### Session 4
 

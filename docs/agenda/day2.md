@@ -20,6 +20,9 @@
 
 ## Session 3
 
+- `13:40` Cloud Core Building Blocks (10 mins)
+- `13:50` [Activity: Cloud Building Blocks](../day2/cloud/building-blocks.md) (20 mins)
+- `14:10` Report Back: Cloud Building Blocks (20 mins)
 
 ## ☕ Afternoon Break
 
