@@ -1,6 +1,7 @@
 # Activity: 3 - Logical Modelling & Design Decisions
 
 ## Instructions
+
 Evolve your conceptual model into a **logical model**.
 
 Make sure you **document your key design decisions**.
