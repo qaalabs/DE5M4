@@ -12,3 +12,4 @@ The major cloud providers we'll compare:
 - **GCP** (Google)
 - **Azure** (Microsoft)
 - **AWS** (Amazon)
+
