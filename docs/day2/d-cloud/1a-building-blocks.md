@@ -1,4 +1,4 @@
-# Breakout Activity: 1 - Core Building Blocks
+# Activity D1: Core Building Blocks
 
 ## Overview
 

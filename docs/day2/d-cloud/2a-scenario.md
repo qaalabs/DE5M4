@@ -1,4 +1,4 @@
-# Breakout Activity 2 – Cloud Architecture Scenarios
+# Activity D2: Cloud Architecture Scenarios
 
 ## Overview
 

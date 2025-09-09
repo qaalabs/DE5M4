@@ -1,4 +1,4 @@
-# Activity 2: Adding a repository in GitHub
+# Activity C2: Adding a repository in GitHub
 
 **Objective**: By the end of this activity, you will be able to create a new repository on GitHub, configure basic settings such as the `README` and `.gitignore` file, and understand the purpose of these elements in version control.
 

@@ -1,4 +1,4 @@
-# Breakout Activity: Apply your design steps to a scenario
+# Activity: Apply your design steps to a scenario
 
 ## [Scenario A - Retail Company](scenario-a.md)
 

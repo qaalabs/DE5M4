@@ -1,4 +1,4 @@
-# Activity 1: Working locally with Git
+# Activity C1: Working locally with Git
 
 **Objective**: By the end of this activity, you will be able to initialise a local Git repository, create and track files, understand the staging and commit process, and view the commit history - all from the command line.
 
