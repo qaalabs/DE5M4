@@ -9,6 +9,7 @@ nav:
   - Agenda:
     - Day 1: agenda/day1.md
     - Day 2: agenda/day2.md
+    - Day 3: agenda/day3.md
 
   - "Day 1 - Agile Foundations":
     - "Setup: How are products designed?": day1/agile/how-instructions.md
@@ -28,6 +29,9 @@ nav:
     - "Activity: Cloud Building Blocks": day2/cloud/building-blocks.md
     - "Cloud Architecture Scenarios": day2/cloud/architecture.md
     - "Activity: Cloud Architecture": day2/cloud/scenario.md
+
+  - "Day 3 - Data Modelling":
+    - "Workplace Storage & Databases": day3/storage/examples.md
 
   - Resources: resources.md
 

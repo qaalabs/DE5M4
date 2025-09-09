@@ -62,7 +62,7 @@
 
 ### Session 1
 
-- **Discussion**: Workplace Storage & Databases
+- **Discussion**: [Workplace Storage & Databases](day3/storage/examples.md)
 - **Activity**: Lab 1: Create Amazon S3 Bucket
 
 ### Session 2
