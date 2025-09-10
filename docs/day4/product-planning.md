@@ -1,16 +1,14 @@
 # Day 4: Data Product Planning
 
-## Overview
-
-### Objective
+## Objective
 
 Integrate all learning from Days 1-3 into a comprehensive data product plan that demonstrates planning skills rather than product analysis.
 
-### Task
+## Task
 
 Working individually, create a complete planning document for a new data engineering product, applying all concepts you have learnt so far.
 
-### Deliverables
+## Deliverables
 
 1. Planning Document
 2. Presentation
@@ -51,7 +49,9 @@ Working individually, create a complete planning document for a new data enginee
 
 ## 2. Presentation (6-8 minutes maximum)
 
-- Product overview (2 minute)
+- Product overview (2 minutes)
 - Technical architecture (2 minutes)
 - Implementation approach (2 minutes)
 - Key decisions made (1 minute)
+
+---
