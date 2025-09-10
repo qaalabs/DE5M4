@@ -30,7 +30,7 @@ nav:
     - "Cloud Architecture Scenarios": day2/cloud/architecture.md
     - "Activity: Cloud Architecture": day2/cloud/scenario.md
 
-  - "Day 3 - Data Modelling":
+  - "Day 3 - Database Design & Python":
     - "Workplace Storage & Databases": day3/storage/examples.md
 
   - Resources: resources.md
@@ -93,5 +93,6 @@ markdown_extensions:
 
 plugins:
   - search
+  - glightbox
 
 

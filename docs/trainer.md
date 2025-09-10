@@ -58,7 +58,7 @@
 
 ---
 
-## Day 3 - Data Modelling
+## Day 3 - Database Design & Python
 
 ### Session 1
 
