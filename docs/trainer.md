@@ -77,10 +77,11 @@
 - **Activity**: [Create Conceptual Data Model](day3/storage/conceptual.md)
 - **Report-Back**: Present Entity-Relationship Diagram
 - **Activity**: [Logical Model & Design Decisions](day3/storage/logical.md)
+- **Discussion**: Database Design in the workplace
 
 ### Session 4
 
-- [Python TCC](day3/python/tdd.md)
+- **Demo**: [Python TDD](day3/python/tdd.md)
 
 ---
 

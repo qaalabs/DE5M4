@@ -22,12 +22,13 @@
 - `13:40` **Activity**: [Create Conceptual Data Model](../day3/storage/conceptual.md) (20 mins)
 - `14:00` **Report-Back**: Present Entity-Relationship Diagram (10 mins)
 - `14:10` **Activity**: [Logical Model & Design Decisions](../day3/storage/logical.md) (20 mins)
+- `14:30` **Discussion**: Database Design in the workplace (10 mins)
 
 ## ☕ Afternoon Break
 
 ## Session 4
 
-- `15:00` [Python TCC](../day3/python/tdd.md) (30 mins)
+- `15:00` **Demo**: [Python TDD](../day3/python/tdd.md) (50 mins)
 
 ## Wrap
 
