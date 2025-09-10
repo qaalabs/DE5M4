@@ -89,14 +89,20 @@
 
 ### Session 1
 
+- [Introduce Day 4 activity](day4/product-planning.md)
+- Individual: Data Product Planning
 
 ### Session 2
 
+- Individual: Data Product Planning
+- Presentations: Data Product Planning
 
 ### Session 3
 
+- Presentations: Data Product Planning
 
 ### Session 4
 
+- Presentations: Data Product Planning
 
 ---
