@@ -8,7 +8,7 @@ Integrate all learning from Days 1-3 into a comprehensive data product plan that
 
 ### Task
 
-Working individually, create a complete planning document for a new data engineering product, applying all concepts from the module.
+Working individually, create a complete planning document for a new data engineering product, applying all concepts you have learnt so far.
 
 ### Deliverables
 
