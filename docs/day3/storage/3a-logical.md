@@ -1,4 +1,4 @@
-# Activity: 3 - Logical Modelling & Design Decisions
+# Activity E3: Logical Modelling & Design Decisions
 
 ## Instructions
 
