@@ -18,6 +18,10 @@
 
 ## Session 3
 
+- `13:20` **Activity**: [Requirements Analysis](../day2/storage/analysis.md) (20 mins)
+- `13:40` **Activity**: [Create Conceptual Data Model](../day2/storage/conceptual.md) (20 mins)
+- `14:00` **Report-Back**: Present Entity-Relationship Diagram (10 mins)
+- `14:10` **Activity**: [Logical Model & Design Decisions](../day2/storage/logical.md) (20 mins)
 
 ## ☕ Afternoon Break
 

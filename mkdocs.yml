@@ -32,6 +32,9 @@ nav:
 
   - "Day 3 - Database Design & Python":
     - "Workplace Storage & Databases": day3/storage/examples.md
+    - "Requirements Analysis": day2/storage/analysis.md
+    - "Create Conceptual Data Model": day2/storage/conceptual.md
+    - "Logical Model & Design Decisions": day2/storage/logical.md
 
   - Resources: resources.md
 

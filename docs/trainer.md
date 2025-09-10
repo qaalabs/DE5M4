@@ -73,6 +73,10 @@
 
 ### Session 3
 
+- **Activity**: [Requirements Analysis](day2/storage/analysis.md)
+- **Activity**: [Create Conceptual Data Model](day2/storage/conceptual.md)
+- **Report-Back**: Present Entity-Relationship Diagram
+- **Activity**: [Logical Model & Design Decisions](day2/storage/logical.md)
 
 ### Session 4
 
