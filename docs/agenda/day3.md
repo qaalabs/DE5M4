@@ -27,6 +27,7 @@
 
 ## Session 4
 
+- `15:00` [Python TCC](../day3/python/tdd.md) (30 mins)
 
 ## Wrap
 

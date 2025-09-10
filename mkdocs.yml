@@ -35,6 +35,7 @@ nav:
     - "Requirements Analysis": day3/storage/analysis.md
     - "Create Conceptual Data Model": day3/storage/conceptual.md
     - "Logical Model & Design Decisions": day3/storage/logical.md
+    - "Python TCC": day3/python/tdd.md
 
   - Resources: resources.md
 

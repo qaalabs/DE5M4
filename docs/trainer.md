@@ -80,6 +80,7 @@
 
 ### Session 4
 
+- [Python TCC](day3/python/tdd.md)
 
 ---
 
