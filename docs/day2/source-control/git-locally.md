@@ -10,7 +10,7 @@
 - Enable: **Show hidden files in file explorer**
 
 !!! quote ""
-    ![show hidden files](../../img/show-hidden-files.png){ .glightbox }
+    ![show hidden files](../../img/show-hidden-files.png)
 
 ### Step 1: Setup
 
