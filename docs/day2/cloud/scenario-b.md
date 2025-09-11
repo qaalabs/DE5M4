@@ -1,4 +1,4 @@
-# Scenario B: Retail Sales ETL
+# Cloud: Scenario B ~ Retail Sales ETL
 
 A large retailer operates **350 stores** across the country.
 Each store uploads its daily sales report as a **CSV file** (\~10 MB) to cloud storage at **midnight**.

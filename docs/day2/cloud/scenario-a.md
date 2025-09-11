@@ -1,4 +1,4 @@
-# Scenario A: IoT Sensor Data Lake
+# Cloud: Scenario A ~ IoT Sensor Data Lake
 
 A manufacturing company collects temperature and humidity readings from **5,000 IoT sensors** deployed across several warehouses.
 

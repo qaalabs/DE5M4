@@ -16,7 +16,7 @@ Make sure you **document your key design decisions**.
 
 - Indexing strategies
 - Partitioning approaches
-- Data access optimizations
+- Data access optimisations
 
 ### Evolution planning
 

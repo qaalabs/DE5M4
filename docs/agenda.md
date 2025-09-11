@@ -41,7 +41,7 @@
 
 - Architecture
 - Database design principles
-- Data normalization
+- Data normalisation
 
 ### Topic F: Python for data
 

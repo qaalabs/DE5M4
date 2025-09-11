@@ -52,7 +52,7 @@ In small groups, discuss which cloud architectural pattern would be most appropr
    - Needs to ingest point-of-sale data daily from 200+ stores
    - Must process e-commerce clickstream data near real-time
    - Requires historical analysis capabilities for business analysts
-   - Needs to support machine learning models for personalization
+   - Needs to support machine learning models for personalisation
    - Must comply with data privacy regulations
 
 3. **Component Mapping Activity**
@@ -104,7 +104,7 @@ In small groups, discuss which cloud architectural pattern would be most appropr
    - Business requirements alignment
    - Technical capabilities matching
    - Integration with existing systems
-   - Cost structure and optimization opportunities
+   - Cost structure and optimisation opportunities
    - Operations and maintenance considerations
    - Vendor lock-in implications
 
@@ -121,7 +121,7 @@ In small groups, discuss which cloud architectural pattern would be most appropr
 
 1. **Architecture Documentation Template**
 
-   Present a standardized template for cloud architecture documentation:
+   Present a standardised template for cloud architecture documentation:
    - Executive summary
    - Business context and requirements
    - Architecture overview diagram
@@ -136,7 +136,7 @@ In small groups, discuss which cloud architectural pattern would be most appropr
 
    Have participants begin documenting their architecture designs using the template:
    - Focus on 2-3 key sections only (given time constraints)
-   - Emphasize clear communication of design decisions
+   - Emphasise clear communication of design decisions
    - Include rationale for architectural choices
 
 3. **Peer Review**
@@ -163,7 +163,7 @@ In small groups, discuss which cloud architectural pattern would be most appropr
    Have groups create a high-level implementation roadmap:
    - Identify 3-4 implementation phases
    - Define key milestones for each phase
-   - Prioritize components based on dependencies
+   - Prioritise components based on dependencies
    - Consider risk mitigation approaches
 
 3. **Risk Assessment**
@@ -178,7 +178,7 @@ In small groups, discuss which cloud architectural pattern would be most appropr
 
 **Closing Discussion:**
 
-- Summarize key architecture design principles covered
+- Summarise key architecture design principles covered
 - Connect today's cloud architecture designs to tomorrow's database and Python topics
 - Highlight how the architecture planning documents created today will inform data modeling decisions on Day 3
 - Preview how all these elements will come together in the final project on Day 4
@@ -202,6 +202,6 @@ What was the most valuable insight you gained about planning cloud architectures
 
 - Keep exercises cloud-provider agnostic by focusing on capabilities rather than specific services
 - Use consistent iconography for architecture diagrams that works across providers
-- Emphasize design principles and patterns over specific implementation details
+- Emphasise design principles and patterns over specific implementation details
 - Connect back to the Agile principles from Day 1 when discussing implementation planning
 - Encourage participants to think about how their work environment's cloud strategy would influence their design decisions

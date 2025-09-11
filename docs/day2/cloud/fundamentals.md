@@ -22,7 +22,7 @@ These are the key design considerations that apply across all major cloud provid
 
 - Scalability and elasticity
 - Security and compliance
-- Cost optimization
+- Cost optimisation
 - Operational excellence
 - Performance efficiency
 - Reliability and fault tolerance

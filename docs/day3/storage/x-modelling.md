@@ -28,12 +28,12 @@ This hands-on workshop guides participants through the process of creating appro
 - Review data modeling approaches for different database types:
   - Entity-relationship modeling for relational databases
   - Document/collection design for document databases
-  - Denormalized designs for performance
+  - Denormalised designs for performance
 - Explain the deliverables and evaluation criteria
 
 ### 2. Requirements Analysis (10 minutes)
 
-Participants analyze their assigned business scenario by:
+Participants analyse their assigned business scenario by:
 
 - **Identifying key entities**
   - What are the main "things" we need to track?
@@ -47,7 +47,7 @@ Participants analyze their assigned business scenario by:
 
 - **Identifying access patterns**
   - What are the primary queries and operations?
-  - Which operations need to be optimized?
+  - Which operations need to be optimised?
   - Are there time-based or analytical access patterns?
 
 Groups document their findings on the requirements analysis worksheet.
@@ -69,7 +69,7 @@ The focus is on accurately representing the business domain rather than technica
 Groups evolve their conceptual model into a logical model, making and documenting key design decisions:
 
 - **Schema design decisions**
-  - Normalization vs. denormalization choices
+  - Normalisation vs. denormalisation choices
   - Handling of many-to-many relationships
   - Time-variant data considerations
   - Document structure (for document databases)
@@ -77,7 +77,7 @@ Groups evolve their conceptual model into a logical model, making and documentin
 - **Performance considerations**
   - Indexing strategies
   - Partitioning approaches
-  - Data access optimizations
+  - Data access optimisations
 
 - **Evolution planning**
   - How will the model accommodate future changes?
@@ -110,7 +110,7 @@ Facilitated discussion highlighting:
 ## Sample Scenario: Healthcare Patient Journey Analytics
 
 **Business Context:**
-A healthcare provider is developing a data product to analyze and optimize patient journeys through their system. The goal is to reduce wait times, improve resource allocation, and enhance patient outcomes.
+A healthcare provider is developing a data product to analyse and optimise patient journeys through their system. The goal is to reduce wait times, improve resource allocation, and enhance patient outcomes.
 
 **Key Requirements:**
 
@@ -129,9 +129,9 @@ A healthcare provider is developing a data product to analyze and optimize patie
 **Access Patterns:**
 
 - Track complete patient journeys across multiple visits and departments
-- Analyze typical pathways for specific conditions
+- Analyse typical pathways for specific conditions
 - Identify bottlenecks in patient flow
-- Monitor resource utilization across facilities
+- Monitor resource utilisation across facilities
 - Measure wait times at different stages
 - Correlate patient outcomes with journey characteristics
 - Generate operational dashboards for staff
@@ -155,13 +155,13 @@ A healthcare provider is developing a data product to analyze and optimize patie
 
 ## Alternative Scenarios (For Variety)
 
-### Retail Supply Chain Optimization
+### Retail Supply Chain Optimisation
 
 Business requirements for tracking product movement from manufacturers through distribution centers to retail locations, with inventory levels, transportation events, demand forecasting, and seasonal planning.
 
 ### Financial Transaction Monitoring
 
-Business requirements for capturing and analyzing financial transactions for fraud detection, regulatory compliance, customer profiling, and risk assessment across multiple channels and payment types.
+Business requirements for capturing and analysing financial transactions for fraud detection, regulatory compliance, customer profiling, and risk assessment across multiple channels and payment types.
 
 ## Deliverables
 
@@ -172,16 +172,17 @@ Each group produces:
 2. **Conceptual Data Model**: Entity-relationship diagram showing the main entities and how they relate
 
 3. **Logical Data Model Documentation**: 
+
    - Detailed model representation appropriate to selected database type
    - Key design decisions and rationale
-   - Performance optimization approaches
+   - Performance optimisation approaches
    - Evolution considerations
 
 4. **Peer Feedback**: Comments received from reviewing group
 
 ## Facilitation Notes
 
-- Emphasize that this is about planning decisions, not implementation details
+- Emphasise that this is about planning decisions, not implementation details
 - Remind participants to consider their database selection from the previous exercise
 - Encourage groups to think beyond traditional relational modeling if appropriate
 - For advanced groups, introduce considerations like temporal data handling or GDPR compliance

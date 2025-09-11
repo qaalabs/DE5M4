@@ -1,4 +1,4 @@
-# Scenario: Healthcare Provider
+# Storage: Scenario ~ Healthcare Provider
 
 ## Business Context
 
@@ -25,7 +25,7 @@ A healthcare provider is developing a data product to analyse and optimise patie
 - Track complete patient journeys across multiple visits and departments
 - Analyse typical pathways for specific conditions
 - Identify bottlenecks in patient flow
-- Monitor resource utilization across facilities
+- Monitor resource utilisation across facilities
 - Measure wait times at different stages
 - Correlate patient outcomes with journey characteristics
 - Generate operational dashboards for staff

@@ -1,8 +1,8 @@
-# Scenario D: Financial Data Warehouse**
+# Cloud: Scenario D ~ Financial Data Warehouse
 
 A financial services company needs to integrate data from **multiple sources** to create executive dashboards and regulatory reports.
 
-### Data sources include:
+## Data sources include
 
 - **Trading system database** (real-time transactions)
 - **CRM system** (customer data, updated nightly)  

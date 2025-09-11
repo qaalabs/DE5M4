@@ -54,23 +54,24 @@ Working individually, create a complete **planning document for a new Data Engin
 
 ## Scenarios
 
-You are free to come up with your own scenario, or even just use your current workplace as a scenario.
-But if you are stuck here are links to scenarios that we have used in the past 3 days:
+!!! info ""
+    - You are free to come up with your own scenario, or ideally use your current workplace as a scenario.
+    - But if you are stuck, below are links to scenarios that we have used in the past 3 days
 
 ### Day 1 ~ Agile & DevOps
 
-- [Retail Company](../day1/scenario-a.md)
-- [Healthcare Provider](../day1/scenario-b.md)
-- [Manufacturing Company](../day1/scenario-c.md)
-- [Financial Services](../day1/scenario-d.md)
+- [Retail Company](../day1/agile/scenario-a.md)
+- [Healthcare Provider](../day1/agile/scenario-b.md)
+- [Manufacturing Company](../day1/agile/scenario-c.md)
+- [Financial Services](../day1/agile/scenario-d.md)
 
 ### Day 2 ~ Technical Foundation
 
-- [Retail Company](../day2/scenario-a.md)
-- [Healthcare Provider](../day2/scenario-b.md)
-- [Manufacturing Company](../day2/scenario-c.md)
-- [Financial Services](../day2/scenario-d.md)
+- [Retail Company](../day2/cloud/scenario-a.md)
+- [Healthcare Provider](../day2/cloud/scenario-b.md)
+- [Manufacturing Company](../day2/cloud/scenario-c.md)
+- [Financial Services](../day2/cloud/scenario-d.md)
 
 ### Day 3 ~ Database Design
 
-- [Healthcare Provider](../day3/scenario.md)
+- [Healthcare Provider](../day3/storage/scenario.md)

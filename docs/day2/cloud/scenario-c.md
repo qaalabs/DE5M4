@@ -1,4 +1,4 @@
-# Scenario C: Machine Learning Pipeline
+# Cloud: Scenario C ~ Machine Learning Pipeline
 
 A startup is building a **movie recommendation engine**.
 It collects user interaction data (clicks, ratings, watch history) from its mobile app and website, which adds up to **50 GB of new data per day**.

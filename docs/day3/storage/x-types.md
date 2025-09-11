@@ -51,19 +51,19 @@ Brief overview of major database types with planning considerations for each:
 - **Document Databases**:
   - **Planning considerations**: When schema flexibility and developer productivity are priorities
   - **Best for**: Semi-structured data, rapidly evolving schemas, content management
-  - **Design challenges**: Denormalization strategies, indexing for performance, consistency
+  - **Design challenges**: Denormalisation strategies, indexing for performance, consistency
   - **Examples**: MongoDB, Cosmos DB
 
 - **Column-Family Databases**:
   - **Planning considerations**: When handling massive scale with predictable query patterns
   - **Best for**: Time-series data, IoT telemetry, high-write throughput scenarios
-  - **Design challenges**: Optimizing column families, managing wide rows
+  - **Design challenges**: Optimising column families, managing wide rows
   - **Examples**: Cassandra, HBase
 
 - **Graph Databases**:
   - **Planning considerations**: When relationships between entities are the primary focus
   - **Best for**: Social networks, recommendation engines, fraud detection
-  - **Design challenges**: Partitioning data, query optimization, scaling
+  - **Design challenges**: Partitioning data, query optimisation, scaling
   - **Examples**: Neo4j, Neptune
 
 - **Key-Value Stores**:
@@ -81,7 +81,7 @@ Brief overview of major database types with planning considerations for each:
   - Caching layers for performance
 
 - **Planning considerations**:
-  - Data synchronization between systems
+  - Data synchronisation between systems
   - Consistency challenges
   - Operational complexity
   - Cost implications
@@ -110,6 +110,6 @@ To make this introduction engaging and accessible:
 
 4. **Connect to previous learning**: Reference specific concepts from Module 2 to build on that foundation
 
-5. **Use analogies**: Simple analogies to explain complex concepts (e.g., "Relational databases are like organized filing cabinets with cross-references; document databases are more like folders where each document can have its own structure")
+5. **Use analogies**: Simple analogies to explain complex concepts (e.g., "Relational databases are like organised filing cabinets with cross-references; document databases are more like folders where each document can have its own structure")
 
 This introduction provides the foundation for the subsequent Database Selection Workshop exercise, giving participants a structured framework for making and documenting database design decisions as part of their data product planning.

@@ -1,4 +1,4 @@
-# Scenario C - Manufacturing Company
+# Agile: Scenario C ~ Manufacturing Company
 
 *Apply your phases from the previous activity to the scenario below.*
 

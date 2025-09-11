@@ -1,4 +1,4 @@
-# Scenario B - Healthcare Provider
+# Agile: Scenario B ~ Healthcare Provider
 
 *Apply your phases from the previous activity to the scenario below.*
 

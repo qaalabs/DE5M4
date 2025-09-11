@@ -1,6 +1,6 @@
 # Possible User Stories for the QARestaurant Activity
 
-Here are example user stories organized by the epics we identified, based on the restaurant website requirements:
+Here are example user stories organised by the epics we identified, based on the restaurant website requirements:
 
 ## Epic: Restaurant Brand Identity
 
@@ -38,7 +38,7 @@ Here are example user stories organized by the epics we identified, based on the
 
 - As a **busy customer**, I want to order food online, so that I can save time and have my meal ready when I arrive or delivered to me.
 - As a **customer planning a meal**, I want to add multiple items to my order, so that I can get everything I want in one transaction.
-- As a **customer with specific preferences**, I want to customize my order with special instructions, so that the restaurant can prepare my food exactly how I like it.
+- As a **customer with specific preferences**, I want to customise my order with special instructions, so that the restaurant can prepare my food exactly how I like it.
 
 ## Epic: Reservation Management System
 
@@ -66,6 +66,6 @@ Here are example user stories organized by the epics we identified, based on the
 
 **For more experienced groups, you might include:**
 
-- As a **restaurant owner**, I want to track which menu items are most popular online, so that I can optimize my kitchen preparation and ingredient ordering.
+- As a **restaurant owner**, I want to track which menu items are most popular online, so that I can optimise my kitchen preparation and ingredient ordering.
 - As a **customer loyalty program member**, I want to see my reward points when I log in, so that I can track my progress toward free meals.
 - As a **restaurant staff member**, I want to receive notifications about new online orders, so that I can start preparing food promptly.

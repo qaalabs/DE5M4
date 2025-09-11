@@ -8,7 +8,7 @@ Frame Git as the essential tool for managing the planning artifacts created thro
 
 In Module 4, we're creating various planning artifacts - user stories, architecture diagrams, data models, and requirements documents. Git provides a structured way to:
 
-- Store and organize these planning documents
+- Store and organise these planning documents
 - Track changes as plans evolve based on stakeholder feedback
 - Maintain the relationships between different planning components
 - Ensure all team members are working from the latest versions
@@ -37,7 +37,7 @@ As we learned with Agile methodologies, planning is not a one-time activity but 
 
 ### 4. Planning-to-Implementation Bridge
 
-**Emphasize how Git creates continuity from Module 4 (Planning) to Module 5 (Product Development):**
+**Emphasise how Git creates continuity from Module 4 (Planning) to Module 5 (Product Development):**
 
 The plans we create in Module 4 need to transition smoothly to implementation in Module 5. Git serves as the bridge by:
 
@@ -52,9 +52,9 @@ The plans we create in Module 4 need to transition smoothly to implementation in
 
 **Start the Git section with a clear connection to the module's planning focus:**
 
-Yesterday we established the Agile foundation for planning data products. Today we'll explore Git as the technical backbone that supports collaborative planning and ensures your planning artifacts remain organized, versioned, and accessible to the entire team.
+Yesterday we established the Agile foundation for planning data products. Today we'll explore Git as the technical backbone that supports collaborative planning and ensures your planning artifacts remain organised, versioned, and accessible to the entire team.
 
-### Exercise Contextualizing
+### Exercise Contextualising
 
 Frame each Git exercise explicitly in terms of planning activities:
 
@@ -109,7 +109,7 @@ Create a visual that shows Git's place in the module's overall flow:
 
 ## Key Messages to Reinforce
 
-Throughout the Git section, emphasize these Module 4-specific connections:
+Throughout the Git section, emphasise these Module 4-specific connections:
 
 1. **Git is a planning tool** - It's not just for coding but for managing all planning artifacts
 

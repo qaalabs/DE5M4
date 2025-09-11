@@ -27,7 +27,7 @@ Having access to an Azure DevOps playground is an excellent opportunity to provi
    - Example: "As a marketing analyst, I want to segment customers by purchase history so that I can create targeted email campaigns"
    - Include acceptance criteria for each story
 
-4. **Implement MoSCoW Prioritization**
+4. **Implement MoSCoW Prioritisation**
    - Use the Priority field to assign MoSCoW ratings
    - Alternatively, create custom tags for Must/Should/Could/Won't
 
@@ -146,7 +146,7 @@ This Azure DevOps practice directly reinforces key Module 4 learning outcomes:
 - **K6:** Software development principles including version control and testing
 - **S1:** Collating and refining user requirements to design data products
 - **S2:** Evaluating business requirements including cost and accessibility
-- **S5:** Producing technical documentation that meets organizational requirements
+- **S5:** Producing technical documentation that meets organistional requirements
 - **S25:** Assessing gaps in existing tools and technologies
 - **B2:** Working collaboratively with stakeholders and colleagues
 

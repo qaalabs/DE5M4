@@ -2,7 +2,7 @@
 
 ## Source control programs
 
-Besides Git, several other version control systems (VCS) can be used for managing versions of files and codebases. These can be broadly categorized into **distributed** and **centralised** systems:
+Besides Git, several other version control systems (VCS) can be used for managing versions of files and codebases. These can be broadly categorised into **distributed** and **centralised** systems:
 
 ### Distributed Version Control Systems (DVCS)
 
@@ -63,7 +63,7 @@ While not full VCS themselves, some tools are used for specific needs or work al
 **Plastic SCM**
 
 - Designed for game development and large binary files
-- Offers both centralized and distributed modes
+- Offers both centralised and distributed modes
 
 ---
 
@@ -75,7 +75,7 @@ While not full VCS themselves, some tools are used for specific needs or work al
 
 In Module 4, we're creating various planning artifacts - user stories, architecture diagrams, data models, and requirements documents. Git provides a structured way to:
 
-- Store and organize these planning documents
+- Store and organise these planning documents
 - Track changes as plans evolve based on stakeholder feedback
 - Maintain the relationships between different planning components
 - Ensure all team members are working from the latest versions

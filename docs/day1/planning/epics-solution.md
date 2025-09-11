@@ -50,4 +50,4 @@ We then broke these epics down into:
 - Learn to group related functionality under meaningful epic names
 - Connect epic planning to the broader Agile framework introduced in the morning
 
-This activity helped learners see how high-level business requirements get organized into manageable epic-level themes that can then be planned and developed iteratively.
+This activity helped learners see how high-level business requirements get organised into manageable epic-level themes that can then be planned and developed iteratively.

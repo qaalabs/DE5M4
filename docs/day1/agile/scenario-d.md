@@ -1,4 +1,4 @@
-# Scenario D - Financial Services
+# Agile: Scenario D ~ Financial Services
 
 *Apply your phases from the previous activity to the scenario below.*
 

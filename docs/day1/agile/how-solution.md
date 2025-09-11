@@ -46,15 +46,15 @@
 - Data model documentation
 - Security and access control plan
 
-### Step 3: Analytics & Visualization Design
+### Step 3: Analytics & Visualisation Design
 
 **Activities:**
 
 - Create user personas for different types of business users (store managers, inventory planners, marketers)
 - Design analytical models for cross-channel customer segmentation
-- Prototype dashboards for inventory optimization based on cross-channel behavior
-- Plan personalization algorithms using the integrated customer data
-- Establish metrics to track the effectiveness of inventory and personalization changes
+- Prototype dashboards for inventory optimisation based on cross-channel behavior
+- Plan personalisation algorithms using the integrated customer data
+- Establish metrics to track the effectiveness of inventory and personalisation changes
 
 **Expected Challenges:**
 
@@ -80,7 +80,7 @@ We need to determine how quickly inventory decisions need to be made to balance 
 
 ### Incremental Delivery Approach
 
-I would recommend starting with a specific high-value use case (perhaps optimizing inventory for top 20% of products) rather than trying to solve all problems at once
+I would recommend starting with a specific high-value use case (perhaps optimising inventory for top 20% of products) rather than trying to solve all problems at once
 
 ### Change Management Strategy
 

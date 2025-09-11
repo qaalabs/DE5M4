@@ -30,7 +30,7 @@ This workshop guides participants through a structured database selection proces
 
 ### 2. Requirements Analysis (15 minutes)
 
-Participants analyze their assigned scenario by:
+Participants analyse their assigned scenario by:
 
 - **Identifying key data entities and volumes**
   - What are the main types of data being stored?
@@ -142,7 +142,7 @@ A media company needs a recommendation system:
 - 10M+ user profiles with viewing history
 - 50K+ content items with metadata
 - User behavior tracking (views, likes, completion rates)
-- Personalized recommendations needed in <200ms
+- Personalised recommendations needed in <200ms
 - Frequent content updates and additions
 - A/B testing of recommendation algorithms
 - Analytics capabilities for content performance

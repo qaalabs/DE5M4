@@ -21,7 +21,7 @@ Read the [full scenario](scenario.md) to understand all the requirements, and th
 ### Step 3 - Identifying access patterns
 
 - What are the primary queries and operations?
-- Which operations need to be optimized?
+- Which operations need to be optimised?
 - Are there time-based or analytical access patterns?
 
 ---

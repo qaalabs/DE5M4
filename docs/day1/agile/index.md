@@ -10,7 +10,7 @@ This topic introduces Agile methodologies specifically applied to data engineeri
 
 - Understanding how Agile principles apply to data product development
 - Adapting traditional Agile frameworks (Scrum, Kanban) for data engineering contexts
-- Recognizing the unique challenges data teams face and how Agile addresses them
+- Recognising the unique challenges data teams face and how Agile addresses them
 
 **Requirements Gathering and User Stories**
 
@@ -18,9 +18,9 @@ This topic introduces Agile methodologies specifically applied to data engineeri
 - Writing effective acceptance criteria for data product features
 - Understanding stakeholder perspectives in data product development
 
-**Prioritization and Planning**
+**Prioritisation and Planning**
 
-- Applying MoSCoW prioritization to data product features
+- Applying MoSCoW prioritisation to data product features
 - Creating and managing product backlogs for data engineering projects
 - Sprint planning considerations specific to data pipeline development
 
@@ -32,7 +32,7 @@ This topic introduces Agile methodologies specifically applied to data engineeri
 
 ## Practical Applications
 
-You will work through realistic data product scenarios, creating user stories, prioritizing features, and developing sprint plans that address real-world data engineering challenges. The focus remains on planning approaches that support iterative delivery and stakeholder collaboration.
+You will work through realistic data product scenarios, creating user stories, prioritising features, and developing sprint plans that address real-world data engineering challenges. The focus remains on planning approaches that support iterative delivery and stakeholder collaboration.
 
 ## Connection to Module Theme
 
