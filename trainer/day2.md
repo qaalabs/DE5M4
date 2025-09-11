@@ -43,7 +43,7 @@
 - Explain what merge conflicts are and why they happen
 - Show how to identify conflicts in Git
 - Demonstrate resolving a simple merge conflict
-- Emphasize best practices to avoid unnecessary conflicts
+- Emphasise best practices to avoid unnecessary conflicts
 
 ### Exercise 2: Handling Merge Conflicts
 
@@ -91,7 +91,7 @@ Pair up learners to:
 ### Key concepts recap
 
 - Review the main Git commands and workflows learned
-- Emphasize how these skills apply to data engineering/analysis work
+- Emphasise how these skills apply to data engineering/analysis work
 
 ### Q&A session
 

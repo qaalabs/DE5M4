@@ -43,14 +43,14 @@ What we've just created is essentially a list of the exact problems that led to 
 
 Map common challenges to Agile solutions:
 
-| Common Challenge | Agile Response |
-|-----------------|----------------|
-| Changing requirements | Embracing change through iterative development |
-| Stakeholder availability | Regular collaboration built into the process |
+| Common Challenge         | Agile Response                                        |
+|--------------------------|-------------------------------------------------------|
+| Changing requirements    | Embracing change through iterative development        |
+| Stakeholder availability | Regular collaboration built into the process          |
 | Late discovery of issues | Early and continuous delivery to find problems sooner |
-| Scope expansion | Time-boxed iterations and prioritization |
-| Technical debt | Sustainable pace and technical excellence |
-| Difficult estimation | Relative sizing and learning from past performance |
+| Scope expansion          | Time-boxed iterations and prioritisation              |
+| Technical debt           | Sustainable pace and technical excellence             |
+| Difficult estimation     | Relative sizing and learning from past performance    |
 
 ### Why This Approach Works:
 
@@ -62,7 +62,7 @@ Map common challenges to Agile solutions:
 
 ## Simple Follow-Up Visual Activity (Optional, 10-15 minutes)
 
-If you want a very light hands-on component, add this simple visualization:
+If you want a very light hands-on component, add this simple visualisation:
 
 ### "From Waterfall to Agile" Activity
 

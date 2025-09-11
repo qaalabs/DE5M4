@@ -9,7 +9,7 @@ This exercise simulates building a data product with changing requirements, demo
 **Premise:**
 Participants work in small teams to design a data dashboard for a business stakeholder. However, requirements will change during the exercise, simulating real-world conditions and highlighting the need for Agile approaches.
 
-### Setup and Materials:
+### Setup and Materials
 
 - Virtual whiteboard space for each team
 - Pre-prepared "requirement change cards" to introduce during the activity
@@ -26,7 +26,7 @@ We're going to experience firsthand why Agile methodologies have become essentia
 
 Present the initial dashboard request:
 
-"The Marketing Director needs a dashboard showing daily website traffic by source, conversion rates, and top-performing content. The dashboard needs to be updated daily and should help optimize marketing spend."
+"The Marketing Director needs a dashboard showing daily website traffic by source, conversion rates, and top-performing content. The dashboard needs to be updated daily and should help optimise marketing spend."
 
 #### Step 2: First Design Iteration (7 minutes)
 
@@ -35,7 +35,7 @@ Teams work on their first dashboard design using the template provided. They sho
 - Sketch what metrics will be displayed
 - Note what data sources would be needed
 - Indicate how often data would refresh
-- Show how information would be visualized
+- Show how information would be visualised
 
 #### Step 3: First Requirement Change (1 minute)
 
@@ -61,7 +61,7 @@ Teams revise again to address security concerns.
 
 One final change:
 
-"Good news! The dashboard has been prioritized for release next week instead of next month. You need to identify a minimum viable version that can be delivered quickly."
+"Good news! The dashboard has been prioritised for release next week instead of next month. You need to identify a minimum viable version that can be delivered quickly."
 
 #### Step 8: Final Design Iteration (5 minutes)
 
@@ -100,7 +100,7 @@ After this exercise, you'll have a natural opening to introduce specific Agile f
 Then you can briefly introduce:
 
 1. **Scrum**: For structured iterations with defined roles and ceremonies
-2. **Kanban**: For visualizing workflow and managing capacity
+2. **Kanban**: For visualising workflow and managing capacity
 3. **Extreme Programming**: For technical excellence practices like TDD and pair programming
 
 For each framework, highlight specifically how it would address the challenges they just experienced in the exercise.

@@ -4,11 +4,11 @@ A specific, relatable scenario will make the "Waterfall to Agile" comparison muc
 
 ## Customer Analytics Platform Scenario
 
-### The Project Brief:
+### The Project Brief
 
-> Your organization wants to build a Customer Analytics Platform that integrates data from multiple sources (CRM, transaction systems, website analytics, and marketing campaigns) to provide a 360-degree view of customer behavior. This platform will serve multiple departments: Marketing needs customer segmentation capabilities, Sales needs lead scoring, Customer Service needs to see interaction history, and the Executive team wants high-level KPI dashboards.
+> Your organisation wants to build a Customer Analytics Platform that integrates data from multiple sources (CRM, transaction systems, website analytics, and marketing campaigns) to provide a 360-degree view of customer behavior. This platform will serve multiple departments: Marketing needs customer segmentation capabilities, Sales needs lead scoring, Customer Service needs to see interaction history, and the Executive team wants high-level KPI dashboards.
 
-### Waterfall Approach Visualization:
+### Waterfall Approach Visualisation
 
 Show this timeline on a slide or virtual whiteboard:
 
@@ -63,7 +63,7 @@ Have groups discuss:
 4. "How much value is being delivered to the business during the first 6 months?"
    - Possible answer: Virtually none until deployment
 
-### Agile Alternative Visualization:
+### Agile Alternative Visualisation
 
 Then show how an Agile approach might restructure this same project:
 
@@ -98,7 +98,7 @@ Then show how an Agile approach might restructure this same project:
 
 - Add marketing campaign data
 - Complete any remaining features
-- Performance optimization
+- Performance optimisation
 - Final user experience improvements
 - Complete documentation and training
 
@@ -115,10 +115,10 @@ Have groups discuss:
    - Possible answer: After just one month with the first minimal viable product
 
 3. "How does this approach handle changing requirements?"
-   - Possible answer: Each sprint provides an opportunity to reprioritize based on new information
+   - Possible answer: Each sprint provides an opportunity to reprioritise based on new information
 
 4. "What happens if the project funding gets cut after 3 months?"
-   - Possible answer: The organization still has a working product with core functionality, rather than an incomplete system with no deployable components
+   - Possible answer: The organisation still has a working product with core functionality, rather than an incomplete system with no deployable components
 
 ### Visual Representation:
 

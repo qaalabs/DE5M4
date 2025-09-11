@@ -79,7 +79,7 @@ Tasks are smaller, technical work items that contribute to completing a user sto
 
 1. Design 3-5 logo concepts with leaf theme
 2. Gather stakeholder feedback on logo concepts
-3. Finalize logo design based on feedback
+3. Finalise logo design based on feedback
 4. Create logo in multiple formats (PNG, SVG, favicon)
 5. Implement logo in navbar component
 6. Implement logo in website footer
@@ -91,15 +91,15 @@ Tasks are smaller, technical work items that contribute to completing a user sto
 1. Design database schema for storing table information and availability
 2. Create API endpoint to retrieve available tables by date
 3. Develop calendar UI component for date selection
-4. Implement table availability visualization
+4. Implement table availability visualisation
 5. Create booking form component
 6. Connect form to reservation API
 7. Add validation for 1-month advance booking limitation
 8. Test reservation system with multiple scenarios
 
-## MoSCoW Prioritization Example
+## MoSCoW Prioritisation Example
 
-Here's how you might prioritize the first sprint items using MoSCoW:
+Here's how you might prioritise the first sprint items using MoSCoW:
 
 ### Must Have
 
@@ -140,4 +140,4 @@ Here's an example of what could go into Sprint 1 (assuming 2-week sprint):
 6. Implement social media links in footer (Est: 2 points)
 7. Set up basic website hosting and deployment pipeline (Est: 5 points)
 
-These examples provide a comprehensive model that demonstrates the hierarchy from epics down to specific tasks, along with prioritization and sprint planning for the restaurant website scenario. They showcase the proper format for user stories while connecting directly to the requirements in the lab document.
+These examples provide a comprehensive model that demonstrates the hierarchy from epics down to specific tasks, along with prioritisation and sprint planning for the restaurant website scenario. They showcase the proper format for user stories while connecting directly to the requirements in the lab document.

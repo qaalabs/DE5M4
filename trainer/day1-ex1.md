@@ -40,12 +40,15 @@ Use your virtual whiteboard to map out the design process as a series of steps. 
 Be prepared to present your process in 2-3 minutes.
 
 ### Part 2: Apply to a Scenario (10 minutes)
+
 Give all groups the same brief scenario to apply their process to:
 
 **Scenario:**
-A retail company with 200 physical stores and an e-commerce website wants to create a data product that helps them understand customer behavior across both channels to improve inventory management and personalization. They have point-of-sale data, online transaction records, customer profiles, and inventory data available.
+
+A retail company with 200 physical stores and an e-commerce website wants to create a data product that helps them understand customer behavior across both channels to improve inventory management and personalisation. They have point-of-sale data, online transaction records, customer profiles, and inventory data available.
 
 **Task:**
+
 Using the design process your group created, quickly outline how you would approach this specific project. What would be your first three steps, and what challenges do you anticipate?
 
 ### Part 3: Group Presentations (10 minutes)
