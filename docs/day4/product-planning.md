@@ -67,10 +67,10 @@ Working individually, create a complete **planning document for a new Data Engin
 
 ### Day 2 ~ Technical Foundation
 
-- [Retail Company](../day2/cloud/scenario-a.md)
-- [Healthcare Provider](../day2/cloud/scenario-b.md)
-- [Manufacturing Company](../day2/cloud/scenario-c.md)
-- [Financial Services](../day2/cloud/scenario-d.md)
+- [IoT Sensor Data Lake](../day2/cloud/scenario-a.md)
+- [Retail Sales ETL](../day2/cloud/scenario-b.md)
+- [Machine Learning Pipeline](../day2/cloud/scenario-c.md)
+- [Financial Data Warehouse](../day2/cloud/scenario-d.md)
 
 ### Day 3 ~ Database Design
 
