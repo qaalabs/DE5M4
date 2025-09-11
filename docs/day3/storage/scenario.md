@@ -1,3 +1,5 @@
+# Scenario: Healthcare Provider
+
 ## Business Context
 
 A healthcare provider is developing a data product to analyse and optimise patient journeys through their system. The goal is to reduce wait times, improve resource allocation, and enhance patient outcomes.

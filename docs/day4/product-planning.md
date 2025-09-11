@@ -2,11 +2,11 @@
 
 ## Objective
 
-Integrate all learning from Days 1-3 into a comprehensive data product plan that demonstrates planning skills rather than product analysis.
+Integrate all learning from days 1-3 into a comprehensive **Data Product Plan** that demonstrates planning skills rather than product analysis.
 
 ## Task
 
-Working individually, create a complete planning document for a new data engineering product, applying all concepts you have learnt so far.
+Working individually, create a complete **planning document for a new Data Engineering digital product**, applying all concepts you have learnt so far.
 
 ## Deliverables
 
@@ -17,6 +17,8 @@ Working individually, create a complete planning document for a new data enginee
 
 ## 1. Planning Document
 
+*Suggested structure of the document is as follows:*
+
 ### Business Summary
 
 - Product vision and key business problem
@@ -26,19 +28,13 @@ Working individually, create a complete planning document for a new data enginee
 ### User Requirements
 
 - 3-4 key user stories
-- Prioritized using MoSCoW method
+- Prioritised using a method like MoSCoW
 - Sprint 1 plan outline
-
-### Technical Architecture
-
-- Database selection with rationale
-- High-level architecture diagram and description
-- Key data processing approach
 
 ### Implementation Plan
 
 - Development approach using Agile principles
-- Git workflow and collaboration strategy
+- Workflow and collaboration strategy
 - Key risks and mitigation strategies
 
 ### Conclusion
@@ -55,3 +51,26 @@ Working individually, create a complete planning document for a new data enginee
 - Key decisions made (1 minute)
 
 ---
+
+## Scenarios
+
+You are free to come up with your own scenario, or even just use your current workplace as a scenario.
+But if you are stuck here are links to scenarios that we have used in the past 3 days:
+
+### Day 1 ~ Agile & DevOps
+
+- [Retail Company](../day1/scenario-a.md)
+- [Healthcare Provider](../day1/scenario-b.md)
+- [Manufacturing Company](../day1/scenario-c.md)
+- [Financial Services](../day1/scenario-d.md)
+
+### Day 2 ~ Technical Foundation
+
+- [Retail Company](../day2/scenario-a.md)
+- [Healthcare Provider](../day2/scenario-b.md)
+- [Manufacturing Company](../day2/scenario-c.md)
+- [Financial Services](../day2/scenario-d.md)
+
+### Day 3 ~ Database Design
+
+- [Healthcare Provider](../day3/scenario.md)
