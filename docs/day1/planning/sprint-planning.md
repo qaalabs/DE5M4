@@ -31,9 +31,9 @@ You need to select user stories that:
 
 ### Step 1: Review and Prioritise
 
-Here is a [list of possible user stories](possible-user-stories.md) (you can also add your own):
+<mark>Here is a [list of possible user stories](possible-user-stories.md) (you can also add your own)</mark>
 
-- Make sure the stories have estimates - *adjust the value if you disagree*.
+- Make sure the stories have estimates - *use different values if you disagree*.
 - **Identify dependencies** - which stories must be done before others?
 - **Consider the sprint goal** - which stories directly support getting basic functionality live?
 - **Apply business value** - which stories provide the most value to users?
@@ -63,7 +63,7 @@ Document your selection showing:
 
 For 2-3 of your selected user stories, break them down into specific tasks:
 
-Example for 'As a customer, I want to view the menu with prices':
+Example for *As a customer, I want to view the menu with prices*:
 
 - Design menu page layout
 - Create menu data structure  
