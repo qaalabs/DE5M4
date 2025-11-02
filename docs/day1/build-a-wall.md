@@ -3,25 +3,23 @@
 **Purpose:**
 Get learners thinking about the uncertainty, assumptions, and dependencies behind estimation and planning.
 
----
-
-## Step 1 – Set the scene (1 mins)
+## Step 1 - Set the scene (1 mins)
 
 Say something like:
 
 > “I want to build a wall outside my house. How long will it take?”
 
-*Leave it hanging — don’t clarify yet. Display the question on screen or write it on a virtual whiteboard.*
+*Leave it hanging - don’t clarify yet. Display the question on screen or write it on a virtual whiteboard.*
 
-## Step 2 – Individual quick estimate (2 mins)
+## Step 2 - Individual quick estimate (2 mins)
 
 Ask them to:
 
-> “Write down a number — how long do you think it would take?”
+> “Write down a number - how long do you think it would take?”
 
 Don’t let them ask questions yet. The goal is to capture gut instinct.
 
-## Step 3 – Open up the questions (5–7 mins)
+## Step 3 - Open up the questions (5–7 mins)
 
 Then say:
 
@@ -39,18 +37,18 @@ Encourage them to shout out or add to a shared board:
 
 You’ll quickly get a wall (!) of questions - this is your pivot to “requirements and planning”.
 
-## Step 4 – Compare the early estimates (3 mins)
+## Step 4 - Compare the early estimates (3 mins)
 
 Ask:
 
-> “Now that we’ve talked through all those questions — who thinks their original estimate still holds?”
+> “Now that we’ve talked through all those questions - who thinks their original estimate still holds?”
 
 Most will laugh or admit it’s wrong.
 That’s your moment to connect it to project planning:
 
-> “Estimation depends on clarity, scope, and assumptions — and that’s true whether we’re building a wall or a digital product.”
+> “Estimation depends on clarity, scope, and assumptions - and that’s true whether we’re building a wall or a digital product.”
 
-## Step 5 – Discussion (7 mins)
+## Step 5 - Discussion (7 mins)
 
 Prompt discussion:
 

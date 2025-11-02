@@ -1,9 +1,11 @@
 ## Setup
 
+**Introduce the concept - don't assume elarners know about Plannng Poker**
+
 - https://poker.qaalabs.com/de5m4 ~ For learners
 - https://poker.qaalabs.com/de5m4/poker ~ Tutor page
 
-
+*Click the link to see example stores that can be estimated by the group*
 
 ---
 
