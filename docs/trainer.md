@@ -4,7 +4,7 @@
 
 ### Session 1
 
-- **Discussion**: I want to build a wall ...
+- **Discussion**: [I want to build a wall ...](day1/build-a-wall.md)
 
 ### Session 2
 

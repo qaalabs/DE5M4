@@ -44,6 +44,7 @@ nav:
 not_in_nav: |
   404.md
   trainer.md
+  day1/build-a-wall.md
   day1/agile/how-solution.md
   day1/planning/epics-solution.md
   day1/planning/possible-user-stories.md
