@@ -14,7 +14,9 @@ Your task is to think through: **What steps would you take to design it?**
 
 ---
 
-Draw on your collective experience and knowledge. Think about both the business and technical aspects of design.
+Draw on your collective experience and knowledge.
+
+Think about both the business and technical aspects of design.
 
 - What information would you need?
 - Who would you involve?

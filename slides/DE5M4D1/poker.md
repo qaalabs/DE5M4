@@ -7,8 +7,6 @@
 
 ---
 
-## Responses
-
 - `0`    - **No effort** ~ already done, or negligible
 - `0.5`  - **Trivial** ~ tiny fix or tweak
 - `1-13` - **Core Fibonacci** ~ realistic, small-to-medium stories
@@ -22,8 +20,12 @@
 
 ---
 
- ### Health check
+### Main Links
+- https://poker.qaalabs.com/de5m4
+- https://poker.qaalabs.com/de5m4/poker
+
+### Health check
 - https://poker.qaalabs.com/health
 
- ### API list of rooms
+### API list of rooms
 - https://poker.qaalabs.com/api/rooms

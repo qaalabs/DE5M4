@@ -1,7 +1,5 @@
 # Designing Digital Products: Possible Answer
 
----
-
 ## Initial Design Process for a Data-Driven Customer Behavior Product
 
 ### Step 1: Discovery & Requirements Gathering

@@ -1,4 +1,6 @@
-## <mark>Each group shares 2 or 3 user stories</mark>
+## <mark>Each group shares 2 or 3 user stories thay wrote</mark>
+
+### Format
 
 **'As a [type of user], I want [some goal], so that [some reason/benefit].'**
 

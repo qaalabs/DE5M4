@@ -31,9 +31,9 @@ You need to select user stories that:
 
 ### Step 1: Review and Prioritise
 
-<mark>Here is a [list of possible user stories](possible-user-stories.md) (you can also add your own)</mark>
+<mark>[Click here] for a list of possible user stories](possible-user-stories.md)</mark> ~ you can also add your own
 
-- Make sure the stories have estimates - *use different values if you disagree*.
+- **Make sure the stories have estimates** - use different values if you disagree.
 - **Identify dependencies** - which stories must be done before others?
 - **Consider the sprint goal** - which stories directly support getting basic functionality live?
 - **Apply business value** - which stories provide the most value to users?

@@ -63,11 +63,11 @@ If a story feels too big, break it down. If it feels too small, consider combini
 
 ## Working in Groups
 
-**Continue working in your same groups. For each epic you created:**
+**Working now in groups, share the Epics you created. Then:**
 
-1. Go through the requirements under that epic
+1. Go through your requirements under that Epic
 2. Convert each requirement into one or more user stories
-3. Write them down
+3. Write down the user story in the correct format.
 
 ## Deliverable
 

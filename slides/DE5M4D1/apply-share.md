@@ -1,9 +1,13 @@
 ## <mark>Each group shares what they would do</mark>
 
+### Allocated Scenarios
+
 - Scenario A - Retail Company
 - Scenario B - Healthcare Provider
 - Scenario C - Manufacturing Company
 - Scenario D - Financial Services
+
+*See below for what to emphasise*
 
 ---
 
