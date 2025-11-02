@@ -8,17 +8,15 @@
 
 ### Session 2
 
-- [Setup: How are products designed?](day1/agile/how-instructions.md)
-- [Breakout: How are products designed?](day1/agile/how-design-steps.md)
-- **Discussion**: [Share: How are products designed?](day1/agile/how-solution.md)
-- [Breakout: Apply to your scenario](day1/agile/scenario.md)
-- **Discussion**: Share: Apply to your scenario
+- [How are products designed?](day1/agile/how-instructions.md)
+- **Breakout**: [Apply your design process to a scenario](day1/agile/scenario.md)
+- **Discussion**: Share your design steps
 
 ### Session 3
 
 - [Solo Activity: Identify Epics](day1/planning/epics.md)
-- [Share: What Epics were identified](day1/planning/epics-solution.md)
-- **Breakout**: [Groups: Write User Stories](day1/planning/user-stories.md)
+- **Discussion**: [What Epics did you identify?](day1/planning/epics-solution.md)
+- **Breakout**: [Write User Stories in groups](day1/planning/user-stories.md)
 
 ### Session 4
 

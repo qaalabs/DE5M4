@@ -13,11 +13,10 @@ nav:
     - Day 4: agenda/day4.md
 
   - "Day 1 - Agile Foundations":
-    - "Setup: How are products designed?": day1/agile/how-instructions.md
-    - "Breakout: How are products designed?": day1/agile/how-design-steps.md
-    - "Breakout: Apply to your scenario": day1/agile/scenario.md
+    - "How are products designed?": day1/agile/how-instructions.md
+    - "Apply your design process to a scenario": day1/agile/scenario.md
     - "Solo Activity: Identify Epics": day1/planning/epics.md
-    - "Groups: Write User Stories": day1/planning/user-stories.md
+    - "Write User Stories in groups": day1/planning/user-stories.md
     - "Play Planning Poker ⏳": day1/planning/user-stories-solution.md
     - "Groups: Plan a 2-week sprint": day1/planning/sprint-planning.md
 
@@ -69,6 +68,7 @@ markdown_extensions:
   - def_list
   - footnotes
   - meta
+  - tables
   - toc:
       permalink: false
       toc_depth: 2
