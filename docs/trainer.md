@@ -4,26 +4,26 @@
 
 ### Session 1
 
-- Learners introduce themselves
+- **Discussion**: I want to build a wall ...
 
 ### Session 2
 
 - [How are products designed?](day1/agile/how-instructions.md)
-- **Breakout**: [Apply your design process to a scenario](day1/agile/scenario.md)
+- **Breakout**: [Apply design process to a scenario](day1/agile/scenario.md)
 - **Discussion**: Share your design steps
 
 ### Session 3
 
-- [Solo Activity: Identify Epics](day1/planning/epics.md)
+- [Identify Epics](day1/planning/epics.md)
 - **Discussion**: [What Epics did you identify?](day1/planning/epics-solution.md)
 - **Breakout**: [Write User Stories in groups](day1/planning/user-stories.md)
 
 ### Session 4
 
-- **Discussion**: Share: Groups share user stories
-- [Play Planning Poker ⏳](day1/planning/user-stories-solution.md)
-- **Breakout**: [Groups: Plan a 2-week sprint](day1/planning/sprint-planning.md)
-- **Discussion**: [Share: Groups share 2-week sprint plan](day1/planning/sprint-solution.md)
+- **Discussion**: [Groups share User Stories](day1/planning/possible-user-stories.md)
+- **Activity**: [Play Planning Poker ⏳](day1/planning/planning-poker.md)
+- **Breakout**: [Plan a 2-week sprint](day1/planning/sprint-planning.md)
+- **Discussion**: [Groups share 2-week sprint plan](day1/planning/sprint-solution.md)
 
 ---
 

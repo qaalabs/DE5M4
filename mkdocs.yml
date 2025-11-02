@@ -14,11 +14,10 @@ nav:
 
   - "Day 1 - Agile Foundations":
     - "How are products designed?": day1/agile/how-instructions.md
-    - "Apply your design process to a scenario": day1/agile/scenario.md
-    - "Solo Activity: Identify Epics": day1/planning/epics.md
+    - "Apply design process to a scenario": day1/agile/scenario.md
+    - "Identify Epics": day1/planning/epics.md
     - "Write User Stories in groups": day1/planning/user-stories.md
-    - "Play Planning Poker ⏳": day1/planning/user-stories-solution.md
-    - "Groups: Plan a 2-week sprint": day1/planning/sprint-planning.md
+    - "Plan a 2-week sprint": day1/planning/sprint-planning.md
 
   - "Day 2 - Technical Foundation":
     - "Activity 1: Working locally with Git": day2/source-control/git-locally.md
@@ -47,6 +46,8 @@ not_in_nav: |
   trainer.md
   day1/agile/how-solution.md
   day1/planning/epics-solution.md
+  day1/planning/possible-user-stories.md
+  day1/planning/planning-poker.md
   day1/planning/sprint-solution.md
 
 
