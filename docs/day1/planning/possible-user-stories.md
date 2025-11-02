@@ -1,12 +1,12 @@
 # Possible User Stories for the QARestaurant Activity
 
-Here are example user stories organised by the epics we identified, based on the restaurant website requirements:
+Here are example user stories organised by some of the epics we identified, based on the restaurant website requirements:
 
 ## Epic: Restaurant Brand Identity
 
 **Logo and Branding:**
 
-- As a **first-time visitor**, I want to see the restaurant logo prominently displayed, so that I can easily identify and remember the restaurant brand.
+- As a **first-time visitor**, I want to see the restaurant logo prominently displayed, so that I can easily identify and remember the restaurant brand ~ <mark>1 story-point</mark>
 - As a **customer browsing multiple tabs**, I want to see the restaurant logo in the browser tab, so that I can quickly find the restaurant's website among my open tabs.
 - As a **returning customer**, I want to see consistent branding throughout the website, so that I feel confident I'm on the right restaurant's site.
 
@@ -63,8 +63,6 @@ Here are example user stories organised by the epics we identified, based on the
 - As a **customer who enjoyed my meal**, I want to share the restaurant on social media, so that I can recommend it to my friends and followers.
 
 ## Additional Advanced User Stories
-
-**For more experienced groups, you might include:**
 
 - As a **restaurant owner**, I want to track which menu items are most popular online, so that I can optimise my kitchen preparation and ingredient ordering.
 - As a **customer loyalty program member**, I want to see my reward points when I log in, so that I can track my progress toward free meals.

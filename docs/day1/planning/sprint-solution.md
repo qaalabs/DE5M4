@@ -1,4 +1,4 @@
-# Sptint Planning ~ Possible solution
+# Sptint Planning: Possible solution
 
 ## Sample Sprint Planning Outcome
 

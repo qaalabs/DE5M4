@@ -1,4 +1,4 @@
-# Activity 1 - Epics Solution
+# Epics: Possible Solution
 
 ## The Restaurant Website Scenario
 
