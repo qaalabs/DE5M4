@@ -1,4 +1,6 @@
-# Activity 2: Possible Answer
+# Designing Digital Products: Possible Answer
+
+---
 
 ## Initial Design Process for a Data-Driven Customer Behavior Product
 
@@ -68,6 +70,8 @@
 - Customer segmentation model specifications
 - Data product user journey maps
 
+---
+
 ## Key Considerations Specific to This Scenario
 
 ### Customer Identity Resolution
@@ -80,7 +84,7 @@ We need to determine how quickly inventory decisions need to be made to balance 
 
 ### Incremental Delivery Approach
 
-I would recommend starting with a specific high-value use case (perhaps optimising inventory for top 20% of products) rather than trying to solve all problems at once
+Start with a specific high-value use case (perhaps optimising inventory for top 20% of products) rather than trying to solve all problems at once
 
 ### Change Management Strategy
 

@@ -1,4 +1,4 @@
-# Breakout Activity: Brainstorm Design Steps
+# Breakout Activity: How are Digital Products Designed?
 
 In groups **brainstorm the digital design process**, addressing:
 
