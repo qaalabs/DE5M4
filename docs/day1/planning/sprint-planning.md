@@ -31,7 +31,7 @@ You need to select user stories that:
 
 ### Step 1: Review and Prioritise
 
-<mark>[Click here] for a list of possible user stories](possible-user-stories.md)</mark> ~ you can also add your own
+<mark>[Click here](possible-user-stories.md) for a list of possible user stories</mark> ~ you can also add your own
 
 - **Make sure the stories have estimates** - use different values if you disagree.
 - **Identify dependencies** - which stories must be done before others?
