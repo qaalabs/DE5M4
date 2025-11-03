@@ -1,6 +1,6 @@
-# Agile: Scenario B ~ Healthcare Provider
+# Planning: Scenario B ~ Healthcare Provider
 
-*Apply your phases from the previous activity to the scenario below.*
+*Apply your planning phases from the previous activity to the scenario below.*
 
 ## Scenario
 
@@ -17,3 +17,4 @@ Using the design process your group created, outline how you would approach this
 ## Group Sharing
 
 As a group briefly present your **design process** and **initial approach** to the scenario. (2-3 minutes)
+
