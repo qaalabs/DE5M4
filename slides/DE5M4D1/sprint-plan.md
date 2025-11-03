@@ -2,11 +2,17 @@
 
 <a href="http://192.168.1.227:3000/s/de5m4-sprint-planning" target="_blank">📒 Click here for text to paste into the chat</a>
 
-## Deliverable
+For our restaurant website, imagine you're planning the first 2-week sprint of development work.
 
-Each group will present their Sprint 1 plan:
+### Sprint Planning Constraints
 
-- Sprint goal (1 sentence)
-- Selected user stories with total points
-- Key dependencies identified
-- One risk or challenge you anticipated
+- 2-week sprint duration
+- Team capacity of 30 story points (this is your velocity)
+
+### You need to select user stories that:
+
+- Fit within your 30-point capacity
+- Supports your sprint goal
+- Have logical dependencies considered
+- Creates value for users
+

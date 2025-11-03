@@ -1,4 +1,4 @@
-# Possible User Stories for the QARestaurant Activity
+# Possible User Stories for the QA-Restaurant Activity
 
 Here are example user stories organised by some of the epics we identified, based on the restaurant website requirements:
 
@@ -10,7 +10,7 @@ Here are example user stories organised by some of the epics we identified, base
 
 - As a **customer browsing multiple tabs**, I want to see the restaurant logo in the browser tab, so that I can quickly find the restaurant's website among my open tabs ~ <mark>0.5 story-points</mark>
 
-- As a **returning customer**, I want to see consistent branding throughout the website, so that I feel confident I'm on the right restaurant's site ~ <mark>3 story-point2</mark>
+- As a **returning customer**, I want to see consistent branding throughout the website, so that I feel confident I'm on the right restaurant's site ~ <mark>3 story-point</mark>
 
 ## Epic: Customer Website Navigation
 
@@ -64,7 +64,7 @@ Here are example user stories organised by some of the epics we identified, base
 
 - As a **restaurant staff member**, I want to update reservations when customers call, so that I can accommodate their changes and keep our booking system accurate ~ <mark>5 story-points</mark>
 
-- As a **restaurant manager**, I want to delete canceled reservations, so that those tables become available for other customers ~ <mark>3 story-points</mark>
+- As a **restaurant manager**, I want to delete cancelled reservations, so that those tables become available for other customers ~ <mark>3 story-points</mark>
 
 - As a **front-of-house staff member**, I want to see all reservations for the day, so that I can properly prepare for incoming guests and manage seating efficiently ~ <mark>8 story-points</mark>
 
@@ -90,7 +90,7 @@ Here are example user stories organised by some of the epics we identified, base
 
 - As a **website visitor**, I want pages to load quickly, so that I don’t abandon the site while browsing  ~ <mark>3 story-points</mark>
 
-- As a **visually impaired user**, I want images to have alt text and clear contrast, so that I can use the site with a screen reader ~ <mark>5&nbsp;story-points</mark>
+- As a **visually impaired user**, I want images to have alt- text and clear contrast, so that I can use the site with a screen reader ~ <mark>5&nbsp;story-points</mark>
 
 - As a **customer**, I want my data to be protected when I place an order, so that I feel safe using the site ~ <mark>5 story-points</mark>
 
