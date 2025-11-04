@@ -11,20 +11,21 @@
 
 - [How are products designed?](day1/agile/how-instructions.md)
 - **Breakout**: [Apply design process to a scenario](day1/agile/scenario.md)
-- **Discussion**: Share your design steps
+- **Report-Back**: Share your design steps
 
 ### Session 3
 
+- Agile artefacts
 - [Identify Epics](day1/planning/epics.md)
 - **Discussion**: [What Epics did you identify?](day1/planning/epics-solution.md)
 - **Breakout**: [Write User Stories in groups](day1/planning/user-stories.md)
 
 ### Session 4
 
-- **Discussion**: [Groups share User Stories](day1/planning/possible-user-stories.md)
+- **Report-Back**: [Groups share User Stories](day1/planning/possible-user-stories.md)
 - **Activity**: [Play Planning Poker ⏳](day1/planning/planning-poker.md)
 - **Breakout**: [Plan a 2-week sprint](day1/planning/sprint-planning.md)
-- **Discussion**: [Groups share 2-week sprint plan](day1/planning/sprint-solution.md)
+- **Report-Back**: [Groups share 2-week sprint plan](day1/planning/sprint-solution.md)
 
 ---
 
@@ -60,13 +61,13 @@
 ### Session 1
 
 - **Discussion**: [Workplace Storage & Databases](day3/storage/examples.md)
-- **Activity**: Lab 1: Create Amazon S3 Bucket
+- **Activity**: Lab 1 ~ Create Amazon S3 Bucket
 
 ### Session 2
 
-- **Activity**: Lab 2: Core Azure Storage Products
-- **Activity**: Lab 3: Google Cloud Storage
-- **Activity**: Lab 4: AWS Acquiring and Storing Data
+- **Activity**: Lab 2 ~ Core Azure Storage Products
+- **Activity**: Lab 3 ~ Google Cloud Storage
+- **Activity**: Lab 4 ~ AWS Acquiring and Storing Data
 
 ### Session 3
 
