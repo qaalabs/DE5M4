@@ -1,4 +1,4 @@
-# Group Activity E2: Conceptual Data Model
+# Group Activity: Conceptual Data Model
 
 ## Instructions
 

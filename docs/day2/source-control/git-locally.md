@@ -32,6 +32,15 @@ git config --global user.name "Your Name"
 
 !!! note "Normally you would change the values to your email and name - but for this exercise it isn't nessessary"
 
+At the $ prompt copy and paste the following line:
+
+```sh
+git config --global init.defaultBranch main
+```
+
+This makes sure that the default branch is always called `main`
+
+
 ### Step 2: Create directory
 
 At the prompt type the command to make a directory called **my-git-project**:
