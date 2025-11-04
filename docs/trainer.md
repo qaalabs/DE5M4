@@ -33,14 +33,15 @@
 ### Session 1
 
 - **Discussion**: Software Version Control
-- **Guided**: [Activity 1: Working locally with Git](day2/source-control/git-locally.md)
+- **Activity**: [Lab 1 ~ Working locally with Git](day2/source-control/git-locally.md)
 
 ### Session 2
 
-- **Guided**: [Activity 2: Create a Repo in GitHub](day2/source-control/github-repo.md)
-- **Guided**: [Activity 3: Create an Issue](day2/source-control/github-create-issue.md)
-- **Guided**: [Activity 4: Fork a Repository](day2/source-control/github-forking.md)
-- **Guided**: [Activity 5: Create a Pull Request](day2/source-control/github-pull-request.md)
+- **Activity**: [Lab 2 ~ Create a Repo in GitHub](day2/source-control/github-repo.md)
+- **Activity**: [Lab 3 ~ Create an Issue](day2/source-control/github-create-issue.md)
+- **Activity**: [Lab 4 ~ Fork a Repository](day2/source-control/github-forking.md)
+- **Activity**: [Lab 5 ~ Create a Pull Request](day2/source-control/github-pull-request.md)
+- Time Reserve
 
 ### Session 3
 
