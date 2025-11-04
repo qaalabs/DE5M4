@@ -25,9 +25,9 @@ nav:
     - "Activity 3: Create an Issue": day2/source-control/github-create-issue.md
     - "Activity 4: Fork a Repository": day2/source-control/github-forking.md
     - "Activity 5: Create a Pull Request": day2/source-control/github-pull-request.md
-    - "Activity: Cloud Building Blocks": day2/cloud/building-blocks.md
+    - "Cloud ~ Core Building Blocks": day2/cloud/building-blocks.md
     - "Cloud Architecture Scenarios": day2/cloud/architecture.md
-    - "Activity: Cloud Architecture": day2/cloud/scenario.md
+    - "Cloud Architecture": day2/cloud/scenario.md
 
   - "Day 3 - Database Design & Python":
     - "Workplace Storage & Databases": day3/storage/examples.md
@@ -36,7 +36,7 @@ nav:
     - "Logical Model & Design Decisions": day3/storage/logical.md
     - "Python TDD": day3/python/tdd.md
 
-  - "Day 4 - Integration Projcet":
+  - "Day 4 - Integration Project":
     - "Introduce Day 4 activity": day4/product-planning.md
 
   - Resources: resources.md

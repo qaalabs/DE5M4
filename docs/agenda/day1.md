@@ -2,7 +2,7 @@
 
 ## Session 1
 
-- `09:30` Welcome (10 mins)
+- `09:30` Welcome to Day 1 (10 mins)
 - `09:40` VM Setup & Welcome (20 mins)
 - `10:00` **Discussion**: I want to build a wall ... (10 mins)
 - `10:10` Learners introduce themselves (20 mins)

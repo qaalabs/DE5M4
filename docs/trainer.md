@@ -44,15 +44,12 @@
 
 ### Session 3
 
-- Cloud Core Building Blocks
-- [Activity: Cloud Building Blocks](day2/cloud/building-blocks.md)
-- Report Back: Cloud Building Blocks
+- Cloud ~ Core Building Blocks
 
 ### Session 4
 
 - [Cloud Architecture Scenarios](day2/cloud/architecture.md)
-- **Breakout**: [Activity: Cloud Architecture](day2/cloud/scenario.md)
-- **Discussion**: Report Back: Cloud Architecture
+- **Breakout**: [Cloud Architecture](day2/cloud/scenario.md)
 - **Discussion**: Workplace Architecture
 
 ---
@@ -84,7 +81,7 @@
 
 ---
 
-## Day 4 - Integration Projcet
+## Day 4 - Integration Project
 
 ### Session 1
 
