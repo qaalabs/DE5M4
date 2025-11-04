@@ -1,4 +1,4 @@
-# Activity C2: Adding a repository in GitHub
+# Activity: Adding a repository in GitHub
 
 **Objective**: By the end of this activity, you will be able to create a new repository on GitHub, configure basic settings such as the `README` and `.gitignore` file, and understand the purpose of these elements in version control.
 
@@ -52,7 +52,12 @@ Click: **Create repository**
 - Add a file to the new branch
 - Switch to the `main` branch - and see that file you just created isn't there
 
-- Create another branch - add some files - -then delete the branch
+- Create another branch ... add some files ... then delete the branch
+
+### Step 6: Share the repository with others
+
+- Paste the URL to your repository into the chat
+- Click on another persons link to see their repository
 
 ---
 

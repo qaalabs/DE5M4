@@ -1,4 +1,4 @@
-# Activity C4: Forking a Repository
+# Activity: Forking a Repository
 
 ## Collaborative Planning with Git - Forking a Repository
 
@@ -29,6 +29,8 @@
 - Wait for GitHub to complete the forking process
 - You now have your own copy of the repository!
 
+!!! note "Because this is your own copy, it means you can add and edit files"
+
 **Verify your fork**
 
 - Ensure you're now on your forked version of the repository
@@ -40,6 +42,7 @@
 
    ```bash
    git clone https://github.com/[YOUR-USERNAME]/intro-to-github.git
+   
    cd intro-to-github
    ```
 

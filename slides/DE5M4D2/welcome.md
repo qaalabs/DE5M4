@@ -1,15 +1,15 @@
 ## Day 2: Technical Foundation
 
-### Topic C: Git and GitHub
+### Git and GitHub
 
-- Version control with Git
-- Creating Issues
-- Forking a repository
-- Pull request
-- Projects
+- Activity 1: Working locally with Git
+- Activity 2: Create a Repo in GitHub
+- Activity 3: Create an Issue
+- Activity 4: Fork a Repository
+- Activity 5: Create a Pull Request
 
-### Topic D: Cloud Computing
+### Cloud Computing
 
-- Agile in the cloud
-- Cloud infrastructure (AWS)
-- CI/CD approaches
+- Cloud Core Building Blocks
+- Cloud Architecture Scenarios
+- Workplace Architecture 

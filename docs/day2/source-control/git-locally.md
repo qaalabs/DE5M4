@@ -1,4 +1,4 @@
-# Activity C1: Working locally with Git
+# Activity: Working locally with Git
 
 **Objective**: By the end of this activity, you will be able to initialise a local Git repository, create and track files, understand the staging and commit process, and view the commit history - all from the command line.
 
@@ -34,13 +34,13 @@ git config --global user.name "Your Name"
 
 ### Step 2: Create directory
 
-At the propmt type the command to make a directory called **my-git-project**:
+At the prompt type the command to make a directory called **my-git-project**:
 
 ```none
 mkdir my-git-project
 ```
 
-Change to that directory
+Change directory to this new directory:
 
 ```none
 cd my-git-project

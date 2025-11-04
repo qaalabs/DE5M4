@@ -1,4 +1,4 @@
-# Activity C5: Creating a Pull Request
+# Activity: Creating a Pull Request
 
 ## Learning Objectives
 
@@ -15,6 +15,8 @@
 
 Navigate to: `https://github.com/[YOUR-USERNAME]/intro-to-github`
 
+!!! info "This exercise works with any repo - we will just use the forked one for convenience"
+
 ### Step 2: Create a new branch
 
 - Near the top-left of the page (just above the file list), click the **branch dropdown** that says `main`
@@ -23,20 +25,20 @@ Navigate to: `https://github.com/[YOUR-USERNAME]/intro-to-github`
 
 !!! success "You've now created and switched to a new branch!"
 
-### Step 3. Edit your profile file
+### Step 3: Edit your profile file
 
 - Navigate to `team-profiles/your-name.md`
 - Click the **pencil icon** to edit the file
 - Add more fun facts or extra details
 
-### Step 4. Commit your changes to the branch
+### Step 4: Commit your changes to the branch
 
 - Scroll to the bottom of the edit page
 - In **Commit changes**, add a short message: `Add more fun facts to my profile`
 - Select: "Commit directly to the `add-profile-details` branch"
 - Click **Commit changes**
 
-### Step 5. Create a Pull Request
+### Step 5: Create a Pull Request
 
 - Click the **"Pull requests"** tab
 - Click **New pull request**
@@ -51,7 +53,7 @@ Click **Create pull request**
 - Add a title and description
 - Click **Create pull request**
 
-### Step 6. Review, discuss, and merge
+### Step 6: Review, discuss, and merge
 
 - Your instructor can review the changes
 - They will click **Merge pull request** to apply the changes into `main`
