@@ -61,13 +61,13 @@
 ### Session 1
 
 - **Discussion**: [Workplace Storage & Databases](day3/storage/examples.md)
-- **Activity**: Lab 1 ~ Create Amazon S3 Bucket
+- **Activity**: [Lab 1 ~ Create Amazon S3 Bucket](labs/amazon-s3-bucket.md)
 
 ### Session 2
 
-- **Activity**: Lab 2 ~ Core Azure Storage Products
-- **Activity**: Lab 3 ~ Google Cloud Storage
-- **Activity**: Lab 4 ~ AWS Acquiring and Storing Data
+- **Activity**: [Lab 2 ~ Core Azure Storage Products](labs/azure-storage-products.md)
+- **Activity**: [Lab 3 ~ Google Cloud Storage](labs/google-cloud-storage.md)
+- **Activity**: [Lab 4 ~ AWS Acquiring & Storing Data](labs/aws-acquiring-storing-data.md)
 
 ### Session 3
 
