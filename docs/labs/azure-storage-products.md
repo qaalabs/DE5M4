@@ -1,4 +1,4 @@
-# QA Platform Lab: Understanding Core Azure Storage Products
+# Lab: Understanding Core Azure Storage Products
 
 Duration **1h** ~ *On average, students complete this lab in **20m***
 

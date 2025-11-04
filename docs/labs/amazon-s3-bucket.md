@@ -1,4 +1,4 @@
-# QA Platform Lab: Create Your First Amazon S3 Bucket
+# Lab: Create Your First Amazon S3 Bucket
 
 Duration **50m** ~ *On average, students complete this lab in **25m***
 

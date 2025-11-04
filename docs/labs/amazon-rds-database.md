@@ -1,4 +1,4 @@
-# QA Platform Lab: Create Your First Amazon RDS Database
+# Lab: Create Your First Amazon RDS Database
 
 Duration **1h 15m** ~ *On average, students complete this lab in **35m***
 

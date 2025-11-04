@@ -1,4 +1,4 @@
-# QA Platform Lab: Working with Google Cloud Storage from the Console
+# Lab: Working with Google Cloud Storage from the Console
 
 Duration **1h 15m** ~ *On average, students complete this lab in **30m***
 

@@ -1,4 +1,4 @@
-# QA Platform Lab: Acquiring and Storing Data in Python (AWS)
+# Lab: Acquiring and Storing Data in Python (AWS)
 
 Duration **1h** ~ *On average, students complete this lab in **20m***
 
