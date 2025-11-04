@@ -2,7 +2,7 @@
 
 Duration **1h 15m** ~ *On average, students complete this lab in **30m***
 
-## Description
+### Description
 Cloud Storage is Google Cloud's enterprise-ready storage service for unstructured data. Examples of when you would use Cloud Storage include content storage and delivery, a data store for analytics and machine learning workloads, as well as storing backups and archives. Cloud Storage can:
 
 - Scale to store exabytes of data
@@ -11,7 +11,7 @@ Cloud Storage is Google Cloud's enterprise-ready storage service for unstructure
 
 This Lab teaches you how to use Cloud Storage. Along the way, the Lab introduces you to all of the key concepts and trade-offs that you need to understand to work effectively with Cloud Storage. These include terminology, methods for organizing Cloud Storage data, cost and performance trade-offs, and security considerations. The Lab is performed using the Console web browser interface to Google Cloud. 
 
-## Lab Objectives
+### Lab Objectives
 *Upon completion of this Lab you will be able to:*
 
 - Understand key concepts in Cloud Storage including buckets, objects, and storage classes
@@ -20,5 +20,5 @@ This Lab teaches you how to use Cloud Storage. Along the way, the Lab introduces
 - Use Identity and Access Management (IAM) or Access Control Lists (ACLs) to control access to Cloud Storage objects
 - Create Object Lifecycle Management rules to automatically perform actions on objects when certain conditions are met
 
-## Link
+### Link
 - https://bud.sso.app.qa.com/lab/working-google-cloud-storage-from-the-console/
