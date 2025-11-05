@@ -1,6 +1,6 @@
-# Group Activity: Conceptual Data Model
+# Group Activity 2: Conceptual Data Model
 
-## Instructions
+### Instructions
 
 Each group needs to create a **conceptual data model**:
 
@@ -12,7 +12,7 @@ Each group needs to create a **conceptual data model**:
 
 ---
 
-## Report Back
+### Report Back
 
 - Present your Entity-Relationship Diagram (ERD) to the class
 - Someone in your group shares their screen, and the group talks through some relevant entities and relationships

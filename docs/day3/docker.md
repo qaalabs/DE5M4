@@ -32,7 +32,7 @@
 
 - Click `Run` on the selected `nginx` official Docker image
 
-!!! infor "This runs the downloaded `nginx` Docker image"
+!!! info "This runs the downloaded `nginx` Docker image"
 
 - Click the down arrow to expand the **Optional settings**
 
@@ -43,7 +43,7 @@
 !!! quote ""
     ![search for nginx](../img/nginx-options.png)
 
-## Step 5: Open a browser to see `nginx` running as a webserver
+## Step 5: Open a browser
 
 - Open a browser
 
@@ -52,9 +52,9 @@
 !!! quote ""
     ![search for nginx](../img/nginx-welcome.png)
 
-!!! sucess "You now have a WebServer runing in a container on your Virtual Machine!"
+!!! success "You now have a WebServer runing in a container on your Virtual Machine!"
 
-## Step 6: Add your own code to the `index.html` file
+## Step 6: Add your own code
 
 - Under Containers on the right menu, find `nginx`
 
@@ -69,7 +69,7 @@
 !!! quote ""
     ![search for nginx](../img/nginx-edit-index.png)
 
-Replace the curent html code with this code:
+Replace the current html code with this code:
 
 ```html
 <!DOCTYPE html>
@@ -86,12 +86,12 @@ Replace the curent html code with this code:
 
 - Click the :material-content-save: `Save changes` icon
 
-- Refresh you browser page to see your changes
+- Refresh your browser page to see your changes
 
 !!! quote ""
     ![search for nginx](../img/nginx-custom-index.png)
 
-!!! sucess "You now have a WebServer runing your code in a container."
+!!! success "You now have a WebServer running custom code in a container."
 
 ---
 
@@ -101,4 +101,5 @@ Replace the curent html code with this code:
 
 - You can also **delete the Container**
 
-- And then you can delete the image to free up space
+- Then you can **delete the Docker image** to free up space
+

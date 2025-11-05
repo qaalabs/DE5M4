@@ -1,6 +1,6 @@
 ## <mark>Introduce the breakout activities</mark>
 
-<a href="http://192.168.1.227:3000/s/de5m4-erd" target="_blank">📒 Click here for text to paste into the chat</a>
+<a href="http://192.168.1.227:3000/s/de5m4-modelling" target="_blank">📒 Click here for text to paste into the chat</a>
 
 
 ### **Activity 1: Requirements Summary**
