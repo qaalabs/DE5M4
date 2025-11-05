@@ -38,6 +38,7 @@ nav:
     - "1. Requirements Analysis": day3/storage/analysis.md
     - "2. Create Conceptual Data Model": day3/storage/conceptual.md
     - "3. Logical Model & Design Decisions": day3/storage/logical.md
+    - "Docker container": day3/docker.md
     - "Python TDD": day3/python/tdd.md
 
   - "Day 4 - Integration Project":
@@ -54,7 +55,6 @@ not_in_nav: |
   day1/planning/possible-user-stories.md
   day1/planning/planning-poker.md
   day1/planning/sprint-solution.md
-  day3/docker.md
 
 
 # Theme

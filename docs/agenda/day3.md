@@ -28,7 +28,7 @@
 
 ## Session 4
 
-- `15:00` **Demo**: Docker container (10 mins)
+- `15:00` **Demo**: [Docker container](../day3/docker.md) (10 mins)
 - `15:10` **Demo**: [Python TDD](../day3/python/tdd.md) (40 mins)
 
 ## Wrap
