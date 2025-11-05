@@ -18,17 +18,18 @@
 
 ## Session 3
 
-- `13:20` **Activity**: [Requirements Analysis](../day3/storage/analysis.md) (20 mins)
-- `13:40` **Activity**: [Create Conceptual Data Model](../day3/storage/conceptual.md) (20 mins)
+- `13:20` **Activity**: [1. Requirements Analysis](../day3/storage/analysis.md) (20 mins)
+- `13:40` **Activity**: [2. Create Conceptual Data Model](../day3/storage/conceptual.md) (20 mins)
 - `14:00` **Report-Back**: Present Entity-Relationship Diagram (10 mins)
-- `14:10` **Activity**: [Logical Model & Design Decisions](../day3/storage/logical.md) (20 mins)
+- `14:10` **Activity**: [3. Logical Model & Design Decisions](../day3/storage/logical.md) (20 mins)
 - `14:30` **Discussion**: Database Design in the workplace (10 mins)
 
 ## ☕ Afternoon Break
 
 ## Session 4
 
-- `15:00` **Demo**: [Python TDD](../day3/python/tdd.md) (50 mins)
+- `15:00` **Demo**: Docker container (10 mins)
+- `15:10` **Demo**: [Python TDD](../day3/python/tdd.md) (40 mins)
 
 ## Wrap
 

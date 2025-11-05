@@ -71,14 +71,15 @@
 
 ### Session 3
 
-- **Activity**: [Requirements Analysis](day3/storage/analysis.md)
-- **Activity**: [Create Conceptual Data Model](day3/storage/conceptual.md)
+- **Activity**: [1. Requirements Analysis](day3/storage/analysis.md)
+- **Activity**: [2. Create Conceptual Data Model](day3/storage/conceptual.md)
 - **Report-Back**: Present Entity-Relationship Diagram
-- **Activity**: [Logical Model & Design Decisions](day3/storage/logical.md)
+- **Activity**: [3. Logical Model & Design Decisions](day3/storage/logical.md)
 - **Discussion**: Database Design in the workplace
 
 ### Session 4
 
+- **Demo**: [Docker container](day3/docker.md)
 - **Demo**: [Python TDD](day3/python/tdd.md)
 
 ---
