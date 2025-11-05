@@ -6,22 +6,22 @@
       
       
       
-        <link rel="prev" href="../architecture/">
+        <link rel="prev" href="../storage/logical/">
       
       
-        <link rel="next" href="../../../day3/storage/examples/">
+        <link rel="next" href="../python/tdd/">
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
     
     
       
-        <title>Cloud Architecture - Module 4 - Planning Data Engineering Product</title>
+        <title>Docker container - Module 4 - Planning Data Engineering Product</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
       
       
 
@@ -40,14 +40,14 @@
       
     
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#activity-apply-your-scenario" class="md-skip">
+        <a href="#activity-run-an-app-in-docker-desktop" class="md-skip">
           Skip to content
         </a>
       
@@ -85,7 +85,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="Module 4 - Planning Data Engineering Product" class="md-header__button md-logo" aria-label="Module 4 - Planning Data Engineering Product" data-md-component="logo">
+    <a href="../.." title="Module 4 - Planning Data Engineering Product" class="md-header__button md-logo" aria-label="Module 4 - Planning Data Engineering Product" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C7.58 3 4 4.79 4 7s3.58 4 8 4 8-1.79 8-4-3.58-4-8-4M4 9v3c0 2.21 3.58 4 8 4s8-1.79 8-4V9c0 2.21-3.58 4-8 4s-8-1.79-8-4m0 5v3c0 2.21 3.58 4 8 4s8-1.79 8-4v-3c0 2.21-3.58 4-8 4s-8-1.79-8-4"></path></svg>
@@ -105,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Cloud Architecture
+              Docker container
             
           </span>
         </div>
@@ -185,7 +185,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Module 4 - Planning Data Engineering Product" class="md-nav__button md-logo" aria-label="Module 4 - Planning Data Engineering Product" data-md-component="logo">
+    <a href="../.." title="Module 4 - Planning Data Engineering Product" class="md-nav__button md-logo" aria-label="Module 4 - Planning Data Engineering Product" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C7.58 3 4 4.79 4 7s3.58 4 8 4 8-1.79 8-4-3.58-4-8-4M4 9v3c0 2.21 3.58 4 8 4s8-1.79 8-4V9c0 2.21-3.58 4-8 4s-8-1.79-8-4m0 5v3c0 2.21 3.58 4 8 4s8-1.79 8-4v-3c0 2.21-3.58 4-8 4s-8-1.79-8-4"></path></svg>
@@ -203,7 +203,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -263,7 +263,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../agenda/day1/" class="md-nav__link">
+      <a href="../../agenda/day1/" class="md-nav__link">
         
   
   
@@ -286,7 +286,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../agenda/day2/" class="md-nav__link">
+      <a href="../../agenda/day2/" class="md-nav__link">
         
   
   
@@ -309,7 +309,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../agenda/day3/" class="md-nav__link">
+      <a href="../../agenda/day3/" class="md-nav__link">
         
   
   
@@ -332,7 +332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../agenda/day4/" class="md-nav__link">
+      <a href="../../agenda/day4/" class="md-nav__link">
         
   
   
@@ -400,7 +400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../day1/agile/how-instructions/" class="md-nav__link">
+      <a href="../../day1/agile/how-instructions/" class="md-nav__link">
         
   
   
@@ -423,7 +423,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../day1/agile/scenario/" class="md-nav__link">
+      <a href="../../day1/agile/scenario/" class="md-nav__link">
         
   
   
@@ -446,7 +446,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../day1/planning/epics/" class="md-nav__link">
+      <a href="../../day1/planning/epics/" class="md-nav__link">
         
   
   
@@ -469,7 +469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../day1/planning/user-stories/" class="md-nav__link">
+      <a href="../../day1/planning/user-stories/" class="md-nav__link">
         
   
   
@@ -492,12 +492,241 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../day1/planning/sprint-planning/" class="md-nav__link">
+      <a href="../../day1/planning/sprint-planning/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     Plan a 2-week sprint
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Day 2 - Technical Foundation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Day 2 - Technical Foundation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../day2/source-control/git-locally/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 1 ~ Working locally with Git
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../day2/source-control/github-repo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 2 ~ Create a Repo in GitHub
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../day2/source-control/github-create-issue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 3 ~ Create an Issue
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../day2/source-control/github-forking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 4 ~ Fork a Repository
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../day2/source-control/github-pull-request/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lab 5 ~ Create a Pull Request
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../day2/cloud/building-blocks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cloud ~ Core Building Blocks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../day2/cloud/architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cloud Architecture Scenarios
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../day2/cloud/scenario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cloud Architecture
     
   </span>
   
@@ -532,15 +761,15 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
-    Day 2 - Technical Foundation
+    Day 3 - Database Design &amp; Python
     
   </span>
   
@@ -548,10 +777,10 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            Day 2 - Technical Foundation
+            Day 3 - Database Design &amp; Python
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -562,12 +791,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../source-control/git-locally/" class="md-nav__link">
+      <a href="../storage/examples/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Lab 1 ~ Working locally with Git
+    Workplace Storage &amp; Databases
     
   </span>
   
@@ -585,12 +814,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../source-control/github-repo/" class="md-nav__link">
+      <a href="../../labs/amazon-s3-bucket/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Lab 2 ~ Create a Repo in GitHub
+    Lab 1 ~ Create Amazon S3 Bucket
     
   </span>
   
@@ -608,12 +837,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../source-control/github-create-issue/" class="md-nav__link">
+      <a href="../../labs/azure-storage-products/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Lab 3 ~ Create an Issue
+    Lab 2 ~ Core Azure Storage Products
     
   </span>
   
@@ -631,12 +860,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../source-control/github-forking/" class="md-nav__link">
+      <a href="../../labs/google-cloud-storage/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Lab 4 ~ Fork a Repository
+    Lab 3 ~ Google Cloud Storage
     
   </span>
   
@@ -654,12 +883,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../source-control/github-pull-request/" class="md-nav__link">
+      <a href="../../labs/aws-acquiring-storing-data/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Lab 5 ~ Create a Pull Request
+    Lab 4 ~ AWS Acquiring &amp; Storing Data
     
   </span>
   
@@ -677,12 +906,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../building-blocks/" class="md-nav__link">
+      <a href="../storage/analysis/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Cloud ~ Core Building Blocks
+    1. Requirements Analysis
     
   </span>
   
@@ -700,12 +929,35 @@
   
   
     <li class="md-nav__item">
-      <a href="../architecture/" class="md-nav__link">
+      <a href="../storage/conceptual/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Cloud Architecture Scenarios
+    2. Create Conceptual Data Model
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../storage/logical/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3. Logical Model &amp; Design Decisions
     
   </span>
   
@@ -737,7 +989,7 @@
   
   
   <span class="md-ellipsis">
-    Cloud Architecture
+    Docker container
     
   </span>
   
@@ -750,7 +1002,7 @@
   
   
   <span class="md-ellipsis">
-    Cloud Architecture
+    Docker container
     
   </span>
   
@@ -773,36 +1025,63 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#scenario-a-iot-sensor-data-lake" class="md-nav__link">
+  <a href="#step-1-docker-desktop" class="md-nav__link">
     <span class="md-ellipsis">
-      Scenario A - IoT Sensor Data Lake
+      Step 1: Docker Desktop
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#scenario-b-retail-sales-etl" class="md-nav__link">
+  <a href="#step-2-explore-docker-desktop" class="md-nav__link">
     <span class="md-ellipsis">
-      Scenario B - Retail Sales ETL
+      Step 2: Explore Docker Desktop
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#scenario-c-machine-learning-pipeline" class="md-nav__link">
+  <a href="#step-3-pull-the-docker-image" class="md-nav__link">
     <span class="md-ellipsis">
-      Scenario C - Machine Learning Pipeline
+      Step 3: Pull the Docker image
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#scenario-d-financial-data-warehouse" class="md-nav__link">
+  <a href="#step-4-run-the-docker-image" class="md-nav__link">
     <span class="md-ellipsis">
-      Scenario D - Financial Data Warehouse
+      Step 4: Run the Docker image
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-open-a-browser-to-see-nginx-running-as-a-webserver" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 5: Open a browser to see nginx running as a webserver
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-add-your-own-code-to-the-indexhtml-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 6: Add your own code to the index.html file
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cleanup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cleanup
     </span>
   </a>
   
@@ -817,51 +1096,6 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    Day 3 - Database Design &amp; Python
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            Day 3 - Database Design &amp; Python
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
               
                 
   
@@ -869,214 +1103,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../day3/storage/examples/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Workplace Storage &amp; Databases
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../labs/amazon-s3-bucket/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Lab 1 ~ Create Amazon S3 Bucket
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../labs/azure-storage-products/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Lab 2 ~ Core Azure Storage Products
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../labs/google-cloud-storage/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Lab 3 ~ Google Cloud Storage
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../labs/aws-acquiring-storing-data/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Lab 4 ~ AWS Acquiring &amp; Storing Data
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../day3/storage/analysis/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    1. Requirements Analysis
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../day3/storage/conceptual/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    2. Create Conceptual Data Model
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../day3/storage/logical/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    3. Logical Model &amp; Design Decisions
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../day3/docker/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Docker container
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../day3/python/tdd/" class="md-nav__link">
+      <a href="../python/tdd/" class="md-nav__link">
         
   
   
@@ -1144,7 +1171,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../day4/product-planning/" class="md-nav__link">
+      <a href="../../day4/product-planning/" class="md-nav__link">
         
   
   
@@ -1174,7 +1201,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../resources/" class="md-nav__link">
+      <a href="../../resources/" class="md-nav__link">
         
   
   
@@ -1205,15 +1232,137 @@
 
 
 
-<h1 id="activity-apply-your-scenario">Activity: Apply your scenario</h1>
-<h2 id="scenario-a-iot-sensor-data-lake"><a href="../scenario-a/">Scenario A - IoT Sensor Data Lake</a></h2>
-<p>A manufacturing company collects temperature and humidity readings from <strong>5,000 IoT sensors</strong> deployed across several warehouses. Each device sends data <strong>every 10 seconds</strong>, resulting in tens of millions of records per day.</p>
-<h2 id="scenario-b-retail-sales-etl"><a href="../scenario-b/">Scenario B - Retail Sales ETL</a></h2>
-<p>A large retailer operates <strong>350 stores</strong> across the country. Each store uploads its daily sales report as a <strong>CSV file</strong> (~10 MB) to cloud storage at <strong>midnight</strong>.</p>
-<h2 id="scenario-c-machine-learning-pipeline"><a href="../scenario-c/">Scenario C - Machine Learning Pipeline</a></h2>
-<p>A startup is building a <strong>movie recommendation engine</strong>. It collects user interaction data (clicks, ratings, watch history) from its mobile app and website, which adds up to <strong>50 GB of new data per day</strong>.</p>
-<h2 id="scenario-d-financial-data-warehouse"><a href="../scenario-d/">Scenario D - Financial Data Warehouse</a></h2>
-<p>A financial services company needs to integrate data from <strong>multiple sources</strong> to create executive dashboards and regulatory reports.</p>
+<h1 id="activity-run-an-app-in-docker-desktop">Activity: Run an app in Docker Desktop</h1>
+<p><strong>Learning outcome:</strong></p>
+<ul>
+<li>Understand the Docker images, containers, and port mapping by doing a quick hands-on task.</li>
+</ul>
+<h2 id="step-1-docker-desktop">Step 1: Docker Desktop</h2>
+<ul>
+<li>Docker pulls a packaged app (an image)</li>
+<li>Docker starts a running instance of that image (a container)</li>
+</ul>
+<h2 id="step-2-explore-docker-desktop">Step 2: Explore Docker Desktop</h2>
+<ul>
+<li>
+<p>Open <code>Docker Desktop</code> in your Virtual Machine</p>
+</li>
+<li>
+<p>In the top search bar, search for: <code>nginx</code></p>
+</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title"><code>nginx</code> is a small web server image, very stable.</p>
+</div>
+<ul>
+<li>Click <code>nginx</code> ~ the Docker Official Image (it should be the first option)</li>
+</ul>
+<div class="admonition quote">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../img/docker-search.png" data-desc-position="bottom"><img alt="search for nginx" src="../../img/docker-search.png"></a></p>
+</div>
+<h2 id="step-3-pull-the-docker-image">Step 3: Pull the Docker image</h2>
+<ul>
+<li>Click <code>Pull</code> on the selected <code>nginx</code> official Docker image</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">This downloads the image to your local machine</p>
+</div>
+<h2 id="step-4-run-the-docker-image">Step 4: Run the Docker image</h2>
+<ul>
+<li>Click <code>Run</code> on the selected <code>nginx</code> official Docker image</li>
+</ul>
+<div class="admonition infor">
+<p class="admonition-title">This runs the downloaded <code>nginx</code> Docker image</p>
+</div>
+<ul>
+<li>
+<p>Click the down arrow to expand the <strong>Optional settings</strong></p>
+</li>
+<li>
+<p>Change the <code>Host port</code> to: <code>8080</code></p>
+</li>
+<li>
+<p>Then click <code>Run</code></p>
+</li>
+</ul>
+<div class="admonition quote">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../img/nginx-options.png" data-desc-position="bottom"><img alt="search for nginx" src="../../img/nginx-options.png"></a></p>
+</div>
+<h2 id="step-5-open-a-browser-to-see-nginx-running-as-a-webserver">Step 5: Open a browser to see <code>nginx</code> running as a webserver</h2>
+<ul>
+<li>
+<p>Open a browser</p>
+</li>
+<li>
+<p>Enter the URL: <a href="http://localhost:8080/">http://localhost:8080/</a></p>
+</li>
+</ul>
+<div class="admonition quote">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../img/nginx-welcome.png" data-desc-position="bottom"><img alt="search for nginx" src="../../img/nginx-welcome.png"></a></p>
+</div>
+<div class="admonition sucess">
+<p class="admonition-title">You now have a WebServer runing in a container on your Virtual Machine!</p>
+</div>
+<h2 id="step-6-add-your-own-code-to-the-indexhtml-file">Step 6: Add your own code to the <code>index.html</code> file</h2>
+<ul>
+<li>
+<p>Under Containers on the right menu, find <code>nginx</code></p>
+</li>
+<li>
+<p>Click <code>Files</code></p>
+</li>
+<li>
+<p>Navigate to: <code>/usr/share/nginx/html/</code></p>
+</li>
+<li>
+<p>Click the <code>index.html</code> file</p>
+</li>
+<li>
+<p>Click <code>Open file editor</code></p>
+</li>
+</ul>
+<div class="admonition quote">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../img/nginx-edit-index.png" data-desc-position="bottom"><img alt="search for nginx" src="../../img/nginx-edit-index.png"></a></p>
+</div>
+<p>Replace the curent html code with this code:</p>
+<div class="highlight"><pre><span></span><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Hello Docker<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Hello from Docker!<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>This page is being served from inside a container.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</code></pre></div>
+<ul>
+<li>
+<p>Click the <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 9H5V5h10m-3 14a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3m5-16H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7z"></path></svg></span> <code>Save changes</code> icon</p>
+</li>
+<li>
+<p>Refresh you browser page to see your changes</p>
+</li>
+</ul>
+<div class="admonition quote">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../img/nginx-custom-index.png" data-desc-position="bottom"><img alt="search for nginx" src="../../img/nginx-custom-index.png"></a></p>
+</div>
+<div class="admonition sucess">
+<p class="admonition-title">You now have a WebServer runing your code in a container.</p>
+</div>
+<hr>
+<h2 id="cleanup">Cleanup</h2>
+<ul>
+<li>
+<p>Stop the container from running by clicking the <code>Stop</code> button</p>
+</li>
+<li>
+<p>You can also <strong>delete the Container</strong></p>
+</li>
+<li>
+<p>And then you can delete the image to free up space</p>
+</li>
+</ul>
 
 
 
@@ -1262,10 +1411,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../../..", "features": ["toc.integrate", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["toc.integrate", "content.code.copy"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      <script src="../../assets/javascripts/bundle.92b07e13.min.js"></script>
       
     
   
