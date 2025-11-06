@@ -36,3 +36,11 @@
 - Azure:  https://bud.sso.app.qa.com/lab/understanding-core-azure-storage-products/
 
 - Python: https://bud.sso.app.qa.com/lab/python-development-playground/
+
+## Drawing tools
+
+- Microsoft Visio (on the VM)
+- https://app.diagrams.net/ ~ was draw.io
+- https://dbdiagram.io/home
+- https://online.visual-paradigm.com/
+
