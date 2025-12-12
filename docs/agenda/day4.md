@@ -2,7 +2,7 @@
 
 ## Session 1
 
-- `09:30` Welcome to Day 4 (10 mins)
+- `09:30` **Welcome**: Welcome to Day 4 of DE5 Module 4 (10 mins)
 - `09:40` [Introduce Day 4 activity](../day4/product-planning.md) (20 mins)
 - `10:00` Individual: Data Product Planning (40 mins)
 

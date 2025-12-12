@@ -2,7 +2,7 @@
 
 ## Session 1
 
-- `09:30` Welcome to Day 2 (10 mins)
+- `09:30` **Welcome**: Welcome to Day 2 of DE5 Module 4 (10 mins)
 - `09:40` VM Setup & Welcome (10 mins)
 - `09:50` **Discussion**: Software Version Control (10 mins)
 - `10:00` **Activity**: [Lab 1 ~ Working locally with Git](../day2/source-control/git-locally.md) (30 mins)
@@ -15,7 +15,6 @@
 - `11:10` **Activity**: [Lab 3 ~ Create an Issue](../day2/source-control/github-create-issue.md) (20 mins)
 - `11:30` **Activity**: [Lab 4 ~ Fork a Repository](../day2/source-control/github-forking.md) (30 mins)
 - `12:00` **Activity**: [Lab 5 ~ Create a Pull Request](../day2/source-control/github-pull-request.md) (20 mins)
-- `12:20` Time Reserve (10 mins)
 
 ## 🥪🥤 Lunch Break
 

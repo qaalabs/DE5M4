@@ -2,7 +2,7 @@
 
 ## Session 1
 
-- `09:30` Welcome to Day 1 (10 mins)
+- `09:30` **Welcome**: Welcome to Day 1 of DE5 Module 4 (10 mins)
 - `09:40` VM Setup & Welcome (20 mins)
 - `10:00` **Discussion**: I want to build a wall ... (10 mins)
 - `10:10` Learners introduce themselves (20 mins)
@@ -22,7 +22,7 @@
 ## Session 3
 
 - `13:30` Agile artefacts (10 mins)
-- `13:40` [Identify Epics](../day1/planning/epics.md) (10 mins)
+- `13:40` **Investigation**: [Identify Epics](../day1/planning/epics.md) (10 mins)
 - `13:50` **Discussion**: What Epics did you identify? (10 mins)
 - `14:00` **Breakout**: [Write User Stories in groups](../day1/planning/user-stories.md) (30 mins)
 

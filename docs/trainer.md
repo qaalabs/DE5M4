@@ -16,7 +16,7 @@
 ### Session 3
 
 - Agile artefacts
-- [Identify Epics](day1/planning/epics.md)
+- **Investigation**: [Identify Epics](day1/planning/epics.md)
 - **Discussion**: [What Epics did you identify?](day1/planning/epics-solution.md)
 - **Breakout**: [Write User Stories in groups](day1/planning/user-stories.md)
 
@@ -42,7 +42,6 @@
 - **Activity**: [Lab 3 ~ Create an Issue](day2/source-control/github-create-issue.md)
 - **Activity**: [Lab 4 ~ Fork a Repository](day2/source-control/github-forking.md)
 - **Activity**: [Lab 5 ~ Create a Pull Request](day2/source-control/github-pull-request.md)
-- Time Reserve
 
 ### Session 3
 
