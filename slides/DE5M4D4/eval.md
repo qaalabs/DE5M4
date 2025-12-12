@@ -17,10 +17,11 @@ For now, please make sure you complete the feedback with the link: evaluation . 
 
 If you don't leave positive feedback (if you only give a 7 or below), it would be great if you could tell us how we can improve
 
-10 :D
-9 :)
-8 :~
-1-7 :(
+- 10 :D
+- 9 :)
+- 8 :~
+- 1-7 :(
 
 Please take your time completing feedback - we DO read it!
+
 Thank you!
