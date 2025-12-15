@@ -6,6 +6,10 @@
       
       
       
+        <link rel="prev" href="../scenario/">
+      
+      
+        <link rel="next" href="../../planning/epics/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -13,7 +17,7 @@
     
     
       
-        <title>Designing Digital Products: Possible Answer - Module 4 - Planning Data Engineering Product</title>
+        <title>Agile artefacts - Module 4 - Planning Data Engineering Product</title>
       
     
     
@@ -65,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#designing-digital-products-possible-answer" class="md-skip">
+        <a href="#agile-artefacts" class="md-skip">
           Skip to content
         </a>
       
@@ -101,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Designing Digital Products: Possible Answer
+              Agile artefacts
             
           </span>
         </div>
@@ -355,18 +359,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -382,7 +388,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Day 1 - Agile Foundations
@@ -439,10 +445,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../artefacts/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Agile artefacts
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -453,6 +481,71 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#epics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Epics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-stories" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Stories
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#product-backlog" class="md-nav__link">
+    <span class="md-ellipsis">
+      Product Backlog
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sprint-backlog" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sprint Backlog
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#increment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Increment
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1144,81 +1237,21 @@
 
 
 
-<h1 id="designing-digital-products-possible-answer">Designing Digital Products: Possible Answer</h1>
-<h2 id="initial-design-process-for-a-data-driven-customer-behavior-product">Initial Design Process for a Data-Driven Customer Behavior Product</h2>
-<h3 id="step-1-discovery-requirements-gathering">Step 1: Discovery &amp; Requirements Gathering</h3>
-<p><strong>Activities:</strong></p>
-<ul>
-<li>Conduct stakeholder interviews with retail store managers, e-commerce team, inventory managers, and marketing department</li>
-<li>Define specific business questions the data product needs to answer</li>
-<li>Identify key performance indicators that will measure success</li>
-<li>Map existing data sources and assess their quality, completeness, and accessibility</li>
-<li>Document regulatory and privacy requirements for customer data</li>
-</ul>
-<p><strong>Expected Challenges:</strong></p>
-<ul>
-<li>Different stakeholders will have competing priorities between store and online operations</li>
-<li>Historical data may be siloed between physical stores and e-commerce platforms</li>
-<li>Customer identification across channels may be incomplete (online vs in-store shoppers)</li>
-</ul>
-<p><strong>Deliverables:</strong></p>
-<ul>
-<li>Business requirements document</li>
-<li>Data source inventory</li>
-<li>Initial success metrics</li>
-</ul>
-<h3 id="step-2-data-architecture-integration-planning">Step 2: Data Architecture &amp; Integration Planning</h3>
-<p><strong>Activities:</strong></p>
-<ul>
-<li>Design the data integration approach for combining point-of-sale and online transaction data</li>
-<li>Create entity relationship diagrams for customer, transaction, and inventory data</li>
-<li>Define data quality rules and validation procedures</li>
-<li>Establish data refresh frequency requirements (real-time vs. batch)</li>
-<li>Design the security model for accessing customer data</li>
-</ul>
-<p><strong>Expected Challenges:</strong></p>
-<ul>
-<li>Ensuring consistent product identification between store and online systems</li>
-<li>Handling varying formats of transaction data from different store systems</li>
-<li>Determining appropriate storage solutions for different data types and volumes</li>
-</ul>
-<p><strong>Deliverables:</strong></p>
-<ul>
-<li>Data integration architecture diagram</li>
-<li>Data model documentation</li>
-<li>Security and access control plan</li>
-</ul>
-<h3 id="step-3-analytics-visualisation-design">Step 3: Analytics &amp; Visualisation Design</h3>
-<p><strong>Activities:</strong></p>
-<ul>
-<li>Create user personas for different types of business users (store managers, inventory planners, marketers)</li>
-<li>Design analytical models for cross-channel customer segmentation</li>
-<li>Prototype dashboards for inventory optimisation based on cross-channel behavior</li>
-<li>Plan personalisation algorithms using the integrated customer data</li>
-<li>Establish metrics to track the effectiveness of inventory and personalisation changes</li>
-</ul>
-<p><strong>Expected Challenges:</strong></p>
-<ul>
-<li>Designing interfaces that work for users with varying technical expertise</li>
-<li>Creating actionable insights that bridge online and offline behavior</li>
-<li>Balancing complex analytical capabilities with ease of use</li>
-</ul>
-<p><strong>Deliverables:</strong></p>
-<ul>
-<li>Dashboard wireframes</li>
-<li>Customer segmentation model specifications</li>
-<li>Data product user journey maps</li>
-</ul>
+<h1 id="agile-artefacts">Agile Artefacts</h1>
+<p><em>Product Backlog</em>, <em>Sprint Backlog</em>, and <em>Increment</em> are the <strong>core Agile artefacts</strong>, while <em>Epics</em> and <em>User Stories</em> are <strong>backlog artefacts</strong> that help us organise and explain work.</p>
 <hr>
-<h2 id="key-considerations-specific-to-this-scenario">Key Considerations Specific to This Scenario</h2>
-<h3 id="customer-identity-resolution">Customer Identity Resolution</h3>
-<p>A critical early decision is how to match customers across online and in-store purchases to create a unified customer view</p>
-<h3 id="data-latency-requirements">Data Latency Requirements</h3>
-<p>We need to determine how quickly inventory decisions need to be made to balance processing costs with business benefits</p>
-<h3 id="incremental-delivery-approach">Incremental Delivery Approach</h3>
-<p>Start with a specific high-value use case (perhaps optimising inventory for top 20% of products) rather than trying to solve all problems at once</p>
-<h3 id="change-management-strategy">Change Management Strategy</h3>
-<p>Success requires not just technical implementation but also changing how store managers and e-commerce teams make decisions based on the new insights</p>
+<h2 id="epics">Epics</h2>
+<p>An epic is a large piece of work that is too big to complete in a single sprint. It groups related user stories around a shared goal or capability. Epics help teams organise and plan work over a longer period without going into fine detail too early. As understanding improves, epics are broken down into smaller stories, making the epic an artefact that captures evolving scope rather than fixed requirements.</p>
+<h2 id="user-stories">User Stories</h2>
+<p>A user story is a short description of a requirement written from the perspective of the user or stakeholder. It focuses on value and intent rather than technical implementation. User stories act as placeholders for conversation, encouraging discussion between the team and stakeholders before and during development. When supported by acceptance criteria, they become a clear artefact for planning, delivery, and assessment.</p>
+<hr>
+<h2 id="product-backlog">Product Backlog</h2>
+<p>The <strong>Product Backlog</strong> is an ordered list of everything that might be needed in the product. It represents <em>what</em> the team could work on and <em>why</em> it matters. Items are written in a way that helps the team understand value, priority, and intent, not detailed solutions. As the product and understanding evolve, the Product Backlog changes too – it is a living artefact that shows current thinking and direction.</p>
+<h2 id="sprint-backlog">Sprint Backlog</h2>
+<p>The <strong>Sprint Backlog</strong> is the team’s plan for the current sprint. It contains the Product Backlog items selected for the sprint, along with a clear idea of how the team intends to deliver them. This artefact makes work visible day to day and supports collaboration and adaptation. If plans change during the sprint, the Sprint Backlog is updated to reflect that learning.</p>
+<h2 id="increment">Increment</h2>
+<p>The <strong>Increment</strong> is the sum of all completed work at the end of a sprint, integrated with everything built before. It must be in a usable state and meet the team’s agreed quality standards. The Increment is the most concrete Agile artefact because it provides evidence of real progress. In data engineering, this might be a working pipeline, validated dataset, or deployed configuration.</p>
+<hr>
 
 
 
