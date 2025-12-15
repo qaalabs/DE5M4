@@ -15,6 +15,7 @@ nav:
   - "Day 1 - Agile Foundations":
     - "How are products designed?": day1/agile/how-instructions.md
     - "Apply design process to a scenario": day1/agile/scenario.md
+    - "Agile artefacts": day1/agile/artefacts.md
     - "Identify Epics": day1/planning/epics.md
     - "Write User Stories in groups": day1/planning/user-stories.md
     - "Plan a 2-week sprint": day1/planning/sprint-planning.md

@@ -21,7 +21,7 @@
 
 ## Session 3
 
-- `13:30` Agile artefacts (10 mins)
+- `13:30` [Agile artefacts](../day1/agile/artefacts.md) (10 mins)
 - `13:40` **Investigation**: [Identify Epics](../day1/planning/epics.md) (10 mins)
 - `13:50` **Discussion**: What Epics did you identify? (10 mins)
 - `14:00` **Breakout**: [Write User Stories in groups](../day1/planning/user-stories.md) (30 mins)

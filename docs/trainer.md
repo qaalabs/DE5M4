@@ -15,7 +15,7 @@
 
 ### Session 3
 
-- Agile artefacts
+- [Agile artefacts](day1/agile/artefacts.md)
 - **Investigation**: [Identify Epics](day1/planning/epics.md)
 - **Discussion**: [What Epics did you identify?](day1/planning/epics-solution.md)
 - **Breakout**: [Write User Stories in groups](day1/planning/user-stories.md)
