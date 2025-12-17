@@ -87,17 +87,17 @@
 
 ### Session 1
 
-- [Introduce Day 4 activity](day4/product-planning.md)
-- Individual: Data Product Planning
+- **Investigation**: [Walkthrough scenario all 3 clouds](day4/costing/calculators.md)
+- **Group-Work**: [More Complex Calculations](day4/costing/scenarios.md)
+- **Report-Back**: Complex Calculations
 
 ### Session 2
 
-- Individual: Data Product Planning
-- Presentations: Data Product Planning
 
 ### Session 3
 
-- Presentations: Data Product Planning
+- [Introduce Day 4 activity](day4/product-planning.md)
+- Individual: Data Product Planning
 
 ### Session 4
 

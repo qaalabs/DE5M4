@@ -2,7 +2,7 @@
 
 ## Session 1
 
-- `09:30` **Welcome**: Welcome to Day 1 of DE5 Module 4 (10 mins)
+- `09:30` **Welcome**: 🌅 Welcome to Day 1 of DE5 Module 4 (10 mins)
 - `09:40` VM Setup & Welcome (20 mins)
 - `10:00` **Discussion**: I want to build a wall ... (10 mins)
 - `10:10` Learners introduce themselves (20 mins)
@@ -35,5 +35,5 @@
 - `15:20` **Breakout**: [Plan a 2-week sprint](../day1/planning/sprint-planning.md) (20 mins)
 - `15:40` **Report-Back**: Groups share 2-week sprint plan (10 mins)
 
-## Wrap
+## 🎁 Wrap
 

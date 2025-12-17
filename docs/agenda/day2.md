@@ -2,8 +2,8 @@
 
 ## Session 1
 
-- `09:30` **Welcome**: Welcome to Day 2 of DE5 Module 4 (10 mins)
-- `09:40` VM Setup & Welcome (10 mins)
+- `09:30` **Welcome**: 🌅 Welcome to Day 2 of DE5 Module 4 (10 mins)
+- `09:40` VM Setup (10 mins)
 - `09:50` **Discussion**: Software Version Control (10 mins)
 - `10:00` **Activity**: [Lab 1 ~ Working locally with Git](../day2/source-control/git-locally.md) (30 mins)
 
@@ -33,5 +33,5 @@
 - `15:20` **Report-Back**: Cloud Architecture (20 mins)
 - `15:40` **Discussion**: Workplace Architecture (10 mins)
 
-## Wrap
+## 🎁 Wrap
 
