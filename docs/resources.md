@@ -11,7 +11,7 @@
 ### Database
 
 - Amazon RDS: https://bud.sso.app.qa.com/lab/create-your-first-amazon-rds-database/
-- AWS & Python: https://app.qa.com/lab/acquiring-and-storing-data-python/
+- AWS & Python: https://bud.sso.app.qa.com/lab/acquiring-and-storing-data-python/
 
 ### Compute
 
