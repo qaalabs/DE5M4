@@ -1,9 +1,5 @@
 # Resources
 
-## Links
-
-- Learner reactions ~ [Ticks & Crosses](https://tick.qaalabs.com/de5/m4)
-
 ## QA Platform Labs
 
 ### File Storage
@@ -43,4 +39,5 @@
 - https://app.diagrams.net/ ~ was draw.io
 - https://dbdiagram.io/home
 - https://online.visual-paradigm.com/
+- https://excalidraw.com/
 
