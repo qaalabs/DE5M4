@@ -2,7 +2,7 @@
 
 ## Session 1
 
-- `09:30` **Welcome**: 🌅 Welcome to Day 4 of DE5 Module 4 (10 mins)
+- `09:30` **Welcome**: 🌅 Day 4 of DE5 Module 4 (10 mins)
 - `09:40` **Investigation**: [Walkthrough scenario all 3 clouds](../day4/costing/calculators.md) (20 mins)
 - `10:00` **Group-Work**: [More Complex Calculations](../day4/costing/scenarios.md) (30 mins)
 - `10:30` **Report-Back**: Complex Calculations (10 mins)
