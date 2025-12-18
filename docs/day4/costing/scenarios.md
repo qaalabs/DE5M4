@@ -16,7 +16,7 @@
 
 ## Group 2: Real-time Streaming
 
-** Business: Continuous sensor data ingestion**
+**Business: Continuous sensor data ingestion**
 
 ### Services:
 - **Compute**: Small VM (2 vCPU, 8GB RAM), runs 24/7
@@ -31,7 +31,7 @@
 
 ## Group 3: Analytics Workload
 
-** Business: Weekly data analysis and reporting**
+**Business: Weekly data analysis and reporting**
 
 ## Services:
 - **Compute**: Large VM (8 vCPU, 32GB RAM), 8 hours/week
