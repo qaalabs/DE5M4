@@ -41,7 +41,7 @@ nav = [
     {"Python TDD" = "day3/python/tdd.md"},
   ]},
   {"Day 4 - Integration Project" = [
-    {"Walkthrough scenario all 3 clouds" = "day4/costing/calculators.md"},
+    {"Cloud Pricing Calculators" = "day4/costing/calculators.md"},
     {"More Complex Calculations" = "day4/costing/scenarios.md"},
     {"Introduce Day 4 activity" = "day4/product-planning.md"},
   ]},

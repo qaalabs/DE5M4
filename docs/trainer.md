@@ -87,7 +87,7 @@
 
 ### Session 1
 
-- **Investigation**: [Walkthrough scenario all 3 clouds](day4/costing/calculators.md)
+- **Investigation**: [Cloud Pricing Calculators](day4/costing/calculators.md)
 - **Group-Work**: [More Complex Calculations](day4/costing/scenarios.md)
 - **Report-Back**: Complex Calculations
 
