@@ -2,7 +2,7 @@
 
 ## Session 1
 
-- `09:30` **Welcome**: 🌅 Welcome to Day 3 of DE5 Module 4 (10 mins)
+- `09:30` 🌅 Welcome to Day 3 of DE5 Module 4 (10 mins)
 - `09:40` **Discussion**: [Workplace Storage & Databases](../day3/storage/examples.md) (20 mins)
 - `10:00` **Activity**: [Lab 1 ~ Create Amazon S3 Bucket](../labs/amazon-s3-bucket.md) (30 mins)
 
