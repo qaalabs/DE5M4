@@ -1,4 +1,8 @@
-# Goup Activity: A More Complete Scenario
+# Group Activity: A More Complex Scenario
+
+!!! success "Lower cost often correlates with lower energy usage!"
+
+---
 
 ## Group 1: Batch ETL Pipeline
 
@@ -40,3 +44,4 @@
 - **Region**: UK/Europe
 
 !!! note "Create a costing for all 3 providers."
+

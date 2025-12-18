@@ -1,5 +1,25 @@
 # Cloud Pricing Calculators
 
+### Using a cost calculator allows you to:
+
+Choose **managed and serverless services** that:
+
+- Scale down when not in use
+- Avoid idle compute
+
+Select **regions** closer to users or data sources:
+
+- Reduced data transfer
+- Lower energy consumption
+
+Compare **always-on vs on-demand** designs:
+
+- Less wasted resource = lower carbon footprint
+- Design for right-sizing:
+- No over-provisioning "just in case"
+
+---
+
 ## AWS Pricing Calculator
 
 - https://calculator.aws/
@@ -31,3 +51,4 @@
 
 #### Compute
 - Small virtual machine running 2 hours per day
+
