@@ -13,7 +13,7 @@ nav:
     - Day 4: agenda/day4.md
 
   - "Day 1 - Agile Foundations":
-    - "How are products designed?": day1/agile/how-instructions.md
+    - "How are products designed?": day1/agile/how-design-steps.md
     - "Apply design process to a scenario": day1/agile/scenario.md
     - "Agile artefacts": day1/agile/artefacts.md
     - "Identify Epics": day1/planning/epics.md
@@ -53,6 +53,7 @@ not_in_nav: |
   404.md
   trainer.md
   day1/build-a-wall.md
+  day1/agile/how-instructions.md
   day1/agile/how-solution.md
   day1/planning/epics-solution.md
   day1/planning/possible-user-stories.md

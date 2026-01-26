@@ -11,7 +11,7 @@
 
 ## Session 2
 
-- `10:50` [How are products designed?](../day1/agile/how-instructions.md) (10 mins)
+- `10:50` How are products designed? (10 mins)
 - `11:00` **Breakout**: [How are products designed?](../day1/agile/how-design-steps.md) (20 mins)
 - `11:20` **Report-Back**: How are products designed? (20 mins)
 - `11:40` **Breakout**: [Apply design process to a scenario](../day1/agile/scenario.md) (30 mins)
