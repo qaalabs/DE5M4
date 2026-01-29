@@ -6,7 +6,7 @@ You've all used digital products. But have you ever stopped to think:
 
 ### How are they designed?
 
-**What goes into that process—from idea to something people use every day?**
+**What goes into that process - from idea to something people use every day?**
 
 In groups, I want you to imagine you're working for a company that wants to create a new data-driven digital product.
 

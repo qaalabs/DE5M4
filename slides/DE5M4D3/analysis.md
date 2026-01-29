@@ -1,5 +1,7 @@
 ## <mark>Introduce the breakout activities</mark>
 
+**This needs to be longer than 20 mins - ideally 30mins**
+
 <a href="http://192.168.1.227:3000/s/de5m4-modelling" target="_blank">📒 Click here for text to paste into the chat</a>
 
 
@@ -17,4 +19,41 @@
 - Key design decisions and rationale
 - Performance optimization approaches
 - Evolution considerations
+
+---
+
+### Core Entities
+
+*The main "things" or "actors" in the system that have independent existence and are central to the business domain.*
+
+- Patient
+- Staff/Provider
+- Facility
+- Department
+- Specialty
+
+🔽
+---
+
+### Event/Transaction Entities
+
+*Activities or occurrences that happen at specific points in time, usually involving one or more core entities.*
+
+- Appointment
+- Clinical Encounter
+- Treatment
+- Procedure
+- Lab Test
+
+🔽
+---
+
+### Supporting Entities:
+
+*Resources, reference data, or supplementary information that enable or describe the core and event entities.*
+
+- Medication
+- Equipment
+- Room
+- Feedback/Patient Feedback
 

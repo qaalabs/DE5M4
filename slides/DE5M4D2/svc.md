@@ -12,4 +12,7 @@ What happens if two people are editing the same file at the same time?
 
 If something breaks in production or in a report, how do you find out when the change happened?
 
-Is there ever confusion about which version is the “approved” or “correct” one?
+Is there ever confusion about which version is the "approved" or "correct" one?
+
+https://phdcomics.com/comics/archive/phd101212s.gif
+
