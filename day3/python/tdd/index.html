@@ -1089,36 +1089,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-2-run-the-test-and-see-it-fail-because-the-function-doesnt-exist-yet" class="md-nav__link">
+  <a href="#reflection-and-discussion" class="md-nav__link">
     <span class="md-ellipsis">
-      Step 2 - Run the test and see it fail (because the function doesn't exist yet)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-3-implement-the-minimum-code-in-validatorpy-to-pass-the-test" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 3 - Implement the minimum code in validator.py to pass the test:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-4-run-the-test-and-see-it-pass" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 4 - Run the test and see it pass
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-5-write-a-second-test-for-a-positive-case" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 5 - Write a second test for a positive case:
+      Reflection and Discussion
     </span>
   </a>
   
@@ -1308,11 +1281,11 @@
 </ol>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../img/anaconda-tdd.png" data-desc-position="bottom"><img alt="Anaconda TDD" src="../../../img/anaconda-tdd.png"></a></p>
 <div class="admonition note">
-<p class="admonition-title">Virtual Enviroment</p>
+<p class="admonition-title">Virtual Environment</p>
 <ul>
-<li>In a normal development situation you should use a Virtual Enviroment</li>
+<li>In a normal development situation you should use a Virtual Environment</li>
 <li>For simplicity we will not do that!</li>
-<li>But in all cases outside of this training enviroment it is an absolute requirement</li>
+<li>But in all cases outside of this training environment it is an absolute requirement</li>
 </ul>
 </div>
 <h3 id="open-visual-studio-code">Open Visual Studio Code</h3>
@@ -1350,19 +1323,22 @@
     <span class="c1"># Assert</span>
     <span class="k">assert</span> <span class="n">result</span> <span class="o">==</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">"Empty records should be rejected"</span>
 </code></pre></div>
-<h2 id="step-2-run-the-test-and-see-it-fail-because-the-function-doesnt-exist-yet">Step 2 - Run the test and see it fail (because the function doesn't exist yet)</h2>
+<h3 id="step-2-run-the-test-and-see-it-fail">Step 2 - Run the test and see it fail</h3>
+<div class="admonition note">
+<p class="admonition-title">The test will fail because because the function doesn't exist yet.</p>
+</div>
 <ul>
 <li><code>pytest test_validator.py -v</code></li>
 </ul>
-<h2 id="step-3-implement-the-minimum-code-in-validatorpy-to-pass-the-test">Step 3 - Implement the minimum code in <code>validator.py</code> to pass the test:</h2>
+<h3 id="step-3-implement-the-minimum-code-in-validatorpy-to-pass-the-test">Step 3 - Implement the minimum code in <code>validator.py</code> to pass the test:</h3>
 <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">validate_data_record</span><span class="p">(</span><span class="n">record</span><span class="p">):</span>
     <span class="k">return</span> <span class="kc">False</span>  <span class="c1"># Simplest implementation to make the test pass</span>
 </code></pre></div>
-<h2 id="step-4-run-the-test-and-see-it-pass">Step 4 - Run the test and see it pass</h2>
+<h3 id="step-4-run-the-test-and-see-it-pass">Step 4 - Run the test and see it pass</h3>
 <ul>
 <li><code>pytest test_validator.py -v</code></li>
 </ul>
-<h2 id="step-5-write-a-second-test-for-a-positive-case">Step 5 - Write a second test for a positive case:</h2>
+<h3 id="step-5-write-a-second-test-for-a-positive-case">Step 5 - Write a second test for a positive case:</h3>
 <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">test_validate_data_record_accepts_valid_record</span><span class="p">():</span>
     <span class="c1"># Arrange</span>
     <span class="n">record</span> <span class="o">=</span> <span class="p">{</span>
@@ -1401,7 +1377,7 @@
 <ul>
 <li><code>pytest test_validator.py -v</code></li>
 </ul>
-<h3 id="step-9-add-more-test-cases">Step 9 - Add more test cases**</h3>
+<h3 id="step-9-add-more-test-cases">Step 9 - Add more test cases</h3>
 <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">test_validate_data_record_rejects_missing_fields</span><span class="p">():</span>
     <span class="c1"># Arrange</span>
     <span class="n">record</span> <span class="o">=</span> <span class="p">{</span>
@@ -1416,7 +1392,8 @@
     <span class="c1"># Assert</span>
     <span class="k">assert</span> <span class="n">result</span> <span class="o">==</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">"Records with missing fields should be rejected"</span>
 </code></pre></div>
-<h3 id="reflection-and-discussion">Reflection and Discussion</h3>
+<hr>
+<h2 id="reflection-and-discussion">Reflection and Discussion</h2>
 <ul>
 <li>How does TDD help in planning a data product?</li>
 <li>In what data engineering scenarios would TDD be particularly valuable?</li>
