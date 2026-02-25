@@ -1,15 +1,21 @@
 ## Collective Investigation
 
-**"Hello World" Data Pipeline**
+### Use lab to show how a VM is chosen
+
+https://app.qa.com/lab/creating-virtual-machine-google-compute-engine/
+
+### Then demo costing calculators
+
+**"Hello World" Data Pipeline - for just 2 services:**
+
 - Storage: 500GB of data files
 - Compute: Small virtual machine running 2 hours per day
 
-**That's it. Just these two services.**
+**Done for the main 3 cloud providers:**
 
-### What you'll do together
-- AWS (7 mins)
-- Azure (7 mins):
-- GCP (6 mins):
+- AWS ~ https://calculator.aws/
+- Azure ~ https://azure.microsoft.com/en-gb/pricing/calculator/
+- GCP ~ https://cloud.google.com/products/calculator
 
 Then quick discussion: "Which was cheapest? Why might they differ?"
 
