@@ -15,7 +15,7 @@ A user story is a simple description of a feature from the perspective of the pe
 For example:
 
 - As a **restaurant customer**, I want to **view the menu online**, so that **I can decide what to order before I visit**.
-- As a **data analyst**, I want to **filter customer data by region**, so that **I can create location-specific reports**."
+- As a **data analyst**, I want to **filter customer data by region**, so that **I can create location-specific reports**.
 
 ## Why This Format Matters
 
@@ -38,7 +38,7 @@ Take the requirements that you've organised under each epic and turn them into u
 **1. Who is the user?** 
 
 - Customer, restaurant staff, manager, etc.
-- Be specific - 'customer placing an order' vs. 'customer browsing the menu'
+- Be specific ~ *customer placing an order* vs. *customer browsing the menu*
 
 **2. What do they want to do?**
 
@@ -56,7 +56,7 @@ For each user story, check that it's:
 
 - **Clear about the user** - we know exactly who this is for
 - **Focused on one thing** - it doesn't try to do too much
-- **Valuable** - the 'so that' part explains real benefit
+- **Valuable** - the "so that" part explains real benefit
 - **Testable** - we could verify if this works or not
 
 If a story feels too big, break it down. If it feels too small, consider combining it with related stories.
@@ -71,5 +71,5 @@ If a story feels too big, break it down. If it feels too small, consider combini
 
 ## Deliverable
 
-We'll review some examples together afterward.
+We'll review some examples together afterwards.
 
