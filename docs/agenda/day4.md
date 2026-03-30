@@ -11,6 +11,7 @@
 
 ## Session 2
 
+- `11:00`  (90 mins)
 
 ## 🥪🥤 Lunch Break
 
