@@ -1,4 +1,4 @@
-# Activity D2: Cloud Architecture Scenarios
+# Cloud Activity 2: Cloud Architecture
 
 ## Overview
 
@@ -55,3 +55,4 @@ Each group presents:
 Keep it to **3 to 4 minutes per group**.
 
 ---
+

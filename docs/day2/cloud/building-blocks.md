@@ -1,4 +1,4 @@
-# Activity: Core Building Blocks
+# Cloud Activity 1: Core Building Blocks
 
 ## Overview
 

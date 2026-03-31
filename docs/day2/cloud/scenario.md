@@ -1,4 +1,4 @@
-# Activity: Apply your scenario
+# Cloud Activity 2: Architecture Scenarios
 
 ## [Scenario A - IoT Sensor Data Lake](scenario-a.md)
 
@@ -15,3 +15,4 @@ A startup is building a **movie recommendation engine**. It collects user intera
 ## [Scenario D - Financial Data Warehouse](scenario-d.md)
 
 A financial services company needs to integrate data from **multiple sources** to create executive dashboards and regulatory reports.
+
