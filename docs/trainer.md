@@ -59,14 +59,10 @@
 
 ### Session 1
 
-- **Discussion**: [Workplace Storage & Databases](day3/storage/examples.md)
-- **Activity**: [Lab 1 ~ Create Amazon S3 Bucket](labs/amazon-s3-bucket.md)
 
 ### Session 2
 
-- **Activity**: [Lab 2 ~ Core Azure Storage Products](labs/azure-storage-products.md)
-- **Activity**: [Lab 3 ~ Google Cloud Storage](labs/google-cloud-storage.md)
-- **Activity**: [Lab 4 ~ AWS Acquiring & Storing Data](labs/aws-acquiring-storing-data.md)
+- **Demo**: [Docker container](day3/docker.md)
 
 ### Session 3
 
@@ -74,12 +70,12 @@
 - **Activity**: [2. Create Conceptual Data Model](day3/storage/conceptual.md)
 - **Report-Back**: Present Entity-Relationship Diagram
 - **Activity**: [3. Logical Model & Design Decisions](day3/storage/logical.md)
-- **Discussion**: Database Design in the workplace
 
 ### Session 4
 
-- **Demo**: [Docker container](day3/docker.md)
-- **Demo**: [Python TDD](day3/python/tdd.md)
+- **Activity**: [Lab 1 ~ Create Amazon S3 Bucket](labs/amazon-s3-bucket.md)
+- **Activity**: [Lab 2 ~ Core Azure Storage Products](labs/azure-storage-products.md)
+- **Activity**: [Lab 3 ~ Google Cloud Storage](labs/google-cloud-storage.md)
 
 ---
 
