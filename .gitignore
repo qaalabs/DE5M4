@@ -1,5 +1,7 @@
 # This project
 *.bak
+backup/
+zanyana/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
