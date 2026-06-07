@@ -2,30 +2,30 @@
 
 ## Session 1
 
-- `09:30` 🌅 Welcome to Day 4 of DE5 Module 4 (10 mins)
-- `09:40` **Investigation**: [Cloud Pricing Calculators](../day4/costing/calculators.md) (20 mins)
-- `10:00` **Group-Work**: [More Complex Calculations](../day4/costing/scenarios.md) (30 mins)
-- `10:30` **Report-Back**: Complex Calculations (10 mins)
+- 🌅 Welcome to Day 4 of DE5 Module 4
+- **Investigation**: [Cloud Pricing Calculators](../day4/costing/calculators.md)
+- **Breakout**: [More Complex Calculations](../day4/costing/scenarios.md)
+- **Report-Back**: Complex Calculations
 
 ## ☕ Morning Break
 
 ## Session 2
 
-- `11:00`  (90 mins)
+- 
 
 ## 🥪🥤 Lunch Break
 
 ## Session 3
 
-- `13:30` [Introduce Day 4 activity](../day4/product-planning.md) (20 mins)
-- `13:50` Individual: Data Product Planning (40 mins)
+- [Introduce Day 4 activity](../day4/product-planning.md)
+- Individual: Data Product Planning
 
 ## ☕ Afternoon Break
 
 ## Session 4
 
-- `14:50` Presentations: Data Product Planning (50 mins)
-- `15:40` 💯 Evaluation (10 mins)
+- Presentations: Data Product Planning
+- **Activity**: 💯 Evaluation
 
 ## 🎁 Wrap
 

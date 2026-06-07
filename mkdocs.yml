@@ -49,6 +49,7 @@ nav:
 not_in_nav: |
   404.md
   trainer.md
+  DAY-setup.md
   day1/build-a-wall.md
   day1/agile/how-instructions.md
   day1/agile/how-solution.md
@@ -100,7 +101,11 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.snippets:
       check_paths: true
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -110,5 +115,8 @@ markdown_extensions:
 plugins:
   - search
   - glightbox
+
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
 
 
