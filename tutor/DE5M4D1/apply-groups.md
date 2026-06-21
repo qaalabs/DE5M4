@@ -1,7 +1,5 @@
 ## <mark>Breakout into groups to apply design steps</mark>
 
-<a href="http://192.168.1.227:3000/s/de5m4-how-scenario" target="_blank">📒 Click here for text to paste into the chat</a>
-
 ### Task
 Using the design process your group created, outline how you would approach this specific project.
 
