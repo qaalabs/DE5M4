@@ -9,9 +9,6 @@ nav:
 
   - Agenda:
     - Day 1: agenda/day1.md
-    - Day 2: agenda/day2.md
-    - Day 3: agenda/day3.md
-    - Day 4: agenda/day4.md
 
   - "Day 1 - Agile Foundations":
     - "How are products designed?": day1/agile/how-design-steps.md
@@ -20,30 +17,6 @@ nav:
     - "Identify Epics": day1/planning/epics.md
     - "Write User Stories in groups": day1/planning/user-stories.md
     - "Plan a 2-week sprint": day1/planning/sprint-planning.md
-
-  - "Day 2 - Technical Foundation":
-    - "Lab 1 ~ Working locally with Git": day2/source-control/git-locally.md
-    - "Lab 2 ~ Create a Repo in GitHub": day2/source-control/github-repo.md
-    - "Lab 3 ~ Create an Issue": day2/source-control/github-create-issue.md
-    - "Lab 4 ~ Fork a Repository": day2/source-control/github-forking.md
-    - "Lab 5 ~ Create a Pull Request": day2/source-control/github-pull-request.md
-    - "Cloud ~ Core Building Blocks": day2/cloud/building-blocks.md
-    - "Cloud Architecture Scenarios": day2/cloud/architecture.md
-    - "Cloud Architecture": day2/cloud/scenario.md
-
-  - "Day 3 - Database Design & Python":
-    - "Docker container": day3/docker.md
-    - "1. Requirements Analysis": day3/storage/analysis.md
-    - "2. Create Conceptual Data Model": day3/storage/conceptual.md
-    - "3. Logical Model & Design Decisions": day3/storage/logical.md
-    - "Lab 1 ~ Create Amazon S3 Bucket": labs/amazon-s3-bucket.md
-    - "Lab 2 ~ Core Azure Storage Products": labs/azure-storage-products.md
-    - "Lab 3 ~ Google Cloud Storage": labs/google-cloud-storage.md
-
-  - "Day 4 - Integration Project":
-    - "Cloud Pricing Calculators": day4/costing/calculators.md
-    - "More Complex Calculations": day4/costing/scenarios.md
-    - "Introduce Day 4 activity": day4/product-planning.md
 
   - Resources: resources.md
 
