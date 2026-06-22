@@ -1,6 +1,6 @@
 # Solo Activity: Identify Epics
 
-**[Click here](qa-restaurant.md) to read the business requirements for the QARestaurant**
+**[Click here](qa-restaurant.md) to read the business requirements for the QA-Restaurant**
 
 ## Introduction to the Activity
 

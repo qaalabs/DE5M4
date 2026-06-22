@@ -1,10 +1,10 @@
-# Scenario: QARestaurant
+# Scenario: QA-Restaurant
 
 **Below are a set of requirements for a restaurant's website.**
 
 ## Logo
 
-✔ A logo needs to be designed for **QARestaurant** using a leaf-based theme to show it is a vegan restaurant.
+✔ A logo needs to be designed for **QA-Restaurant** using a leaf-based theme to show it is a vegan restaurant.
 
 ✔ The Customer needs to view the logo in the navigation bar, the webpage tab and in the webpage footer.
 
