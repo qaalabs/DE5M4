@@ -4,17 +4,17 @@
 
 ## Logo
 
-✔ A logo needs to be designed for **QA-Restaurant** using a leaf-based theme to show it is a vegan restaurant.
+✅ A logo needs to be designed for **QA-Restaurant** using a leaf-based theme to show it is a vegan restaurant.
 
-✔ The Customer needs to view the logo in the navigation bar, the webpage tab and in the webpage footer.
+✅ The Customer needs to view the logo in the navigation bar, the webpage tab and in the webpage footer.
 
 ## Social Media links
 
-✔ The Customer needs to view social media links so that they can follow the restaurant on different platforms.
+✅ The Customer needs to view social media links so that they can follow the restaurant on different platforms.
 
 ## Website pages
 
-✔ The Customer needs to view and switch between the following webpages:
+✅ The Customer needs to view and switch between the following webpages:
 
 - **Our Menu**: each item should have a title, description and price.
 
@@ -28,8 +28,9 @@
 
 ## Restaurant location
 
-✔ Customer needs to visually see that the restaurant is located at: _Anchorage 1 Anchorage Quay Salford, The Quays, Manchester M50 3YJ_
+✅ Customer needs to visually see that the restaurant is located at: _Anchorage 1 Anchorage Quay Salford, The Quays, Manchester M50 3YJ_
 
 ## Reservations
 
-✔ Restaurant Staff need to be able to both update and delete reservations if they receive a call.
+✅ Restaurant Staff need to be able to both update and delete reservations if they receive a call.
+
