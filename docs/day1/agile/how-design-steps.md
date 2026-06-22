@@ -1,4 +1,4 @@
-# Breakout Activity: How are Digital Products Designed?
+# Activity 1: How are Digital Products Designed?
 
 In groups **brainstorm the digital design process**, addressing:
 
