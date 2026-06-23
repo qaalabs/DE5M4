@@ -25,11 +25,14 @@ Each group will be assigned **one cloud provider** (GCP, AWS, or Azure).
 
 Work together, in your group, to map services to this table of core building blocks:
 
+!!! note "Identify the name as well as a short one line description of the product"
+
 | Category               | GCP Product(s) | AWS Product(s) | Azure Product(s) |
 | ---------------------- | -------------- | -------------- | ---------------- |
 | Object Storage         |                |                |                  |
 | File Storage           |                |                |                  |
 | Relational DB          |                |                |                  |
+| Data Warehouse         |                |                |                  |
 | Virtual Machines       |                |                |                  |
 | Containers             |                |                |                  |
 | Serverless Compute     |                |                |                  |
@@ -51,7 +54,7 @@ Each team member picks **one product** from your provider's list and answers:
 - **What are its weaknesses or limitations?**
 - **Why is it important for Data Engineers?**
 
-!!! success "Just quick notes - not a full presentations"
+!!! info "Just quick notes - not a full presentations"
 
 ---
 
@@ -61,7 +64,7 @@ The group shares their list of products that match the services list.
 
 Then each person **shares a short overview** of their selected product with the full group.
 
-!!! success "Sharing your screen with notes is fine."
+!!! info "Sharing your screen with notes is fine."
 
 ---
 
