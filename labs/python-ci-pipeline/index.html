@@ -16,7 +16,7 @@
     
     
       
-        <title>Scenario Notes - Module 4 - Planning Data Engineering Product</title>
+        <title>Lab: Python CI Pipeline - Module 4 - Planning Data Engineering Product</title>
       
     
     
@@ -67,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#scenario-notes" class="md-skip">
+        <a href="#lab-python-ci-pipeline" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Scenario Notes
+              Lab: Python CI Pipeline
             
           </span>
         </div>
@@ -902,60 +902,120 @@
 
 
 
-<h1 id="scenario-notes">Scenario Notes</h1>
-<h2 id="how-the-full-set-now-works-together">How the full set now works together</h2>
-<table>
-<thead>
-<tr>
-<th>Group</th>
-<th>Scenario emphasis</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Operational reporting &amp; efficiency</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Compliance &amp; audit</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Scale &amp; cost growth</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Security &amp; governance</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>Same activities.</li>
-<li>Same prompts.</li>
-<li>Four distinct conversations.</li>
-</ul>
-<h2 id="why-these-scenarios-work-well">Why these scenarios work well</h2>
-<p>This scenario naturally enables:</p>
-<ul>
-<li>requirement refinement (what is really needed?)</li>
-<li>trade-offs (batch vs real-time, duplication vs reuse)</li>
-<li>sustainability discussion (efficiency, reduction of waste)</li>
-<li>compliance awareness (retention, access control)</li>
-<li>cost and scaling considerations</li>
-</ul>
-<p>And crucially:</p>
-<ul>
-<li>there is <strong>no single correct answer</strong></li>
-</ul>
+<h1 id="lab-python-ci-pipeline">Lab: Python CI Pipeline</h1>
+<p>In this lab you will work with a real Python project and experience how GitHub Actions enforces code quality automatically. You will make changes on a branch, open a pull request, and watch the CI checks go red and green as you commit.</p>
 <hr>
-<h2 id="how-you-would-use-this-across-the-day-at-a-glance">How you would use this across the day (at a glance)</h2>
-<ul>
-<li><strong>Session 1</strong> - extract and refine requirements</li>
-<li><strong>Session 2</strong> - choose design options and reject alternatives</li>
-<li><strong>Session 3</strong> - think about lifecycle and long-term impact</li>
-<li><strong>Session 4</strong> - explain and justify one key decision</li>
-</ul><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
+<h2 id="setup">Setup</h2>
+<h3 id="step-1-fork-the-repo">Step 1: Fork the repo</h3>
+<p>Go to the TechMart pipeline repo on GitHub and click <strong>Fork</strong>. This creates your own copy.</p>
+<h3 id="step-2-clone-your-fork">Step 2: Clone your fork</h3>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/YOUR_USERNAME/techmart-pipeline-template.git
+<span class="nb">cd</span><span class="w"> </span>techmart-pipeline-template
+</code></pre></div>
+<h3 id="step-3-create-a-virtual-environment-and-install-dependencies">Step 3: Create a virtual environment and install dependencies</h3>
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>venv
+.<span class="se">\v</span>env<span class="se">\S</span>cripts<span class="se">\A</span>ctivate.ps1
+
+pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+</code></pre></div>
+<h3 id="step-4-create-a-branch">Step 4: Create a branch</h3>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>day3-exercises
+git<span class="w"> </span>push<span class="w"> </span>-u<span class="w"> </span>origin<span class="w"> </span>day3-exercises
+</code></pre></div>
+<h3 id="step-5-open-a-pull-request">Step 5: Open a pull request</h3>
+<p>Go to your forked repo on GitHub. You will see a prompt to open a pull request for your new branch. Open a PR from <code>day3-exercises</code> into <code>main</code>.</p>
+<p>The two CI checks will run immediately - both should be green. This is your baseline.</p>
+<div class="admonition success">
+<p class="admonition-title">Both checks green - you have a healthy project.</p>
+</div>
+<hr>
+<h2 id="stage-1-coverage-demo">Stage 1 - Coverage (demo)</h2>
+<p>Open <code>.github/workflows/ci.yml</code>. Change the last line of the <code>Run tests with coverage</code> step to:</p>
+<div class="highlight"><pre><span></span><code><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Run tests with coverage</span>
+<span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">|</span>
+<span class="w">          </span><span class="no">pytest --cov=src --cov-report=term-missing --cov-fail-under=70</span>
+</code></pre></div>
+<p>Commit and push:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>.github/workflows/ci.yml
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"demo: enforce coverage threshold"</span>
+git<span class="w"> </span>push
+</code></pre></div>
+<p>Watch the PR - the <strong>CI Pipeline</strong> check goes red. Coverage is too low.</p>
+<p>Now revert the line back (remove <code>--cov-fail-under=70</code>), commit and push:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>.github/workflows/ci.yml
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"revert: remove coverage threshold"</span>
+git<span class="w"> </span>push
+</code></pre></div>
+<p>CI goes green again. You have seen how teams enforce quality gates.</p>
+<hr>
+<h2 id="stage-2-failing-test">Stage 2 - Failing test</h2>
+<p>Open <code>tests/test_example.py</code>. Change one assertion:</p>
+<div class="highlight"><pre><span></span><code><span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">sample_orders</span><span class="p">)</span> <span class="o">==</span> <span class="mi">4</span>   <span class="c1"># was 3</span>
+</code></pre></div>
+<p>Commit and push:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>tests/test_example.py
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"demo: break a test"</span>
+git<span class="w"> </span>push
+</code></pre></div>
+<p>The <strong>CI Pipeline</strong> check goes red. A failing test blocks the PR from merging.</p>
+<p>Change the <code>4</code> back to <code>3</code>, commit and push. Green again.</p>
+<hr>
+<h2 id="stage-3-lint-slip">Stage 3 - Lint slip</h2>
+<p>Open <code>src/techmart/cleaning.py</code> and add this line at the top, after the existing imports:</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+</code></pre></div>
+<p>Commit and push:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>src/techmart/cleaning.py
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"demo: introduce unused import"</span>
+git<span class="w"> </span>push
+</code></pre></div>
+<p>The <strong>Lint</strong> check goes red. <code>import os</code> is imported but never used.</p>
+<p>Delete the line, commit and push. Green again.</p>
+<hr>
+<h2 id="stage-4-messy-code">Stage 4 - Messy code</h2>
+<p>Create a new file <code>src/techmart/enrichment.py</code> and paste in this code exactly as written:</p>
+<div class="highlight"><pre><span></span><code><span class="sd">"""Enrichment functions for TechMart order data."""</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+
+
+<span class="k">def</span><span class="w"> </span><span class="nf">flag_high_value</span><span class="p">(</span><span class="n">df</span><span class="p">,</span><span class="n">threshold</span><span class="o">=</span><span class="mi">500</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">"""Flag orders above the threshold as high value."""</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="n">df</span><span class="p">[</span><span class="s1">'high_value'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">'price'</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">threshold</span>
+    <span class="k">return</span> <span class="n">df</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">add_price_category</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">"""Categorise each order as budget, mid-range, or premium."""</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">get_category</span><span class="p">(</span><span class="n">price</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">price</span><span class="o">&lt;</span><span class="mi">100</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s1">'budget'</span>
+        <span class="k">elif</span> <span class="n">price</span><span class="o">&lt;</span><span class="mi">500</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s1">'mid'</span>
+        <span class="k">return</span> <span class="s1">'premium'</span>
+    <span class="n">df</span><span class="p">[</span><span class="s1">'price_category'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">'price'</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">get_category</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">df</span>
+</code></pre></div>
+<p>Commit and push:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>src/techmart/enrichment.py
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"add enrichment functions"</span>
+git<span class="w"> </span>push
+</code></pre></div>
+<p>The <strong>Lint</strong> check goes red. Click into the failed check to see what ruff found.</p>
+<h3 id="fix-it-automatically">Fix it automatically</h3>
+<p>Run this command locally:</p>
+<div class="highlight"><pre><span></span><code>ruff<span class="w"> </span>check<span class="w"> </span>.<span class="w"> </span>--fix
+</code></pre></div>
+<p>Ruff fixes the style issues automatically. Confirm nothing remains:</p>
+<div class="highlight"><pre><span></span><code>ruff<span class="w"> </span>check<span class="w"> </span>.
+</code></pre></div>
+<p>Commit and push:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>src/techmart/enrichment.py
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"fix: ruff style violations in enrichment.py"</span>
+git<span class="w"> </span>push
+</code></pre></div>
+<p>Both checks green. Your PR is ready to merge.</p><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
   <!-- mkdocs-quiz progress sidebar (desktop) -->
   <label class="md-nav__title">
     <span class="md-nav__icon md-icon"></span>
