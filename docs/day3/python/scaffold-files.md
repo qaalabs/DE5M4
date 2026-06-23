@@ -1,4 +1,4 @@
-# Activity: The Supporting Files
+# Activity 3: The Supporting Files
 
 Every professional Python project carries a small set of standard files. Open each one in VS Code and read what is there.
 

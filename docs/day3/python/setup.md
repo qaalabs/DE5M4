@@ -1,4 +1,4 @@
-# Setup: Python CI Project
+# Activity 1: Setup a Python CI Project
 
 In this activity you will create your own copy of the TechMart pipeline project, open a pull request, and clone the repo to your VM so you are ready to work with it throughout the session.
 
@@ -6,7 +6,7 @@ In this activity you will create your own copy of the TechMart pipeline project,
 
 ## Step 1: Log in to GitHub
 
-In your VM, open a browser and go to [github.com](https://github.com).
+In your VM, open a browser and go to: [github.com](https://github.com)
 
 Sign in with your GitHub account.
 
@@ -44,7 +44,7 @@ Press **Enter** to create it.
 
 1. Click the **Compare & pull request** button that appears, or go to **Pull requests > New pull request**.
 
-2. Make sure the base is `main` and the compare is `day3-exercises`.
+2. Make sure the base is `main` and the compare is `day3-exercises`
 
 3. Click **Create pull request**.
 
@@ -62,6 +62,9 @@ Clone your repo (replace `YOUR_USERNAME` with your GitHub username):
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/techmart-pipeline.git
+```
+
+```bash
 cd techmart-pipeline
 ```
 
@@ -80,7 +83,8 @@ pip install -r requirements.txt
 ```
 
 !!! note "Virtual environments"
-    In a real project you would create a virtual environment before installing. We are skipping that step today to keep things simple - but it is something to do in practice.
+    - In a real project you would create a virtual environment before installing.
+    - We are skipping that step today to keep things simple - but it is something to do in practice.
 
 ---
 

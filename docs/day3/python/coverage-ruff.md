@@ -1,4 +1,4 @@
-# Activity: Lint with Ruff
+# Activity 5: Lint Python Code using Ruff
 
 Ruff is a fast Python linter. In this activity you will run it, introduce a problem, and watch it catch the issue.
 

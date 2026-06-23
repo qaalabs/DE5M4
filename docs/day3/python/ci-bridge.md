@@ -1,4 +1,4 @@
-# Activity: From Local to Automated
+# Activity 6: From Local to Automated
 
 You have just run `pytest` and `ruff check .` locally. In this activity you will see how GitHub runs the same commands automatically on every pull request.
 

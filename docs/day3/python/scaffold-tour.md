@@ -1,4 +1,4 @@
-# Activity: Explore the Project Structure
+# Activity 2: Explore the Project Structure
 
 You have a real Python project cloned and open in VS Code. In this activity you will navigate the structure and understand how it is organised.
 

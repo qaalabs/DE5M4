@@ -1,4 +1,4 @@
-# Activity: Python CI Pipeline
+# Activity 7: Python CI Pipeline
 
 You have watched the checks run locally. Now you run the same sequence yourself - on your own fork, with your own pull request, watching the CI checks respond to each commit.
 

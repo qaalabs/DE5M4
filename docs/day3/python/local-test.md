@@ -1,4 +1,4 @@
-# Activity: Run the Tests Locally
+# Activity 4: Run the Tests Locally
 
 In this activity you will run the test suite locally and read what the output tells you.
 
