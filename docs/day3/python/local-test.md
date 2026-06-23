@@ -1,44 +1,45 @@
-# Follow along: Running tests locally
+# Activity: Run the Tests
 
-We are inside the TechMart repo with the virtual environment active.
-
-Open `tests/test_example.py` and read through it.
-
-**In the chat: will this test pass or fail when we run it?**
+In this activity you will run the test suite locally and read what the output tells you.
 
 ---
 
-## Run pytest
+## Step 1: Open a terminal
+
+In VS Code, open a terminal: **View > Terminal** (or `Ctrl+\``).
+
+Make sure you are in the project root folder. You should see `techmart-pipeline` in the prompt.
+
+---
+
+## Step 2: Run pytest
 
 ```bash
 pytest
 ```
 
-Watch the output. Each line tells you something:
+Read the output line by line:
 
 - `collected X items` - how many tests were found
-- `.` (dot) - one test passed
-- `passed` / `failed` - final summary
-- Duration - how long it took
+- A green dot for each test that passed
+- `X passed` - the final count
+- The duration
 
-**In the chat: what does this test actually prove?**
-
-It proves that `remove_duplicates` does not corrupt the shape of the data. It does not prove the function is correct in every situation - just that this one case works.
+It proves that `remove_duplicates` does not corrupt the shape of the data. A test that always passes proves nothing - it has to be able to fail.
 
 ---
 
-## Run with coverage
+## Step 3: Run with coverage
 
 ```bash
 pytest --cov=src --cov-report=term-missing
 ```
 
-You will see a coverage percentage and a "Missing" column showing line numbers that were never executed during the test run.
+Look at the output. You will see:
 
-**In the chat: what does 80% coverage mean?**
+- A percentage for each source file
+- A **Missing** column showing line numbers that were never reached during the test run
 
-It means 20% of your source lines were never reached when the tests ran. Those lines could contain bugs you have not caught yet.
+Those lines could contain bugs you have not caught yet. They simply never ran when the tests executed.
 
----
-
-A test that always passes proves nothing - it has to be able to fail.
+!!! tip "The coverage report only measures your `src/` folder because of the `--cov=src` flag."

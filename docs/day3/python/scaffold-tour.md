@@ -1,47 +1,39 @@
-# Follow along: Python project structure
+# Activity: Explore the Project Structure
 
-We are looking at the TechMart pipeline repo. Before the trainer opens any folders:
-
-**In the chat: what do you expect to find inside `src/`?**
+You have a real Python project cloned and open in VS Code. In this activity you will navigate the structure and understand how it is organised.
 
 ---
 
-## What is actually there
+## Step 1: Look at the root folder
 
-```
-techmart-pipeline-template/
-├── src/
-│   └── techmart/
-│       ├── __init__.py
-│       ├── cleaning.py
-│       └── loading.py
-├── tests/
-│   └── test_example.py
-├── .github/
-│   └── workflows/
-│       ├── ci.yml
-│       └── lint.yml
-├── pyproject.toml
-├── requirements.txt
-└── .gitignore
-```
-
-**In the chat: which file inside `src/techmart/` makes it a Python package?**
+In VS Code's Explorer pane (left side), look at the top level of the project.
 
 ---
 
-## The key insight
+## Step 2: Explore `src/techmart/`
 
-`__init__.py` is an empty file. Its presence tells Python: "this folder is importable."
+Expand `src/` then `techmart/`. You will see three files.
 
-Without it, `from techmart.cleaning import clean` would fail with a `ModuleNotFoundError`.
+1. Open `__init__.py`.
 
-Open `cleaning.py` - one function, minimal code. This is all a module needs to be.
+    It is empty. `__init__.py` tells Python this folder is importable. Without it, `from techmart.cleaning import clean` would fail with a `ModuleNotFoundError`.
 
-Open `tests/` - it mirrors the shape of `src/`. One test file per source file makes it easy to navigate.
+2. Open `cleaning.py`.
 
-**In the chat: why keep tests in a separate folder rather than next to the source files?**
+    One function, minimal code. This is all a module needs to be.
 
 ---
+
+## Step 3: Explore `tests/`
+
+Expand the `tests/` folder.
+
+Notice that it mirrors the shape of `src/` - one test file per source file.
+
+---
+
+## Step 4: Look at the top level again
+
+You should now be able to name every file and folder at the root and say what it does.
 
 A project is something you can navigate without asking the author.
