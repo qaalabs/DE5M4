@@ -45,8 +45,8 @@
 
 !!! warning "You will need extra permissions to add labels"
 
-    - If you don’t see options like labels or assignees, it means you don’t have permission.
-    - That's okay — just submit your issue.
+    - If you don't see options like labels or assignees, it means you don’t have permission.
+    - That's okay - just submit your issue.
 
 ### Step 7: Submit the Issue
 
