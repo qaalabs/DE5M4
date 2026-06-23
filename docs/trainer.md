@@ -64,9 +64,16 @@
 
 ### Session 1
 
+- `09:40` **Discussion**: What Breaks in Notebooks? (10 mins)
+- `09:50` predict-then-reveal (20 mins)
+- `10:10` pyproject.toml, requirements.txt, .gitignore (10 mins)
+- `10:20` Read test_example.py, predict, run green (10 mins)
 
 ### Session 2
 
+- `10:50` Coverage Demo + Ruff Slip Live (10 mins)
+- `11:00` Bridge from local commands to GitHub Actions (10 mins)
+- `11:10` Blocked PR Demo, Fix, Watch (40 mins)
 - `11:50` **Demo**: [Docker container](day3/docker.md) (20 mins)
 
 ### Session 3

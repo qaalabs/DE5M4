@@ -3,13 +3,18 @@
 ## Session 1
 
 - 🌅 Welcome to Day 3 of DE5 Module 4
-- 
+- **Discussion**: What Breaks in Notebooks?
+- predict-then-reveal
+- pyproject.toml, requirements.txt, .gitignore
+- Read test_example.py, predict, run green
 
 ## ☕ Morning Break
 
 ## Session 2
 
-- 
+- Coverage Demo + Ruff Slip Live
+- Bridge from local commands to GitHub Actions
+- Blocked PR Demo, Fix, Watch
 - **Demo**: [Docker container](../day3/docker.md)
 
 ## 🥪🥤 Lunch Break
