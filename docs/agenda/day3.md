@@ -14,8 +14,8 @@
 ## Session 2
 
 - [5. Lint Python Code](../day3/python/coverage-ruff.md)
-- [GitHub Actions](../day3/python/ci-bridge.md)
-- [Blocked PR Demo, Fix, Watch](../day3/python/python-ci.md)
+- [6. GitHub Actions](../day3/python/ci-bridge.md)
+- [7. Python CI Pipeline](../day3/python/python-ci.md)
 - **Demo**: [Docker Container](../day3/docker.md)
 
 ## 🥪🥤 Lunch Break
