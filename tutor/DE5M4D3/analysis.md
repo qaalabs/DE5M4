@@ -1,9 +1,6 @@
 ## <mark>Introduce the breakout activities</mark>
 
-**This needs to be longer than 20 mins - ideally 30mins**
-
-<a href="http://192.168.1.227:3000/s/de5m4-modelling" target="_blank">📒 Click here for text to paste into the chat</a>
-
+**This needs to be 30 mins**
 
 ### **Activity 1: Requirements Summary**
 
