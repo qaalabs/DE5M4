@@ -16,7 +16,7 @@
     
     
       
-        <title>Follow along: Coverage and linting - Module 4 - Planning Data Engineering Product</title>
+        <title>Activity: Lint with Ruff - Module 4 - Planning Data Engineering Product</title>
       
     
     
@@ -67,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#follow-along-coverage-and-linting" class="md-skip">
+        <a href="#activity-lint-with-ruff" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Follow along: Coverage and linting
+              Activity: Lint with Ruff
             
           </span>
         </div>
@@ -1180,25 +1180,36 @@
 
 
 
-<h1 id="follow-along-coverage-and-linting">Follow along: Coverage and linting</h1>
-<h2 id="coverage-threshold">Coverage threshold</h2>
-<p>Watch what happens when we enforce a minimum coverage level. The trainer will change the last line of <code>.github/workflows/ci.yml</code> to add <code>--cov-fail-under=70</code>.</p>
-<p>This makes the test step fail if coverage drops below 70%.</p>
-<p>Notice: the threshold check is just a flag on the same <code>pytest</code> command you already know.</p>
+<h1 id="activity-lint-with-ruff">Activity: Lint with Ruff</h1>
+<p>Ruff is a fast Python linter. In this activity you will run it, introduce a problem, and watch it catch the issue.</p>
 <hr>
-<h2 id="ruff-catching-problems-before-they-spread">Ruff: catching problems before they spread</h2>
-<p>The trainer will add a single line to <code>cleaning.py</code>:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
-</code></pre></div>
-<p><strong>In the chat: what will ruff say about this?</strong></p>
+<h2 id="step-1-run-ruff-on-the-clean-project">Step 1: Run ruff on the clean project</h2>
+<p>In your VS Code terminal:</p>
 <div class="highlight"><pre><span></span><code>ruff<span class="w"> </span>check<span class="w"> </span>.
 </code></pre></div>
-<p>Ruff finds an F401 - an imported module that is never used. Read the error code aloud with the trainer.</p>
-<p><strong>In the chat: why does an unused import matter?</strong></p>
-<p>It is noise. It signals unfinished work. It causes confusion for the next person who reads the file.</p>
+<p>No output. Silence is the passing state - there is nothing wrong.</p>
 <hr>
-<p>The import line gets deleted. Run <code>ruff check .</code> again. No output. Silence is the passing state.</p>
-<p>Ruff is fast and free. There is no reason not to run it before every commit.</p><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
+<h2 id="step-2-introduce-a-problem">Step 2: Introduce a problem</h2>
+<p>Open <code>src/techmart/cleaning.py</code> in VS Code.</p>
+<p>Add this line after the existing imports at the top of the file:</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+</code></pre></div>
+<p>Save the file.</p>
+<hr>
+<h2 id="step-3-run-ruff-again">Step 3: Run ruff again</h2>
+<div class="highlight"><pre><span></span><code>ruff<span class="w"> </span>check<span class="w"> </span>.
+</code></pre></div>
+<p>Ruff finds an <code>F401</code> - an unused import. Read the full error message.</p>
+<p>The code <code>F401</code> is from the Pyflakes rule set. Ruff uses short codes like this so you can look them up or suppress specific rules if needed.</p>
+<hr>
+<h2 id="step-4-fix-it">Step 4: Fix it</h2>
+<p>Delete the <code>import os</code> line from <code>cleaning.py</code> and save.</p>
+<div class="highlight"><pre><span></span><code>ruff<span class="w"> </span>check<span class="w"> </span>.
+</code></pre></div>
+<p>Silence again. The problem is gone.</p>
+<div class="admonition success">
+<p class="admonition-title">Ruff is fast and free. There is no reason not to run it before every commit.</p>
+</div><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
   <!-- mkdocs-quiz progress sidebar (desktop) -->
   <label class="md-nav__title">
     <span class="md-nav__icon md-icon"></span>

@@ -16,7 +16,7 @@
     
     
       
-        <title>Discussion: What if GitHub ran these checks for you? - Module 4 - Planning Data Engineering Product</title>
+        <title>Activity: From Local to Automated - Module 4 - Planning Data Engineering Product</title>
       
     
     
@@ -67,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#discussion-what-if-github-ran-these-checks-for-you" class="md-skip">
+        <a href="#activity-from-local-to-automated" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Discussion: What if GitHub ran these checks for you?
+              Activity: From Local to Automated
             
           </span>
         </div>
@@ -1180,24 +1180,29 @@
 
 
 
-<h1 id="discussion-what-if-github-ran-these-checks-for-you">Discussion: What if GitHub ran these checks for you?</h1>
-<p>We have just run <code>pytest</code> and <code>ruff check .</code> locally.</p>
-<p><strong>In the chat: what is the problem with only running these locally?</strong></p>
-<ul>
-<li>They only run if you remember to run them</li>
-<li>They only run on your machine</li>
-<li>A teammate could push code without running either</li>
-</ul>
+<h1 id="activity-from-local-to-automated">Activity: From Local to Automated</h1>
+<p>You have just run <code>pytest</code> and <code>ruff check .</code> locally. In this activity you will see how GitHub runs the same commands automatically on every pull request.</p>
 <hr>
-<p>Open <code>.github/workflows/ci.yml</code>. The <code>pytest</code> command in there is identical to the one you just ran. It is not magic - it is the same command in a config file.</p>
-<p>Open <code>lint.yml</code>. Same: <code>ruff check .</code>.</p>
-<p>Look at the trigger at the top:</p>
+<h2 id="step-1-open-the-ci-workflow">Step 1: Open the CI workflow</h2>
+<p>In VS Code, open <code>.github/workflows/ci.yml</code>.</p>
+<p>Find the step that runs pytest. Compare the command to what you ran in your terminal.</p>
+<p>It is identical. A GitHub Actions workflow is not magic - it is the same commands you already know, written in a config file.</p>
+<hr>
+<h2 id="step-2-open-the-lint-workflow">Step 2: Open the lint workflow</h2>
+<p>Open <code>.github/workflows/lint.yml</code>.</p>
+<p>Find the step that runs ruff. Again, it is <code>ruff check .</code>.</p>
+<hr>
+<h2 id="step-3-look-at-the-trigger">Step 3: Look at the trigger</h2>
+<p>At the top of either workflow file, find:</p>
 <div class="highlight"><pre><span></span><code><span class="nt">on</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">pull_request</span><span class="p">:</span>
 </code></pre></div>
-<p>This runs automatically every time anyone opens a pull request. No one has to remember.</p>
+<p>This means the workflow runs automatically every time someone pushes to a branch that has an open pull request. Nobody has to remember to run the checks.</p>
 <hr>
-<p>Next: we push something broken and watch what happens.</p><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
+<h2 id="step-4-check-your-pr">Step 4: Check your PR</h2>
+<p>Go to your pull request on GitHub. You should see the two checks listed - <strong>CI Pipeline</strong> and <strong>Lint</strong>.</p>
+<p>These ran when you created the PR and again every time you push a commit to <code>day3-exercises</code>.</p>
+<p>In the next activity you will push changes that deliberately break the checks, and watch them respond.</p><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
   <!-- mkdocs-quiz progress sidebar (desktop) -->
   <label class="md-nav__title">
     <span class="md-nav__icon md-icon"></span>

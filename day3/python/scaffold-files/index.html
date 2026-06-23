@@ -16,7 +16,7 @@
     
     
       
-        <title>Follow along: The supporting files - Module 4 - Planning Data Engineering Product</title>
+        <title>Activity: The Supporting Files - Module 4 - Planning Data Engineering Product</title>
       
     
     
@@ -67,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#follow-along-the-supporting-files" class="md-skip">
+        <a href="#activity-the-supporting-files" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Follow along: The supporting files
+              Activity: The Supporting Files
             
           </span>
         </div>
@@ -1180,39 +1180,37 @@
 
 
 
-<h1 id="follow-along-the-supporting-files">Follow along: The supporting files</h1>
-<p>Every professional Python project carries a small set of standard files. Here is what each one does.</p>
-<table>
-<thead>
-<tr>
-<th>File</th>
-<th>Purpose</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>pyproject.toml</code></td>
-<td>The project's identity card: name, version, Python version, tool config (ruff, pytest). Replaces the older <code>setup.py</code>.</td>
-</tr>
-<tr>
-<td><code>requirements.txt</code></td>
-<td>The shopping list: everything you need to <code>pip install</code> to run the project.</td>
-</tr>
-<tr>
-<td><code>.gitignore</code></td>
-<td>What Git should never track: <code>venv/</code>, <code>__pycache__/</code>, <code>.env</code> files.</td>
-</tr>
-<tr>
-<td><code>.github/workflows/</code></td>
-<td>The automation: runs your checks on every pull request. Covered next.</td>
-</tr>
-</tbody>
-</table>
+<h1 id="activity-the-supporting-files">Activity: The Supporting Files</h1>
+<p>Every professional Python project carries a small set of standard files. Open each one in VS Code and read what is there.</p>
 <hr>
-<p>These files are not optional extras. They are what separates a script someone wrote from a project someone else can pick up and run.</p>
-<p><strong>Check question - complete the sentence in the chat:</strong></p>
-<p>"A project is something you can _______________."</p>
-<p>(Tests it, lints it, installs it, runs it - without asking the author.)</p><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
+<h2 id="step-1-pyprojecttoml">Step 1: <code>pyproject.toml</code></h2>
+<p>Open <code>pyproject.toml</code> from the root of the project.</p>
+<p>This is the project's identity card. Find:</p>
+<ul>
+<li>The project name and version</li>
+<li>The minimum Python version required</li>
+<li>The <code>[tool.ruff]</code> section - ruff configuration</li>
+<li>The <code>[tool.pytest.ini_options]</code> section - pytest configuration</li>
+</ul>
+<p>This file replaces the older <code>setup.py</code> that you may see in older projects.</p>
+<hr>
+<h2 id="step-2-requirementstxt">Step 2: <code>requirements.txt</code></h2>
+<p>Open <code>requirements.txt</code>.</p>
+<p>This is the shopping list - everything that <code>pip install -r requirements.txt</code> installed in the previous activity.</p>
+<hr>
+<h2 id="step-3-gitignore">Step 3: <code>.gitignore</code></h2>
+<p>Open <code>.gitignore</code>.</p>
+<p>Find the entries for:</p>
+<ul>
+<li><code>venv/</code> - the virtual environment folder</li>
+<li><code>__pycache__/</code> - Python's compiled bytecode cache</li>
+<li><code>.env</code> - environment variable files (never commit these)</li>
+</ul>
+<p>Git will never track these files or folders.</p>
+<hr>
+<h2 id="step-4-githubworkflows">Step 4: <code>.github/workflows/</code></h2>
+<p>Expand the <code>.github/workflows/</code> folder. You will see two files: <code>ci.yml</code> and <code>lint.yml</code>.</p>
+<p>Do not open them yet - these are covered in the next activity.</p><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
   <!-- mkdocs-quiz progress sidebar (desktop) -->
   <label class="md-nav__title">
     <span class="md-nav__icon md-icon"></span>

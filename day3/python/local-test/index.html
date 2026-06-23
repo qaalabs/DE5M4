@@ -16,7 +16,7 @@
     
     
       
-        <title>Follow along: Running tests locally - Module 4 - Planning Data Engineering Product</title>
+        <title>Activity: Run the Tests - Module 4 - Planning Data Engineering Product</title>
       
     
     
@@ -67,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#follow-along-running-tests-locally" class="md-skip">
+        <a href="#activity-run-the-tests" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Follow along: Running tests locally
+              Activity: Run the Tests
             
           </span>
         </div>
@@ -1180,32 +1180,37 @@
 
 
 
-<h1 id="follow-along-running-tests-locally">Follow along: Running tests locally</h1>
-<p>We are inside the TechMart repo with the virtual environment active.</p>
-<p>Open <code>tests/test_example.py</code> and read through it.</p>
-<p><strong>In the chat: will this test pass or fail when we run it?</strong></p>
+<h1 id="activity-run-the-tests">Activity: Run the Tests</h1>
+<p>In this activity you will run the test suite locally and read what the output tells you.</p>
 <hr>
-<h2 id="run-pytest">Run pytest</h2>
+<h2 id="step-1-open-a-terminal">Step 1: Open a terminal</h2>
+<p>In VS Code, open a terminal: <strong>View &gt; Terminal</strong> (or `Ctrl+``).</p>
+<p>Make sure you are in the project root folder. You should see <code>techmart-pipeline</code> in the prompt.</p>
+<hr>
+<h2 id="step-2-run-pytest">Step 2: Run pytest</h2>
 <div class="highlight"><pre><span></span><code>pytest
 </code></pre></div>
-<p>Watch the output. Each line tells you something:</p>
+<p>Read the output line by line:</p>
 <ul>
 <li><code>collected X items</code> - how many tests were found</li>
-<li><code>.</code> (dot) - one test passed</li>
-<li><code>passed</code> / <code>failed</code> - final summary</li>
-<li>Duration - how long it took</li>
+<li>A green dot for each test that passed</li>
+<li><code>X passed</code> - the final count</li>
+<li>The duration</li>
 </ul>
-<p><strong>In the chat: what does this test actually prove?</strong></p>
-<p>It proves that <code>remove_duplicates</code> does not corrupt the shape of the data. It does not prove the function is correct in every situation - just that this one case works.</p>
+<p>It proves that <code>remove_duplicates</code> does not corrupt the shape of the data. A test that always passes proves nothing - it has to be able to fail.</p>
 <hr>
-<h2 id="run-with-coverage">Run with coverage</h2>
+<h2 id="step-3-run-with-coverage">Step 3: Run with coverage</h2>
 <div class="highlight"><pre><span></span><code>pytest<span class="w"> </span>--cov<span class="o">=</span>src<span class="w"> </span>--cov-report<span class="o">=</span>term-missing
 </code></pre></div>
-<p>You will see a coverage percentage and a "Missing" column showing line numbers that were never executed during the test run.</p>
-<p><strong>In the chat: what does 80% coverage mean?</strong></p>
-<p>It means 20% of your source lines were never reached when the tests ran. Those lines could contain bugs you have not caught yet.</p>
-<hr>
-<p>A test that always passes proves nothing - it has to be able to fail.</p><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
+<p>Look at the output. You will see:</p>
+<ul>
+<li>A percentage for each source file</li>
+<li>A <strong>Missing</strong> column showing line numbers that were never reached during the test run</li>
+</ul>
+<p>Those lines could contain bugs you have not caught yet. They simply never ran when the tests executed.</p>
+<div class="admonition tip">
+<p class="admonition-title">The coverage report only measures your <code>src/</code> folder because of the <code>--cov=src</code> flag.</p>
+</div><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
   <!-- mkdocs-quiz progress sidebar (desktop) -->
   <label class="md-nav__title">
     <span class="md-nav__icon md-icon"></span>
