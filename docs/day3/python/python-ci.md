@@ -1,28 +1,14 @@
 # Activity 7: Python CI Pipeline
 
-You already have the repo cloned, a branch open, and a pull request running in GitHub. In this activity you will make deliberate changes in VS Code, push them, and watch GitHub Actions respond on your PR.
+You already have a pull request open in GitHub. In this activity you will make deliberate changes using the GitHub editor, and watch GitHub Actions respond on your PR.
 
-The pattern is the same each time: edit a file, commit and push, check the PR in GitHub.
-
----
-
-## Committing and pushing in VS Code
-
-To commit and push after each change:
-
-1. Open the **Source Control** panel: `Ctrl+Shift+G`
-2. Click **+** next to the changed file to stage it
-3. Type a short commit message in the box at the top
-4. Click the **Commit** button (tick) or press `Ctrl+Enter`
-5. Click **Sync Changes** to push to GitHub
-
-Then switch to your PR in GitHub and watch the checks run.
+The pattern is the same each time: edit a file in GitHub, commit, check the PR checks.
 
 ---
 
 ## Stage 1 - Coverage threshold
 
-Open `.github/workflows/ci.yml` in VS Code.
+In your repo on GitHub, open `.github/workflows/ci.yml`. Click the pencil icon to edit.
 
 Find the `Run tests with coverage` step and add `--cov-fail-under=70` to the end:
 
@@ -32,9 +18,11 @@ Find the `Run tests with coverage` step and add `--cov-fail-under=70` to the end
           pytest --cov=src --cov-report=term-missing --cov-fail-under=70
 ```
 
-Commit and push. Watch your PR - the **CI Pipeline** check goes red. Coverage is too low.
+Make sure **Commit directly to `day3-exercises`** is selected, and click **Commit changes**.
 
-Remove `--cov-fail-under=70`, commit and push. Green again.
+Watch your PR - the **CI Pipeline** check goes red. Coverage is too low.
+
+Edit the file again, remove `--cov-fail-under=70`, and commit. Green again.
 
 !!! success "You have seen how a team enforces a coverage quality gate."
 
@@ -42,7 +30,7 @@ Remove `--cov-fail-under=70`, commit and push. Green again.
 
 ## Stage 2 - Failing test
 
-Open `tests/test_example.py` in VS Code.
+Open `tests/test_example.py` in GitHub. Click the pencil icon to edit.
 
 Find the assertion that checks the length of `sample_orders` and change the value so it is wrong:
 
@@ -50,15 +38,15 @@ Find the assertion that checks the length of `sample_orders` and change the valu
 assert len(sample_orders) == 4   # was 3
 ```
 
-Commit and push. The **CI Pipeline** check goes red. A failing test blocks the PR from merging.
+Commit to `day3-exercises`. The **CI Pipeline** check goes red. A failing test blocks the PR from merging.
 
-Change `4` back to `3`, commit and push. Green again.
+Change `4` back to `3` and commit. Green again.
 
 ---
 
 ## Stage 3 - Lint slip
 
-Open `src/techmart/cleaning.py` in VS Code.
+Open `src/techmart/cleaning.py` in GitHub. Click the pencil icon to edit.
 
 Add this line after the existing imports:
 
@@ -66,8 +54,8 @@ Add this line after the existing imports:
 import os
 ```
 
-Commit and push. The **Lint** check goes red. Click into the failed check on GitHub to read what ruff found.
+Commit to `day3-exercises`. The **Lint** check goes red. Click into the failed check to read what ruff found.
 
-Delete the `import os` line, commit and push. Green again.
+Delete the `import os` line and commit. Green again.
 
 !!! success "Both checks green. Your PR is ready to merge."
