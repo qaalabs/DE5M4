@@ -17,7 +17,7 @@
 
 ### Session 3
 
-- `13:30` [Agile artefacts](day1/agile/artefacts.md) (10 mins)
+- `13:30` **Slides**: [Agile artefacts](day1/agile/artefacts.md) (10 mins)
 - `13:40` **Investigation**: [Identify Epics](day1/planning/epics.md) (10 mins)
 - `13:50` **Discussion**: [What Epics did you identify?](day1/planning/epics-solution.md) (10 mins)
 - `14:00` **Breakout**: [Write User Stories in groups](day1/planning/user-stories.md) (30 mins)
@@ -35,7 +35,7 @@
 
 ### Session 1
 
-- `09:50` **Discussion**: Software Version Control (10 mins)
+- `09:50` **Slides**: Software Version Control (10 mins)
 - `10:00` **Activity**: [Lab 1 ~ Working locally with Git](day2/source-control/git-locally.md) (30 mins)
 
 ### Session 2
