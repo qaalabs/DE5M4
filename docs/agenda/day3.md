@@ -4,18 +4,18 @@
 
 - 🌅 Welcome to Day 3 of DE5 Module 4
 - **Discussion**: What Breaks in Notebooks?
-- predict-then-reveal
-- pyproject.toml, requirements.txt, .gitignore
-- Read test_example.py, predict, run green
+- [predict-then-reveal](../day3/python/scaffold-tour.md)
+- [Python Project Files](../day3/python/scaffold-files.md)
+- [Running pytest](../day3/python/local-test.md)
 
 ## ☕ Morning Break
 
 ## Session 2
 
-- Coverage Demo + Ruff Slip Live
-- Bridge from local commands to GitHub Actions
-- Blocked PR Demo, Fix, Watch
-- **Demo**: [Docker container](../day3/docker.md)
+- [Coverage Demo + Ruff Slip Live](../day3/python/coverage-ruff.md)
+- [GitHub Actions](../day3/python/ci-bridge.md)
+- [Blocked PR Demo, Fix, Watch](../day3/python/python-ci.md)
+- **Demo**: [Docker Container](../day3/docker.md)
 
 ## 🥪🥤 Lunch Break
 

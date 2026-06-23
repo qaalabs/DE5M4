@@ -64,17 +64,17 @@
 
 ### Session 1
 
-- `09:40` **Discussion**: What Breaks in Notebooks? (10 mins)
-- `09:50` predict-then-reveal (20 mins)
-- `10:10` pyproject.toml, requirements.txt, .gitignore (10 mins)
-- `10:20` Read test_example.py, predict, run green (10 mins)
+- `09:40` **Discussion**: [What Breaks in Notebooks?](day3/python/notebook-problem.md) (10 mins)
+- `09:50` [predict-then-reveal](day3/python/scaffold-tour.md) (20 mins)
+- `10:10` [Python Project Files](day3/python/scaffold-files.md) (10 mins)
+- `10:20` [Running pytest](day3/python/local-test.md) (10 mins)
 
 ### Session 2
 
-- `10:50` Coverage Demo + Ruff Slip Live (10 mins)
-- `11:00` Bridge from local commands to GitHub Actions (10 mins)
-- `11:10` Blocked PR Demo, Fix, Watch (40 mins)
-- `11:50` **Demo**: [Docker container](day3/docker.md) (20 mins)
+- `10:50` [Coverage Demo + Ruff Slip Live](day3/python/coverage-ruff.md) (10 mins)
+- `11:00` [GitHub Actions](day3/python/ci-bridge.md) (10 mins)
+- `11:10` [Blocked PR Demo, Fix, Watch](day3/python/python-ci.md) (40 mins)
+- `11:50` **Demo**: [Docker Container](day3/docker.md) (20 mins)
 
 ### Session 3
 
