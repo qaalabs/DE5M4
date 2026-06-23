@@ -65,9 +65,10 @@
 ### Session 1
 
 - `09:40` **Discussion**: [What Breaks in Notebooks?](day3/python/notebook-problem.md) (10 mins)
-- `09:50` [predict-then-reveal](day3/python/scaffold-tour.md) (20 mins)
-- `10:10` [Python Project Files](day3/python/scaffold-files.md) (10 mins)
-- `10:20` [Running pytest](day3/python/local-test.md) (10 mins)
+- `09:50` [1. Clone Repo to the VM](day3/python/setup.md) (10 mins)
+- `10:00` [2. Explore the Project Structure](day3/python/scaffold-tour.md) (10 mins)
+- `10:10` [3. The Supporting Files](day3/python/scaffold-files.md) (10 mins)
+- `10:20` [4. Run the Tests Locally](day3/python/local-test.md) (10 mins)
 
 ### Session 2
 

@@ -4,9 +4,10 @@
 
 - 🌅 Welcome to Day 3 of DE5 Module 4
 - **Discussion**: What Breaks in Notebooks?
-- [predict-then-reveal](../day3/python/scaffold-tour.md)
-- [Python Project Files](../day3/python/scaffold-files.md)
-- [Running pytest](../day3/python/local-test.md)
+- [1. Clone Repo to the VM](../day3/python/setup.md)
+- [2. Explore the Project Structure](../day3/python/scaffold-tour.md)
+- [3. The Supporting Files](../day3/python/scaffold-files.md)
+- [4. Run the Tests Locally](../day3/python/local-test.md)
 
 ## ☕ Morning Break
 
