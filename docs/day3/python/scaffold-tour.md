@@ -12,13 +12,17 @@ In VS Code's Explorer pane (left side), look at the top level of the project.
 
 ## Step 2: Explore `src/techmart/`
 
-Expand `src/` then `techmart/`. You will see three files.
+Expand `src/` then `techmart/`. You will see four files.
 
 1. Open `__init__.py`.
 
     It is empty. `__init__.py` tells Python this folder is importable. Without it, `from techmart.cleaning import clean` would fail with a `ModuleNotFoundError`.
 
-2. Open `cleaning.py`.
+2. Open `__main__.py`.
+
+    This is the entry point - it wires the modules together into a runnable pipeline. Having this file is what allows you to run the package with `python -m techmart orders.csv`.
+
+3. Open `cleaning.py`.
 
     One function, minimal code. This is all a module needs to be.
 

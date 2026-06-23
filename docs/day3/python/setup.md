@@ -6,7 +6,7 @@ In this activity you will create your own copy of the TechMart pipeline project,
 
 ## Step 1: Log in to GitHub
 
-In your VM, open a browser and go to: [github.com](https://github.com)
+Open a browser and go to: [github.com](https://github.com)
 
 Sign in with your GitHub account.
 
