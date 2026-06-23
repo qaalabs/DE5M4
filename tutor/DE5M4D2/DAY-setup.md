@@ -1,1 +1,3 @@
-## DE5M4 Day 2: Pre-Day Setup Tasks
+### 13:30  Cloud ~ Core Building Blocks
+
+### 14:50  Cloud Architecture Scenarios

@@ -1,4 +1,4 @@
-# Activity: Creating a Pull Request
+# Activity 5: Creating a Pull Request
 
 ## Learning Objectives
 

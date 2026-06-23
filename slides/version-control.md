@@ -17,6 +17,43 @@ https://phdcomics.com/comics/archive/phd101212s.gif
 
 ---
 
+# Git - a version control system
+
+- Created by **Linus Torvalds** in 2005 to manage the Linux kernel source code
+- The Linux project had 1,000+ contributors sending changes from around the world
+- Existing tools couldn't handle that scale - so Linus built one that could
+- Git became the dominant version control system across the software industry
+
+---
+
+# Git lives on your machine
+
+Git does not need the internet. It does not need GitHub. All it needs is a single hidden folder:
+
+```
+my-project/
+├── .git/        <-- this IS your repository
+├── main.py
+└── README.md
+```
+
+Every commit, every branch, every piece of history - stored in `.git/`. The rest is just files.
+
+---
+
+# Git vs GitHub
+
+| | Git | GitHub |
+|---|---|---|
+| **What it is** | A tool installed on your machine | A website owned by Microsoft |
+| **What it does** | Tracks changes to your files | Hosts copies of git repos online |
+| **Needs internet?** | No | Yes |
+| **Alternatives** | Nothing - it's the tool | GitLab, Bitbucket, Azure DevOps |
+
+GitHub is useful for sharing and collaboration. But the version control is git.
+
+---
+
 # How does your workplace handle this?
 
 - How do people at your company currently share files or code?

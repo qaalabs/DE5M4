@@ -1,4 +1,4 @@
-# Activity: Creating an Issue on GitHub
+# Activity 3: Creating an Issue on GitHub
 
 **Objective**: Learn how to raise and describe an issue in a GitHub repository, such as a bug report, feature request, or documentation improvement.
 

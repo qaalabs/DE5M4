@@ -1,8 +1,9 @@
-# Activity: Working locally with Git
+# Activity 1: Working locally with Git
 
 **Objective**: By the end of this activity, you will be able to initialise a local Git repository, create and track files, understand the staging and commit process, and view the commit history - all from the command line.
 
 ## Instructions
+
 
 ### Step 0: Setup your Virtual Machine
 
@@ -11,6 +12,7 @@
 
 !!! quote ""
     ![show hidden files](../../img/show-hidden-files.png)
+
 
 ### Step 1: Setup
 
@@ -64,6 +66,7 @@ ls -l
 !!! note "You should see an empty list of files"
     - This confirms the directory is clean and ready for Git
 
+
 ### Step 3: Initialise Git
 
 - To start using git run: `git init`
@@ -74,6 +77,7 @@ ls -l
     - This is where Git stores all the internal data it needs to track your project
     - the dot `.` in fromt of the name automatically makes it a hidden file
 
+
 ### Step 4: Create a file
 
 - Create your first file by running: `notepad hello.py`
@@ -81,14 +85,17 @@ ls -l
 - Save and the file and close Notepad
 - At the $ prompt - show all the files, including hidden files: `ls -al`
 
+
 ### Step 5: See the status
 
 - To see the status run: `git status`
+
 
 ### Step 6: Add a file
 
 - To add your file to the Git repository run: `git add hello.py`
 - Now see the status: `git status`
+
 
 ### Step 7: Commit your file
 
@@ -99,9 +106,30 @@ ls -l
 !!! note "You should see a clean working directory message"
     - This is because everything is committed to the repository
 
+
 ### Step 8: View the Git logs
 
 - To see the history of commits, run: `git log`
+
+
+### Step 9: Delete and restore a file
+*The power of git is that if we delete a file we can restore it!*
+
+Delete the file `hello.py` by running: 
+
+```
+rm hello/py
+```
+
+Run `ls -l` and it should be gone!
+
+To restore the file from the .git repository run:
+
+```
+git restore hello.py
+```
+
+Run `ls -l` to show that the has been restored!
 
 ---
 
@@ -113,3 +141,4 @@ ls -l
 - How do hidden files like `.git` help Git work "behind the scenes"?
 - Why do you think commit messages are important? What makes a good one?
 - How might this process look different if you were working with others in a team?
+

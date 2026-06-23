@@ -1,4 +1,4 @@
-# Activity: Forking a Repository
+# Activity 4: Forking a Repository
 
 ## Collaborative Planning with Git - Forking a Repository
 
