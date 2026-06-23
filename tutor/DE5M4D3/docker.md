@@ -1,1 +1,1 @@
-## <mark>Demo creating a container using Docker Desktop</mark>
+## <mark>Running nginx in a docker container</mark>
