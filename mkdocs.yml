@@ -10,6 +10,7 @@ nav:
   - Agenda:
     - Day 1: agenda/day1.md
     - Day 2: agenda/day2.md
+    - Day 3: agenda/day3.md
 
   - "Day 1 - Agile Foundations":
     - "How are products designed?": day1/agile/how-design-steps.md
@@ -28,6 +29,15 @@ nav:
     - "Cloud ~ Core Building Blocks": day2/cloud/building-blocks.md
     - "Cloud Architecture Scenarios": day2/cloud/architecture.md
     - "Cloud Architecture": day2/cloud/scenario.md
+
+  - "Day 3 - Database Design & Python":
+    - "Docker container": day3/docker.md
+    - "1. Requirements Analysis": day3/storage/analysis.md
+    - "2. Create Conceptual Data Model": day3/storage/conceptual.md
+    - "3. Logical Model & Design Decisions": day3/storage/logical.md
+    - "Lab 1 ~ Create Amazon S3 Bucket": labs/amazon-s3-bucket.md
+    - "Lab 2 ~ Core Azure Storage Products": labs/azure-storage-products.md
+    - "Lab 3 ~ Google Cloud Storage": labs/google-cloud-storage.md
 
   - Resources: resources.md
 

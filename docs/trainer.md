@@ -47,14 +47,14 @@
 
 ### Session 3
 
-- `13:30` **Breakout**: Cloud ~ Core Building Blocks (10 mins)
-- `13:40` **Investigation**: [Cloud ~ Core Building Blocks](day2/cloud/building-blocks.md) (30 mins)
+- `13:30` **Slides**: Cloud ~ Core Building Blocks (10 mins)
+- `13:40` **Breakout**: [Cloud ~ Core Building Blocks](day2/cloud/building-blocks.md) (30 mins)
 - `14:10` **Report-Back**: Cloud ~ Core Building Blocks (20 mins)
 
 ### Session 4
 
 - `14:50` **Breakout**: [Cloud Architecture Scenarios](day2/cloud/architecture.md) (10 mins)
-- `15:00` **Breakout**: [Cloud Architecture](day2/cloud/scenario.md) (20 mins)
+- `15:00` **Investigation**: [Cloud Architecture](day2/cloud/scenario.md) (20 mins)
 - `15:20` **Report-Back**: Cloud Architecture (20 mins)
 - `15:40` **Discussion**: Workplace Architecture (10 mins)
 

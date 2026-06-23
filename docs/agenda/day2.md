@@ -20,8 +20,8 @@
 
 ## Session 3
 
-- **Breakout**: Cloud ~ Core Building Blocks
-- **Investigation**: [Cloud ~ Core Building Blocks](../day2/cloud/building-blocks.md)
+- **Slides**: Cloud ~ Core Building Blocks
+- **Breakout**: [Cloud ~ Core Building Blocks](../day2/cloud/building-blocks.md)
 - **Report-Back**: Cloud ~ Core Building Blocks
 
 ## ☕ Afternoon Break
@@ -29,7 +29,7 @@
 ## Session 4
 
 - **Breakout**: [Cloud Architecture Scenarios](../day2/cloud/architecture.md)
-- **Breakout**: [Cloud Architecture](../day2/cloud/scenario.md)
+- **Investigation**: [Cloud Architecture](../day2/cloud/scenario.md)
 - **Report-Back**: Cloud Architecture
 - **Discussion**: Workplace Architecture
 
