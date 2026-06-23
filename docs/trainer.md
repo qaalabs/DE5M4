@@ -72,7 +72,7 @@
 
 ### Session 2
 
-- `10:50` [Coverage Demo + Ruff Slip Live](day3/python/coverage-ruff.md) (10 mins)
+- `10:50` [5. Lint Python Code](day3/python/coverage-ruff.md) (10 mins)
 - `11:00` [GitHub Actions](day3/python/ci-bridge.md) (10 mins)
 - `11:10` [Blocked PR Demo, Fix, Watch](day3/python/python-ci.md) (40 mins)
 - `11:50` **Demo**: [Docker Container](day3/docker.md) (20 mins)
