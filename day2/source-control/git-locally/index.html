@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#activity-working-locally-with-git" class="md-skip">
+        <a href="#activity-1-working-locally-with-git" class="md-skip">
           Skip to content
         </a>
       
@@ -342,6 +342,34 @@
     
   
     Day 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../agenda/day3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day 3
   
 
     
@@ -939,6 +967,256 @@
   
   
   
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day 3 - Database Design &amp; Python
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Day 3 - Database Design &amp; Python
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../day3/docker/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Docker container
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../day3/storage/analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Requirements Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../day3/storage/conceptual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Create Conceptual Data Model
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../day3/storage/logical/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Logical Model &amp; Design Decisions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../labs/amazon-s3-bucket/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lab 1 ~ Create Amazon S3 Bucket
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../labs/azure-storage-products/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lab 2 ~ Core Azure Storage Products
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../labs/google-cloud-storage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lab 3 ~ Google Cloud Storage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../resources/" class="md-nav__link">
         
@@ -977,7 +1255,7 @@
 
 
 
-<h1 id="activity-working-locally-with-git">Activity: Working locally with Git</h1>
+<h1 id="activity-1-working-locally-with-git">Activity 1: Working locally with Git</h1>
 <p><strong>Objective</strong>: By the end of this activity, you will be able to initialise a local Git repository, create and track files, understand the staging and commit process, and view the commit history - all from the command line.</p>
 <h2 id="instructions">Instructions</h2>
 <h3 id="step-0-setup-your-virtual-machine">Step 0: Setup your Virtual Machine</h3>
@@ -1066,6 +1344,16 @@ git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"
 <ul>
 <li>To see the history of commits, run: <code>git log</code></li>
 </ul>
+<h3 id="step-9-delete-and-restore-a-file">Step 9: Delete and restore a file</h3>
+<p><em>The power of git is that if we delete a file we can restore it!</em></p>
+<p>Delete the file <code>hello.py</code> by running: </p>
+<div class="highlight"><pre><span></span><code>rm hello/py
+</code></pre></div>
+<p>Run <code>ls -l</code> and it should be gone!</p>
+<p>To restore the file from the .git repository run:</p>
+<div class="highlight"><pre><span></span><code>git restore hello.py
+</code></pre></div>
+<p>Run <code>ls -l</code> to show that the has been restored!</p>
 <hr>
 <h2 id="reflective-discussion-questions">Reflective / Discussion Questions</h2>
 <ul>
