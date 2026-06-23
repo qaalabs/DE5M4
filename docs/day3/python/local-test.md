@@ -1,4 +1,4 @@
-# Activity: Run the Tests
+# Activity: Run the Tests Locally
 
 In this activity you will run the test suite locally and read what the output tells you.
 
@@ -6,7 +6,7 @@ In this activity you will run the test suite locally and read what the output te
 
 ## Step 1: Open a terminal
 
-In VS Code, open a terminal: **View > Terminal** (or `Ctrl+\``).
+In VS Code, open a terminal: **View > Terminal** (or **Ctrl+\`**).
 
 Make sure you are in the project root folder. You should see `techmart-pipeline` in the prompt.
 
