@@ -14,7 +14,7 @@ Sign in with your GitHub account.
 
 ## Step 2: Create your repo from the template
 
-Go to: **https://github.com/ingwanelabs/techmart-pipeline-template**
+Go to: **https://github.com/QAADE5/techmart-pipeline-template**
 
 1. Click **Use this template** then **Create a new repository**.
 
