@@ -1480,11 +1480,15 @@
 <p>In VS Code's Explorer pane (left side), look at the top level of the project.</p>
 <hr>
 <h2 id="step-2-explore-srctechmart">Step 2: Explore <code>src/techmart/</code></h2>
-<p>Expand <code>src/</code> then <code>techmart/</code>. You will see three files.</p>
+<p>Expand <code>src/</code> then <code>techmart/</code>. You will see four files.</p>
 <ol>
 <li>
 <p>Open <code>__init__.py</code>.</p>
 <p>It is empty. <code>__init__.py</code> tells Python this folder is importable. Without it, <code>from techmart.cleaning import clean</code> would fail with a <code>ModuleNotFoundError</code>.</p>
+</li>
+<li>
+<p>Open <code>__main__.py</code>.</p>
+<p>This is the entry point - it wires the modules together into a runnable pipeline. Having this file is what allows you to run the package with <code>python -m techmart orders.csv</code>.</p>
 </li>
 <li>
 <p>Open <code>cleaning.py</code>.</p>

@@ -1174,17 +1174,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#committing-and-pushing-in-vs-code" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Committing and pushing in VS Code
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#stage-1-coverage-threshold" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1474,48 +1463,38 @@
 
 
 <h1 id="activity-7-python-ci-pipeline">Activity 7: Python CI Pipeline</h1>
-<p>You already have the repo cloned, a branch open, and a pull request running in GitHub. In this activity you will make deliberate changes in VS Code, push them, and watch GitHub Actions respond on your PR.</p>
-<p>The pattern is the same each time: edit a file, commit and push, check the PR in GitHub.</p>
-<hr>
-<h2 id="committing-and-pushing-in-vs-code">Committing and pushing in VS Code</h2>
-<p>To commit and push after each change:</p>
-<ol>
-<li>Open the <strong>Source Control</strong> panel: <code>Ctrl+Shift+G</code></li>
-<li>Click <strong>+</strong> next to the changed file to stage it</li>
-<li>Type a short commit message in the box at the top</li>
-<li>Click the <strong>Commit</strong> button (tick) or press <code>Ctrl+Enter</code></li>
-<li>Click <strong>Sync Changes</strong> to push to GitHub</li>
-</ol>
-<p>Then switch to your PR in GitHub and watch the checks run.</p>
+<p>You already have a pull request open in GitHub. In this activity you will make deliberate changes using the GitHub editor, and watch GitHub Actions respond on your PR.</p>
+<p>The pattern is the same each time: edit a file in GitHub, commit, check the PR checks.</p>
 <hr>
 <h2 id="stage-1-coverage-threshold">Stage 1 - Coverage threshold</h2>
-<p>Open <code>.github/workflows/ci.yml</code> in VS Code.</p>
+<p>In your repo on GitHub, open <code>.github/workflows/ci.yml</code>. Click the pencil icon to edit.</p>
 <p>Find the <code>Run tests with coverage</code> step and add <code>--cov-fail-under=70</code> to the end:</p>
 <div class="highlight"><pre><span></span><code><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Run tests with coverage</span>
 <span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">|</span>
 <span class="w">          </span><span class="no">pytest --cov=src --cov-report=term-missing --cov-fail-under=70</span>
 </code></pre></div>
-<p>Commit and push. Watch your PR - the <strong>CI Pipeline</strong> check goes red. Coverage is too low.</p>
-<p>Remove <code>--cov-fail-under=70</code>, commit and push. Green again.</p>
+<p>Make sure <strong>Commit directly to <code>day3-exercises</code></strong> is selected, and click <strong>Commit changes</strong>.</p>
+<p>Watch your PR - the <strong>CI Pipeline</strong> check goes red. Coverage is too low.</p>
+<p>Edit the file again, remove <code>--cov-fail-under=70</code>, and commit. Green again.</p>
 <div class="admonition success">
 <p class="admonition-title">You have seen how a team enforces a coverage quality gate.</p>
 </div>
 <hr>
 <h2 id="stage-2-failing-test">Stage 2 - Failing test</h2>
-<p>Open <code>tests/test_example.py</code> in VS Code.</p>
+<p>Open <code>tests/test_example.py</code> in GitHub. Click the pencil icon to edit.</p>
 <p>Find the assertion that checks the length of <code>sample_orders</code> and change the value so it is wrong:</p>
 <div class="highlight"><pre><span></span><code><span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">sample_orders</span><span class="p">)</span> <span class="o">==</span> <span class="mi">4</span>   <span class="c1"># was 3</span>
 </code></pre></div>
-<p>Commit and push. The <strong>CI Pipeline</strong> check goes red. A failing test blocks the PR from merging.</p>
-<p>Change <code>4</code> back to <code>3</code>, commit and push. Green again.</p>
+<p>Commit to <code>day3-exercises</code>. The <strong>CI Pipeline</strong> check goes red. A failing test blocks the PR from merging.</p>
+<p>Change <code>4</code> back to <code>3</code> and commit. Green again.</p>
 <hr>
 <h2 id="stage-3-lint-slip">Stage 3 - Lint slip</h2>
-<p>Open <code>src/techmart/cleaning.py</code> in VS Code.</p>
+<p>Open <code>src/techmart/cleaning.py</code> in GitHub. Click the pencil icon to edit.</p>
 <p>Add this line after the existing imports:</p>
 <div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
 </code></pre></div>
-<p>Commit and push. The <strong>Lint</strong> check goes red. Click into the failed check on GitHub to read what ruff found.</p>
-<p>Delete the <code>import os</code> line, commit and push. Green again.</p>
+<p>Commit to <code>day3-exercises</code>. The <strong>Lint</strong> check goes red. Click into the failed check to read what ruff found.</p>
+<p>Delete the <code>import os</code> line and commit. Green again.</p>
 <div class="admonition success">
 <p class="admonition-title">Both checks green. Your PR is ready to merge.</p>
 </div><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
