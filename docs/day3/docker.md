@@ -1,105 +1,70 @@
-# Activity: Run an app in Docker Desktop
+# Activity: Run the Pipeline in Docker
 
-**Learning outcome:**
+You have tested and linted the TechMart pipeline. In this activity you will package it into a Docker container and run it in a completely isolated environment.
 
-- Understand the Docker images, containers, and port mapping by doing a quick hands-on task.
-
-## Step 1: Docker Desktop
-
-- Docker pulls a packaged app (an image)
-- Docker starts a running instance of that image (a container)
-
-## Step 2: Explore Docker Desktop
-
-- Open `Docker Desktop` in your Virtual Machine
-
-- In the top search bar, search for: `nginx`
-
-!!! info "`nginx` is a small web server image, very stable."
-
-- Click `nginx` ~ the Docker Official Image (it should be the first option)
-
-!!! quote ""
-    ![search for nginx](../img/docker-search.png)
-
-## Step 3: Pull the Docker image
-
-- Click `Pull` on the selected `nginx` official Docker image
-
-!!! info "This downloads the image to your local machine"
-
-## Step 4: Run the Docker image
-
-- Click `Run` on the selected `nginx` official Docker image
-
-!!! info "This runs the downloaded `nginx` Docker image"
-
-- Click the down arrow to expand the **Optional settings**
-
-- Change the `Host port` to: `8080`
-
-- Then click `Run`
-
-!!! quote ""
-    ![search for nginx](../img/nginx-options.png)
-
-## Step 5: Open a browser
-
-- Open a browser
-
-- Enter the URL: http://localhost:8080/
-
-!!! quote ""
-    ![search for nginx](../img/nginx-welcome.png)
-
-!!! success "You now have a WebServer runing in a container on your Virtual Machine!"
-
-## Step 6: Add your own code
-
-- Under Containers on the right menu, find `nginx`
-
-- Click `Files`
-
-- Navigate to: `/usr/share/nginx/html/`
-
-- Click the `index.html` file
-
-- Click `Open file editor`
-
-!!! quote ""
-    ![search for nginx](../img/nginx-edit-index.png)
-
-Replace the current html code with this code:
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello Docker</title>
-  </head>
-  <body>
-    <h1>Hello from Docker!</h1>
-    <p>This page is being served from inside a container.</p>
-  </body>
-</html>
-```
-
-- Click the :material-content-save: `Save changes` icon
-
-- Refresh your browser page to see your changes
-
-!!! quote ""
-    ![search for nginx](../img/nginx-custom-index.png)
-
-!!! success "You now have a WebServer running custom code in a container."
+Follow along if you are comfortable - otherwise watch and ask questions.
 
 ---
 
-## Cleanup
+## Step 1: Inspect the Dockerfile
 
-- Stop the container from running by clicking the `Stop` button
+The project already includes a `Dockerfile` at the root. Open it in VS Code and read through it:
 
-- You can also **delete the Container**
+```dockerfile
+FROM python:3.11-slim
+WORKDIR /app
+COPY pyproject.toml .
+COPY src/ ./src/
+COPY data/ ./data/
+RUN pip install --no-cache-dir .
+ENTRYPOINT ["python", "-m", "techmart"]
+CMD ["data/orders.csv"]
+```
 
-- Then you can **delete the Docker image** to free up space
+Each line is an instruction Docker follows to build the image:
 
+| Line | What it does |
+|---|---|
+| `FROM` | Starts from an official Python image - no need to install Python yourself |
+| `WORKDIR` | Sets the working directory inside the container |
+| `COPY pyproject.toml` | Copies the package definition in |
+| `COPY src/ data/` | Copies your code and sample data in |
+| `RUN pip install .` | Installs the package and its dependencies into the container |
+| `ENTRYPOINT` | The command that always runs when the container starts |
+| `CMD` | The default argument passed to the entrypoint |
+
+---
+
+## Step 2: Build the image
+
+In Git Bash, from the root of your project:
+
+```bash
+docker build -t techmart-pipeline .
+```
+
+Docker works through each instruction in order. You will see it pull the base image, install dependencies, and copy your files.
+
+---
+
+## Step 3: Run the container
+
+```bash
+docker run --rm techmart-pipeline
+```
+
+You should see:
+
+```
+Pipeline complete: 8 orders processed.
+```
+
+The pipeline ran inside an isolated container - no Python installation on the host required. The `--rm` flag removes the container automatically once it finishes.
+
+---
+
+## Step 4: Check Docker Desktop
+
+Open Docker Desktop. Under **Images** you will see `techmart-pipeline`. Under **Containers** you will not see anything - it was automatically cleaned up by `--rm`.
+
+This is the same code you have been writing, testing, and linting all morning - now packaged and portable.

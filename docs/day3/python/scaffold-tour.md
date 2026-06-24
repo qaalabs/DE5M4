@@ -20,7 +20,19 @@ Expand `src/` then `techmart/`. You will see four files.
 
 2. Open `__main__.py`.
 
-    This is the entry point - it wires the modules together into a runnable pipeline. Having this file is what allows you to run the package with `python -m techmart orders.csv`.
+    This is the entry point - it wires the modules together into a runnable pipeline. Having this file is what allows you to run the package with `python -m techmart data/orders.csv`.
+
+    Try it now in the VS Code terminal:
+
+    ```bash
+    python -m techmart data/orders.csv
+    ```
+
+    You should see:
+
+    ```
+    Pipeline complete: 8 orders processed.
+    ```
 
 3. Open `cleaning.py`.
 

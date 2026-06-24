@@ -28,7 +28,23 @@ Go to: **https://github.com/QAADE5/techmart-pipeline-template**
 
 ---
 
-## Step 3: Create a branch
+## Step 3: Protect the main branch
+
+In a real team, nobody pushes directly to `main` - all changes go through a pull request. You can enforce that rule in GitHub.
+
+In your repo, go to **Settings > Branches**. Under **Branch protection rules**, click **Add classic branch protection rule**.
+
+- **Branch name pattern:** `main`
+- Tick **Require a pull request before merging**
+- Untick **Require approvals** (it is on by default - you are working alone so there is nobody to approve)
+
+Click **Create**.
+
+From now on, GitHub will block any direct commit to `main` and require changes to come in via PR.
+
+---
+
+## Step 4: Create a branch
 
 In your new repo, click the branch dropdown (it shows `main`) and type a new branch name:
 
@@ -40,7 +56,19 @@ Press **Enter** to create it.
 
 ---
 
-## Step 4: Open a pull request
+## Step 4: Edit the README
+
+!!! note "You need at least one commit on `day3-exercises` before GitHub will let you open a pull request."
+
+In your new repo, make sure you are on the `day3-exercises` branch, then open `README.md` and click the pencil icon to edit.
+
+Find the three placeholder lines that contains `YOUR_USERNAME/YOUR_REPO` and replace both parts with your actual GitHub username and repo name.
+
+Scroll down, make sure **Commit directly to `day3-exercises`** is selected, and click **Commit changes**.
+
+---
+
+## Step 5: Open a pull request
 
 1. Click the **Compare & pull request** button that appears, or go to **Pull requests > New pull request**.
 
@@ -54,7 +82,7 @@ The two CI checks will start running. Wait until both are green before continuin
 
 ---
 
-## Step 5: Clone the repo to your VM
+## Step 6: Clone the repo to your VM
 
 Open **Git Bash** in your VM.
 
@@ -76,11 +104,19 @@ git checkout day3-exercises
 
 ---
 
-## Step 6: Install the dependencies
+## Step 7: Install the dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
+
+This installs the dev tools: pytest, pytest-cov, ruff, and flake8.
+
+```bash
+pip install -e .
+```
+
+This installs the package itself (including pandas, declared in `pyproject.toml`). The `-e` flag installs it in editable mode - Python can now find `techmart` as an importable package, and any changes you make to the code take effect immediately without reinstalling.
 
 !!! note "Virtual environments"
     - In a real project you would create a virtual environment before installing.
@@ -88,7 +124,7 @@ pip install -r requirements.txt
 
 ---
 
-## Step 7: Open in VS Code
+## Step 8: Open in VS Code
 
 ```bash
 code .
