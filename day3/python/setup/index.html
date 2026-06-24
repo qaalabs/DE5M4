@@ -1028,10 +1028,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-3-create-a-branch" class="md-nav__link">
+  <a href="#step-3-protect-the-main-branch" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 3: Create a branch
+        Step 3: Protect the main branch
       
     </span>
   </a>
@@ -1039,10 +1039,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-4-open-a-pull-request" class="md-nav__link">
+  <a href="#step-4-create-a-branch" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 4: Open a pull request
+        Step 4: Create a branch
       
     </span>
   </a>
@@ -1050,10 +1050,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-5-clone-the-repo-to-your-vm" class="md-nav__link">
+  <a href="#step-4-edit-the-readme" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 5: Clone the repo to your VM
+        Step 4: Edit the README
       
     </span>
   </a>
@@ -1061,10 +1061,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-6-install-the-dependencies" class="md-nav__link">
+  <a href="#step-5-open-a-pull-request" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 6: Install the dependencies
+        Step 5: Open a pull request
       
     </span>
   </a>
@@ -1072,10 +1072,32 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-7-open-in-vs-code" class="md-nav__link">
+  <a href="#step-6-clone-the-repo-to-your-vm" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 7: Open in VS Code
+        Step 6: Clone the repo to your VM
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-7-install-the-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7: Install the dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-8-open-in-vs-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 8: Open in VS Code
       
     </span>
   </a>
@@ -1533,13 +1555,32 @@
 <p class="admonition-title">You now have your own copy of the project.</p>
 </div>
 <hr>
-<h2 id="step-3-create-a-branch">Step 3: Create a branch</h2>
+<h2 id="step-3-protect-the-main-branch">Step 3: Protect the main branch</h2>
+<p>In a real team, nobody pushes directly to <code>main</code> - all changes go through a pull request. You can enforce that rule in GitHub.</p>
+<p>In your repo, go to <strong>Settings &gt; Branches</strong>. Under <strong>Branch protection rules</strong>, click <strong>Add classic branch protection rule</strong>.</p>
+<ul>
+<li><strong>Branch name pattern:</strong> <code>main</code></li>
+<li>Tick <strong>Require a pull request before merging</strong></li>
+<li>Untick <strong>Require approvals</strong> (it is on by default - you are working alone so there is nobody to approve)</li>
+</ul>
+<p>Click <strong>Create</strong>.</p>
+<p>From now on, GitHub will block any direct commit to <code>main</code> and require changes to come in via PR.</p>
+<hr>
+<h2 id="step-4-create-a-branch">Step 4: Create a branch</h2>
 <p>In your new repo, click the branch dropdown (it shows <code>main</code>) and type a new branch name:</p>
 <div class="highlight"><pre><span></span><code>day3-exercises
 </code></pre></div>
 <p>Press <strong>Enter</strong> to create it.</p>
 <hr>
-<h2 id="step-4-open-a-pull-request">Step 4: Open a pull request</h2>
+<h2 id="step-4-edit-the-readme">Step 4: Edit the README</h2>
+<div class="admonition note">
+<p class="admonition-title">You need at least one commit on <code>day3-exercises</code> before GitHub will let you open a pull request.</p>
+</div>
+<p>In your new repo, make sure you are on the <code>day3-exercises</code> branch, then open <code>README.md</code> and click the pencil icon to edit.</p>
+<p>Find the three placeholder lines that contains <code>YOUR_USERNAME/YOUR_REPO</code> and replace both parts with your actual GitHub username and repo name.</p>
+<p>Scroll down, make sure <strong>Commit directly to <code>day3-exercises</code></strong> is selected, and click <strong>Commit changes</strong>.</p>
+<hr>
+<h2 id="step-5-open-a-pull-request">Step 5: Open a pull request</h2>
 <ol>
 <li>
 <p>Click the <strong>Compare &amp; pull request</strong> button that appears, or go to <strong>Pull requests &gt; New pull request</strong>.</p>
@@ -1556,7 +1597,7 @@
 <p class="admonition-title">Both checks green - you have a healthy baseline.</p>
 </div>
 <hr>
-<h2 id="step-5-clone-the-repo-to-your-vm">Step 5: Clone the repo to your VM</h2>
+<h2 id="step-6-clone-the-repo-to-your-vm">Step 6: Clone the repo to your VM</h2>
 <p>Open <strong>Git Bash</strong> in your VM.</p>
 <p>Clone your repo (replace <code>YOUR_USERNAME</code> with your GitHub username):</p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/YOUR_USERNAME/techmart-pipeline.git
@@ -1567,9 +1608,13 @@
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>checkout<span class="w"> </span>day3-exercises
 </code></pre></div>
 <hr>
-<h2 id="step-6-install-the-dependencies">Step 6: Install the dependencies</h2>
+<h2 id="step-7-install-the-dependencies">Step 7: Install the dependencies</h2>
 <div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
 </code></pre></div>
+<p>This installs the dev tools: pytest, pytest-cov, ruff, and flake8.</p>
+<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span>.
+</code></pre></div>
+<p>This installs the package itself (including pandas, declared in <code>pyproject.toml</code>). The <code>-e</code> flag installs it in editable mode - Python can now find <code>techmart</code> as an importable package, and any changes you make to the code take effect immediately without reinstalling.</p>
 <div class="admonition note">
 <p class="admonition-title">Virtual environments</p>
 <ul>
@@ -1578,7 +1623,7 @@
 </ul>
 </div>
 <hr>
-<h2 id="step-7-open-in-vs-code">Step 7: Open in VS Code</h2>
+<h2 id="step-8-open-in-vs-code">Step 8: Open in VS Code</h2>
 <div class="highlight"><pre><span></span><code>code<span class="w"> </span>.
 </code></pre></div>
 <p>VS Code will open with the project loaded. You are ready for the next activity.</p><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">

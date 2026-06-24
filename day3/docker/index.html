@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#activity-run-an-app-in-docker-desktop" class="md-skip">
+        <a href="#activity-run-the-pipeline-in-docker" class="md-skip">
           Skip to content
         </a>
       
@@ -1202,10 +1202,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#step-1-docker-desktop" class="md-nav__link">
+  <a href="#step-1-inspect-the-dockerfile" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 1: Docker Desktop
+        Step 1: Inspect the Dockerfile
       
     </span>
   </a>
@@ -1213,10 +1213,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-2-explore-docker-desktop" class="md-nav__link">
+  <a href="#step-2-build-the-image" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 2: Explore Docker Desktop
+        Step 2: Build the image
       
     </span>
   </a>
@@ -1224,10 +1224,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-3-pull-the-docker-image" class="md-nav__link">
+  <a href="#step-3-run-the-container" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 3: Pull the Docker image
+        Step 3: Run the container
       
     </span>
   </a>
@@ -1235,43 +1235,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-4-run-the-docker-image" class="md-nav__link">
+  <a href="#step-4-check-docker-desktop" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 4: Run the Docker image
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-5-open-a-browser" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Step 5: Open a browser
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-6-add-your-own-code" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Step 6: Add your own code
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cleanup" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cleanup
+        Step 4: Check Docker Desktop
       
     </span>
   </a>
@@ -1506,137 +1473,78 @@
 
 
 
-<h1 id="activity-run-an-app-in-docker-desktop">Activity: Run an app in Docker Desktop</h1>
-<p><strong>Learning outcome:</strong></p>
-<ul>
-<li>Understand the Docker images, containers, and port mapping by doing a quick hands-on task.</li>
-</ul>
-<h2 id="step-1-docker-desktop">Step 1: Docker Desktop</h2>
-<ul>
-<li>Docker pulls a packaged app (an image)</li>
-<li>Docker starts a running instance of that image (a container)</li>
-</ul>
-<h2 id="step-2-explore-docker-desktop">Step 2: Explore Docker Desktop</h2>
-<ul>
-<li>
-<p>Open <code>Docker Desktop</code> in your Virtual Machine</p>
-</li>
-<li>
-<p>In the top search bar, search for: <code>nginx</code></p>
-</li>
-</ul>
-<div class="admonition info">
-<p class="admonition-title"><code>nginx</code> is a small web server image, very stable.</p>
-</div>
-<ul>
-<li>Click <code>nginx</code> ~ the Docker Official Image (it should be the first option)</li>
-</ul>
-<div class="admonition quote">
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../img/docker-search.png" data-desc-position="bottom"><img alt="search for nginx" src="../../img/docker-search.png"></a></p>
-</div>
-<h2 id="step-3-pull-the-docker-image">Step 3: Pull the Docker image</h2>
-<ul>
-<li>Click <code>Pull</code> on the selected <code>nginx</code> official Docker image</li>
-</ul>
-<div class="admonition info">
-<p class="admonition-title">This downloads the image to your local machine</p>
-</div>
-<h2 id="step-4-run-the-docker-image">Step 4: Run the Docker image</h2>
-<ul>
-<li>Click <code>Run</code> on the selected <code>nginx</code> official Docker image</li>
-</ul>
-<div class="admonition info">
-<p class="admonition-title">This runs the downloaded <code>nginx</code> Docker image</p>
-</div>
-<ul>
-<li>
-<p>Click the down arrow to expand the <strong>Optional settings</strong></p>
-</li>
-<li>
-<p>Change the <code>Host port</code> to: <code>8080</code></p>
-</li>
-<li>
-<p>Then click <code>Run</code></p>
-</li>
-</ul>
-<div class="admonition quote">
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../img/nginx-options.png" data-desc-position="bottom"><img alt="search for nginx" src="../../img/nginx-options.png"></a></p>
-</div>
-<h2 id="step-5-open-a-browser">Step 5: Open a browser</h2>
-<ul>
-<li>
-<p>Open a browser</p>
-</li>
-<li>
-<p>Enter the URL: <a href="http://localhost:8080/">http://localhost:8080/</a></p>
-</li>
-</ul>
-<div class="admonition quote">
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../img/nginx-welcome.png" data-desc-position="bottom"><img alt="search for nginx" src="../../img/nginx-welcome.png"></a></p>
-</div>
-<div class="admonition success">
-<p class="admonition-title">You now have a WebServer runing in a container on your Virtual Machine!</p>
-</div>
-<h2 id="step-6-add-your-own-code">Step 6: Add your own code</h2>
-<ul>
-<li>
-<p>Under Containers on the right menu, find <code>nginx</code></p>
-</li>
-<li>
-<p>Click <code>Files</code></p>
-</li>
-<li>
-<p>Navigate to: <code>/usr/share/nginx/html/</code></p>
-</li>
-<li>
-<p>Click the <code>index.html</code> file</p>
-</li>
-<li>
-<p>Click <code>Open file editor</code></p>
-</li>
-</ul>
-<div class="admonition quote">
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../img/nginx-edit-index.png" data-desc-position="bottom"><img alt="search for nginx" src="../../img/nginx-edit-index.png"></a></p>
-</div>
-<p>Replace the current html code with this code:</p>
-<div class="highlight"><pre><span></span><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
-<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Hello Docker<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
-  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Hello from Docker!<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>This page is being served from inside a container.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
-</code></pre></div>
-<ul>
-<li>
-<p>Click the <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 9H5V5h10m-3 14a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3m5-16H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7z"></path></svg></span> <code>Save changes</code> icon</p>
-</li>
-<li>
-<p>Refresh your browser page to see your changes</p>
-</li>
-</ul>
-<div class="admonition quote">
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../img/nginx-custom-index.png" data-desc-position="bottom"><img alt="search for nginx" src="../../img/nginx-custom-index.png"></a></p>
-</div>
-<div class="admonition success">
-<p class="admonition-title">You now have a WebServer running custom code in a container.</p>
-</div>
+<h1 id="activity-run-the-pipeline-in-docker">Activity: Run the Pipeline in Docker</h1>
+<p>You have tested and linted the TechMart pipeline. In this activity you will package it into a Docker container and run it in a completely isolated environment.</p>
+<p>Follow along if you are comfortable - otherwise watch and ask questions.</p>
 <hr>
-<h2 id="cleanup">Cleanup</h2>
-<ul>
-<li>
-<p>Stop the container from running by clicking the <code>Stop</code> button</p>
-</li>
-<li>
-<p>You can also <strong>delete the Container</strong></p>
-</li>
-<li>
-<p>Then you can <strong>delete the Docker image</strong> to free up space</p>
-</li>
-</ul><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
+<h2 id="step-1-inspect-the-dockerfile">Step 1: Inspect the Dockerfile</h2>
+<p>The project already includes a <code>Dockerfile</code> at the root. Open it in VS Code and read through it:</p>
+<div class="highlight"><pre><span></span><code><span class="k">FROM</span><span class="w"> </span><span class="s">python:3.11-slim</span>
+<span class="k">WORKDIR</span><span class="w"> </span><span class="s">/app</span>
+<span class="k">COPY</span><span class="w"> </span>pyproject.toml<span class="w"> </span>.
+<span class="k">COPY</span><span class="w"> </span>src/<span class="w"> </span>./src/
+<span class="k">COPY</span><span class="w"> </span>data/<span class="w"> </span>./data/
+<span class="k">RUN</span><span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>--no-cache-dir<span class="w"> </span>.
+<span class="k">ENTRYPOINT</span><span class="w"> </span><span class="p">[</span><span class="s2">"python"</span><span class="p">,</span><span class="w"> </span><span class="s2">"-m"</span><span class="p">,</span><span class="w"> </span><span class="s2">"techmart"</span><span class="p">]</span>
+<span class="k">CMD</span><span class="w"> </span><span class="p">[</span><span class="s2">"data/orders.csv"</span><span class="p">]</span>
+</code></pre></div>
+<p>Each line is an instruction Docker follows to build the image:</p>
+<table>
+<thead>
+<tr>
+<th>Line</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>FROM</code></td>
+<td>Starts from an official Python image - no need to install Python yourself</td>
+</tr>
+<tr>
+<td><code>WORKDIR</code></td>
+<td>Sets the working directory inside the container</td>
+</tr>
+<tr>
+<td><code>COPY pyproject.toml</code></td>
+<td>Copies the package definition in</td>
+</tr>
+<tr>
+<td><code>COPY src/ data/</code></td>
+<td>Copies your code and sample data in</td>
+</tr>
+<tr>
+<td><code>RUN pip install .</code></td>
+<td>Installs the package and its dependencies into the container</td>
+</tr>
+<tr>
+<td><code>ENTRYPOINT</code></td>
+<td>The command that always runs when the container starts</td>
+</tr>
+<tr>
+<td><code>CMD</code></td>
+<td>The default argument passed to the entrypoint</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="step-2-build-the-image">Step 2: Build the image</h2>
+<p>In Git Bash, from the root of your project:</p>
+<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>build<span class="w"> </span>-t<span class="w"> </span>techmart-pipeline<span class="w"> </span>.
+</code></pre></div>
+<p>Docker works through each instruction in order. You will see it pull the base image, install dependencies, and copy your files.</p>
+<hr>
+<h2 id="step-3-run-the-container">Step 3: Run the container</h2>
+<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>run<span class="w"> </span>--rm<span class="w"> </span>techmart-pipeline
+</code></pre></div>
+<p>You should see:</p>
+<div class="highlight"><pre><span></span><code>Pipeline complete: 8 orders processed.
+</code></pre></div>
+<p>The pipeline ran inside an isolated container - no Python installation on the host required. The <code>--rm</code> flag removes the container automatically once it finishes.</p>
+<hr>
+<h2 id="step-4-check-docker-desktop">Step 4: Check Docker Desktop</h2>
+<p>Open Docker Desktop. Under <strong>Images</strong> you will see <code>techmart-pipeline</code>. Under <strong>Containers</strong> you will not see anything - it was automatically cleaned up by <code>--rm</code>.</p>
+<p>This is the same code you have been writing, testing, and linting all morning - now packaged and portable.</p><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
   <!-- mkdocs-quiz progress sidebar (desktop) -->
   <label class="md-nav__title">
     <span class="md-nav__icon md-icon"></span>

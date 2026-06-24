@@ -1488,7 +1488,13 @@
 </li>
 <li>
 <p>Open <code>__main__.py</code>.</p>
-<p>This is the entry point - it wires the modules together into a runnable pipeline. Having this file is what allows you to run the package with <code>python -m techmart orders.csv</code>.</p>
+<p>This is the entry point - it wires the modules together into a runnable pipeline. Having this file is what allows you to run the package with <code>python -m techmart data/orders.csv</code>.</p>
+<p>Try it now in the VS Code terminal:</p>
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>-m<span class="w"> </span>techmart<span class="w"> </span>data/orders.csv
+</code></pre></div>
+<p>You should see:</p>
+<div class="highlight"><pre><span></span><code>Pipeline complete: 8 orders processed.
+</code></pre></div>
 </li>
 <li>
 <p>Open <code>cleaning.py</code>.</p>
