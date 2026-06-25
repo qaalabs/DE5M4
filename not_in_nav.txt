@@ -1,0 +1,4 @@
+day1/agile/scenario-a.md
+day1/agile/scenario-b.md
+day1/agile/scenario-c.md
+day1/agile/scenario-d.md
