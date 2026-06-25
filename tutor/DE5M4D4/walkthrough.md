@@ -1,54 +1,67 @@
-## Collective Investigation
+## Demo costing calculators
 
-### Use lab to show how a VM is chosen
+- <span style="background-color: orange;">Share the GitHub pages link - it has all the info needed</span>
 
-https://app.qa.com/lab/creating-virtual-machine-google-compute-engine/
-
-### Then demo costing calculators
+### Requirements
 
 **"Hello World" Data Pipeline - for just 2 services:**
 
 - Storage: 500GB of data files
-- Compute: Small virtual machine running 2 hours per day
+- Compute: Medium virtual machine running 2 hours per day
 
-**Done for the main 3 cloud providers:**
+### Done for the main 3 cloud providers:
 
 - AWS ~ https://calculator.aws/
 - Azure ~ https://azure.microsoft.com/en-gb/pricing/calculator/
 - GCP ~ https://cloud.google.com/products/calculator
 
-Then quick discussion: "Which was cheapest? Why might they differ?"
+<mark>Instructions for each cloud provider are below </mark>🔻
+
+*End with a quick discussion: "Which was cheapest? Why might they differ?"*
 
 ---
 
-## AWS (7 mins)
+## AWS
 
-- Open calculator together
-- "Let's find storage... search 'S3'..."
+- Storage: Search S3
 - Add: 500GB Standard storage
-- "Now let's find compute... search 'EC2'..."
-- Add: t3.small (2 vCPU, 2GB RAM), 2 hours/day, Linux
-- Look at total together
+- Compute: Search EC2
+- Add: t3.medium (2 vCPU, 4GB RAM)
+- Operation System: Linux
+- Payment options: On-Demand
+- Expected utilization: 2 Hours / Day
+
+Should be about: **$14.03 per month** / $168.36 annually
 
 🔽
 
 ---
 
-## Azure (7 mins):
+## Azure
 
-- "Your turn - who can find Blob Storage?"
-- Add: 500GB Standard
-- "Now find Virtual Machines..."
-- Add: B2s (2 vCPU, 4GB RAM), 2 hours/day
-- Look at total together
+- Add to estimate: Storage Accounts
+- Capacity: 500GB Standard
+- Add to estimate: Virtual Machines
+- Operation System: Linux
+- Select: Bs-series ~ B2s: 2 Cores, 4 GB RAM
+- Select: 60 Hours (2 hours / Day)
+
+Should be about: **$13.94 per month** / $167.28 annually
 
 🔽
 
 ---
 
-## GCP (6 mins):
+## GCP
 
-- Go faster now they've seen the pattern
-- Cloud Storage: 500GB Standard
-- Compute Engine: e2-small, 2 hours/day
-- Look at total together
+- Add to estimate: Cloud Storage
+- Total amount of storage: 500 GiB
+- Add to estimate: Compute Engine
+- Total instance usage time: 2 hours per day 
+- Operation System: Free BYOL (Bring You Own Licence)
+- Machine Type: E2 ~ Day-to-day computing at a lower cost
+- Custom: 2VPUs / 4 GiB memory
+
+
+Should be about: **$14.43 per month** / $167.28 annually
+
