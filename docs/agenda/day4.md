@@ -3,6 +3,7 @@
 ## Session 1
 
 - 🌅 Welcome to Day 4 of DE5 Module 4
+- CREATE-VM-GCP
 - **Investigation**: [Cloud Pricing Calculators](../day4/costing/calculators.md)
 - **Breakout**: [More Complex Calculations](../day4/costing/scenarios.md)
 - **Report-Back**: Complex Calculations
