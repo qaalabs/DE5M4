@@ -1,6 +1,6 @@
 # Lab: Create Your First Amazon S3 Bucket
 
-Duration **50m** ~ *On average, students complete this lab in **25m***
+Maximum **50 minutes** ~ *On average, students complete this lab in **25 minutes***
 
 ### Description
 Amazon Simple Storage Service (S3) provides secure, durable, and highly scalable object storage. To upload data such as photos, videos, and static documents, you must first create a logical storage bucket in one of the AWS regions. Then you can upload any number of objects to it. Buckets and objects are resources, and Amazon S3 provides both APIs and a web console to manage them.

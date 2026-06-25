@@ -1,6 +1,6 @@
 # Lab: Understanding Core Azure Storage Products
 
-Duration **1h** ~ *On average, students complete this lab in **20m***
+Maximum **1 hour** ~ *On average, students complete this lab in **20 minutes***
 
 ### Description
 To build a strong foundation for using Microsoft's Azure platform you should understand some of the core storage products. The core storage products covered in this lab will play an important role in your journey with Azure. Indeed many services in Azure itself are built on top of the core storage products that you will learn about in this lab. 

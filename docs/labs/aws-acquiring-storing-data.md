@@ -1,6 +1,6 @@
 # Lab: Acquiring and Storing Data in Python (AWS)
 
-Duration **1h** ~ *On average, students complete this lab in **20m***
+Maximum **1 hour** ~ *On average, students complete this lab in **20 minutes***
 
 ### Description
 Utilizing APIs to query and store data is the heart of most web applications. This lab is aimed at students, with a moderate understanding of Python, who want to understand how to query an API, manipulate the data and store that data into a database with a more advanced schema. This lab demonstrates the advanced processing of JSON data into multiple tables, highlighting the capabilities of Python for efficient data processing.

@@ -1,6 +1,6 @@
 # Lab: Working with Google Cloud Storage from the Console
 
-Duration **1h 15m** ~ *On average, students complete this lab in **30m***
+Maximum **75 minutes** ~ *On average, students complete this lab in **30 minutes***
 
 ### Description
 Cloud Storage is Google Cloud's enterprise-ready storage service for unstructured data. Examples of when you would use Cloud Storage include content storage and delivery, a data store for analytics and machine learning workloads, as well as storing backups and archives. Cloud Storage can:
