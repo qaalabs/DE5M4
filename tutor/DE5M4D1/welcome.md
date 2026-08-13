@@ -16,7 +16,7 @@
 - Data normalization
 - Python for data processing
 
-**Day 4: Integration Project**
+**Day 4: Presentations**
 
 ---
 
@@ -41,4 +41,5 @@
 - Data normalization
 - Python for data processing
 
-## Day 4: Integration Project
+## Day 4:Integration Presentations 
+
