@@ -1,4 +1,4 @@
-# Day 3 - Database Design & Python
+# Day 3 ~ Database Design & Python
 
 ## Session 1
 

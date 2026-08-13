@@ -1,5 +1,6 @@
 # Site name
 site_name: Module 4 - Planning Data Engineering Product
+site_url: https://qaalabs.github.io/DE5M4/
 dev_addr: '0.0.0.0:8000'
 
 # Navigation menu
@@ -8,12 +9,13 @@ nav:
   - Module KSBs: ksb.md
 
   - Agenda:
+    - Topics: agenda/index.md
     - Day 1: agenda/day1.md
     - Day 2: agenda/day2.md
     - Day 3: agenda/day3.md
     - Day 4: agenda/day4.md
 
-  - "Day 1 - Agile Foundations":
+  - "Day 1 ~ Agile Foundations":
     - "How are products designed?": day1/agile/how-design-steps.md
     - "Apply design process to a scenario": day1/agile/scenario.md
     - "Agile artefacts": day1/agile/artefacts.md
@@ -21,7 +23,7 @@ nav:
     - "Write User Stories in groups": day1/planning/user-stories.md
     - "Plan a 2-week sprint": day1/planning/sprint-planning.md
 
-  - "Day 2 - Technical Foundation":
+  - "Day 2 ~ Technical Foundation":
     - "Lab 1 ~ Working locally with Git": day2/source-control/git-locally.md
     - "Lab 2 ~ Create a Repo in GitHub": day2/source-control/github-repo.md
     - "Lab 3 ~ Create an Issue": day2/source-control/github-create-issue.md
@@ -31,7 +33,7 @@ nav:
     - "Cloud Architecture Scenarios": day2/cloud/architecture.md
     - "Cloud Architecture": day2/cloud/scenario.md
 
-  - "Day 3 - Database Design & Python":
+  - "Day 3 ~ Database Design & Python":
     - "1. Clone Repo to the VM": day3/python/setup.md
     - "2. Explore the Project Structure": day3/python/scaffold-tour.md
     - "3. The Supporting Files": day3/python/scaffold-files.md
@@ -47,10 +49,9 @@ nav:
     - "Lab 2 ~ Core Azure Storage Products": labs/azure-storage-products.md
     - "Lab 3 ~ Google Cloud Storage": labs/google-cloud-storage.md
 
-  - "Day 4 - Integration Project":
+  - "Day 4 ~ Costing & Presentations":
     - "Cloud Pricing Calculators": day4/costing/calculators.md
     - "More Complex Calculations": day4/costing/scenarios.md
-    - "Introduce Day 4 activity": day4/product-planning.md
 
   - Resources: resources.md
 
@@ -122,7 +123,7 @@ markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
-      clickable_checkbox: false
+      clickable_checkbox: true
   - pymdownx.tilde
 
 plugins:

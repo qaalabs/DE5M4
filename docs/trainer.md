@@ -1,6 +1,6 @@
 # Trainer Notes
 
-## Day 1 - Agile Foundations
+## Day 1 ~ Agile Foundations
 
 ### Session 1
 
@@ -31,7 +31,7 @@
 
 ---
 
-## Day 2 - Technical Foundation
+## Day 2 ~ Technical Foundation
 
 ### Session 1
 
@@ -60,7 +60,7 @@
 
 ---
 
-## Day 3 - Database Design & Python
+## Day 3 ~ Database Design & Python
 
 ### Session 1
 
@@ -92,7 +92,7 @@
 
 ---
 
-## Day 4 - Integration Project
+## Day 4 ~ Costing & Presentations
 
 ### Session 1
 
@@ -103,14 +103,23 @@
 
 ### Session 2
 
+- `11:30` EPA Presentation (10 mins)
+- `11:40` Presentation Prep (40 mins)
 
 ### Session 3
 
-- `13:30` [Introduce Day 4 activity](day4/product-planning.md) (20 mins)
-- `13:50` Individual: Data Product Planning (40 mins)
+- `13:20` Presentations ~ Group 1 (30 mins)
 
 ### Session 4
 
-- `14:50` Presentations: Data Product Planning (50 mins)
+- `14:00` Presentations ~ Group 2 (30 mins)
+
+### Session 5
+
+- `14:40` Presentations ~ Group 3 (30 mins)
+
+### Session 6
+
+- `15:20` Presentations ~ Group 4 (20 mins)
 
 ---

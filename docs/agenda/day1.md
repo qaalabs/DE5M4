@@ -1,9 +1,9 @@
-# Day 1 - Agile Foundations
+# Day 1 ~ Agile Foundations
 
 ## Session 1
 
 - 🌅 Welcome to Day 1 of DE5 Module 4
-- 🖥️ VM Setup
+- **Slides**: 🖥️ VM Setup
 - **Discussion**: I want to build a wall ...
 - Learners introduce themselves
 

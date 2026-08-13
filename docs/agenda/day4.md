@@ -1,4 +1,4 @@
-# Day 4 - Integration Project
+# Day 4 ~ Costing & Presentations
 
 ## Session 1
 
@@ -13,19 +13,32 @@
 ## Session 2
 
 - 
+- EPA Presentation
+- Presentation Prep
 
 ## 🥪🥤 Lunch Break
 
 ## Session 3
 
-- [Introduce Day 4 activity](../day4/product-planning.md)
-- Individual: Data Product Planning
+- Presentations ~ Group 1
 
 ## ☕ Afternoon Break
 
 ## Session 4
 
-- Presentations: Data Product Planning
+- Presentations ~ Group 2
+
+## ☕ Afternoon Break
+
+## Session 5
+
+- Presentations ~ Group 3
+
+## ☕ Afternoon Break
+
+## Session 6
+
+- Presentations ~ Group 4
 - **Activity**: 💯 Evaluation
 
 ## 🎁 Wrap

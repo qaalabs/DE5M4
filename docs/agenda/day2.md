@@ -1,4 +1,4 @@
-# Day 2 - Technical Foundation
+# Day 2 ~ Technical Foundation
 
 ## Session 1
 
