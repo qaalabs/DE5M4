@@ -1,4 +1,4 @@
-## <mark>Each group creates a Conceptual Data Model</mark>
+## <mark>⚒️ Each group creates a Conceptual Data Model</mark>
 
 ### Instructions
 

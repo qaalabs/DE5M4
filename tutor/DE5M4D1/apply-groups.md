@@ -1,7 +1,6 @@
-## <mark>Breakout into groups to apply design steps</mark>
+## <mark>⚒️ Breakout into groups to apply design steps</mark>
 
-### Task
-Using the design process your group created, outline how you would approach this specific project.
+Using design process your group created, outline how you would approach this specific project.
 
 - What would be your first three phases?
 - List 3 or 4 specific activities for each phase.

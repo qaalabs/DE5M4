@@ -1,2 +1,2 @@
-## <mark>Breakout into groups to discuss product design</mark>
+## <mark>⚒️ Breakout into groups to discuss product design</mark>
 

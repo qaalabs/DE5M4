@@ -1,4 +1,4 @@
-## <mark>Groups evolve their conceptual model into a logical model</mark>
+## <mark>⚒️ Groups evolve conceptual model into a logical model</mark>
 
 ### Instructions
 

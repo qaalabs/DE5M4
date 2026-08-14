@@ -1,4 +1,5 @@
-### 13:10  Requirements Analysis
+#### Session 3
 
-- <mark>Requires a Google Doc ~ 1 per Group</mark>
+- 13:10  Requirements Analysis
+- Uses https://notes.qaalabs.com/s/de5m4-erd-group-X
 

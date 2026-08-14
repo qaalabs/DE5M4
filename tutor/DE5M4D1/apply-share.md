@@ -1,4 +1,4 @@
-## <mark>Each group shares what they would do</mark>
+## <mark>💬 Each group shares what they would do</mark>
 
 ### Allocated Scenarios
 
@@ -8,6 +8,8 @@
 - Scenario D - Financial Services
 
 *See below for what to emphasise*
+
+🔻
 
 ---
 

@@ -59,6 +59,38 @@ Click: **Create repository**
 - Paste the URL to your repository into the chat
 - Click on another persons link to see their repository
 
+### Step 7: GitHub renders Mermaid diagrams
+
+- Add a new file: `erd-demo.md`
+- Paste in the following and commit the file:
+
+```text
+erDiagram
+    AUTHOR {
+        int author_id PK
+        string name
+    }
+    BOOK {
+        int book_id PK
+        int author_id FK
+        string title
+    }
+    AUTHOR ||--o{ BOOK : writes
+```
+
+- Wrap it in a mermaid code fence:
+
+````text
+```mermaid
+erDiagram
+    AUTHOR ||--o{ BOOK : writes
+```
+````
+
+!!! info "Mermaid is just text. GitHub renders it into a diagram automatically wherever it appears in a `.md` file - no extra tools needed."
+
+- You'll use this same syntax to build your own Entity-Relationship Diagram on Day 3
+
 ---
 
 ## Reflective / Discussion Questions

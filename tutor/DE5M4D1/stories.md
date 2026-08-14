@@ -1,4 +1,4 @@
-## <mark>Breakout into groups to create User Stories</mark>
+## <mark>⚒️ Breakout into groups to create User Stories</mark>
 
 ### Deliverable
 

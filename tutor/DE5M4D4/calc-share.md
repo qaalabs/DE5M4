@@ -1,6 +1,6 @@
-## <mark>Each group shares their costings</mark>
+## <mark>💬 Each group shares their costings</mark>
 
-### Report-Back Structure
+## Report-Back Structure
 
 - Group 1: "We costed batch ETL: AWS £X, Azure £Y, GCP £Z"
 - Group 2: "Streaming was more expensive because 24/7... AWS £X, Azure £Y, GCP £Z"

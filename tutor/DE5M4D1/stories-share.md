@@ -1,4 +1,4 @@
-## <mark>Each group shares 2 or 3 User Stories they wrote</mark>
+## <mark>💬 Each group shares 2 or 3 User Stories they wrote</mark>
 
 ### Format
 

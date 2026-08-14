@@ -1,2 +1,2 @@
-## <mark>Each group shares their Entitiy-Relationship Diagram</mark>
+## <mark>💬 Each group shares their ERD</mark>
 

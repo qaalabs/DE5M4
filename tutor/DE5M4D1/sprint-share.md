@@ -1,4 +1,4 @@
-## <mark>Each group shares their 2-week sprint plan</mark>
+## <mark>💬 Each group shares their 2-week sprint plan</mark>
 
 ### Deliverable
 Each group will present their Sprint 1 plan:
