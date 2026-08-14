@@ -28,8 +28,8 @@
 
 ## Session 4
 
-- **Breakout**: [Cloud Architecture Scenarios](../day2/cloud/architecture.md)
-- **Investigation**: [Cloud Architecture](../day2/cloud/scenario.md)
+- **Instructions**: [Cloud Architecture Scenarios](../day2/cloud/architecture.md)
+- **Breakout**: [Cloud Architecture](../day2/cloud/scenario.md)
 - **Report-Back**: Cloud Architecture
 - **Discussion**: Workplace Architecture
 

@@ -4,28 +4,28 @@
 
 - 🌅 Welcome to Day 3 of DE5 Module 4
 - **Discussion**: What Breaks in Notebooks?
-- [1. Clone Repo to the VM](../day3/python/setup.md)
-- [2. Explore the Project Structure](../day3/python/scaffold-tour.md)
-- [3. The Supporting Files](../day3/python/scaffold-files.md)
-- [4. Run the Tests Locally](../day3/python/local-test.md)
+- **Activity**: [1. Clone Repo to the VM](../day3/python/setup.md)
+- **Activity**: [2. Explore the Project Structure](../day3/python/scaffold-tour.md)
+- **Activity**: [3. The Supporting Files](../day3/python/scaffold-files.md)
+- **Activity**: [4. Run the Tests Locally](../day3/python/local-test.md)
 
 ## ☕ Morning Break
 
 ## Session 2
 
-- [5. Lint Python Code](../day3/python/coverage-ruff.md)
-- [6. GitHub Actions](../day3/python/ci-bridge.md)
-- [7. Python CI Pipeline](../day3/python/python-ci.md)
+- **Activity**: [5. Lint Python Code](../day3/python/coverage-ruff.md)
+- **Activity**: [6. GitHub Actions](../day3/python/ci-bridge.md)
+- **Activity**: [7. Python CI Pipeline](../day3/python/python-ci.md)
 - **Demo**: [Docker Container](../day3/docker.md)
 
 ## 🥪🥤 Lunch Break
 
 ## Session 3
 
-- **Breakout**: [1. Requirements Analysis](../day3/storage/analysis.md)
-- **Activity**: [2. Create Conceptual Data Model](../day3/storage/conceptual.md)
+- **Instructions**: [1. Requirements Analysis](../day3/storage/analysis.md)
+- **Breakout**: [2. Create Conceptual Data Model](../day3/storage/conceptual.md)
 - **Report-Back**: Present Entity-Relationship Diagram
-- **Activity**: [3. Logical Model & Design Decisions](../day3/storage/logical.md)
+- **Breakout**: [3. Logical Model & Design Decisions](../day3/storage/logical.md)
 
 ## ☕ Afternoon Break
 

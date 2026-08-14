@@ -11,9 +11,10 @@
 
 ## Session 2
 
-- **Breakout**: How are products designed?
-- **Investigation**: [How are products designed?](../day1/agile/how-design-steps.md)
+- **Instructions**: How are products designed?
+- **Breakout**: [How are products designed?](../day1/agile/how-design-steps.md)
 - **Report-Back**: How are products designed?
+- **Instructions**: Apply design process to a scenario
 - **Breakout**: [Apply design process to a scenario](../day1/agile/scenario.md)
 - **Report-Back**: Share your design steps
 
@@ -24,6 +25,7 @@
 - **Slides**: [Agile artefacts](../day1/agile/artefacts.md)
 - **Investigation**: [Identify Epics](../day1/planning/epics.md)
 - **Discussion**: What Epics did you identify?
+- **Instructions**: Write User Stories in groups
 - **Breakout**: [Write User Stories in groups](../day1/planning/user-stories.md)
 
 ## ☕ Afternoon Break
@@ -32,6 +34,7 @@
 
 - **Report-Back**: Groups share User Stories
 - **Activity**: Play Planning Poker ⏳
+- **Instructions**: Plan a 2-week sprint
 - **Breakout**: [Plan a 2-week sprint](../day1/planning/sprint-planning.md)
 - **Report-Back**: Groups share 2-week sprint plan
 

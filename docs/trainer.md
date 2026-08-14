@@ -9,9 +9,10 @@
 
 ### Session 2
 
-- `10:50` **Breakout**: [How are products designed?](day1/agile/how-instructions.md) (10 mins)
-- `11:00` **Investigation**: [How are products designed?](day1/agile/how-design-steps.md) (20 mins)
-- `11:20` **Report-Back**: [How are products designed?](day1/agile/how-solution.md) (20 mins)
+- `10:50` **Instructions**: [How are products designed?](day1/agile/how-instructions.md) (10 mins)
+- `11:00` **Breakout**: [How are products designed?](day1/agile/how-design-steps.md) (20 mins)
+- `11:20` **Report-Back**: [How are products designed?](day1/agile/how-solution.md) (10 mins)
+- `11:30` **Instructions**: Apply design process to a scenario (10 mins)
 - `11:40` **Breakout**: [Apply design process to a scenario](day1/agile/scenario.md) (30 mins)
 - `12:10` **Report-Back**: Share your design steps (20 mins)
 
@@ -20,13 +21,15 @@
 - `13:30` **Slides**: [Agile artefacts](day1/agile/artefacts.md) (10 mins)
 - `13:40` **Investigation**: [Identify Epics](day1/planning/epics.md) (10 mins)
 - `13:50` **Discussion**: [What Epics did you identify?](day1/planning/epics-solution.md) (10 mins)
-- `14:00` **Breakout**: [Write User Stories in groups](day1/planning/user-stories.md) (30 mins)
+- `14:00` **Instructions**: Write User Stories in groups (10 mins)
+- `14:10` **Breakout**: [Write User Stories in groups](day1/planning/user-stories.md) (20 mins)
 
 ### Session 4
 
 - `14:50` **Report-Back**: [Groups share User Stories](day1/planning/possible-user-stories.md) (10 mins)
 - `15:00` **Activity**: [Play Planning Poker ⏳](day1/planning/planning-poker.md) (20 mins)
-- `15:20` **Breakout**: [Plan a 2-week sprint](day1/planning/sprint-planning.md) (20 mins)
+- `15:20` **Instructions**: Plan a 2-week sprint (10 mins)
+- `15:30` **Breakout**: [Plan a 2-week sprint](day1/planning/sprint-planning.md) (10 mins)
 - `15:40` **Report-Back**: [Groups share 2-week sprint plan](day1/planning/sprint-solution.md) (10 mins)
 
 ---
@@ -53,8 +56,8 @@
 
 ### Session 4
 
-- `14:50` **Breakout**: [Cloud Architecture Scenarios](day2/cloud/architecture.md) (10 mins)
-- `15:00` **Investigation**: [Cloud Architecture](day2/cloud/scenario.md) (20 mins)
+- `14:50` **Instructions**: [Cloud Architecture Scenarios](day2/cloud/architecture.md) (10 mins)
+- `15:00` **Breakout**: [Cloud Architecture](day2/cloud/scenario.md) (20 mins)
 - `15:20` **Report-Back**: Cloud Architecture (20 mins)
 - `15:40` **Discussion**: Workplace Architecture (10 mins)
 
@@ -65,24 +68,24 @@
 ### Session 1
 
 - `09:40` **Discussion**: [What Breaks in Notebooks?](day3/python/notebook-problem.md) (10 mins)
-- `09:50` [1. Clone Repo to the VM](day3/python/setup.md) (10 mins)
-- `10:00` [2. Explore the Project Structure](day3/python/scaffold-tour.md) (10 mins)
-- `10:10` [3. The Supporting Files](day3/python/scaffold-files.md) (10 mins)
-- `10:20` [4. Run the Tests Locally](day3/python/local-test.md) (10 mins)
+- `09:50` **Activity**: [1. Clone Repo to the VM](day3/python/setup.md) (10 mins)
+- `10:00` **Activity**: [2. Explore the Project Structure](day3/python/scaffold-tour.md) (10 mins)
+- `10:10` **Activity**: [3. The Supporting Files](day3/python/scaffold-files.md) (10 mins)
+- `10:20` **Activity**: [4. Run the Tests Locally](day3/python/local-test.md) (10 mins)
 
 ### Session 2
 
-- `10:50` [5. Lint Python Code](day3/python/coverage-ruff.md) (10 mins)
-- `11:00` [6. GitHub Actions](day3/python/ci-bridge.md) (10 mins)
-- `11:10` [7. Python CI Pipeline](day3/python/python-ci.md) (40 mins)
+- `10:50` **Activity**: [5. Lint Python Code](day3/python/coverage-ruff.md) (10 mins)
+- `11:00` **Activity**: [6. GitHub Actions](day3/python/ci-bridge.md) (10 mins)
+- `11:10` **Activity**: [7. Python CI Pipeline](day3/python/python-ci.md) (40 mins)
 - `11:50` **Demo**: [Docker Container](day3/docker.md) (20 mins)
 
 ### Session 3
 
-- `13:10` **Breakout**: [1. Requirements Analysis](day3/storage/analysis.md) (30 mins)
-- `13:40` **Activity**: [2. Create Conceptual Data Model](day3/storage/conceptual.md) (20 mins)
+- `13:10` **Instructions**: [1. Requirements Analysis](day3/storage/analysis.md) (30 mins)
+- `13:40` **Breakout**: [2. Create Conceptual Data Model](day3/storage/conceptual.md) (20 mins)
 - `14:00` **Report-Back**: Present Entity-Relationship Diagram (10 mins)
-- `14:10` **Activity**: [3. Logical Model & Design Decisions](day3/storage/logical.md) (20 mins)
+- `14:10` **Breakout**: [3. Logical Model & Design Decisions](day3/storage/logical.md) (20 mins)
 
 ### Session 4
 
