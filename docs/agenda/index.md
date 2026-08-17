@@ -1,6 +1,6 @@
 # DE5M4 - The Data Engineering Product Lifecycle
 
-## Day 1 - Agile Foundations
+## [Day 1 - Agile Foundations](../day1/agile/index.md)
 
 Day 1 sets the context for the whole module: before you build anything, you need to understand how to plan and organise the work. The Agile framework you explore today will underpin the planning work later in the week.
 
@@ -19,7 +19,7 @@ The afternoon moves from design thinking into the specific artefacts Agile teams
 - You'll identify Epics from a product scenario, then write User Stories in groups and share them back.
 - The day closes with Planning Poker - a technique for estimating effort - and a group exercise where you'll map out a two-week sprint.
 
-## Day 2 - Technical Foundation
+## [Day 2 - Technical Foundation](../day2/source-control/index.md)
 
 Day 2 covers two technical foundations that sit underneath almost everything in data engineering: version control with Git and GitHub, and cloud infrastructure.
 
