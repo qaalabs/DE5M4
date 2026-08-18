@@ -16,25 +16,29 @@
 
 ### Step 1: Setup
 
-In your VM run the program: **Git Bash** ~ the icon should be the Desktop
+In your VM run the program: **Terminal**
 
-You should now be at a prompt:
+!!! warning "Make sure that you are using **Terminal** and NOT a Windows DOS Command prompt"
+
+!!! note "If you are familiar with Unix you could use the program **GitBash** instead."
+    - But we will use Terminal for this exercise
+
+You should now be at a Windows prompt:
 
 ```sh
-Admin@STUDENT MINGW64 ~ 
-$
+PS C:\User\Admin\>
 ```
 
-At this $ prompt copy and paste the following 2 lines:
+Copy and paste the following 2 lines:
 
 ```sh
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 
-!!! note "Normally you would change the values to your email and name - but for this exercise it isn't nessessary"
+!!! note "Normally you would change the values to your email and name - but for this exercise it isn't necessary"
 
-At the $ prompt copy and paste the following line:
+At the prompt copy and paste the following line:
 
 ```sh
 git config --global init.defaultBranch main
@@ -45,37 +49,43 @@ This makes sure that the default branch is always called `main`
 
 ### Step 2: Create directory
 
+We want our project file to be on the Desktop, so first change directory to the Desktop:
+
+```sh
+cd Desktop
+```
+
 At the prompt type the command to make a directory called **my-git-project**:
 
-```none
+```sh
 mkdir my-git-project
 ```
 
 Change directory to this new directory:
 
-```none
+```sh
 cd my-git-project
 ```
 
 Show all the files including hidden files:
 
-```none
-ls -l
+```sh
+ls -Force
 ```
 
-!!! note "You should see an empty list of files"
+!!! note "You should see an empty list"
     - This confirms the directory is clean and ready for Git
 
 
 ### Step 3: Initialise Git
 
 - To start using git run: `git init`
-- Show all the files: `ls -l`
-- Show all the files, including hidden files: `ls -al`
+- Show all the files: `ls`
+- Show all the files, including hidden files: `ls -Force`
 
 !!! note "You will now see a `.git` directory"
     - This is where Git stores all the internal data it needs to track your project
-    - the dot `.` in fromt of the name automatically makes it a hidden file
+    - the dot `.` in front of the name automatically makes it a hidden file
 
 
 ### Step 4: Create a file
@@ -83,7 +93,7 @@ ls -l
 - Create your first file by running: `notepad hello.py`
 - Enter the line: `print('Hello, World!')`
 - Save and the file and close Notepad
-- At the $ prompt - show all the files, including hidden files: `ls -al`
+- At the prompt - show all the files, including hidden files: `ls -Force`
 
 
 ### Step 5: See the status
@@ -121,7 +131,7 @@ Delete the file `hello.py` by running:
 rm hello/py
 ```
 
-Run `ls -l` and it should be gone!
+Run `ls` and it should be gone!
 
 To restore the file from the .git repository run:
 
@@ -129,7 +139,7 @@ To restore the file from the .git repository run:
 git restore hello.py
 ```
 
-Run `ls -l` to show that the has been restored!
+Run `ls` to show that the has been restored!
 
 ---
 
