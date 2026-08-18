@@ -39,14 +39,14 @@
 ### Session 1
 
 - `09:50` **Slides**: Software Version Control (10 mins)
-- `10:00` **Activity**: [Lab 1 ~ Working locally with Git](day2/source-control/git-locally.md) (30 mins)
+- `10:00` **Activity**: [Lab 1: Working locally with Git](day2/source-control/git-locally.md) (30 mins)
 
 ### Session 2
 
-- `10:50` **Activity**: [Lab 2 ~ Create a Repo in GitHub](day2/source-control/github-repo.md) (20 mins)
-- `11:10` **Activity**: [Lab 3 ~ Create an Issue](day2/source-control/github-create-issue.md) (20 mins)
-- `11:30` **Activity**: [Lab 4 ~ Fork a Repository](day2/source-control/github-forking.md) (30 mins)
-- `12:00` **Activity**: [Lab 5 ~ Create a Pull Request](day2/source-control/github-pull-request.md) (20 mins)
+- `10:50` **Activity**: [Lab 2: Create a Repo in GitHub](day2/source-control/github-repo.md) (20 mins)
+- `11:10` **Activity**: [Lab 3: Create an Issue](day2/source-control/github-create-issue.md) (20 mins)
+- `11:30` **Activity**: [Lab 4: Fork a Repository](day2/source-control/github-forking.md) (30 mins)
+- `12:00` **Activity**: [Lab 5: Create a Pull Request](day2/source-control/github-pull-request.md) (20 mins)
 
 ### Session 3
 
