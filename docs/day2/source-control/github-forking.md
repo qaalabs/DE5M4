@@ -17,7 +17,7 @@
 
 **Navigate to the main repository**
 
-- Open your web browser and go to: https://github.com/ingwanelabs/intro-to-github
+- Open your web browser and go to: `https://github.com/ingwanelabs/intro-to-github`
 - This repository contains a few files and a directory of team profiles.
 
 **Fork the repository**
@@ -29,7 +29,7 @@
 - Wait for GitHub to complete the forking process
 - You now have your own copy of the repository!
 
-!!! note "Because this is your own copy, it means you can add and edit files"
+!!! note "Because this is your own copy, it means you can now add and edit files"
 
 **Verify your fork**
 
@@ -40,11 +40,13 @@
 
 **Clone the repository locally** (Optional - for now we will work in GitHub)
 
-   ```bash
-   git clone https://github.com/[YOUR-USERNAME]/intro-to-github.git
+```bash
+git clone https://github.com/[YOUR-USERNAME]/intro-to-github.git
+```
    
-   cd intro-to-github
-   ```
+```bash
+cd intro-to-github
+```
 
 **Locate the team member profile directory**
 
@@ -65,7 +67,9 @@
 
 ```none
 # [Your Name]
+
 **Role:** [Your title]
+
 **Fun Fact:** [An interesting fun fact here]
 ```
 
@@ -84,7 +88,13 @@ If using local Git:
 
 ```bash
 git add team-profiles/[your-name].md
+```
+
+```bash
 git commit -m "Add my profile to team document"
+```
+
+```bash
 git push origin main
 ```
 
@@ -134,9 +144,10 @@ After completing the pull request, discuss:
 
 ## Summary
 
-**What you’ve learned:**
+**What you've learned:**
 
 - How to fork and clone a repository
 - How to work on a separate copy without affecting the original
 - How to create and submit pull requests
 - How to collaborate and receive feedback on GitHub
+
