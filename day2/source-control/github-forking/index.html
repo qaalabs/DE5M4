@@ -782,7 +782,7 @@
 <h3 id="step-1-forking-the-repository">Step 1: Forking the Repository</h3>
 <p><strong>Navigate to the main repository</strong></p>
 <ul>
-<li>Open your web browser and go to: <a href="https://github.com/ingwanelabs/intro-to-github">https://github.com/ingwanelabs/intro-to-github</a></li>
+<li>Open your web browser and go to: <code>https://github.com/ingwanelabs/intro-to-github</code></li>
 <li>This repository contains a few files and a directory of team profiles.</li>
 </ul>
 <p><strong>Fork the repository</strong></p>
@@ -795,7 +795,7 @@
 <li>You now have your own copy of the repository!</li>
 </ul>
 <div class="admonition note">
-<p class="admonition-title">Because this is your own copy, it means you can add and edit files</p>
+<p class="admonition-title">Because this is your own copy, it means you can now add and edit files</p>
 </div>
 <p><strong>Verify your fork</strong></p>
 <ul>
@@ -805,8 +805,8 @@
 <h3 id="step-2-making-changes-to-the-repository">Step 2: Making Changes to the repository</h3>
 <p><strong>Clone the repository locally</strong> (Optional - for now we will work in GitHub)</p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/<span class="o">[</span>YOUR-USERNAME<span class="o">]</span>/intro-to-github.git
-
-<span class="nb">cd</span><span class="w"> </span>intro-to-github
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>intro-to-github
 </code></pre></div>
 <p><strong>Locate the team member profile directory</strong></p>
 <ul>
@@ -829,7 +829,9 @@
 <li>Format should follow the existing pattern:</li>
 </ul>
 <div class="highlight"><pre><span></span><code># [Your Name]
+
 **Role:** [Your title]
+
 **Fun Fact:** [An interesting fun fact here]
 </code></pre></div>
 <div class="admonition tip">
@@ -845,8 +847,10 @@
 </ul>
 <p>If using local Git:</p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>team-profiles/<span class="o">[</span>your-name<span class="o">]</span>.md
-git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Add my profile to team document"</span>
-git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>main
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Add my profile to team document"</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>main
 </code></pre></div>
 <h3 id="step-3-creating-a-pull-request">Step 3: Creating a Pull Request</h3>
 <p><strong>Navigate to the Pull Requests tab</strong></p>
@@ -891,7 +895,7 @@ git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </
 </ul>
 <hr>
 <h2 id="summary">Summary</h2>
-<p><strong>What you’ve learned:</strong></p>
+<p><strong>What you've learned:</strong></p>
 <ul>
 <li>How to fork and clone a repository</li>
 <li>How to work on a separate copy without affecting the original</li>
