@@ -769,34 +769,45 @@
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../img/show-hidden-files.png" data-desc-position="bottom"><img alt="show hidden files" src="../../../img/show-hidden-files.png"></a></p>
 </div>
 <h3 id="step-1-setup">Step 1: Setup</h3>
-<p>In your VM run the program: <strong>Git Bash</strong> ~ the icon should be the Desktop</p>
-<p>You should now be at a prompt:</p>
-<div class="highlight"><pre><span></span><code>Admin@STUDENT<span class="w"> </span>MINGW64<span class="w"> </span>~<span class="w"> </span>
-$
+<p>In your VM run the program: <strong>Terminal</strong></p>
+<div class="admonition warning">
+<p class="admonition-title">Make sure that you are using <strong>Terminal</strong> and NOT a Windows DOS Command prompt</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">If you are familiar with Unix you could use the program <strong>GitBash</strong> instead.</p>
+<ul>
+<li>But we will use Terminal for this exercise</li>
+</ul>
+</div>
+<p>You should now be at a Windows prompt:</p>
+<div class="highlight"><pre><span></span><code>PS<span class="w"> </span>C:<span class="se">\U</span>ser<span class="se">\A</span>dmin<span class="se">\&gt;</span>
 </code></pre></div>
-<p>At this $ prompt copy and paste the following 2 lines:</p>
+<p>Copy and paste the following 2 lines:</p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.email<span class="w"> </span><span class="s2">"you@example.com"</span>
 git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.name<span class="w"> </span><span class="s2">"Your Name"</span>
 </code></pre></div>
 <div class="admonition note">
-<p class="admonition-title">Normally you would change the values to your email and name - but for this exercise it isn't nessessary</p>
+<p class="admonition-title">Normally you would change the values to your email and name - but for this exercise it isn't necessary</p>
 </div>
-<p>At the $ prompt copy and paste the following line:</p>
+<p>At the prompt copy and paste the following line:</p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>init.defaultBranch<span class="w"> </span>main
 </code></pre></div>
 <p>This makes sure that the default branch is always called <code>main</code></p>
 <h3 id="step-2-create-directory">Step 2: Create directory</h3>
+<p>We want our project file to be on the Desktop, so first change directory to the Desktop:</p>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>Desktop
+</code></pre></div>
 <p>At the prompt type the command to make a directory called <strong>my-git-project</strong>:</p>
-<div class="highlight"><pre><span></span><code>mkdir my-git-project
+<div class="highlight"><pre><span></span><code>mkdir<span class="w"> </span>my-git-project
 </code></pre></div>
 <p>Change directory to this new directory:</p>
-<div class="highlight"><pre><span></span><code>cd my-git-project
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>my-git-project
 </code></pre></div>
 <p>Show all the files including hidden files:</p>
-<div class="highlight"><pre><span></span><code>ls -l
+<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>-Force
 </code></pre></div>
 <div class="admonition note">
-<p class="admonition-title">You should see an empty list of files</p>
+<p class="admonition-title">You should see an empty list</p>
 <ul>
 <li>This confirms the directory is clean and ready for Git</li>
 </ul>
@@ -804,14 +815,14 @@ git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"
 <h3 id="step-3-initialise-git">Step 3: Initialise Git</h3>
 <ul>
 <li>To start using git run: <code>git init</code></li>
-<li>Show all the files: <code>ls -l</code></li>
-<li>Show all the files, including hidden files: <code>ls -al</code></li>
+<li>Show all the files: <code>ls</code></li>
+<li>Show all the files, including hidden files: <code>ls -Force</code></li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">You will now see a <code>.git</code> directory</p>
 <ul>
 <li>This is where Git stores all the internal data it needs to track your project</li>
-<li>the dot <code>.</code> in fromt of the name automatically makes it a hidden file</li>
+<li>the dot <code>.</code> in front of the name automatically makes it a hidden file</li>
 </ul>
 </div>
 <h3 id="step-4-create-a-file">Step 4: Create a file</h3>
@@ -819,7 +830,7 @@ git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"
 <li>Create your first file by running: <code>notepad hello.py</code></li>
 <li>Enter the line: <code>print('Hello, World!')</code></li>
 <li>Save and the file and close Notepad</li>
-<li>At the $ prompt - show all the files, including hidden files: <code>ls -al</code></li>
+<li>At the prompt - show all the files, including hidden files: <code>ls -Force</code></li>
 </ul>
 <h3 id="step-5-see-the-status">Step 5: See the status</h3>
 <ul>
@@ -851,11 +862,11 @@ git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"
 <p>Delete the file <code>hello.py</code> by running: </p>
 <div class="highlight"><pre><span></span><code>rm hello/py
 </code></pre></div>
-<p>Run <code>ls -l</code> and it should be gone!</p>
+<p>Run <code>ls</code> and it should be gone!</p>
 <p>To restore the file from the .git repository run:</p>
 <div class="highlight"><pre><span></span><code>git restore hello.py
 </code></pre></div>
-<p>Run <code>ls -l</code> to show that the has been restored!</p>
+<p>Run <code>ls</code> to show that the has been restored!</p>
 <hr>
 <h2 id="reflective-discussion-questions">Reflective / Discussion Questions</h2>
 <ul>
