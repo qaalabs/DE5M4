@@ -1,5 +1,9 @@
 # Group Activity: Sprint Planning
 
+!!! info "S2: Collate, evaluate and refine business requirements including cost, resourcing, and accessibility to design the data product."
+
+!!! info "B1: Acts proactively and takes accountability adapting positively to changing work priorities, ensuring deadlines are met."
+
 ## Introduction to Sprint Planning
 
 Now that we have user stories and estimates, we're going to practice sprint planning:

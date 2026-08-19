@@ -1,5 +1,7 @@
 # Activity 1: Setup a Python CI Project
 
+!!! info "K6: Software development principles for data products, including debugging, version control, and testing."
+
 In this activity you will create your own copy of the TechMart pipeline project, open a pull request, and clone the repo to your VM so you are ready to work with it throughout the session.
 
 ---
@@ -56,7 +58,9 @@ Press **Enter** to create it.
 
 ---
 
-## Step 4: Edit the README
+## Step 4: Edit the README and update badges code
+
+### 1. Edit README.md
 
 !!! note "You need at least one commit on `day3-exercises` before GitHub will let you open a pull request."
 
@@ -65,6 +69,29 @@ In your new repo, make sure you are on the `day3-exercises` branch, then open `R
 Find the three placeholder lines that contains `YOUR_USERNAME/YOUR_REPO` and replace both parts with your actual GitHub username and repo name.
 
 Scroll down, make sure **Commit directly to `day3-exercises`** is selected, and click **Commit changes**.
+
+!!! warning "Don't commit to the `main` branch!"
+    - If you commit to the main branch, branch rules will cause a new branch to be created with your changes.
+
+### 2. Create an Issue
+
+1. Edit the `README.md` file again.
+
+    Add this code to show a badge with the number of open issues:
+
+    ```text
+    ![Open Issues](https://img.shields.io/github/issues/YOUR_USERNAME/YOUR_REPO)
+    ```
+
+    *Replace `YOUR_USERNAME/YOUR_REPO` with your actual GitHub username and repo name.*
+
+2. Commit the `README.md` file to the branch
+
+3. **Create an issue** in your new repo.
+
+    *You can put in any information - this is just to get an open issue in your repo.*
+
+4. Refresh the page and you should see your newly created badge count update to 1.
 
 ---
 
@@ -76,31 +103,43 @@ Scroll down, make sure **Commit directly to `day3-exercises`** is selected, and 
 
 3. Click **Create pull request**.
 
-The two CI checks will start running. Wait until both are green before continuing.
+The two CI checks will start running. Wait until both checks have completed before continuing.
 
 !!! success "Both checks green - you have a healthy baseline."
+
+!!! failure "If one or both checks are red - then the current code is not ready to be merged."
 
 ---
 
 ## Step 6: Clone the repo to your VM
 
-Open **Git Bash** in your VM.
+!!! note "Complete the following steps inside your allocated Virtual Machine"
 
-Clone your repo (replace `YOUR_USERNAME` with your GitHub username):
+1. Open the Windows program **Terminal**
 
-```bash
-git clone https://github.com/YOUR_USERNAME/techmart-pipeline.git
-```
+    At the prompt change to the Desktop directory:
 
-```bash
-cd techmart-pipeline
-```
+    ```bash
+    cd Desktop
+    ```
 
-Switch to your branch:
+2. Clone your repo (replace `YOUR_USERNAME` with your GitHub username):
 
-```bash
-git checkout day3-exercises
-```
+    Run the following commands at the Terminal prompt:
+
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/techmart-pipeline.git
+    ```
+
+    ```bash
+    cd techmart-pipeline
+    ```
+
+3. Switch to your branch:
+
+    ```bash
+    git checkout day3-exercises
+    ```
 
 ---
 
@@ -124,7 +163,9 @@ This installs the package itself (including pandas, declared in `pyproject.toml`
 
 ---
 
-## Step 8: Open in VS Code
+## Step 8: Open Visual Studio Code
+
+!!! note "The command is: `code .` ~ the `.` says run in the current directory."
 
 ```bash
 code .

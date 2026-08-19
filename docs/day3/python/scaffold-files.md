@@ -1,10 +1,12 @@
 # Activity 3: The Supporting Files
 
+!!! info "K6: Software development principles for data products, including debugging, version control, and testing."
+
 Every professional Python project carries a small set of standard files. Open each one in VS Code and read what is there.
 
 ---
 
-## Step 1: `pyproject.toml`
+## File 1: `pyproject.toml`
 
 Open `pyproject.toml` from the root of the project.
 
@@ -20,7 +22,7 @@ This file replaces the older `setup.py` that you may see in older projects.
 
 ---
 
-## Step 2: `requirements.txt`
+## File 2: `requirements.txt`
 
 Open `requirements.txt`
 
@@ -28,9 +30,11 @@ This is the dev tools list - the packages needed for development and testing but
 
 Runtime dependencies (like pandas) live in `pyproject.toml` so they are picked up automatically when the package is installed.
 
+!!! info "Sometimes you will see a `requirements_dev.txt` as well as a `requirements.txt`"
+
 ---
 
-## Step 3: `.gitignore`
+## File 3: `.gitignore`
 
 Open `.gitignore`
 
@@ -44,7 +48,7 @@ Git will never track these files or folders.
 
 ---
 
-## Step 4: `.github/workflows/`
+## File 4: `.github/workflows/`
 
 Expand the `.github/workflows/` folder. You will see two files: `ci.yml` and `lint.yml`.
 
@@ -52,7 +56,7 @@ Do not open them yet - these are covered in the next activity.
 
 ---
 
-## Step 5: `Dockerfile`
+## File 5: `Dockerfile`
 
 Open `Dockerfile` from the root of the project.
 
@@ -60,7 +64,7 @@ This file tells Docker how to build a container image for the pipeline. You will
 
 ---
 
-## Step 6: `.dockerignore`
+## File 6: `.dockerignore`
 
 Open `.dockerignore`
 

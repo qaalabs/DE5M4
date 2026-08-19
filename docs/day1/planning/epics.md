@@ -1,5 +1,7 @@
 # Solo Activity: Identify Epics
 
+!!! info "S1: Collate, evaluate and refine user requirements to design the data product."
+
 **[Click here](qa-restaurant.md) to read the business requirements for the QA-Restaurant**
 
 ## Introduction to the Activity

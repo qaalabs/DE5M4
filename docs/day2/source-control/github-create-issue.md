@@ -1,5 +1,7 @@
 # Activity 3: Creating an Issue on GitHub
 
+!!! info "K30: The methods and techniques used to communicate messages to meet the needs of the audience."
+
 **Objective**: Learn how to raise and describe an issue in a GitHub repository, such as a bug report, feature request, or documentation improvement.
 
 ## Instructions

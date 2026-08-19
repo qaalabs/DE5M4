@@ -1,5 +1,7 @@
 # Activity 5: Creating a Pull Request
 
+!!! info "B3: Quality focus that promotes continuous improvement utilising peer review techniques, innovation and creativity to the data system development process to improve processes and address business challenges."
+
 ## Learning Objectives
 
 - Understand the purpose of branches

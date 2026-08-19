@@ -1,5 +1,7 @@
 # Cloud Activity 2: Cloud Architecture
 
+!!! info "K13: The implications of financial, strategic and compliance regarding to security, scalability, compliance and cost of local, remote or distributed solutions."
+
 ## Overview
 
 You'll be given **a real-world data engineering scenario**.

@@ -1,5 +1,7 @@
 # Cloud Activity 1: Core Building Blocks
 
+!!! info "S14: Identify new tools and technologies and recommend potential opportunities for use in own department or organisation."
+
 ## Overview
 
 Cloud providers offer similar **core building blocks** for building data solutions:

@@ -1,5 +1,7 @@
 # Activity 2: Adding a repository in GitHub
 
+!!! info "K6: Software development principles for data products, including debugging, version control, and testing."
+
 **Objective**: By the end of this activity, you will be able to create a new repository on GitHub, configure basic settings such as the `README` and `.gitignore` file, and understand the purpose of these elements in version control.
 
 ## Instructions

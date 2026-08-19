@@ -1,5 +1,7 @@
 # Activity 4: Forking a Repository
 
+!!! info "S22: Develop, maintain collaborative relationships using adaptive business methodology with stakeholders such as, business users, data scientists, data analysts and business intelligence teams."
+
 ## Collaborative Planning with Git - Forking a Repository
 
 ### Learning Objectives

@@ -1,5 +1,7 @@
 # Activity 1: How are Digital Products Designed?
 
+!!! info "K25: The lifecycle of implementing data solutions in a business, from scoping, though prototyping, development, production, and continuous improvement."
+
 In groups **brainstorm the digital design process**, addressing:
 
 - What are 3 or 4 key phases or stages in designing a data product?

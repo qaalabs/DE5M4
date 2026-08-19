@@ -1,5 +1,7 @@
 # Activity 2: Apply your design steps to a given scenario
 
+!!! info "S3: Design a data product to serve multiple needs and with scalability, efficiency, and security in mind."
+
 Using the design process your group created, outline how you would approach this specific project.
 
 - What would be your first three phases?

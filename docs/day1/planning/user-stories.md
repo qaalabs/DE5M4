@@ -1,5 +1,7 @@
 # Group Activity: Write User Stories
 
+!!! info "S5: Produce and maintain technical documentation explaining the data product, that meets organisational, technical and non-technical user requirements, retaining critical information."
+
 ## Introduction to User Stories
 
 Now that you've organised the requirements into epics, we're going to break them down further into user stories. 
