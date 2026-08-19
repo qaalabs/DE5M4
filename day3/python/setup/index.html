@@ -1102,15 +1102,30 @@
 </div>
 <hr>
 <h2 id="step-6-clone-the-repo-to-your-vm">Step 6: Clone the repo to your VM</h2>
-<p>In yor VM - open the Windows program <strong>Terminal</strong></p>
+<div class="admonition note">
+<p class="admonition-title">Complete the following steps inside your allocated Virtual Machine</p>
+</div>
+<ol>
+<li>
+<p>Open the Windows program <strong>Terminal</strong></p>
+<p>At the prompt change to the Desktop directory:</p>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>Desktop
+</code></pre></div>
+</li>
+<li>
 <p>Clone your repo (replace <code>YOUR_USERNAME</code> with your GitHub username):</p>
+<p>Run the following commands at the Terminal prompt:</p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/YOUR_USERNAME/techmart-pipeline.git
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>techmart-pipeline
 </code></pre></div>
+</li>
+<li>
 <p>Switch to your branch:</p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>checkout<span class="w"> </span>day3-exercises
 </code></pre></div>
+</li>
+</ol>
 <hr>
 <h2 id="step-7-install-the-dependencies">Step 7: Install the dependencies</h2>
 <div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
