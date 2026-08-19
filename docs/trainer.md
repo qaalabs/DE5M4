@@ -82,10 +82,10 @@
 
 ### Session 3
 
-- `13:10` **Instructions**: [1. Requirements Analysis](day3/storage/analysis.md) (30 mins)
-- `13:40` **Breakout**: [2. Create Conceptual Data Model](day3/storage/conceptual.md) (20 mins)
+- `13:10` **Instructions**: [1. Requirements Analysis](day3/storage/1-analysis.md) (30 mins)
+- `13:40` **Breakout**: [2. Create Conceptual Data Model](day3/storage/2-conceptual.md) (20 mins)
 - `14:00` **Report-Back**: Present Entity-Relationship Diagram (10 mins)
-- `14:10` **Breakout**: [3. Logical Model & Design Decisions](day3/storage/logical.md) (20 mins)
+- `14:10` **Breakout**: [3. Logical Model & Design Decisions](day3/storage/3-logical.md) (20 mins)
 
 ### Session 4
 

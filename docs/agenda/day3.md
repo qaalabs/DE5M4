@@ -22,10 +22,10 @@
 
 ## Session 3
 
-- **Instructions**: [1. Requirements Analysis](../day3/storage/analysis.md)
-- **Breakout**: [2. Create Conceptual Data Model](../day3/storage/conceptual.md)
+- **Instructions**: [1. Requirements Analysis](../day3/storage/1-analysis.md)
+- **Breakout**: [2. Create Conceptual Data Model](../day3/storage/2-conceptual.md)
 - **Report-Back**: Present Entity-Relationship Diagram
-- **Breakout**: [3. Logical Model & Design Decisions](../day3/storage/logical.md)
+- **Breakout**: [3. Logical Model & Design Decisions](../day3/storage/3-logical.md)
 
 ## ☕ Afternoon Break
 
