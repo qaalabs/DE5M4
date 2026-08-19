@@ -51,8 +51,8 @@
 ### Session 3
 
 - `13:30` **Slides**: Cloud ~ Core Building Blocks (10 mins)
-- `13:40` **Breakout**: [Cloud ~ Core Building Blocks](day2/cloud/building-blocks.md) (30 mins)
-- `14:10` **Report-Back**: Cloud ~ Core Building Blocks (20 mins)
+- `13:40` **Breakout**: [Cloud ~ Core Building Blocks](day2/cloud/building-blocks.md) (20 mins)
+- `14:00` **Report-Back**: Cloud ~ Core Building Blocks (20 mins)
 
 ### Session 4
 

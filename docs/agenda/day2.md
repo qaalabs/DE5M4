@@ -23,6 +23,7 @@
 - **Slides**: Cloud ~ Core Building Blocks
 - **Breakout**: [Cloud ~ Core Building Blocks](../day2/cloud/building-blocks.md)
 - **Report-Back**: Cloud ~ Core Building Blocks
+- 
 
 ## ☕ Afternoon Break
 

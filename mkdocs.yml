@@ -10,17 +10,23 @@ nav:
 
   - Agenda:
     - Topics: agenda/index.md
-    - Day 2: agenda/day2.md
+    - Day 3: agenda/day3.md
 
-  - "Day 2 ~ Technical Foundation":
-    - "Lab 1: Working locally with Git": day2/source-control/git-locally.md
-    - "Lab 2: Create a Repo in GitHub": day2/source-control/github-repo.md
-    - "Lab 3: Create an Issue": day2/source-control/github-create-issue.md
-    - "Lab 4: Fork a Repository": day2/source-control/github-forking.md
-    - "Lab 5: Create a Pull Request": day2/source-control/github-pull-request.md
-    - "Cloud ~ Core Building Blocks": day2/cloud/building-blocks.md
-    - "Cloud Architecture Scenarios": day2/cloud/architecture.md
-    - "Cloud Architecture": day2/cloud/scenario.md
+  - "Day 3 ~ Database Design & Python":
+    - "1. Clone Repo to the VM": day3/python/setup.md
+    - "2. Explore the Project Structure": day3/python/scaffold-tour.md
+    - "3. The Supporting Files": day3/python/scaffold-files.md
+    - "4. Run the Tests Locally": day3/python/local-test.md
+    - "5. Lint Python Code": day3/python/coverage-ruff.md
+    - "6. GitHub Actions": day3/python/ci-bridge.md
+    - "7. Python CI Pipeline": day3/python/python-ci.md
+    - "Docker Container": day3/docker.md
+    - "1. Requirements Analysis": day3/storage/analysis.md
+    - "2. Create Conceptual Data Model": day3/storage/conceptual.md
+    - "3. Logical Model & Design Decisions": day3/storage/logical.md
+    - "Lab 1 ~ Create Amazon S3 Bucket": labs/amazon-s3-bucket.md
+    - "Lab 2 ~ Core Azure Storage Products": labs/azure-storage-products.md
+    - "Lab 3 ~ Google Cloud Storage": labs/google-cloud-storage.md
 
   - Resources: resources.md
 
