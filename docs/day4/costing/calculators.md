@@ -1,5 +1,9 @@
 # Cloud Pricing Calculators
 
+!!! info "K12: How to cost and build a system whilst ensuring that organisational strategies for sustainable, net zero technologies are considered."
+
+!!! info "S27: Selects and apply sustainable solutions to contribute to net zero and environmental strategies across the various stages of product and service delivery."
+
 ### Using a cost calculator allows you to:
 
 Choose **managed and serverless services** that:
