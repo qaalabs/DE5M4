@@ -536,10 +536,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#step-1-pyprojecttoml" class="md-nav__link">
+  <a href="#file-1-pyprojecttoml" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 1: pyproject.toml
+        File 1: pyproject.toml
       
     </span>
   </a>
@@ -547,10 +547,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-2-requirementstxt" class="md-nav__link">
+  <a href="#file-2-requirementstxt" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 2: requirements.txt
+        File 2: requirements.txt
       
     </span>
   </a>
@@ -558,10 +558,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-3-gitignore" class="md-nav__link">
+  <a href="#file-3-gitignore" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 3: .gitignore
+        File 3: .gitignore
       
     </span>
   </a>
@@ -569,10 +569,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-4-githubworkflows" class="md-nav__link">
+  <a href="#file-4-githubworkflows" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 4: .github/workflows/
+        File 4: .github/workflows/
       
     </span>
   </a>
@@ -580,10 +580,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-5-dockerfile" class="md-nav__link">
+  <a href="#file-5-dockerfile" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 5: Dockerfile
+        File 5: Dockerfile
       
     </span>
   </a>
@@ -591,10 +591,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-6-dockerignore" class="md-nav__link">
+  <a href="#file-6-dockerignore" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 6: .dockerignore
+        File 6: .dockerignore
       
     </span>
   </a>
@@ -972,7 +972,7 @@
 <h1 id="activity-3-the-supporting-files">Activity 3: The Supporting Files</h1>
 <p>Every professional Python project carries a small set of standard files. Open each one in VS Code and read what is there.</p>
 <hr>
-<h2 id="step-1-pyprojecttoml">Step 1: <code>pyproject.toml</code></h2>
+<h2 id="file-1-pyprojecttoml">File 1: <code>pyproject.toml</code></h2>
 <p>Open <code>pyproject.toml</code> from the root of the project.</p>
 <p>This is the project's identity card. Find:</p>
 <ul>
@@ -984,12 +984,15 @@
 </ul>
 <p>This file replaces the older <code>setup.py</code> that you may see in older projects.</p>
 <hr>
-<h2 id="step-2-requirementstxt">Step 2: <code>requirements.txt</code></h2>
+<h2 id="file-2-requirementstxt">File 2: <code>requirements.txt</code></h2>
 <p>Open <code>requirements.txt</code></p>
 <p>This is the dev tools list - the packages needed for development and testing but not for running the pipeline itself. It includes pytest, pytest-cov, ruff, and flake8.</p>
 <p>Runtime dependencies (like pandas) live in <code>pyproject.toml</code> so they are picked up automatically when the package is installed.</p>
+<div class="admonition info">
+<p class="admonition-title">Sometimes you will see a <code>requirements_dev.txt</code> as well as a <code>requirements.txt</code></p>
+</div>
 <hr>
-<h2 id="step-3-gitignore">Step 3: <code>.gitignore</code></h2>
+<h2 id="file-3-gitignore">File 3: <code>.gitignore</code></h2>
 <p>Open <code>.gitignore</code></p>
 <p>Find the entries for:</p>
 <ul>
@@ -999,15 +1002,15 @@
 </ul>
 <p>Git will never track these files or folders.</p>
 <hr>
-<h2 id="step-4-githubworkflows">Step 4: <code>.github/workflows/</code></h2>
+<h2 id="file-4-githubworkflows">File 4: <code>.github/workflows/</code></h2>
 <p>Expand the <code>.github/workflows/</code> folder. You will see two files: <code>ci.yml</code> and <code>lint.yml</code>.</p>
 <p>Do not open them yet - these are covered in the next activity.</p>
 <hr>
-<h2 id="step-5-dockerfile">Step 5: <code>Dockerfile</code></h2>
+<h2 id="file-5-dockerfile">File 5: <code>Dockerfile</code></h2>
 <p>Open <code>Dockerfile</code> from the root of the project.</p>
 <p>This file tells Docker how to build a container image for the pipeline. You will use it later in the Docker activity. For now, notice that it uses <code>pip install .</code> to install the package - this picks up pandas from <code>pyproject.toml</code> automatically, with no dev tools included.</p>
 <hr>
-<h2 id="step-6-dockerignore">Step 6: <code>.dockerignore</code></h2>
+<h2 id="file-6-dockerignore">File 6: <code>.dockerignore</code></h2>
 <p>Open <code>.dockerignore</code></p>
 <p>This works like <code>.gitignore</code> but for Docker. It tells Docker what to leave out of the image when building. Find the entries for <code>venv/</code>, <code>tests/</code>, and <code>.git/</code> - none of these are needed inside a container.</p><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
   <!-- mkdocs-quiz progress sidebar (desktop) -->
