@@ -568,10 +568,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-8-open-in-vs-code" class="md-nav__link">
+  <a href="#step-8-open-visual-studio-code" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 8: Open in VS Code
+        Step 8: Open Visual Studio Code
       
     </span>
   </a>
@@ -1066,9 +1066,12 @@
 <p>Click <strong>Create pull request</strong>.</p>
 </li>
 </ol>
-<p>The two CI checks will start running. Wait until both are green before continuing.</p>
+<p>The two CI checks will start running. Wait until both checks have completed before continuing.</p>
 <div class="admonition success">
 <p class="admonition-title">Both checks green - you have a healthy baseline.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">If one or both checks are red - then the current code is not ready to be merged.</p>
 </div>
 <hr>
 <h2 id="step-6-clone-the-repo-to-your-vm">Step 6: Clone the repo to your VM</h2>
@@ -1097,7 +1100,8 @@
 </ul>
 </div>
 <hr>
-<h2 id="step-8-open-in-vs-code">Step 8: Open in VS Code</h2>
+<h2 id="step-8-open-visual-studio-code">Step 8: Open Visual Studio Code</h2>
+<p>!!! note "The command is: <code>code .</code> ~ the <code>.</code> says run in the current directory.</p>
 <div class="highlight"><pre><span></span><code>code<span class="w"> </span>.
 </code></pre></div>
 <p>VS Code will open with the project loaded. You are ready for the next activity.</p><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
