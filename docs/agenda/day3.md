@@ -17,20 +17,25 @@
 - **Activity**: [6. GitHub Actions](../day3/python/ci-bridge.md)
 - **Activity**: [7. Python CI Pipeline](../day3/python/python-ci.md)
 - **Demo**: [Docker Container](../day3/docker.md)
+- 
 
 ## 🥪🥤 Lunch Break
 
 ## Session 3
 
+- **Instructions**: ERD-SETUP
 - **Instructions**: [1. Requirements Analysis](../day3/storage/1-analysis.md)
 - **Breakout**: [2. Create Conceptual Data Model](../day3/storage/2-conceptual.md)
 - **Report-Back**: Present Entity-Relationship Diagram
-- **Breakout**: [3. Logical Model & Design Decisions](../day3/storage/3-logical.md)
+- 
 
 ## ☕ Afternoon Break
 
 ## Session 4
 
+- **Breakout**: [3. Logical Model & Design Decisions](../day3/storage/3-logical.md)
+- 
+- DECISIONS-SHARE
 - **Activity**: [Lab 1 ~ Create Amazon S3 Bucket](../labs/amazon-s3-bucket.md)
 - **Activity**: [Lab 2 ~ Core Azure Storage Products](../labs/azure-storage-products.md)
 - **Activity**: [Lab 3 ~ Google Cloud Storage](../labs/google-cloud-storage.md)

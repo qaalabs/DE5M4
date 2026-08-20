@@ -82,16 +82,18 @@
 
 ### Session 3
 
-- `13:10` **Instructions**: [1. Requirements Analysis](day3/storage/1-analysis.md) (30 mins)
-- `13:40` **Breakout**: [2. Create Conceptual Data Model](day3/storage/2-conceptual.md) (20 mins)
-- `14:00` **Report-Back**: Present Entity-Relationship Diagram (10 mins)
-- `14:10` **Breakout**: [3. Logical Model & Design Decisions](day3/storage/3-logical.md) (20 mins)
+- `13:20` **Instructions**: ERD-SETUP (10 mins)
+- `13:30` **Instructions**: [1. Requirements Analysis](day3/storage/1-analysis.md) (20 mins)
+- `13:50` **Breakout**: [2. Create Conceptual Data Model](day3/storage/2-conceptual.md) (20 mins)
+- `14:10` **Report-Back**: Present Entity-Relationship Diagram (10 mins)
 
 ### Session 4
 
-- `14:50` **Activity**: [Lab 1 ~ Create Amazon S3 Bucket](labs/amazon-s3-bucket.md) (20 mins)
-- `15:10` **Activity**: [Lab 2 ~ Core Azure Storage Products](labs/azure-storage-products.md) (20 mins)
-- `15:30` **Activity**: [Lab 3 ~ Google Cloud Storage](labs/google-cloud-storage.md) (30 mins)
+- `14:50` **Breakout**: [3. Logical Model & Design Decisions](day3/storage/3-logical.md) (20 mins)
+- `15:20` DECISIONS-SHARE (10 mins)
+- `15:30` **Activity**: [Lab 1 ~ Create Amazon S3 Bucket](labs/amazon-s3-bucket.md) (10 mins)
+- `15:40` **Activity**: [Lab 2 ~ Core Azure Storage Products](labs/azure-storage-products.md) (10 mins)
+- `15:50` **Activity**: [Lab 3 ~ Google Cloud Storage](labs/google-cloud-storage.md) (10 mins)
 
 ---
 
