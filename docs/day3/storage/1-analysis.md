@@ -2,6 +2,8 @@
 
 > A healthcare provider is developing a data product to analyse and optimise patient journeys through their system. The goal is to reduce wait times, improve resource allocation, and enhance patient outcomes.
 
+In this module we design the database during **planning**, before we build. These three activities take one scenario from requirements through to a defensible design. This is a **technology-neutral** pass - you will choose a target database type later, in Activity 3. For now, focus on understanding the problem before modelling it.
+
 ### Instructions
 
 Read the [full scenario](scenario.md) to understand all the requirements, and then determine the following:
@@ -9,13 +11,12 @@ Read the [full scenario](scenario.md) to understand all the requirements, and th
 #### Step 1 - Identifying key entities
 
 - What are the main "things" you need to track?
-- What attributes are associated with each entity?
-- What are the business identifiers for each entity?
+- How would you describe each one in a sentence?
 
 #### Step 2 - Mapping relationships
 
 - How do these entities relate to each other?
-- What are the cardinalities (one-to-one, one-to-many, many-to-many)?
+- Describe each relationship in plain words (e.g. "a patient books many appointments").
 - What are the dependencies between entities?
 
 #### Step 3 - Identifying access patterns
@@ -28,7 +29,9 @@ Read the [full scenario](scenario.md) to understand all the requirements, and th
 
 ## Deliverable
 
-- List of entities
-- A few attributes for each entity
-- List of the relationships between the entities
+- List of entities, each with a one-line description
+- The relationships between the entities, described in words
+- The key access patterns the design will need to support
+
+> Hold off on attributes and keys for now - you will add those as the model takes shape in Activities 2 and 3. Getting the entities, relationships and access patterns right first is the job here.
 
