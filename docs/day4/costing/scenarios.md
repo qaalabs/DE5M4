@@ -19,7 +19,7 @@
 - **Storage**: 1TB for raw data files
 - **Region**: UK/Europe
 
-!!! note "Create a costing for all 3 providers."
+!!! note "Create a costing for Google, AWS, and Azure."
 
 ---
 
@@ -35,7 +35,7 @@
 - **Data Transfer**: 200GB/month outbound
 - **Region**: UK/Europe
 
-!!! note "Create a costing for all 3 providers."
+!!! note "Create a costing for Google, AWS, and Azure."
 
 ---
 
@@ -50,5 +50,5 @@
 - **Storage**: 5TB for historical data archives
 - **Region**: UK/Europe
 
-!!! note "Create a costing for all 3 providers."
+!!! note "Create a costing for Google, AWS, and Azure."
 

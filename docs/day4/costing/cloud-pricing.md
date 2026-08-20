@@ -1,5 +1,9 @@
 # Cloud Costing Calculators
 
+!!! success "Lower cost often correlates with lower energy usage!"
+!!! info "K12: How to cost and build a system whilst ensuring that organisational strategies for sustainable, net zero technologies are considered."
+
+
 ## Requirements
 
 **"Hello World" Data Pipeline - for just 2 services:**
