@@ -14,6 +14,7 @@
 - **Instructions**: How are products designed?
 - **Breakout**: [How are products designed?](../day1/agile/how-design-steps.md)
 - **Report-Back**: How are products designed?
+- **Slides**: Waterfall and Agile
 - **Instructions**: Apply design process to a scenario
 - **Breakout**: [Apply design process to a scenario](../day1/agile/scenario.md)
 - **Report-Back**: Share your design steps

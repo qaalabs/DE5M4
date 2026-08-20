@@ -12,8 +12,9 @@
 - `10:50` **Instructions**: [How are products designed?](day1/agile/how-instructions.md) (10 mins)
 - `11:00` **Breakout**: [How are products designed?](day1/agile/how-design-steps.md) (20 mins)
 - `11:20` **Report-Back**: [How are products designed?](day1/agile/how-solution.md) (10 mins)
-- `11:30` **Instructions**: Apply design process to a scenario (10 mins)
-- `11:40` **Breakout**: [Apply design process to a scenario](day1/agile/scenario.md) (30 mins)
+- `11:30` **Slides**: Waterfall and Agile (10 mins)
+- `11:40` **Instructions**: Apply design process to a scenario (10 mins)
+- `11:50` **Breakout**: [Apply design process to a scenario](day1/agile/scenario.md) (20 mins)
 - `12:10` **Report-Back**: Share your design steps (20 mins)
 
 ### Session 3
