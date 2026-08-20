@@ -101,13 +101,14 @@
 
 ### Session 1
 
-- `09:40` **Demo**: Choose a VM in GCP (10 mins)
-- `09:50` **Investigation**: [Cloud Pricing Calculators](day4/costing/calculators.md) (10 mins)
-- `10:00` **Breakout**: [More Complex Calculations](day4/costing/scenarios.md) (30 mins)
-- `10:30` **Report-Back**: Complex Calculations (10 mins)
+- `09:40` **Demo**: Choose a VM in GCP (20 mins)
+- `10:00` **Demo**: [Cloud Pricing Calculators](day4/costing/calculators.md) (20 mins)
+- `10:20` **Activity**: [Cloud Pricing Calculators](day4/costing/cloud-pricing.md) (10 mins)
 
 ### Session 2
 
+- `10:50` **Breakout**: [More Complex Calculations](day4/costing/scenarios.md) (30 mins)
+- `11:20` **Report-Back**: Complex Calculations (10 mins)
 - `11:30` EPA Presentation (10 mins)
 - `11:40` Presentation Prep (40 mins)
 

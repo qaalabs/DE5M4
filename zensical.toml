@@ -46,6 +46,7 @@ nav = [
   ]},
   {"Day 4 ~ Costing & Presentations" = [
     {"Cloud Pricing Calculators" = "day4/costing/calculators.md"},
+    {"Cloud Pricing Calculators" = "day4/costing/cloud-pricing.md"},
     {"More Complex Calculations" = "day4/costing/scenarios.md"},
   ]},
   {"Resources" = "resources.md"},
