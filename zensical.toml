@@ -16,6 +16,7 @@ nav = [
     {"Agile artefacts" = "day1/agile/artefacts.md"},
     {"Identify Epics" = "day1/planning/epics.md"},
     {"Write User Stories in groups" = "day1/planning/user-stories.md"},
+    {"Planning Poker Setup" = "day1/planning/estimate-effort.md"},
     {"Plan a 2-week sprint" = "day1/planning/sprint-planning.md"},
   ]},
   {"Day 2 ~ Technical Foundation" = [

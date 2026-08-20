@@ -34,6 +34,7 @@
 ## Session 4
 
 - **Report-Back**: Groups share User Stories
+- **Demo**: [Planning Poker Setup](../day1/planning/estimate-effort.md)
 - **Activity**: Play Planning Poker ⏳
 - **Instructions**: Plan a 2-week sprint
 - **Breakout**: [Plan a 2-week sprint](../day1/planning/sprint-planning.md)

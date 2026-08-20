@@ -28,7 +28,8 @@
 ### Session 4
 
 - `14:50` **Report-Back**: [Groups share User Stories](day1/planning/possible-user-stories.md) (10 mins)
-- `15:00` **Activity**: [Play Planning Poker ⏳](day1/planning/planning-poker.md) (20 mins)
+- `15:00` **Demo**: [Planning Poker Setup](day1/planning/estimate-effort.md) (10 mins)
+- `15:10` **Activity**: [Play Planning Poker ⏳](day1/planning/planning-poker.md) (10 mins)
 - `15:20` **Instructions**: Plan a 2-week sprint (10 mins)
 - `15:30` **Breakout**: [Plan a 2-week sprint](day1/planning/sprint-planning.md) (10 mins)
 - `15:40` **Report-Back**: [Groups share 2-week sprint plan](day1/planning/sprint-solution.md) (10 mins)
