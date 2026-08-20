@@ -5,7 +5,7 @@
 - 🌅 Welcome to Day 4 of DE5 Module 4
 - **Demo**: Choose a VM in GCP
 - **Demo**: [Cloud Pricing Calculators](../day4/costing/calculators.md)
-- **Activity**: [Cloud Pricing Calculators](../day4/costing/cloud-pricing.md)
+- **Activity**: Cloud Pricing Calculators
 
 ## ☕ Morning Break
 
@@ -14,7 +14,7 @@
 - **Breakout**: [More Complex Calculations](../day4/costing/scenarios.md)
 - **Report-Back**: Complex Calculations
 - EPA Presentation
-- Presentation Prep
+- [Presentation Prep](../day4/presentation.md)
 
 ## 🥪🥤 Lunch Break
 

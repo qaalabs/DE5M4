@@ -110,7 +110,7 @@
 - `10:50` **Breakout**: [More Complex Calculations](day4/costing/scenarios.md) (30 mins)
 - `11:20` **Report-Back**: Complex Calculations (10 mins)
 - `11:30` EPA Presentation (10 mins)
-- `11:40` Presentation Prep (40 mins)
+- `11:40` [Presentation Prep](day4/presentation.md) (40 mins)
 
 ### Session 3
 
