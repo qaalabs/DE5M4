@@ -1,5 +1,7 @@
 # Activity 4: Run the Tests Locally
 
+!!! info "K23: How to undertake analysis and root cause investigation."
+
 In this activity you will run the test suite locally and read what the output tells you.
 
 ---

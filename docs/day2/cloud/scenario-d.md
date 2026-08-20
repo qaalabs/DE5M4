@@ -1,5 +1,7 @@
 # Cloud: Scenario D ~ Financial Data Warehouse
 
+!!! info "K9: How to build a data product that complies with regulatory requirements."
+
 A financial services company needs to integrate data from **multiple sources** to create executive dashboards and regulatory reports.
 
 ## Data sources include
