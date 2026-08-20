@@ -1,10 +1,8 @@
 # DE5 Module 4 ~ End of Day Presentation
 
-Prepare a 3-5 minute talk on one KSB - or a small combination of them.
+Prepare a presentation on one KSB - or a combination of them. At least 5 minutes, maximum of 10 minutes.
 
-Read the [ST1386 Data Engineer standard](https://skillsengland.education.gov.uk/apprenticeship-standards/st1386-v1-0) and choose **one Knowledge, Skill, or Behaviour - or a small combination of them** - that your experience evidences well. There's no fixed list - pick whatever you feel comfortable with, from anywhere in the standard, not just this module.
-
-No slides required - speak clearly, and be ready for follow-up questions from the group.
+Read the [ST1386 Data Engineer standard](https://skillsengland.education.gov.uk/apprenticeship-standards/st1386-v1-0) and choose **one Knowledge, Skill, or Behaviour - or a combination of them** - that your experience evidences well. There's no fixed list - pick whatever you feel comfortable with, from anywhere in the standard, not just this module.
 
 Draw on whatever experience is most relevant to you - your workplace, a project, or labs from any module so far.
 
