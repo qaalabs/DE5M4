@@ -5,9 +5,13 @@
       
       
       
-        <link rel="canonical" href="https://qaalabs.github.io/DE5M4/day1/planning/planning-poker/">
+        <link rel="canonical" href="https://qaalabs.github.io/DE5M4/day4/costing/cloud-pricing/">
       
       
+        <link rel="prev" href="../calculators/">
+      
+      
+        <link rel="next" href="../scenarios/">
       
       
         
@@ -18,7 +22,7 @@
     
     
       
-        <title>Planning Poker Estimation Activity - Module 4 - Planning Data Engineering Product</title>
+        <title>Cloud Pricing Calculators - Module 4 - Planning Data Engineering Product</title>
       
     
     
@@ -69,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#planning-poker-estimation-activity" class="md-skip">
+        <a href="#cloud-costing-calculators" class="md-skip">
           Skip to content
         </a>
       
@@ -105,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Planning Poker Estimation Activity
+              Cloud Pricing Calculators
             
           </span>
         </div>
@@ -364,18 +368,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked="">
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -396,7 +402,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -414,7 +420,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../day4/costing/calculators/" class="md-nav__link">
+      <a href="../calculators/" class="md-nav__link">
         
   
   
@@ -439,10 +445,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../day4/costing/cloud-pricing/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cloud Pricing Calculators
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -458,6 +491,70 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requirements
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aws" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AWS
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#azure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Azure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GCP
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -470,7 +567,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../day4/costing/scenarios/" class="md-nav__link">
+      <a href="../scenarios/" class="md-nav__link">
         
   
   
@@ -542,50 +639,54 @@
 
 
 
-<h1 id="planning-poker-estimation-activity">Planning Poker Estimation Activity</h1>
-<h2 id="items-to-estimate-for-the-restaurant-website">Items to Estimate for the Restaurant Website</h2>
-<p>Here are user stories of varying complexity that work well for Planning Poker practice:</p>
-<h3 id="simple-stories-1-2-story-points">Simple Stories (1-2 story points)</h3>
+<h1 id="cloud-costing-calculators">Cloud Costing Calculators</h1>
+<h2 id="requirements">Requirements</h2>
+<p><strong>"Hello World" Data Pipeline - for just 2 services:</strong></p>
 <ul>
-<li>As a <strong>customer</strong>, I want to see the restaurant's phone number on the contact page, so that I can call with questions.</li>
-<li>As a <strong>website visitor</strong>, I want to see social media icons in the footer, so that I can follow the restaurant on different platforms.</li>
-<li>As a <strong>customer</strong>, I want to see the restaurant's address clearly displayed, so that I can find the location.</li>
+<li>Storage: 500GB of data files</li>
+<li>Compute: Medium virtual machine running 2 hours per day</li>
 </ul>
-<h3 id="medium-stories-3-5-story-points">Medium Stories (3-5 story points)</h3>
+<h3 id="done-for-the-main-3-cloud-providers">Done for the main 3 cloud providers:</h3>
 <ul>
-<li>As a <strong>customer</strong>, I want to view the full menu with prices, so that I can decide what to order and budget for my meal.</li>
-<li>As a <strong>potential diner</strong>, I want to read about the restaurant's vegan philosophy on the About Us page, so that I understand their approach to food.</li>
-<li>As a <strong>customer</strong>, I want to see available reservation times for a specific date, so that I can book a table that fits my schedule.</li>
-</ul>
-<h3 id="complex-stories-8-13-story-points">Complex Stories (8-13 story points)</h3>
-<ul>
-<li>As a <strong>customer</strong>, I want to place an online order with multiple items, so that I can have my food ready for pickup or delivery.</li>
-<li>As a <strong>restaurant staff member</strong>, I want to manage reservations (view, update, delete), so that I can accommodate customer changes and maintain accurate bookings.</li>
-<li>As a <strong>customer</strong>, I want to create an account and save my preferences, so that future ordering is faster and more convenient.</li>
-</ul>
-<h3 id="very-complex-stories-13-21-story-points">Very Complex Stories (13-21 story points)</h3>
-<ul>
-<li>As a <strong>restaurant owner</strong>, I want a complete reservation management system with calendar view, table assignments, and customer history, so that I can optimise seating and provide better service.</li>
-<li>As a <strong>customer</strong>, I want a full online ordering system with payment processing, order tracking, and delivery scheduling, so that I can have a complete digital dining experience.</li>
+<li>AWS ~ <a href="https://calculator.aws/">https://calculator.aws/</a></li>
+<li>Azure ~ <a href="https://azure.microsoft.com/en-gb/pricing/calculator/">https://azure.microsoft.com/en-gb/pricing/calculator/</a></li>
+<li>GCP ~ <a href="https://cloud.google.com/products/calculator">https://cloud.google.com/products/calculator</a></li>
 </ul>
 <hr>
-<h2 id="learning-objectives">Learning Objectives</h2>
-<p><strong>This activity helps learners:</strong></p>
+<h2 id="aws">AWS</h2>
 <ul>
-<li>Practice relative estimation rather than absolute time estimates</li>
-<li>Experience the collaborative discussion that improves estimation accuracy</li>
-<li>Understand how team consensus emerges through Planning Poker</li>
-<li>See how breaking down complex stories leads to better estimates</li>
-<li>Learn to identify when more information is needed before estimating</li>
+<li>Storage: Search S3</li>
+<li>Add: 500GB Standard storage</li>
+<li>Compute: Search EC2</li>
+<li>Add: t3.medium (2 vCPU, 4GB RAM)</li>
+<li>Operation System: Linux</li>
+<li>Payment options: On-Demand</li>
+<li>Expected utilization: 2 Hours / Day</li>
 </ul>
-<h2 id="connection-to-data-engineering">Connection to Data Engineering</h2>
-<p>In your data engineering work, you'll estimate stories like:</p>
+<p>Should be about: <strong>$14.03 per month</strong> / $168.36 annually</p>
+<hr>
+<h2 id="azure">Azure</h2>
 <ul>
-<li>'As a data analyst, I want daily sales reports automated' (5 points)</li>
-<li>'As a marketing team, I want customer segmentation data refreshed weekly' (8 points)</li>
-<li>'As a business owner, I want a complete data lake architecture implemented' (too big - needs breaking down)</li>
+<li>Add to estimate: Storage Accounts</li>
+<li>Capacity: 500GB Standard</li>
+<li>Add to estimate: Virtual Machines</li>
+<li>Operation System: Linux</li>
+<li>Select: Bs-series ~ B2s: 2 Cores, 4 GB RAM</li>
+<li>Select: 60 Hours (2 hours / Day)</li>
 </ul>
-<p>The same principles apply - focus on relative complexity and have collaborative discussions to reach consensus.</p><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
+<p>Should be about: <strong>$13.94 per month</strong> / $167.28 annually</p>
+<hr>
+<h2 id="gcp">GCP</h2>
+<ul>
+<li>Add to estimate: Cloud Storage</li>
+<li>Total amount of storage: 500 GiB</li>
+<li>Add to estimate: Compute Engine</li>
+<li>Total instance usage time: 2 hours per day </li>
+<li>Operation System: Free BYOL (Bring You Own Licence)</li>
+<li>Machine Type: E2 ~ Day-to-day computing at a lower cost</li>
+<li>Custom: 2VPUs / 4 GiB memory</li>
+</ul>
+<p>Should be about: <strong>$14.43 per month</strong> / $167.28 annually</p><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
   <!-- mkdocs-quiz progress sidebar (desktop) -->
   <label class="md-nav__title">
     <span class="md-nav__icon md-icon"></span>
