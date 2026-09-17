@@ -6,7 +6,7 @@ dev_addr: '0.0.0.0:8000'
 # Navigation menu
 nav:
   - Overview: index.md
-  - Module KSBs: ksb.md
+  - Module KSBs: ksb/index.md
 
   - Agenda:
     - Topics: agenda/index.md

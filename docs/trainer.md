@@ -4,6 +4,7 @@
 
 ### Session 1
 
+- `09:30` **Slides**: 🌅 Welcome to Day 1 of DE5 Module 4 (10 mins)
 - `10:00` **Discussion**: [I want to build a wall ...](day1/build-a-wall.md) (10 mins)
 - `10:10` Learners introduce themselves (20 mins)
 
@@ -40,6 +41,7 @@
 
 ### Session 1
 
+- `09:30` **Slides**: 🌅 Welcome to Day 2 of DE5 Module 4 (10 mins)
 - `09:50` **Slides**: Software Version Control (10 mins)
 - `10:00` **Activity**: [Lab 1: Working locally with Git](day2/source-control/git-locally.md) (30 mins)
 
@@ -69,6 +71,7 @@
 
 ### Session 1
 
+- `09:30` **Slides**: 🌅 Welcome to Day 3 of DE5 Module 4 (10 mins)
 - `09:40` **Discussion**: [What Breaks in Notebooks?](day3/python/notebook-problem.md) (10 mins)
 - `09:50` **Activity**: [1. Clone Repo to the VM](day3/python/setup.md) (10 mins)
 - `10:00` **Activity**: [2. Explore the Project Structure](day3/python/scaffold-tour.md) (10 mins)
@@ -103,6 +106,7 @@
 
 ### Session 1
 
+- `09:30` **Slides**: 🌅 Welcome to Day 4 of DE5 Module 4 (10 mins)
 - `09:40` **Demo**: Choose a VM in GCP (20 mins)
 - `10:00` **Demo**: [Cloud Pricing Calculators](day4/costing/calculators.md) (20 mins)
 - `10:20` **Activity**: [Cloud Pricing Calculators](day4/costing/cloud-pricing.md) (10 mins)

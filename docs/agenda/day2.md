@@ -2,7 +2,7 @@
 
 ## Session 1
 
-- 🌅 Welcome to Day 2 of DE5 Module 4
+- **Slides**: 🌅 Welcome to Day 2 of DE5 Module 4
 - 🖥️ VM Setup
 - **Slides**: Software Version Control
 - **Activity**: [Lab 1: Working locally with Git](../day2/source-control/git-locally.md)

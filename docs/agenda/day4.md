@@ -2,7 +2,7 @@
 
 ## Session 1
 
-- 🌅 Welcome to Day 4 of DE5 Module 4
+- **Slides**: 🌅 Welcome to Day 4 of DE5 Module 4
 - **Demo**: Choose a VM in GCP
 - **Demo**: [Cloud Pricing Calculators](../day4/costing/calculators.md)
 - **Activity**: Cloud Pricing Calculators

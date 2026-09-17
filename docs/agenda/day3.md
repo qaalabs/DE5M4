@@ -2,7 +2,7 @@
 
 ## Session 1
 
-- 🌅 Welcome to Day 3 of DE5 Module 4
+- **Slides**: 🌅 Welcome to Day 3 of DE5 Module 4
 - **Discussion**: What Breaks in Notebooks?
 - **Activity**: [1. Clone Repo to the VM](../day3/python/setup.md)
 - **Activity**: [2. Explore the Project Structure](../day3/python/scaffold-tour.md)
