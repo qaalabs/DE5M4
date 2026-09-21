@@ -14,6 +14,7 @@ nav:
     - "Cloud ~ Core Building Blocks": day2/cloud/building-blocks.md
     - "Cloud Architecture Scenarios": day2/cloud/architecture.md
     - "Cloud Architecture": day2/cloud/scenario.md
+    - "Footer": footer.md
 
 # Theme
 theme:

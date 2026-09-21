@@ -9,6 +9,7 @@ nav:
     - "Cloud Pricing Calculators": day4/costing/calculators.md
     - "More Complex Calculations": day4/costing/scenarios.md
     - "Presentation Prep": day4/presentation.md
+    - "Footer": footer.md
 
 # Theme
 theme:
