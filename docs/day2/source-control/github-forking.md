@@ -1,4 +1,4 @@
-# Activity 4: Forking a Repository
+# Lab 4: Forking a Repository
 
 !!! info "S22: Develop, maintain collaborative relationships using adaptive business methodology with stakeholders such as, business users, data scientists, data analysts and business intelligence teams."
 

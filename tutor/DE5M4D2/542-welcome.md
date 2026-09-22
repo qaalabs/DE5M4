@@ -2,11 +2,12 @@
 
 ### Git and GitHub
 
-- Activity 1: Working locally with Git
-- Activity 2: Create a Repo in GitHub
-- Activity 3: Create an Issue
-- Activity 4: Fork a Repository
-- Activity 5: Create a Pull Request
+- Lab 1: Working locally with Git
+- Lab 2: Create a Repo in GitHub
+- Lab 3: Create an Issue
+- Lab 4: Fork a Repository
+- Lab 5: Create a Pull Request
+- Lab 6: Create and Merge Your Own Pull Request
 
 ### Cloud Computing
 

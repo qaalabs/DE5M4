@@ -1,4 +1,4 @@
-# Activity 2: Adding a repository in GitHub
+# Lab 2: Adding a repository in GitHub
 
 !!! info "K6: Software development principles for data products, including debugging, version control, and testing."
 

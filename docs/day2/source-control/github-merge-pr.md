@@ -1,4 +1,4 @@
-# Activity 6: Create and Merge Your Own Pull Request
+# Lab 6: Create and Merge Your Own Pull Request
 
 !!! info "B3: Quality focus that promotes continuous improvement utilising peer review techniques, innovation and creativity to the data system development process to improve processes and address business challenges."
 
@@ -14,7 +14,7 @@
 
 ### Step 1: Go to your own repository
 
-Navigate to the repository you created in Activity 2 (not the forked one).
+Navigate to the repository you created in Lab 2 (not the forked one).
 
 !!! info "This is your repo - you have full admin rights, including merge"
 
@@ -55,7 +55,7 @@ Click **Create pull request**, add a title and description, then **Create pull r
 - Confirm the merge
 - Delete the branch (optional)
 
-!!! success "Unlike Activity 5, there's no reviewer here - it's your repo, so the merge decision is yours"
+!!! success "Unlike Lab 5, there's no reviewer here - it's your repo, so the merge decision is yours"
 
 ---
 

@@ -1,4 +1,4 @@
-# Activity 3: Creating an Issue on GitHub
+# Lab 3: Creating an Issue on GitHub
 
 !!! info "K30: The methods and techniques used to communicate messages to meet the needs of the audience."
 

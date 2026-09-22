@@ -1,4 +1,4 @@
-# Activity 1: Working locally with Git
+# Lab 1: Working locally with Git
 
 !!! info "K6: Software development principles for data products, including debugging, version control, and testing."
 
