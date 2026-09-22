@@ -30,6 +30,7 @@ nav:
     - "Lab 3: Create an Issue": day2/source-control/github-create-issue.md
     - "Lab 4: Fork a Repository": day2/source-control/github-forking.md
     - "Lab 5: Create a Pull Request": day2/source-control/github-pull-request.md
+    - "Lab 6: Create and Merge Your Own Pull Request": day2/source-control/github-merge-pr.md
     - "Cloud ~ Core Building Blocks": day2/cloud/building-blocks.md
     - "Cloud Architecture Scenarios": day2/cloud/architecture.md
     - "Cloud Architecture": day2/cloud/scenario.md

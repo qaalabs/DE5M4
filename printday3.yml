@@ -20,7 +20,6 @@ nav:
     - "Lab 1 ~ Create Amazon S3 Bucket": labs/amazon-s3-bucket.md
     - "Lab 2 ~ Core Azure Storage Products": labs/azure-storage-products.md
     - "Lab 3 ~ Google Cloud Storage": labs/google-cloud-storage.md
-    - "Footer": footer.md
 
 # Theme
 theme:

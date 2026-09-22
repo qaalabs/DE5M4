@@ -13,7 +13,6 @@ nav:
     - "Write User Stories in groups": day1/planning/user-stories.md
     - "Planning Poker Setup": day1/planning/estimate-effort.md
     - "Plan a 2-week sprint": day1/planning/sprint-planning.md
-    - "Footer": footer.md
 
 # Theme
 theme:

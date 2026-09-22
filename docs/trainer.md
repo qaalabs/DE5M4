@@ -49,14 +49,16 @@
 
 - `10:50` **Activity**: [Lab 2: Create a Repo in GitHub](day2/source-control/github-repo.md) (20 mins)
 - `11:10` **Activity**: [Lab 3: Create an Issue](day2/source-control/github-create-issue.md) (20 mins)
-- `11:30` **Activity**: [Lab 4: Fork a Repository](day2/source-control/github-forking.md) (30 mins)
-- `12:00` **Activity**: [Lab 5: Create a Pull Request](day2/source-control/github-pull-request.md) (20 mins)
+- `11:30` **Activity**: [Lab 4: Fork a Repository](day2/source-control/github-forking.md) (20 mins)
+- `11:50` **Activity**: [Lab 5: Create a Pull Request](day2/source-control/github-pull-request.md) (20 mins)
+- `12:10` **Activity**: [Lab 6: Create and Merge Your Own Pull Request](day2/source-control/github-merge-pr.md) (10 mins)
 
 ### Session 3
 
 - `13:30` **Slides**: Cloud ~ Core Building Blocks (10 mins)
 - `13:40` **Breakout**: [Cloud ~ Core Building Blocks](day2/cloud/building-blocks.md) (20 mins)
-- `14:00` **Report-Back**: Cloud ~ Core Building Blocks (20 mins)
+- `14:00` **Report-Back**: Cloud ~ Core Building Blocks (10 mins)
+- `14:10` Cloud ~ Core Building Blocks (20 mins)
 
 ### Session 4
 
