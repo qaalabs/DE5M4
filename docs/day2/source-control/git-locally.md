@@ -27,13 +27,13 @@ In your VM run the program: **Terminal**
 
 You should now be at a Windows prompt:
 
-```sh
-PS C:\User\Admin\>
+```
+PS C:\Users\Admin\>
 ```
 
 Copy and paste the following 2 lines:
 
-```sh
+```
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
@@ -42,7 +42,7 @@ git config --global user.name "Your Name"
 
 At the prompt copy and paste the following line:
 
-```sh
+```
 git config --global init.defaultBranch main
 ```
 
@@ -53,25 +53,25 @@ This makes sure that the default branch is always called `main`
 
 We want our project file to be on the Desktop, so first change directory to the Desktop:
 
-```sh
+```
 cd Desktop
 ```
 
 At the prompt type the command to make a directory called **my-git-project**:
 
-```sh
+```
 mkdir my-git-project
 ```
 
 Change directory to this new directory:
 
-```sh
+```
 cd my-git-project
 ```
 
 Show all the files including hidden files:
 
-```sh
+```
 ls -Force
 ```
 
@@ -96,6 +96,8 @@ ls -Force
 - Enter the line: `print('Hello, World!')`
 - Save and the file and close Notepad
 - At the prompt - show all the files, including hidden files: `ls -Force`
+
+!!! info "Use must close notepad for the file to show. You can't leave it open."
 
 
 ### Step 5: See the status
@@ -123,6 +125,8 @@ ls -Force
 
 - To see the history of commits, run: `git log`
 
+- For a shorter output run: `git log --oneline`
+
 
 ### Step 9: Delete and restore a file
 *The power of git is that if we delete a file we can restore it!*
@@ -130,7 +134,7 @@ ls -Force
 Delete the file `hello.py` by running: 
 
 ```
-rm hello/py
+rm hello.py
 ```
 
 Run `ls` and it should be gone!
@@ -142,6 +146,13 @@ git restore hello.py
 ```
 
 Run `ls` to show that the has been restored!
+
+!!! note "If you delete the file and commit the change, then you need to restore it from a specific commit"
+    - e.g: `git restore --source=HEAD~1 hello.py`
+    - HEAD - the current commit, in which the file is deleted.
+    - HEAD~1 - the parent of the current commit, in which the file still exists.
+    - Or e.g: `git restore --source=b3d91e2 hello.py`
+    - Where the source can be found using: `git log --oneline`
 
 ---
 
