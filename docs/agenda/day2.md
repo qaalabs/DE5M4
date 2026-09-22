@@ -15,7 +15,7 @@
 - **Activity**: [Lab 3: Create an Issue](../day2/source-control/github-create-issue.md)
 - **Activity**: [Lab 4: Fork a Repository](../day2/source-control/github-forking.md)
 - **Activity**: [Lab 5: Create a Pull Request](../day2/source-control/github-pull-request.md)
-- **Activity**: [Lab 6: Create and Merge Your Own Pull Request](../day2/source-control/github-merge-pr.md)
+- **Activity**: [Lab 6: Merge Your Own Pull Request](../day2/source-control/github-merge-pr.md)
 
 ## 🥪🥤 Lunch Break
 
