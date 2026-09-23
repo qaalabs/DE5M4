@@ -1,3 +1,4 @@
+footer.md
 day1/agile/index.md
 day1/agile/scenario-a.md
 day1/agile/scenario-b.md
