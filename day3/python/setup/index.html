@@ -1902,6 +1902,9 @@
 <p>Click <strong>Create pull request</strong>.</p>
 </li>
 </ol>
+<div class="admonition warning">
+<p class="admonition-title">Don't merge your pull request. Leave it open.</p>
+</div>
 <p>The two CI checks will start running. Wait until both checks have completed before continuing.</p>
 <div class="admonition success">
 <p class="admonition-title">Both checks green - you have a healthy baseline.</p>
@@ -1918,29 +1921,38 @@
 <li>
 <p>Open the Windows program <strong>Terminal</strong></p>
 <p>At the prompt change to the Desktop directory:</p>
-<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>Desktop
+<div class="highlight"><pre><span></span><code>cd Desktop
 </code></pre></div>
 </li>
 <li>
 <p>Clone your repo (replace <code>YOUR_USERNAME</code> with your GitHub username):</p>
 <p>Run the following commands at the Terminal prompt:</p>
-<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/YOUR_USERNAME/techmart-pipeline.git
+<div class="highlight"><pre><span></span><code>git clone https://github.com/YOUR_USERNAME/techmart-pipeline.git
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>techmart-pipeline
+<div class="highlight"><pre><span></span><code>cd techmart-pipeline
 </code></pre></div>
 </li>
 <li>
 <p>Switch to your branch:</p>
-<div class="highlight"><pre><span></span><code>git<span class="w"> </span>checkout<span class="w"> </span>day3-exercises
+<div class="highlight"><pre><span></span><code>git checkout day3-exercises
 </code></pre></div>
 </li>
+<li>
+<p>Confirm you are in the exercise branch</p>
+</li>
 </ol>
+<p>Run: <code>git status</code></p>
+<p>Make sure you are <strong>not</strong> in the main branch. It should show that you are in the exercise branch. </p>
 <hr>
 <h2 id="step-7-install-the-dependencies">Step 7: Install the dependencies</h2>
-<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+<div class="highlight"><pre><span></span><code>pip install -r requirements.txt
 </code></pre></div>
 <p>This installs the dev tools: pytest, pytest-cov, ruff, and flake8.</p>
-<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span>.
+<div class="admonition note">
+<p class="admonition-title">For those on LOD it will show an warning in red as the first line - that is expected</p>
+</div>
+<p>Then run: </p>
+<div class="highlight"><pre><span></span><code>pip install -e .
 </code></pre></div>
 <p>This installs the package itself (including pandas, declared in <code>pyproject.toml</code>). The <code>-e</code> flag installs it in editable mode - Python can now find <code>techmart</code> as an importable package, and any changes you make to the code take effect immediately without reinstalling.</p>
 <div class="admonition note">
@@ -1955,7 +1967,7 @@
 <div class="admonition note">
 <p class="admonition-title">The command is: <code>code .</code> ~ the <code>.</code> says run in the current directory.</p>
 </div>
-<div class="highlight"><pre><span></span><code>code<span class="w"> </span>.
+<div class="highlight"><pre><span></span><code>code .
 </code></pre></div>
 <p>VS Code will open with the project loaded. You are ready for the next activity.</p><div id="quiz-progress-sidebar" aria-label="Quiz Progress" style="display: none;">
   <!-- mkdocs-quiz progress sidebar (desktop) -->
