@@ -37,7 +37,7 @@ Each line is an instruction Docker follows to build the image:
 
 ## Step 2: Build the image
 
-In Git Bash, from the root of your project:
+In a terminal, from the root of your project:
 
 ```bash
 docker build -t techmart-pipeline .

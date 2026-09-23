@@ -9,7 +9,7 @@ Ruff is a fast Python linter. In this activity you will run it, introduce a prob
 In your VS Code terminal:
 
 ```bash
-ruff check .
+python -m ruff check .
 ```
 
 No output. Silence is the passing state - there is nothing wrong.
@@ -33,7 +33,7 @@ Save the file.
 ## Step 3: Run ruff again
 
 ```bash
-ruff check .
+python -m ruff check .
 ```
 
 Ruff finds an `F401` - an unused import. Read the full error message.
@@ -47,7 +47,7 @@ The code `F401` is from the Pyflakes rule set. Ruff uses short codes like this s
 Delete the `import os` line from `cleaning.py` and save.
 
 ```bash
-ruff check .
+python -m ruff check .
 ```
 
 Silence again. The problem is gone.

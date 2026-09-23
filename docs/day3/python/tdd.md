@@ -13,7 +13,7 @@ Select the app to open a Windows command prompt window
 ### Setup
 
 1. Confirm that Python version 3 is installed on the VM: `python --version`
-2. Ensure pytest is installed on the VM: `pytest --version`
+2. Ensure pytest is installed on the VM: `python -m pytest --version`
 3. Create a simple project structure:
    - Create a folder called **data_validator**: `mkdir data_validator`
    - Change directory to the folder: `cd data_validator`
@@ -39,11 +39,10 @@ Select the app to open a Windows command prompt window
 - "Write a failing test first, then implement the minimum code to pass the test, then refactor"
 - Use **Arrange** ... **Act** ... **Assert** structure in your Python test function.
 
-### Setup GitBash shell in VS Code (optional)
+### Setup a terminal in VS Code (optional)
 
 1. In VS code select: `View --> Terminal` or `Ctrl+'`
-2. If you want a GitBash shell then click the + and select: `GitBash`
-3. in the shell run pytest: `pytest`
+2. in the terminal run pytest: `python -m pytest`
 
 ---
 
@@ -71,7 +70,7 @@ def test_empty_record():
 
 !!! note "The test will fail because because the function doesn't exist yet."
 
-- `pytest test_validator.py -v`
+- `python -m pytest test_validator.py -v`
 
 
 ### Step 3 - Implement the minimum code in `validator.py` to pass the test:
@@ -84,7 +83,7 @@ def validate_data_record(record):
 
 ### Step 4 - Run the test and see it pass
 
-- `pytest test_validator.py -v`
+- `python -m pytest test_validator.py -v`
 
 
 ### Step 5 - Write a second test for a positive case:
@@ -109,7 +108,7 @@ def test_validate_data_record_accepts_valid_record():
 
 ### Step 6 - Run the test and see it fail
 
-- `pytest test_validator.py -v`
+- `python -m pytest test_validator.py -v`
 
 
 ### Step 7 - Update the implementation to pass both tests
@@ -133,7 +132,7 @@ def validate_data_record(record):
 
 ### Step 8 - Run tests and see them pass
 
-- `pytest test_validator.py -v`
+- `python -m pytest test_validator.py -v`
 
 
 ### Step 9 - Add more test cases

@@ -17,7 +17,7 @@ Make sure you are in the project root folder. You should see `techmart-pipeline`
 ## Step 2: Run pytest
 
 ```bash
-pytest
+python -m pytest
 ```
 
 Read the output line by line:
@@ -34,7 +34,7 @@ It proves that `remove_duplicates` does not corrupt the shape of the data. A tes
 ## Step 3: Run with coverage
 
 ```bash
-pytest --cov=src --cov-report=term-missing
+python -m pytest --cov=src --cov-report=term-missing
 ```
 
 Look at the output. You will see:
