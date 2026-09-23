@@ -5,17 +5,17 @@
 - **Slides**: 🌅 Welcome to Day 2 of DE5 Module 4
 - 🖥️ VM Setup
 - **Slides**: Software Version Control
-- **Activity**: [Lab 1: Working locally with Git](../day2/source-control/git-locally.md)
+- **Practice**: [Lab 1: Working locally with Git](../day2/source-control/git-locally.md)
 
 ## ☕ Morning Break
 
 ## Session 2
 
-- **Activity**: [Lab 2: Create a Repo in GitHub](../day2/source-control/github-repo.md)
-- **Activity**: [Lab 3: Create an Issue](../day2/source-control/github-create-issue.md)
-- **Activity**: [Lab 4: Fork a Repository](../day2/source-control/github-forking.md)
-- **Activity**: [Lab 5: Create a Pull Request](../day2/source-control/github-pull-request.md)
-- **Activity**: [Lab 6: Merge Your Own Pull Request](../day2/source-control/github-merge-pr.md)
+- **Practice**: [Lab 2: Create a Repo in GitHub](../day2/source-control/github-repo.md)
+- **Practice**: [Lab 3: Create an Issue](../day2/source-control/github-create-issue.md)
+- **Practice**: [Lab 4: Fork a Repository](../day2/source-control/github-forking.md)
+- **Practice**: [Lab 5: Create a Pull Request](../day2/source-control/github-pull-request.md)
+- **Practice**: [Lab 6: Merge Your Own Pull Request](../day2/source-control/github-merge-pr.md)
 
 ## 🥪🥤 Lunch Break
 

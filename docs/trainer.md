@@ -43,15 +43,15 @@
 
 - `09:30` **Slides**: 🌅 Welcome to Day 2 of DE5 Module 4 (10 mins)
 - `09:50` **Slides**: Software Version Control (10 mins)
-- `10:00` **Activity**: [Lab 1: Working locally with Git](day2/source-control/git-locally.md) (30 mins)
+- `10:00` **Practice**: [Lab 1: Working locally with Git](day2/source-control/git-locally.md) (30 mins)
 
 ### Session 2
 
-- `10:50` **Activity**: [Lab 2: Create a Repo in GitHub](day2/source-control/github-repo.md) (20 mins)
-- `11:10` **Activity**: [Lab 3: Create an Issue](day2/source-control/github-create-issue.md) (20 mins)
-- `11:30` **Activity**: [Lab 4: Fork a Repository](day2/source-control/github-forking.md) (20 mins)
-- `11:50` **Activity**: [Lab 5: Create a Pull Request](day2/source-control/github-pull-request.md) (20 mins)
-- `12:10` **Activity**: [Lab 6: Merge Your Own Pull Request](day2/source-control/github-merge-pr.md) (10 mins)
+- `10:50` **Practice**: [Lab 2: Create a Repo in GitHub](day2/source-control/github-repo.md) (20 mins)
+- `11:10` **Practice**: [Lab 3: Create an Issue](day2/source-control/github-create-issue.md) (20 mins)
+- `11:30` **Practice**: [Lab 4: Fork a Repository](day2/source-control/github-forking.md) (20 mins)
+- `11:50` **Practice**: [Lab 5: Create a Pull Request](day2/source-control/github-pull-request.md) (20 mins)
+- `12:10` **Practice**: [Lab 6: Merge Your Own Pull Request](day2/source-control/github-merge-pr.md) (10 mins)
 
 ### Session 3
 
@@ -78,13 +78,13 @@
 - `09:50` **Activity**: [1. Clone Repo to the VM](day3/python/setup.md) (10 mins)
 - `10:00` **Activity**: [2. Explore the Project Structure](day3/python/scaffold-tour.md) (10 mins)
 - `10:10` **Activity**: [3. The Supporting Files](day3/python/scaffold-files.md) (10 mins)
-- `10:20` **Activity**: [4. Run the Tests Locally](day3/python/local-test.md) (10 mins)
+- `10:20` **Practice**: [4. Run the Tests Locally](day3/python/local-test.md) (10 mins)
 
 ### Session 2
 
-- `10:50` **Activity**: [5. Lint Python Code](day3/python/coverage-ruff.md) (10 mins)
-- `11:00` **Activity**: [6. GitHub Actions](day3/python/ci-bridge.md) (10 mins)
-- `11:10` **Activity**: [7. Python CI Pipeline](day3/python/python-ci.md) (40 mins)
+- `10:50` **Practice**: [5. Lint Python Code](day3/python/coverage-ruff.md) (10 mins)
+- `11:00` **Practice**: [6. GitHub Actions](day3/python/ci-bridge.md) (10 mins)
+- `11:10` **Practice**: [7. Python CI Pipeline](day3/python/python-ci.md) (40 mins)
 - `11:50` **Demo**: [Docker Container](day3/docker.md) (20 mins)
 
 ### Session 3
@@ -98,9 +98,9 @@
 
 - `14:50` **Breakout**: [3. Logical Model & Design Decisions](day3/storage/3-logical.md) (20 mins)
 - `15:20` DECISIONS-SHARE (10 mins)
-- `15:30` **Activity**: [Lab 1 ~ Create Amazon S3 Bucket](labs/amazon-s3-bucket.md) (10 mins)
-- `15:40` **Activity**: [Lab 2 ~ Core Azure Storage Products](labs/azure-storage-products.md) (10 mins)
-- `15:50` **Activity**: [Lab 3 ~ Google Cloud Storage](labs/google-cloud-storage.md) (10 mins)
+- `15:30` **Practice**: [Lab 1 ~ Create Amazon S3 Bucket](labs/amazon-s3-bucket.md) (10 mins)
+- `15:40` **Practice**: [Lab 2 ~ Core Azure Storage Products](labs/azure-storage-products.md) (10 mins)
+- `15:50` **Practice**: [Lab 3 ~ Google Cloud Storage](labs/google-cloud-storage.md) (10 mins)
 
 ---
 
@@ -111,7 +111,7 @@
 - `09:30` **Slides**: 🌅 Welcome to Day 4 of DE5 Module 4 (10 mins)
 - `09:40` **Demo**: Choose a VM in GCP (20 mins)
 - `10:00` **Demo**: [Cloud Pricing Calculators](day4/costing/calculators.md) (20 mins)
-- `10:20` **Activity**: [Cloud Pricing Calculators](day4/costing/cloud-pricing.md) (10 mins)
+- `10:20` **Practice**: [Cloud Pricing Calculators](day4/costing/cloud-pricing.md) (10 mins)
 
 ### Session 2
 
