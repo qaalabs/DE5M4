@@ -1284,6 +1284,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../mermaid-erd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drawing ERDs with Mermaid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../1-analysis/" class="md-nav__link">
         
   
@@ -1645,16 +1673,31 @@
 
 
 <h1 id="group-activity-2-conceptual-data-model">Group Activity 2: Conceptual Data Model</h1>
-<p>Take the entities, relationships and access patterns from Activity 1 and <strong>formalise them into a diagram</strong>. You have drawn ERDs before - this is where that skill gets used.</p>
+<p>Take the entities, relationships and access patterns from Activity 1 and <strong>formalise them into a diagram</strong>. Use the <a href="../mermaid-erd/">Mermaid ERD syntax</a> from the demo.</p>
 <h3 id="instructions">Instructions</h3>
 <p>Each group needs to create a <strong>conceptual data model</strong>:</p>
 <ul>
-<li>Draw an entity-relationship diagram</li>
+<li>Draw an entity-relationship diagram using Mermaid (<code>erDiagram</code>) in your group's <strong>HedgeDoc</strong> page</li>
 <li>Show the key entities and the relationships between them</li>
 <li>Note the relationship cardinalities (one-to-one, one-to-many, many-to-many)</li>
 <li>Mark a single <strong>primary identifier</strong> for each entity</li>
 <li>Add <strong>2 to 3 significant attributes</strong> per entity - just enough to make the entity concrete. You will complete the full attribute list in Activity 3, so do not try to be exhaustive here.</li>
 </ul>
+<p><strong>Starter:</strong></p>
+<div class="highlight"><pre><span></span><code>```mermaid
+erDiagram
+    AUTHOR {
+        int author_id PK
+        string name
+    }
+    BOOK {
+        int book_id PK
+        int author_id FK
+        string title
+    }
+    AUTHOR ||--o{ BOOK : writes
+```
+</code></pre></div>
 <hr>
 <h3 id="report-back">Report Back</h3>
 <ul>

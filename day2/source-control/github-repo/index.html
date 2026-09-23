@@ -1353,6 +1353,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../day3/storage/mermaid-erd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drawing ERDs with Mermaid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../day3/storage/1-analysis/" class="md-nav__link">
         
   
@@ -1774,9 +1802,10 @@
 <h3 id="step-7-github-renders-mermaid-diagrams">Step 7: GitHub renders Mermaid diagrams</h3>
 <ul>
 <li>Add a new file: <code>erd-demo.md</code></li>
-<li>Paste in the following and commit the file:</li>
+<li>Paste in the following, including the <code>mermaid</code> code fence, and commit the file:</li>
 </ul>
-<div class="highlight"><pre><span></span><code>erDiagram
+<div class="highlight"><pre><span></span><code>```mermaid
+erDiagram
     AUTHOR {
         int author_id PK
         string name
@@ -1787,15 +1816,11 @@
         string title
     }
     AUTHOR ||--o{ BOOK : writes
-</code></pre></div>
-<ul>
-<li>Wrap it in a mermaid code fence:</li>
-</ul>
-<div class="highlight"><pre><span></span><code>```mermaid
-erDiagram
-    AUTHOR ||--o{ BOOK : writes
 ```
 </code></pre></div>
+<ul>
+<li>Open <code>erd-demo.md</code> on GitHub to see the rendered diagram</li>
+</ul>
 <div class="admonition info">
 <p class="admonition-title">Mermaid is just text. GitHub renders it into a diagram automatically wherever it appears in a <code>.md</code> file - no extra tools needed.</p>
 </div>
