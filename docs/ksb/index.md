@@ -8,6 +8,8 @@ K6: Software development principles for data products, including debugging, vers
 
 K7: Principles of sustainable data products and organisational responsibilities for environmental social governance.
 
+K8: Deployment approaches for new data pipelines and automated processes.
+
 K9: How to build a data product that complies with regulatory requirements.
 
 K12: How to cost and build a system whilst ensuring that organisational strategies for sustainable, net zero technologies are considered.
