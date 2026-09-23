@@ -103,6 +103,8 @@ Scroll down, make sure **Commit directly to `day3-exercises`** is selected, and 
 
 3. Click **Create pull request**.
 
+!!! warning "Don't merge your pull request. Leave it open."
+
 The two CI checks will start running. Wait until both checks have completed before continuing.
 
 !!! success "Both checks green - you have a healthy baseline."
@@ -119,7 +121,7 @@ The two CI checks will start running. Wait until both checks have completed befo
 
     At the prompt change to the Desktop directory:
 
-    ```bash
+    ```
     cd Desktop
     ```
 
@@ -127,31 +129,42 @@ The two CI checks will start running. Wait until both checks have completed befo
 
     Run the following commands at the Terminal prompt:
 
-    ```bash
+    ```
     git clone https://github.com/YOUR_USERNAME/techmart-pipeline.git
     ```
 
-    ```bash
+    ```
     cd techmart-pipeline
     ```
 
 3. Switch to your branch:
 
-    ```bash
+    ```
     git checkout day3-exercises
     ```
+
+4. Confirm you are in the exercise branch
+
+   Run: `git status`
+
+   Make sure you are **not** in the main branch. It should show that you are in the exercise branch. 
+
 
 ---
 
 ## Step 7: Install the dependencies
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 This installs the dev tools: pytest, pytest-cov, ruff, and flake8.
 
-```bash
+!!! note "For those on LOD it will show an warning in red as the first line - that is expected"
+
+Then run: 
+
+```
 pip install -e .
 ```
 
@@ -167,7 +180,7 @@ This installs the package itself (including pandas, declared in `pyproject.toml`
 
 !!! note "The command is: `code .` ~ the `.` says run in the current directory."
 
-```bash
+```
 code .
 ```
 

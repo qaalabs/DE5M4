@@ -2,6 +2,8 @@
 
 You have tested and linted the TechMart pipeline. In this activity you will package it into a Docker container and run it in a completely isolated environment.
 
+> This is how pipelines are often deployed in practice: an orchestrator such as Airflow, or a cloud scheduler such as AWS Batch or Azure Container Apps Jobs, runs your pipeline as a container on a schedule.
+
 Follow along if you are comfortable - otherwise watch and ask questions.
 
 ---
