@@ -1730,7 +1730,7 @@
 <hr>
 <h2 id="step-1-run-ruff-on-the-clean-project">Step 1: Run ruff on the clean project</h2>
 <p>In your VS Code terminal:</p>
-<div class="highlight"><pre><span></span><code>ruff<span class="w"> </span>check<span class="w"> </span>.
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>-m<span class="w"> </span>ruff<span class="w"> </span>check<span class="w"> </span>.
 </code></pre></div>
 <p>No output. Silence is the passing state - there is nothing wrong.</p>
 <hr>
@@ -1742,14 +1742,14 @@
 <p>Save the file.</p>
 <hr>
 <h2 id="step-3-run-ruff-again">Step 3: Run ruff again</h2>
-<div class="highlight"><pre><span></span><code>ruff<span class="w"> </span>check<span class="w"> </span>.
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>-m<span class="w"> </span>ruff<span class="w"> </span>check<span class="w"> </span>.
 </code></pre></div>
 <p>Ruff finds an <code>F401</code> - an unused import. Read the full error message.</p>
 <p>The code <code>F401</code> is from the Pyflakes rule set. Ruff uses short codes like this so you can look them up or suppress specific rules if needed.</p>
 <hr>
 <h2 id="step-4-fix-it">Step 4: Fix it</h2>
 <p>Delete the <code>import os</code> line from <code>cleaning.py</code> and save.</p>
-<div class="highlight"><pre><span></span><code>ruff<span class="w"> </span>check<span class="w"> </span>.
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>-m<span class="w"> </span>ruff<span class="w"> </span>check<span class="w"> </span>.
 </code></pre></div>
 <p>Silence again. The problem is gone.</p>
 <div class="admonition success">

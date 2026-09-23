@@ -1637,7 +1637,7 @@
 <h3 id="setup">Setup</h3>
 <ol>
 <li>Confirm that Python version 3 is installed on the VM: <code>python --version</code></li>
-<li>Ensure pytest is installed on the VM: <code>pytest --version</code></li>
+<li>Ensure pytest is installed on the VM: <code>python -m pytest --version</code></li>
 <li>Create a simple project structure:</li>
 <li>Create a folder called <strong>data_validator</strong>: <code>mkdir data_validator</code></li>
 <li>Change directory to the folder: <code>cd data_validator</code></li>
@@ -1664,11 +1664,10 @@
 <li>"Write a failing test first, then implement the minimum code to pass the test, then refactor"</li>
 <li>Use <strong>Arrange</strong> ... <strong>Act</strong> ... <strong>Assert</strong> structure in your Python test function.</li>
 </ul>
-<h3 id="setup-gitbash-shell-in-vs-code-optional">Setup GitBash shell in VS Code (optional)</h3>
+<h3 id="setup-a-terminal-in-vs-code-optional">Setup a terminal in VS Code (optional)</h3>
 <ol>
 <li>In VS code select: <code>View --&gt; Terminal</code> or <code>Ctrl+'</code></li>
-<li>If you want a GitBash shell then click the + and select: <code>GitBash</code></li>
-<li>in the shell run pytest: <code>pytest</code></li>
+<li>in the terminal run pytest: <code>python -m pytest</code></li>
 </ol>
 <hr>
 <h2 id="instructions">Instructions</h2>
@@ -1691,7 +1690,7 @@
 <p class="admonition-title">The test will fail because because the function doesn't exist yet.</p>
 </div>
 <ul>
-<li><code>pytest test_validator.py -v</code></li>
+<li><code>python -m pytest test_validator.py -v</code></li>
 </ul>
 <h3 id="step-3-implement-the-minimum-code-in-validatorpy-to-pass-the-test">Step 3 - Implement the minimum code in <code>validator.py</code> to pass the test:</h3>
 <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">validate_data_record</span><span class="p">(</span><span class="n">record</span><span class="p">):</span>
@@ -1699,7 +1698,7 @@
 </code></pre></div>
 <h3 id="step-4-run-the-test-and-see-it-pass">Step 4 - Run the test and see it pass</h3>
 <ul>
-<li><code>pytest test_validator.py -v</code></li>
+<li><code>python -m pytest test_validator.py -v</code></li>
 </ul>
 <h3 id="step-5-write-a-second-test-for-a-positive-case">Step 5 - Write a second test for a positive case:</h3>
 <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">test_validate_data_record_accepts_valid_record</span><span class="p">():</span>
@@ -1719,7 +1718,7 @@
 </code></pre></div>
 <h3 id="step-6-run-the-test-and-see-it-fail">Step 6 - Run the test and see it fail</h3>
 <ul>
-<li><code>pytest test_validator.py -v</code></li>
+<li><code>python -m pytest test_validator.py -v</code></li>
 </ul>
 <h3 id="step-7-update-the-implementation-to-pass-both-tests">Step 7 - Update the implementation to pass both tests</h3>
 <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">validate_data_record</span><span class="p">(</span><span class="n">record</span><span class="p">):</span>
@@ -1738,7 +1737,7 @@
 </code></pre></div>
 <h3 id="step-8-run-tests-and-see-them-pass">Step 8 - Run tests and see them pass</h3>
 <ul>
-<li><code>pytest test_validator.py -v</code></li>
+<li><code>python -m pytest test_validator.py -v</code></li>
 </ul>
 <h3 id="step-9-add-more-test-cases">Step 9 - Add more test cases</h3>
 <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">test_validate_data_record_rejects_missing_fields</span><span class="p">():</span>

@@ -1725,7 +1725,7 @@
 <p>Make sure you are in the project root folder. You should see <code>techmart-pipeline</code> in the prompt.</p>
 <hr>
 <h2 id="step-2-run-pytest">Step 2: Run pytest</h2>
-<div class="highlight"><pre><span></span><code>pytest
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>-m<span class="w"> </span>pytest
 </code></pre></div>
 <p>Read the output line by line:</p>
 <ul>
@@ -1737,7 +1737,7 @@
 <p>It proves that <code>remove_duplicates</code> does not corrupt the shape of the data. A test that always passes proves nothing - it has to be able to fail.</p>
 <hr>
 <h2 id="step-3-run-with-coverage">Step 3: Run with coverage</h2>
-<div class="highlight"><pre><span></span><code>pytest<span class="w"> </span>--cov<span class="o">=</span>src<span class="w"> </span>--cov-report<span class="o">=</span>term-missing
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>-m<span class="w"> </span>pytest<span class="w"> </span>--cov<span class="o">=</span>src<span class="w"> </span>--cov-report<span class="o">=</span>term-missing
 </code></pre></div>
 <p>Look at the output. You will see:</p>
 <ul>
