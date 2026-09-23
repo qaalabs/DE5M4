@@ -39,6 +39,7 @@ nav = [
     {"6. GitHub Actions" = "day3/python/ci-bridge.md"},
     {"7. Python CI Pipeline" = "day3/python/python-ci.md"},
     {"Docker Container" = "day3/docker.md"},
+    {"Drawing ERDs with Mermaid" = "day3/storage/mermaid-erd.md"},
     {"1. Requirements Analysis" = "day3/storage/1-analysis.md"},
     {"2. Create Conceptual Data Model" = "day3/storage/2-conceptual.md"},
     {"3. Logical Model & Design Decisions" = "day3/storage/3-logical.md"},

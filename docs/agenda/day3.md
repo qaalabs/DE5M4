@@ -23,7 +23,7 @@
 
 ## Session 3
 
-- **Instructions**: ERD-SETUP
+- **Demo**: [Drawing ERDs with Mermaid](../day3/storage/mermaid-erd.md)
 - **Instructions**: [1. Requirements Analysis](../day3/storage/1-analysis.md)
 - **Breakout**: [2. Create Conceptual Data Model](../day3/storage/2-conceptual.md)
 - **Report-Back**: Present Entity-Relationship Diagram
