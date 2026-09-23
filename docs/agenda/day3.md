@@ -16,8 +16,8 @@
 - **Practice**: [5. Lint Python Code](../day3/python/coverage-ruff.md)
 - **Practice**: [6. GitHub Actions](../day3/python/ci-bridge.md)
 - **Practice**: [7. Python CI Pipeline](../day3/python/python-ci.md)
+- **Practice**: [Run nginx in Docker Desktop](../day3/docker-nginx.md)
 - **Demo**: [Docker Container](../day3/docker.md)
-- 
 
 ## 🥪🥤 Lunch Break
 
