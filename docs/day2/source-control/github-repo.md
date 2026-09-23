@@ -64,9 +64,10 @@ Click: **Create repository**
 ### Step 7: GitHub renders Mermaid diagrams
 
 - Add a new file: `erd-demo.md`
-- Paste in the following and commit the file:
+- Paste in the following, including the `mermaid` code fence, and commit the file:
 
-```text
+````text
+```mermaid
 erDiagram
     AUTHOR {
         int author_id PK
@@ -79,15 +80,9 @@ erDiagram
     }
     AUTHOR ||--o{ BOOK : writes
 ```
-
-- Wrap it in a mermaid code fence:
-
-````text
-```mermaid
-erDiagram
-    AUTHOR ||--o{ BOOK : writes
-```
 ````
+
+- Open `erd-demo.md` on GitHub to see the rendered diagram
 
 !!! info "Mermaid is just text. GitHub renders it into a diagram automatically wherever it appears in a `.md` file - no extra tools needed."
 
