@@ -1,0 +1,80 @@
+# Site name
+site_name: Module 4 - Planning Data Engineering Product
+use_directory_urls: false
+dev_addr: '0.0.0.0:8000'
+
+# Navigation menu
+nav:
+  - "Day 3 ~ Database Design & Python":
+    - "1. Clone Repo to the VM": day3/python/setup.md
+    - "2. Explore the Project Structure": day3/python/scaffold-tour.md
+    - "3. The Supporting Files": day3/python/scaffold-files.md
+    - "4. Run the Tests Locally": day3/python/local-test.md
+    - "5. Lint Python Code": day3/python/coverage-ruff.md
+    - "6. GitHub Actions": day3/python/ci-bridge.md
+    - "7. Python CI Pipeline": day3/python/python-ci.md
+    - "Run nginx in Docker Desktop": day3/docker-nginx.md
+    - "Docker Container": day3/docker.md
+    - "Drawing ERDs with Mermaid": day3/storage/mermaid-erd.md
+    - "1. Requirements Analysis": day3/storage/1-analysis.md
+    - "2. Create Conceptual Data Model": day3/storage/2-conceptual.md
+    - "3. Logical Model & Design Decisions": day3/storage/3-logical.md
+    - "Lab 1 ~ Create Amazon S3 Bucket": labs/amazon-s3-bucket.md
+    - "Lab 2 ~ Core Azure Storage Products": labs/azure-storage-products.md
+    - "Lab 3 ~ Google Cloud Storage": labs/google-cloud-storage.md
+
+# Theme
+theme:
+    name: material
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite:
+      guess_lang: false
+  - def_list
+  - footnotes
+  - meta
+  - tables
+  - toc:
+      permalink: false
+      toc_depth: 2
+
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - print-site:
+      enumerate_headings: false
+      add_table_of_contents: false
+      add_cover_page: true
+      cover_page_template: printday_cover.tpl
+
