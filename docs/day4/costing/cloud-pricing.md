@@ -25,7 +25,7 @@
 - Add: 500GB Standard storage
 - Compute: Search EC2
 - Add: t3.medium (2 vCPU, 4GB RAM)
-- Operation System: Linux
+- Operating System: Linux
 - Payment options: On-Demand
 - Expected utilization: 2 Hours / Day
 
@@ -38,7 +38,7 @@ Should be about: **$14.03 per month** / $168.36 annually
 - Add to estimate: Storage Accounts
 - Capacity: 500GB Standard
 - Add to estimate: Virtual Machines
-- Operation System: Linux
+- Operating System: Linux
 - Select: Bs-series ~ B2s: 2 Cores, 4 GB RAM
 - Select: 60 Hours (2 hours / Day)
 
@@ -52,9 +52,9 @@ Should be about: **$13.94 per month** / $167.28 annually
 - Total amount of storage: 500 GiB
 - Add to estimate: Compute Engine
 - Total instance usage time: 2 hours per day 
-- Operation System: Free BYOL (Bring You Own Licence)
+- Operating System: Free BYOL (Bring Your Own Licence)
 - Machine Type: E2 ~ Day-to-day computing at a lower cost
-- Custom: 2VPUs / 4 GiB memory
+- Custom: 2 vCPUs / 4 GiB memory
 
-Should be about: **$14.43 per month** / $167.28 annually
+Should be about: **$14.43 per month** / $173.16 annually
 

@@ -8,7 +8,7 @@
 
 ---
 
-## Group 1: Batch ETL Pipeline
+## Groups 1 & 4: Batch ETL Pipeline
 
 **Business: Nightly customer data processing**
 
