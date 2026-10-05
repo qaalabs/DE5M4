@@ -42,3 +42,11 @@ Go to your pull request on GitHub. You should see the two checks listed - **CI P
 These ran when you created the PR and again every time you push a commit to `day3-exercises`.
 
 In the next activity you will push changes that deliberately break the checks, and watch them respond.
+
+!!! note "What about passwords and keys?"
+    Real pipelines often need credentials - a database connection string, a cloud storage key, an API token. These never go in the repo.
+
+    - On your machine, they go in a `.env` file. That is why you saw `.env` in `.gitignore` earlier - Git never commits it.
+    - In a workflow, they go in **GitHub secrets** (repo **Settings > Secrets and variables > Actions**). The workflow can use them, but GitHub hides them in the logs.
+
+    You will use secrets in Module 5.

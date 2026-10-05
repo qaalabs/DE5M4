@@ -117,7 +117,13 @@ The two CI checks will start running. Wait until both checks have completed befo
 
 !!! note "Complete the following steps inside your allocated Virtual Machine"
 
-1. Open the Windows program **Terminal**
+1. Open a browser **on the VM**, go to [github.com](https://github.com) and sign in.
+
+    Later today you will push changes from the VM to GitHub. Being signed in on the VM browser now makes that a single click.
+
+    !!! tip "Have your phone or authenticator app ready if your GitHub account uses two-factor authentication."
+
+2. Open the Windows program **Terminal**
 
     At the prompt change to the Desktop directory:
 
@@ -125,7 +131,7 @@ The two CI checks will start running. Wait until both checks have completed befo
     cd Desktop
     ```
 
-2. Clone your repo (replace `YOUR_USERNAME` with your GitHub username):
+3. Clone your repo (replace `YOUR_USERNAME` with your GitHub username):
 
     Run the following commands at the Terminal prompt:
 
@@ -137,13 +143,13 @@ The two CI checks will start running. Wait until both checks have completed befo
     cd techmart-pipeline
     ```
 
-3. Switch to your branch:
+4. Switch to your branch:
 
     ```
     git checkout day3-exercises
     ```
 
-4. Confirm you are in the exercise branch
+5. Confirm you are in the exercise branch
 
    Run: `git status`
 

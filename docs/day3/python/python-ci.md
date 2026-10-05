@@ -1,8 +1,8 @@
 # Activity 7: Python CI Pipeline
 
-You already have a pull request open in GitHub. In this activity you will make deliberate changes using the GitHub editor, and watch GitHub Actions respond on your PR.
+You already have a pull request open in GitHub. In this activity you will make deliberate changes and watch GitHub Actions respond on your PR.
 
-The pattern is the same each time: edit a file in GitHub, commit, check the PR checks.
+Stages 1 and 2 use the GitHub editor: edit a file in GitHub, commit, check the PR checks. Stage 3 does the same from your VM: edit in VS Code, push, check the PR checks.
 
 ---
 
@@ -24,6 +24,9 @@ Watch your PR - the **CI Pipeline** check goes red. Coverage is too low.
 
 Edit the file again, remove `--cov-fail-under=70`, and commit. Green again.
 
+!!! note "Why remove the gate instead of fixing it?"
+    In a real project you would fix this by writing more tests until coverage reaches 70%. Writing tests is covered in Module 5, so today you remove the gate to get back to green.
+
 !!! success "You have seen how a team enforces a coverage quality gate."
 
 ---
@@ -44,18 +47,79 @@ Change `4` back to `3` and commit. Green again.
 
 ---
 
-## Stage 3 - Lint slip
+## Stage 3 - Lint slip, pushed from the VM
 
-Open `src/techmart/cleaning.py` in GitHub. Click the pencil icon to edit.
+In Activity 5 you ran ruff yourself and caught an unused import before it went anywhere. This time, imagine you forgot to run it. You will make the change on the VM and push it to GitHub - the way you will work in real projects.
 
-Add this line after the existing imports:
+### 1. Get the latest changes
+
+Stages 1 and 2 committed changes on GitHub, so your copy on the VM is now behind. In the VS Code terminal:
+
+```
+git pull
+```
+
+!!! tip "Always pull before you start work - it saves you from a rejected push later."
+
+### 2. Make the slip
+
+Open `src/techmart/cleaning.py` in VS Code. Add this line after the existing imports and save:
 
 ```python
 import os
 ```
 
-Commit to `day3-exercises`. The **Lint** check goes red. Click into the failed check to read what ruff found.
+Do **not** run ruff this time.
 
-Delete the `import os` line and commit. Green again.
+### 3. Commit and push
+
+```
+git add .
+```
+
+```
+git commit -m "Add os import"
+```
+
+```
+git push
+```
+
+Go to your PR on GitHub. The **Lint** check goes red. Click into the failed check to read what ruff found - it is the same `F401` you saw in Activity 5.
+
+!!! warning "If `git commit` says `Please tell me who you are`"
+    Set your name and email, then run the commit again:
+
+    ```
+    git config --global user.name "Your Name"
+    ```
+
+    ```
+    git config --global user.email "you@example.com"
+    ```
+
+### 4. Fix it and push again
+
+Let ruff fix it for you:
+
+```
+python -m ruff check . --fix
+```
+
+Then commit and push the fix:
+
+```
+git add .
+```
+
+```
+git commit -m "Remove unused import"
+```
+
+```
+git push
+```
+
+The **Lint** check goes green.
 
 !!! success "Both checks green. Your PR is ready to merge."
