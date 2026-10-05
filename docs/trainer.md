@@ -84,7 +84,8 @@
 
 - `10:50` **Practice**: [5. Lint Python Code](day3/python/coverage-ruff.md) (10 mins)
 - `11:00` **Practice**: [6. GitHub Actions](day3/python/ci-bridge.md) (10 mins)
-- `11:10` **Practice**: [7. Python CI Pipeline](day3/python/python-ci.md) (40 mins)
+- `11:10` **Practice**: [7. Python CI Pipeline](day3/python/python-ci.md) (30 mins)
+- `11:40` **Practice**: [8. Azure DevOps Pipeline](day3/python/azure-pipelines.md) (10 mins)
 - `11:50` **Practice**: [Run nginx in Docker Desktop](day3/docker-nginx.md) (10 mins)
 - `12:00` **Demo**: [Docker Container](day3/docker.md) (20 mins)
 

@@ -43,6 +43,7 @@ nav:
     - "5. Lint Python Code": day3/python/coverage-ruff.md
     - "6. GitHub Actions": day3/python/ci-bridge.md
     - "7. Python CI Pipeline": day3/python/python-ci.md
+    - "8. Azure DevOps Pipeline": day3/python/azure-pipelines.md
     - "Run nginx in Docker Desktop": day3/docker-nginx.md
     - "Docker Container": day3/docker.md
     - "Drawing ERDs with Mermaid": day3/storage/mermaid-erd.md
