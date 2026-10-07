@@ -6,9 +6,9 @@ dev_addr: '0.0.0.0:8000'
 # Navigation menu
 nav:
   - "Day 4 ~ Costing & Presentations":
-    - "Cloud Pricing Calculators": day4/costing/calculators.md
-    - "More Complex Calculations": day4/costing/scenarios.md
-    - "EPA Presentation Briefing": day4/presentation.md
+    - "Cloud pricing calculators": day4/costing/calculators.md
+    - "👥 More complex calculations": day4/costing/scenarios.md
+    - "EPA presentation briefing": day4/presentation.md
 
 # Theme
 theme:

@@ -9,10 +9,10 @@ nav:
     - "👥 How are products designed?": day1/agile/how-design-steps.md
     - "👥 Apply design process to a scenario": day1/agile/scenario.md
     - "Agile artefacts": day1/agile/artefacts.md
-    - "Identify Epics": day1/planning/epics.md
-    - "Write User Stories in groups": day1/planning/user-stories.md
-    - "Planning Poker Setup": day1/planning/estimate-effort.md
-    - "Plan a 2-week sprint": day1/planning/sprint-planning.md
+    - "Identify epics": day1/planning/epics.md
+    - "👥 Write user stories in groups": day1/planning/user-stories.md
+    - "Planning poker setup": day1/planning/estimate-effort.md
+    - "👥 Plan a 2-week sprint": day1/planning/sprint-planning.md
 
 # Theme
 theme:
