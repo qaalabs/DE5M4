@@ -3,7 +3,7 @@
 ## Session 1
 
 - **Slides**: 🌅 Welcome to Day 1 of DE5 Module 4
-- **Slides**: 🖥️ VM Setup
+- **Setup**: 🖥️ VM Setup
 - **Discussion**: I want to build a wall ...
 - Learners introduce themselves
 
@@ -12,11 +12,11 @@
 ## Session 2
 
 - **Instructions**: How are products designed?
-- **Breakout**: [How are products designed?](../day1/agile/how-design-steps.md)
+- **Breakout**: [👥 How are products designed?](../day1/agile/how-design-steps.md)
 - **Report-Back**: How are products designed?
 - **Slides**: Waterfall and Agile
 - **Instructions**: Apply design process to a scenario
-- **Breakout**: [Apply design process to a scenario](../day1/agile/scenario.md)
+- **Breakout**: [👥 Apply design process to a scenario](../day1/agile/scenario.md)
 - **Report-Back**: Share your design steps
 
 ## 🥪🥤 Lunch Break

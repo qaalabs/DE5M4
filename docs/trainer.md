@@ -11,11 +11,11 @@
 ### Session 2
 
 - `10:50` **Instructions**: [How are products designed?](day1/agile/how-instructions.md) (10 mins)
-- `11:00` **Breakout**: [How are products designed?](day1/agile/how-design-steps.md) (20 mins)
+- `11:00` **Breakout**: [👥 How are products designed?](day1/agile/how-design-steps.md) (20 mins)
 - `11:20` **Report-Back**: [How are products designed?](day1/agile/how-solution.md) (10 mins)
 - `11:30` **Slides**: Waterfall and Agile (10 mins)
 - `11:40` **Instructions**: Apply design process to a scenario (10 mins)
-- `11:50` **Breakout**: [Apply design process to a scenario](day1/agile/scenario.md) (20 mins)
+- `11:50` **Breakout**: [👥 Apply design process to a scenario](day1/agile/scenario.md) (20 mins)
 - `12:10` **Report-Back**: Share your design steps (20 mins)
 
 ### Session 3
@@ -119,23 +119,28 @@
 
 - `10:50` **Breakout**: [More Complex Calculations](day4/costing/scenarios.md) (30 mins)
 - `11:20` **Report-Back**: Complex Calculations (10 mins)
-- `11:30` EPA Presentation (10 mins)
-- `11:40` [Presentation Prep](day4/presentation.md) (40 mins)
+- `11:30` [EPA Presentation Briefing](day4/presentation.md) (10 mins)
+- `11:40` **Activity**: Presentation Prep (40 mins)
 
 ### Session 3
 
-- `13:20` Presentations ~ Group 1 (30 mins)
+- `13:20` **Report-Back**: Presentations ~ Group 1 (20 mins)
 
 ### Session 4
 
-- `14:00` Presentations ~ Group 2 (30 mins)
+- `13:50` **Report-Back**: Presentations ~ Group 2 (20 mins)
 
 ### Session 5
 
-- `14:40` Presentations ~ Group 3 (30 mins)
+- `14:20` **Report-Back**: Presentations ~ Group 3 (20 mins)
 
 ### Session 6
 
-- `15:20` Presentations ~ Group 4 (20 mins)
+- `14:50` **Report-Back**: Presentations ~ Group 4 (20 mins)
+
+### Session 7
+
+- `15:20` **Report-Back**: Presentations ~ Group 5 (20 mins)
+- `15:40` **Slides**: 💯 Evaluation (10 mins)
 
 ---

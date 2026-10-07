@@ -6,8 +6,8 @@ dev_addr: '0.0.0.0:8000'
 # Navigation menu
 nav:
   - "Day 1 ~ Agile Foundations":
-    - "How are products designed?": day1/agile/how-design-steps.md
-    - "Apply design process to a scenario": day1/agile/scenario.md
+    - "👥 How are products designed?": day1/agile/how-design-steps.md
+    - "👥 Apply design process to a scenario": day1/agile/scenario.md
     - "Agile artefacts": day1/agile/artefacts.md
     - "Identify Epics": day1/planning/epics.md
     - "Write User Stories in groups": day1/planning/user-stories.md
