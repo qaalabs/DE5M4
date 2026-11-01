@@ -40,4 +40,5 @@
 - **Practice**: [Lab 1 - Create Amazon S3 bucket](../labs/amazon-s3-bucket.md)
 - **Practice**: [Lab 2 - Core Azure storage products](../labs/azure-storage-products.md)
 - **Practice**: [Lab 3 - Google Cloud storage](../labs/google-cloud-storage.md)
+- 
 
