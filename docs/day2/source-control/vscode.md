@@ -66,6 +66,11 @@ git commit -m "Added a second greeting"
 - The **M** next to `hello.py` disappears
 - The **Source Control** panel is now empty - everything is committed
 
+!!! tip "Git is built into VS Code"
+    - The **Source Control** panel can do the same job as the commands above
+    - Click **+** next to a file to stage it (`git add`), type a message in the box and click **Commit** (`git commit`)
+    - Either way works - in this course we use the terminal so you can see exactly what Git is doing
+
 
 ### Step 5: View the history
 
