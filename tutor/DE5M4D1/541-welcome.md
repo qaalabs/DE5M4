@@ -1,45 +1,4 @@
-**Day 1: Agile Framework**
+## Welcome to Day 1
 
-- Agile & DevOps fundamentals
-- User story creation
-- Sprint planning
-
-**Day 2: Technical Foundation**
-
-- Version control with Git
-- Cloud infrastructure (AWS)
-- CI/CD approaches
-
-**Day 3: Data Modeling**
-
-- Database design principles
-- Data normalization
-- Python for data processing
-
-**Day 4: Presentations**
-
----
-
-## Day 1: Agile Framework
-
-- Agile & DevOps fundamentals
-- User story creation
-- Sprint planning
-
-## Day 2: Technical Foundation
-
-- Version control with Git
-- Cloud infrastructure (AWS)
-- CI/CD approaches
-
-🔽
----
-
-## Day 3: Data Modeling
-
-- Database design principles
-- Data normalization
-- Python for data processing
-
-## Day 4:Integration Presentations 
-
+- VM setup follows straight after the welcome - get everyone logged on before the BUILD discussion
+- The agenda slide is the week overview - learners see it again on the "Where we are" slide each morning

@@ -1,7 +1,5 @@
 ## <mark>Individual activity to prepare for breakout rooms</mark>
 
-### Introduction to the Activity
-
 We are now going to practice one of the fundamental planning activities:
 
 - **Organising requirements into epics**
@@ -9,7 +7,8 @@ We are now going to practice one of the fundamental planning activities:
 Think of this as creating the high-level structure that will guide all our detailed planning work.
 
 ```text
-## Organising requirements into epics
+## Organising requirements into Epics
+https://qaalabs.github.io/DE5M4/day1/planning/epics/
 
 Working individually focus on:
 
