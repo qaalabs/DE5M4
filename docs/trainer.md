@@ -47,11 +47,12 @@
 
 ### Session 2
 
-- `10:50` **Practice**: [Lab 2: Create a repo in GitHub](day2/source-control/github-repo.md) (20 mins)
-- `11:10` **Practice**: [Lab 3: Create an issue](day2/source-control/github-create-issue.md) (20 mins)
-- `11:30` **Practice**: [Lab 4: Fork a repository](day2/source-control/github-forking.md) (20 mins)
-- `11:50` **Practice**: [Lab 5: Create a pull request](day2/source-control/github-pull-request.md) (20 mins)
-- `12:10` **Practice**: [Lab 6: Merge your own pull request](day2/source-control/github-merge-pr.md) (10 mins)
+- `10:50` **Practice**: [Lab 1b: Git in VS Code](day2/source-control/vscode.md) (10 mins)
+- `11:00` **Practice**: [Lab 2: Create a repo in GitHub](day2/source-control/github-repo.md) (20 mins)
+- `11:20` **Practice**: [Lab 3: Create an issue](day2/source-control/github-create-issue.md) (20 mins)
+- `11:40` **Practice**: [Lab 4: Fork a repository](day2/source-control/github-forking.md) (20 mins)
+- `12:00` **Practice**: [Lab 5: Create a pull request](day2/source-control/github-pull-request.md) (20 mins)
+- `12:20` **Practice**: [Lab 6: Merge your own pull request](day2/source-control/github-merge-pr.md) (10 mins)
 
 ### Session 3
 

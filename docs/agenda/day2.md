@@ -11,6 +11,7 @@
 
 ## Session 2
 
+- **Practice**: [Lab 1b: Git in VS Code](../day2/source-control/vscode.md)
 - **Practice**: [Lab 2: Create a repo in GitHub](../day2/source-control/github-repo.md)
 - **Practice**: [Lab 3: Create an issue](../day2/source-control/github-create-issue.md)
 - **Practice**: [Lab 4: Fork a repository](../day2/source-control/github-forking.md)

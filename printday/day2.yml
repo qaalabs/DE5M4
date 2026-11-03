@@ -7,6 +7,7 @@ dev_addr: '0.0.0.0:8000'
 nav:
   - "Day 2 ~ Technical Foundation":
     - "Lab 1: Working locally with Git": day2/source-control/git-locally.md
+    - "Lab 1b: Git in VS Code": day2/source-control/vscode.md
     - "Lab 2: Create a repo in GitHub": day2/source-control/github-repo.md
     - "Lab 3: Create an issue": day2/source-control/github-create-issue.md
     - "Lab 4: Fork a repository": day2/source-control/github-forking.md
