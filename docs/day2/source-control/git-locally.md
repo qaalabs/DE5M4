@@ -28,7 +28,7 @@ In your VM run the program: **Terminal**
 You should now be at a Windows prompt:
 
 ```
-PS C:\Users\Admin\>
+PS C:\Users\Admin>
 ```
 
 Copy and paste the following 2 lines:
