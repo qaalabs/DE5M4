@@ -1,5 +1,7 @@
 # Cloud Activity 1: Core Building Blocks
 
+!!! info "K14: The uses of on-demand Cloud computing platform(s) in a public or private environment such as Amazon AWS, Google Cloud, Hadoop, IBM Cloud, Salesforce and Microsoft Azure."
+
 !!! info "S14: Identify new tools and technologies and recommend potential opportunities for use in own department or organisation."
 
 ## Overview

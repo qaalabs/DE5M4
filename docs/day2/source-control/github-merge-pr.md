@@ -32,7 +32,6 @@ Navigate to the repository you created in Lab 2 (not the forked one).
 
 ### Step 4: Commit your changes to the branch
 
-- Scroll to the bottom of the edit page
 - Add a short commit message
 - Select: "Commit directly to the `update-readme` branch"
 - Click **Commit changes**
