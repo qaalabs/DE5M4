@@ -4,6 +4,12 @@ You already have a pull request open in GitHub. In this activity you will make d
 
 Stages 1 and 2 use the GitHub editor: edit a file in GitHub, commit, check the PR checks. Stage 3 does the same from your VM: edit in VS Code, push, check the PR checks.
 
+!!! note "We will make the changes below in github.com"
+
+!!! info "Before we start make sure that any changes made in your VM are pushed to GitHub"
+    - In a Terminal run: `git status`
+    - If the are any changes then push them to GitHub before you start this activity"
+
 ---
 
 ## Stage 1 - Coverage threshold
