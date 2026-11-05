@@ -11,6 +11,7 @@ nav:
   - Agenda:
     - Topics: agenda/index.md
     - Day 3: agenda/day3.md
+    - Day 4: agenda/day4.md
 
   - "Day 3 ~ Database Design & Python":
     - "1. Clone repo to the VM": day3/python/setup.md
@@ -30,6 +31,11 @@ nav:
     - "Lab 1 - Create Amazon S3 bucket": labs/amazon-s3-bucket.md
     - "Lab 2 - Core Azure storage products": labs/azure-storage-products.md
     - "Lab 3 - Google Cloud storage": labs/google-cloud-storage.md
+
+  - "Day 4 ~ Costing & Presentations":
+    - "Cloud pricing calculators": day4/costing/calculators.md
+    - "👥 More complex calculations": day4/costing/scenarios.md
+    - "EPA presentation briefing": day4/presentation.md
 
   - Resources: resources.md
 
