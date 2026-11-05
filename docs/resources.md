@@ -33,6 +33,8 @@
 
 - Python: https://bud.sso.app.qa.com/lab/python-development-playground/
 
+- Azure DevOps: https://bud.sso.app.qa.com/lab/azure-devops-playground/
+
 ## Drawing tools
 
 - Microsoft Visio (on the VM)

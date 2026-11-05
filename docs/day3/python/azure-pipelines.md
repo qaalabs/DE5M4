@@ -10,6 +10,8 @@ You have seen GitHub Actions run `pytest` and `ruff` on every change. Many organ
 
 Your trainer will ask you to launch the Azure DevOps lab earlier in the session - it can take up to 15 minutes to build.
 
+Lab: [Azure DevOps Playground](https://bud.sso.app.qa.com/lab/azure-devops-playground/)
+
 Open the DevOps URL from your lab page and sign in with the username and password shown there.
 
 ---
@@ -24,6 +26,9 @@ In Azure DevOps, open your project and go to **Repos**.
     ```
     https://github.com/QAADE5/techmart-pipeline-template.git
     ```
+
+    !!! tip "Use your own repo"
+        Or import your own `techmart-pipeline` repo from earlier - use its GitHub URL instead. If your repo is private, use the template URL above.
 
 3. Leave **Requires authentication** unticked and click **Import**.
 
